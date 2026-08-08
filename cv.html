@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daniel Zuñiga · CV Técnico</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Inter', -apple-system, sans-serif;
+  background: #fff;
+  color: #111;
+  font-size: 10.5pt;
+  line-height: 1.5;
+  padding: 48px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+h1 { font-size: 22pt; font-weight: 700; letter-spacing: -0.03em; margin-bottom: 2px; }
+.subtitle { font-size: 10pt; color: #555; margin-bottom: 20px; }
+.contact-row { display: flex; gap: 20px; font-size: 9pt; color: #333; margin-bottom: 6px; flex-wrap: wrap; }
+.contact-row a { color: #111; }
+hr { border: none; border-top: 1.5px solid #111; margin: 14px 0; }
+h2 { font-size: 10pt; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 8px; }
+.section { margin-bottom: 18px; }
+.item { margin-bottom: 12px; }
+.item-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 2px; }
+.item-title { font-weight: 600; font-size: 10.5pt; }
+.item-sub { font-size: 9.5pt; color: #555; font-weight: 500; }
+.item-date { font-size: 9pt; color: #777; white-space: nowrap; }
+.item-desc { font-size: 9.5pt; color: #333; margin-top: 3px; }
+.item-desc ul { list-style: none; padding: 0; }
+.item-desc li { position: relative; padding-left: 14px; margin-bottom: 2px; }
+.item-desc li::before { content: '·'; position: absolute; left: 4px; color: #555; }
+.tag-row { display: flex; flex-wrap: wrap; gap: 4px 10px; margin-top: 4px; font-size: 9pt; color: #555; }
+@media print {
+  body { padding: 0; }
+  a { color: #111; text-decoration: none; }
+}
+</style>
+</head>
+<body>
+
+<h1>Daniel Zuñiga</h1>
+<div class="subtitle">Desarrollador · Infraestructura, automatización, bioinformática</div>
+
+<div class="contact-row">
+  <span>Colombia</span>
+  <a href="https://danielzunigazb.github.io/portfolio">portfolio</a>
+  <a href="https://github.com/danielzunigazb">github.com/danielzunigazb</a>
+  <a href="mailto:danielzunigazb@gmail.com">danielzunigazb@gmail.com</a>
+</div>
+
+<hr>
+
+<div class="section">
+  <h2>Perfil</h2>
+  <p style="font-size:9.5pt;color:#333;">
+    Autodidacta con experiencia construyendo software real en Linux: automatización con systemd,
+    herramientas CLI, pipelines bioinformáticos. Enfoque en código con tests, documentación
+    rigurosa y arquitectura reproducible.
+  </p>
+</div>
+
+<div class="section">
+  <h2>Proyectos</h2>
+
+  <div class="item">
+    <div class="item-header">
+      <span class="item-title">fungi-discovery</span>
+      <span class="item-date">2025–2026</span>
+    </div>
+    <div class="item-sub">Pipeline bioinformático ITS · Python CLI (Typer, BioPython, BLAST+)</div>
+    <div class="item-desc">
+      <ul>
+        <li>Pipeline reproducible para identificación taxonómica de hongos mediante secuenciación ITS.</li>
+        <li>CLI con Typer, BLAST+ y VSEARCH como motores de alineamiento, taxonomía UNITE v10.0.</li>
+        <li>Tests con Pytest (cobertura ≥85%), type checking con Ty, linting con Ruff. CI con GitHub Actions.</li>
+        <li>Documentación arquitectónica (ADRs), guías de instalación y piloto documentado con datos reales.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="item-header">
+      <span class="item-title">systemd-hooks</span>
+      <span class="item-date">2026</span>
+    </div>
+    <div class="item-sub">Framework de automatización · Python, systemd, XDG</div>
+    <div class="item-desc">
+      <ul>
+        <li>Framework mínimo para orquestar scripts Python como servicios systemd user.</li>
+        <li>Base Hook class con ciclo de vida setup/run/teardown, logging JSONL + journald.</li>
+        <li>Paths XDG-compliant, auto-descubrimiento de hooks, templates systemd incluidos.</li>
+        <li>Cero dependencias externas. 11 tests pasando. MIT License.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="item-header">
+      <span class="item-title">cognitive-core (blini)</span>
+      <span class="item-date">2025–2026</span>
+    </div>
+    <div class="item-sub">Sistema de automatización personal · Python, systemd, FastAPI</div>
+    <div class="item-desc">
+      <ul>
+        <li>7 servicios systemd orquestando monitoreo continuo, captura de contexto y automatización.</li>
+        <li>21 scripts Python (3,393 LOC, 95 funciones): monitor de ventana activa, screenshots con
+            análisis por IA, motor de sugerencias, health checks, notificaciones contextuales.</li>
+        <li>Dashboard web con FastAPI. Bitácora estructurada JSONL. Diseño XDG Base Directory.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="item-header">
+      <span class="item-title">Galaxy Fit3 BLE Reverse Engineering</span>
+      <span class="item-date">2026</span>
+    </div>
+    <div class="item-sub">Análisis de protocolo inalámbrico · BLE, GATT, BlueZ</div>
+    <div class="item-desc">
+      <ul>
+        <li>Análisis de dispositivo BLE Samsung Galaxy Fit3: dirección pública, servicios GATT,
+            requerimientos de emparejamiento y heart rate service (0x180d).</li>
+        <li>Documentación del proceso de RE sobre BlueZ 5.86 con HCI 4.2 Realtek.</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<div class="section">
+  <h2>Habilidades</h2>
+  <div class="tag-row">
+    <strong>Lenguajes:</strong> <span>Python 3.14</span> <span>Bash</span> <span>SQL</span> <span>HTML/CSS</span>
+  </div>
+  <div class="tag-row">
+    <strong>Herramientas:</strong> <span>FastAPI</span> <span>Typer</span> <span>Pytest</span> <span>uv</span>
+    <span>Ruff</span> <span>Ty</span> <span>Git</span> <span>GitHub Actions</span> <span>systemd</span>
+  </div>
+  <div class="tag-row">
+    <strong>Sistemas:</strong> <span>Arch Linux</span> <span>Linux administration</span> <span>SSH</span> <span>BLE/GATT</span>
+  </div>
+  <div class="tag-row">
+    <strong>Áreas:</strong> <span>CLI tools</span> <span>Automatización</span> <span>Bioinformática</span>
+    <span>API design</span> <span>Testing</span> <span>Documentación técnica</span>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Educación</h2>
+  <div class="item">
+    <div class="item-header">
+      <span class="item-title">Educación secundaria · Grado 11</span>
+      <span class="item-date">2026</span>
+    </div>
+    <div class="item-sub">SAMAC, Montelibano, Córdoba, Colombia</div>
+    <div class="item-desc">
+      Último año. Formación autodidacta paralela en programación, Linux e infraestructura.
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Idiomas</h2>
+  <p style="font-size:9.5pt;color:#333;">
+    <strong>Español:</strong> Nativo · <strong>Inglés:</strong> Avanzado (lectura y escritura técnica, conversación fluida)
+  </p>
+</div>
+
+</body>
+</html>

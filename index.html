@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daniel Zuñiga · Software & Infrastructure</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a0a0b;
+  --surface: #121214;
+  --surface-2: #18181b;
+  --border: #27272a;
+  --text: #f4f4f5;
+  --text-2: #a1a1aa;
+  --text-3: #71717a;
+  --accent: #22c55e;
+  --accent-dim: #166534;
+  --accent-bg: rgba(34,197,94,0.08);
+  --blue: #3b82f6;
+  --purple: #a855f7;
+  --orange: #f97316;
+  --radius: 8px;
+  --radius-lg: 12px;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+::selection { background: var(--accent); color: var(--bg); }
+body {
+  font-family: var(--font-sans);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.container { max-width: 848px; margin: 0 auto; padding: 0 24px; }
+section { padding: 80px 0; }
+@media (max-width: 600px) { section { padding: 48px 0; } }
+nav {
+  position: fixed; top: 0; left: 0; right: 0;
+  z-index: 100;
+  background: rgba(10,10,11,0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+}
+nav .container {
+  display: flex; align-items: center; justify-content: space-between;
+  height: 56px;
+}
+nav .logo { font-weight: 600; font-size: 0.95rem; color: var(--text); letter-spacing: -0.02em; }
+nav .logo:hover { text-decoration: none; }
+nav .links { display: flex; gap: 28px; align-items: center; }
+nav .links a {
+  font-size: 0.82rem; font-weight: 500;
+  color: var(--text-2); text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+nav .links a:hover { color: var(--text); text-decoration: none; }
+.hero {
+  padding: 140px 0 80px;
+  position: relative;
+  overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -40%;
+  left: -20%;
+  width: 60%;
+  height: 80%;
+  background: radial-gradient(ellipse, rgba(34,197,94,0.06) 0%, transparent 70%);
+  pointer-events: none;
+}
+.hero .label {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--accent);
+  margin-bottom: 16px;
+  letter-spacing: 0.03em;
+}
+.hero h1 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.15;
+  margin-bottom: 16px;
+}
+.hero h1 .accent { color: var(--accent); }
+.hero .sub {
+  font-size: 1.05rem;
+  color: var(--text-2);
+  max-width: 560px;
+  line-height: 1.7;
+  margin-bottom: 28px;
+}
+.hero .tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.hero .tags span {
+  font-size: 0.75rem;
+  padding: 4px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text-2);
+  font-family: var(--font-mono);
+}
+.hero .actions { display: flex; gap: 12px; margin-top: 32px; }
+.btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 10px 22px;
+  border-radius: var(--radius);
+  font-size: 0.88rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.btn-primary { background: var(--accent); color: var(--bg); }
+.btn-primary:hover { background: #16a34a; text-decoration: none; }
+.btn-outline { background: transparent; border: 1px solid var(--border); color: var(--text); }
+.btn-outline:hover { border-color: var(--text-2); text-decoration: none; }
+@media (max-width: 600px) {
+  .hero h1 { font-size: 1.8rem; }
+  .hero { padding: 100px 0 48px; }
+}
+.section-header { margin-bottom: 32px; }
+.section-header .num {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-3);
+  margin-bottom: 6px;
+}
+.section-header h2 { font-size: 1.5rem; font-weight: 600; letter-spacing: -0.02em; }
+.project-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px;
+  margin-bottom: 16px;
+  transition: border-color 0.15s;
+}
+.project-card:hover { border-color: #3f3f46; }
+.project-card .top {
+  display: flex; align-items: flex-start; justify-content: space-between;
+  margin-bottom: 10px;
+}
+.project-card .name { font-size: 1.1rem; font-weight: 600; letter-spacing: -0.02em; }
+.project-card .name a { color: var(--text); }
+.project-card .name a:hover { color: var(--accent); text-decoration: none; }
+.project-card .status {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-weight: 500;
+}
+.status-active { background: var(--accent-bg); color: var(--accent); }
+.status-alpha { background: rgba(59,130,246,0.1); color: var(--blue); }
+.status-experimental { background: rgba(249,115,22,0.1); color: var(--orange); }
+.project-card .desc {
+  font-size: 0.9rem;
+  color: var(--text-2);
+  line-height: 1.7;
+  margin-bottom: 14px;
+}
+.project-card .tech { display: flex; flex-wrap: wrap; gap: 6px; }
+.project-card .tech span {
+  font-size: 0.72rem;
+  padding: 2px 10px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--text-2);
+  font-family: var(--font-mono);
+}
+.project-card .foot { display: flex; gap: 16px; margin-top: 16px; font-size: 0.8rem; }
+.project-card .foot a { color: var(--text-3); }
+.project-card .foot a:hover { color: var(--accent); }
+.manifesto-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  margin-top: -8px;
+}
+.manifesto-box .principle { padding: 12px 0; border-bottom: 1px solid var(--border); }
+.manifesto-box .principle:last-child { border-bottom: none; }
+.manifesto-box .principle .p-title {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+.manifesto-box .principle .p-desc {
+  font-size: 0.88rem;
+  color: var(--text-2);
+  line-height: 1.6;
+}
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+@media (max-width: 600px) { .skills-grid { grid-template-columns: 1fr; } }
+.skill-cat {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+}
+.skill-cat h3 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+.skill-cat .items { display: flex; flex-wrap: wrap; gap: 6px; }
+.skill-cat .items span {
+  font-size: 0.82rem;
+  color: var(--text-2);
+  font-family: var(--font-mono);
+}
+.skill-cat .items span::after { content: '·'; color: var(--text-3); margin-left: 4px; }
+.skill-cat .items span:last-child::after { content: ''; }
+.gh-activity {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+}
+.gh-activity .gh-header { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+.gh-activity .gh-header .avatar {
+  width: 40px; height: 40px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+}
+.gh-activity .gh-header .info .gh-name { font-weight: 600; font-size: 0.9rem; }
+.gh-activity .gh-header .info .gh-name a { color: var(--text); }
+.gh-activity .gh-header .info .gh-name a:hover { text-decoration: none; color: var(--accent); }
+.gh-activity .gh-header .info .gh-handle { font-size: 0.8rem; color: var(--text-3); }
+.gh-activity .gh-repos { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+@media (max-width: 600px) { .gh-activity .gh-repos { grid-template-columns: 1fr; } }
+.gh-repo-link {
+  display: flex; align-items: center; gap: 8px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-2);
+  font-size: 0.82rem;
+  transition: border-color 0.15s;
+}
+.gh-repo-link:hover { border-color: var(--accent); color: var(--text); text-decoration: none; }
+.gh-repo-link .repo-icon { color: var(--text-3); font-size: 0.9rem; }
+.about-text { font-size: 0.95rem; color: var(--text-2); line-height: 1.8; max-width: 640px; }
+.contact-links { display: flex; flex-wrap: wrap; gap: 10px; }
+.contact-links a {
+  display: flex; align-items: center; gap: 8px;
+  padding: 10px 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text-2);
+  font-size: 0.88rem;
+  transition: all 0.15s;
+}
+.contact-links a:hover { border-color: var(--text-2); color: var(--text); text-decoration: none; }
+.contact-links .icon { font-size: 1rem; }
+footer {
+  border-top: 1px solid var(--border);
+  padding: 32px 0;
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--text-3);
+}
+.section-sub { font-size: 0.88rem; color: var(--text-3); margin-top: -24px; margin-bottom: 32px; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="container">
+    <a href="#" class="logo">dz.</a>
+    <div class="links">
+      <a href="#projects">Proyectos</a>
+      <a href="#manifesto">Manifiesto</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contacto</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="container">
+    <div class="label">$ whoami</div>
+    <h1>
+      Daniel <span class="accent">Zuñiga</span><br>
+      Software & Infrastructure
+    </h1>
+    <p class="sub">
+      Autodidacta colombiano. Construyo herramientas de infraestructura,
+      automatización y bioinformática. Aprendo, construyo y publico.
+    </p>
+    <div class="tags">
+      <span>Python</span>
+      <span>Linux/Arch</span>
+      <span>CLI</span>
+      <span>FastAPI</span>
+      <span>Bash</span>
+      <span>Git/CI</span>
+      <span>systemd</span>
+      <span>Bioinformatics</span>
+    </div>
+    <div class="actions">
+      <a href="#projects" class="btn btn-primary">Ver proyectos →</a>
+      <a href="#contact" class="btn btn-outline">Contacto</a>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+    <div class="section-header">
+      <div class="num">01</div>
+      <h2>Proyectos</h2>
+    </div>
+    <p class="section-sub">Software real, no ejercicios. Cada proyecto tiene código, documentación y tests.</p>
+
+    <div class="project-card">
+      <div class="top">
+        <div class="name"><a href="https://github.com/danielzunigazb/fungi-discovery" target="_blank">fungi-discovery</a></div>
+        <span class="status status-alpha">Alpha</span>
+      </div>
+      <div class="desc">
+        Pipeline reproducible para procesar amplicones ITS de hongos y priorizar secuencias
+        que requieren revisión taxonómica. BLAST y VSEARCH como motores de alineamiento,
+        taxonomía de referencia UNITE v10.0.
+        <br><br>
+        CLI completa con Typer, documentación arquitectónica (ADRs), tests automatizados con
+        cobertura ≥85%, CI vía GitHub Actions. Pipeline piloto documentado con datos reales
+        de mucílago de café fermentado de Boyacá, Colombia.
+      </div>
+      <div class="tech">
+        <span>Python 3.14</span>
+        <span>BioPython</span>
+        <span>Typer</span>
+        <span>Pytest</span>
+        <span>BLAST+</span>
+        <span>VSEARCH</span>
+        <span>GitHub Actions</span>
+      </div>
+      <div class="foot">
+        <a href="https://github.com/danielzunigazb/fungi-discovery" target="_blank">GitHub</a>
+        <a href="https://github.com/danielzunigazb/fungi-discovery/tree/main/docs" target="_blank">Documentación</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="top">
+        <div class="name"><a href="https://github.com/danielzunigazb/systemd-hooks" target="_blank">systemd-hooks</a></div>
+        <span class="status status-active">Activo</span>
+      </div>
+      <div class="desc">
+        Framework mínimo para orquestar scripts Python con servicios systemd user.
+        Proporciona una base Hook class con ciclo de vida setup/run/teardown, paths
+        XDG-compliant, logging estructurado a JSONL con forwarding a journald,
+        y auto-descubrimiento de hooks mediante HookRegistry.
+        <br><br>
+        Sin dependencias externas — solo stdlib Python. Incluye templates de unidades
+        systemd listos para symlinkear y habilitar. 11 tests pasando.
+      </div>
+      <div class="tech">
+        <span>Python 3.12+</span>
+        <span>systemd</span>
+        <span>XDG Spec</span>
+        <span>Pytest</span>
+        <span>JSONL</span>
+      </div>
+      <div class="foot">
+        <a href="https://github.com/danielzunigazb/systemd-hooks" target="_blank">GitHub</a>
+        <a href="https://github.com/danielzunigazb/systemd-hooks/blob/main/docs/ARCHITECTURE.md" target="_blank">Arquitectura</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="top">
+        <div class="name">cognitive-core (blini)</div>
+        <span class="status status-active">Activo</span>
+      </div>
+      <div class="desc">
+        Sistema de automatización personal que orquesta 7 servicios systemd para monitoreo
+        continuo del entorno de trabajo, captura de contexto, notificaciones inteligentes
+        y sugerencias automatizadas basadas en comportamiento del usuario.
+        <br><br>
+        21 scripts Python (3,393 LOC, 95 funciones). Componentes: monitor de ventana activa,
+        captura de pantallas con análisis por visión (Gemini API), bitácora estructurada,
+        motor de sugerencias, health checks, notificaciones contextuales.
+      </div>
+      <div class="tech">
+        <span>Python</span>
+        <span>systemd</span>
+        <span>FastAPI</span>
+        <span>XDG Spec</span>
+        <span>Gemini API</span>
+        <span>SQLite</span>
+        <span>Bash</span>
+      </div>
+      <div class="foot">
+        <span style="color:var(--text-3);font-size:0.8rem;">Privado · Infraestructura personal</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="top">
+        <div class="name">Galaxy Fit3 BLE Reverse Engineering</div>
+        <span class="status status-experimental">Experimental</span>
+      </div>
+      <div class="desc">
+        Análisis de protocolo BLE del Samsung Galaxy Fit3. Identificación de dirección pública
+        (74:19:0A:7D:AA:B0), mapeo de servicios GATT, detección de heart rate service (0x180d),
+        documentación del proceso de emparejamiento con BlueZ 5.86 sobre HCI 4.2 Realtek.
+      </div>
+      <div class="tech">
+        <span>BLE</span>
+        <span>GATT</span>
+        <span>BlueZ</span>
+        <span>Linux</span>
+      </div>
+      <div class="foot">
+        <span style="color:var(--text-3);font-size:0.8rem;">En progreso</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="manifesto">
+  <div class="container">
+    <div class="section-header">
+      <div class="num">02</div>
+      <h2>Manifiesto de infraestructura</h2>
+    </div>
+    <p class="section-sub">Principios con los que construyo y opero sistemas.</p>
+    <div class="manifesto-box">
+      <div class="principle">
+        <div class="p-title">01 · Reproducibilidad por defecto</div>
+        <div class="p-desc">No confío en artefactos binarios sin checksum. No versiono datos, solo manifiestos, scripts y URLs. Todo pipeline debe poder reconstruirse desde cero con un solo comando.</div>
+      </div>
+      <div class="principle">
+        <div class="p-title">02 · Documentación como infraestructura</div>
+        <div class="p-desc">Un sistema sin documentación es un sistema fallido. ADRs para decisiones de arquitectura, worklogs para trazabilidad, READMEs funcionales. La documentación se mantiene tan rigurosa como el código.</div>
+      </div>
+      <div class="principle">
+        <div class="p-title">03 · Testing no negociable</div>
+        <div class="p-desc">Si no tiene tests, no está terminado. Cobertura ≥85%, type checking, linting. Los CI gates deben pasar antes de mergear. Las excepciones se documentan y se auditan.</div>
+      </div>
+      <div class="principle">
+        <div class="p-title">04 · Portabilidad vía estándares</div>
+        <div class="p-desc">XDG Base Directory Specification para paths de configuración y datos. systemd para servicios. Sin hardcodeo de rutas. Todo debe migrar entre máquinas copiando un directorio.</div>
+      </div>
+      <div class="principle">
+        <div class="p-title">05 · Observabilidad desde el inicio</div>
+        <div class="p-desc">Logs estructurados, health checks, monitoreo continuo. Un sistema debe poder auditarse sin intervención humana. Si algo falla, debe haber evidencia de por qué.</div>
+      </div>
+      <div class="principle">
+        <div class="p-title">06 · Menos but more</div>
+        <div class="p-desc">Frameworks mínimos, dependencias justas. CLI sobre GUI cuando sea viable. Código simple que hace una cosa bien. Evitar abstracciones prematuras.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+    <div class="section-header">
+      <div class="num">03</div>
+      <h2>Habilidades técnicas</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-cat">
+        <h3>Lenguajes</h3>
+        <div class="items">
+          <span>Python</span><span>Bash</span><span>SQL</span><span>HTML/CSS</span><span>JavaScript (básico)</span>
+        </div>
+      </div>
+      <div class="skill-cat">
+        <h3>Frameworks</h3>
+        <div class="items">
+          <span>FastAPI</span><span>Typer</span><span>Pytest</span><span>uv</span><span>Ruff</span><span>Ty</span>
+        </div>
+      </div>
+      <div class="skill-cat">
+        <h3>Infraestructura</h3>
+        <div class="items">
+          <span>Arch Linux</span><span>systemd</span><span>Git</span><span>GitHub Actions</span><span>SSH</span><span>XDG Spec</span>
+        </div>
+      </div>
+      <div class="skill-cat">
+        <h3>Áreas</h3>
+        <div class="items">
+          <span>CLI tools</span><span>Automatización</span><span>Bioinformática</span><span>BLE/RE</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="github">
+  <div class="container">
+    <div class="section-header">
+      <div class="num">04</div>
+      <h2>GitHub</h2>
+    </div>
+    <p class="section-sub">Código público y contribuciones.</p>
+    <div class="gh-activity">
+      <div class="gh-header">
+        <img class="avatar" src="https://avatars.githubusercontent.com/u/279340792?v=4" alt="avatar" loading="lazy">
+        <div class="info">
+          <div class="gh-name"><a href="https://github.com/danielzunigazb" target="_blank">danielzunigazb</a></div>
+          <div class="gh-handle">Cuenta principal</div>
+        </div>
+      </div>
+      <div class="gh-repos">
+        <a href="https://github.com/danielzunigazb/fungi-discovery" class="gh-repo-link" target="_blank">
+          <span class="repo-icon">📦</span>
+          fungi-discovery
+        </a>
+        <a href="https://github.com/danielzunigazb/systemd-hooks" class="gh-repo-link" target="_blank">
+          <span class="repo-icon">⚙</span>
+          systemd-hooks
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <div class="section-header">
+      <div class="num">05</div>
+      <h2>About</h2>
+    </div>
+    <div class="about-text">
+      <p>
+        Estudiante de último año en Montelibano, Córdoba, Colombia. Aprendí a programar
+        trasteando con dotfiles de Linux hasta terminar construyendo sistemas de automatización,
+        pipelines bioinformáticos y herramientas CLI.
+      </p>
+      <br>
+      <p>
+        Filosofía: construir software que resuelva problemas reales, documentarlo bien,
+        ponerlo a prueba con tests. Terminales sobre GUIs. Protocolos sobre frameworks.
+        Evidencia sobre claims.
+      </p>
+      <br>
+      <p>
+        Inglés conversacional/técnico avanzado. Documentación en ambos idiomas.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="section-header">
+      <div class="num">06</div>
+      <h2>Contacto</h2>
+    </div>
+    <div class="contact-links">
+      <a href="mailto:danielzunigazb@gmail.com">
+        <span class="icon">✉</span> danielzunigazb@gmail.com
+      </a>
+      <a href="https://github.com/danielzunigazb" target="_blank">
+        <span class="icon"></span> /danielzunigazb
+      </a>
+      <a href="cv.html" target="_blank">
+        <span class="icon">📄</span> CV
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    Daniel Zuñiga · 2026 · Montelibano, Colombia
+  </div>
+</footer>
+
+<script>
+document.querySelectorAll('nav a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    e.preventDefault();
+    const id = a.getAttribute('href');
+    document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
+  });
+});
+</script>
+
+</body>
+</html>
