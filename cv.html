@@ -5,38 +5,42 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Daniel Zuñiga · CV Técnico</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap');
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
   font-family: 'Inter', -apple-system, sans-serif;
-  background: #fff;
-  color: #111;
+  background: #fdfcf9;
+  color: #1c1b18;
   font-size: 10.5pt;
   line-height: 1.5;
   padding: 48px;
   max-width: 800px;
   margin: 0 auto;
 }
-h1 { font-size: 22pt; font-weight: 700; letter-spacing: -0.03em; margin-bottom: 2px; }
-.subtitle { font-size: 10pt; color: #555; margin-bottom: 20px; }
-.contact-row { display: flex; gap: 20px; font-size: 9pt; color: #333; margin-bottom: 6px; flex-wrap: wrap; }
-.contact-row a { color: #111; }
-hr { border: none; border-top: 1.5px solid #111; margin: 14px 0; }
-h2 { font-size: 10pt; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 8px; }
+h1 { font-family: 'Space Grotesk', sans-serif; font-size: 22pt; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 2px; }
+.subtitle { font-size: 10pt; color: #55534a; margin-bottom: 20px; }
+.contact-row { display: flex; gap: 20px; font-family: 'JetBrains Mono', monospace; font-size: 8.5pt; color: #333; margin-bottom: 6px; flex-wrap: wrap; }
+.contact-row a { color: #b23a14; text-decoration: none; }
+hr { border: none; border-top: 2px solid #ff4d1c; margin: 14px 0; }
+h2 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9.5pt; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em;
+  color: #b23a14; margin-bottom: 8px;
+}
 .section { margin-bottom: 18px; }
 .item { margin-bottom: 12px; }
 .item-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 2px; }
-.item-title { font-weight: 600; font-size: 10.5pt; }
-.item-sub { font-size: 9.5pt; color: #555; font-weight: 500; }
-.item-date { font-size: 9pt; color: #777; white-space: nowrap; }
+.item-title { font-weight: 600; font-size: 10.5pt; font-family: 'Space Grotesk', sans-serif; }
+.item-sub { font-size: 9.5pt; color: #55534a; font-weight: 500; }
+.item-date { font-family: 'JetBrains Mono', monospace; font-size: 8.5pt; color: #8c8a7e; white-space: nowrap; }
 .item-desc { font-size: 9.5pt; color: #333; margin-top: 3px; }
 .item-desc ul { list-style: none; padding: 0; }
 .item-desc li { position: relative; padding-left: 14px; margin-bottom: 2px; }
-.item-desc li::before { content: '·'; position: absolute; left: 4px; color: #555; }
-.tag-row { display: flex; flex-wrap: wrap; gap: 4px 10px; margin-top: 4px; font-size: 9pt; color: #555; }
+.item-desc li::before { content: '·'; position: absolute; left: 4px; color: #ff4d1c; font-weight: 700; }
+.tag-row { display: flex; flex-wrap: wrap; gap: 4px 10px; margin-top: 4px; font-family: 'JetBrains Mono', monospace; font-size: 8.5pt; color: #55534a; }
 @media print {
-  body { padding: 0; }
-  a { color: #111; text-decoration: none; }
+  body { padding: 0; background: #fff; }
+  a { color: #1c1b18; text-decoration: none; }
 }
 </style>
 </head>
@@ -46,8 +50,8 @@ h2 { font-size: 10pt; font-weight: 600; text-transform: uppercase; letter-spacin
 <div class="subtitle">Desarrollador · Infraestructura, automatización, bioinformática</div>
 
 <div class="contact-row">
-  <span>Colombia</span>
-  <a href="https://danielzunigazb.github.io/portfolio">portfolio</a>
+  <span>Montelíbano, Córdoba, Colombia</span>
+  <a href="https://danzuniga.xyz">danzuniga.xyz</a>
   <a href="https://github.com/danielzunigazb">github.com/danielzunigazb</a>
   <a href="mailto:danielzunigazb@gmail.com">danielzunigazb@gmail.com</a>
 </div>
@@ -156,7 +160,7 @@ h2 { font-size: 10pt; font-weight: 600; text-transform: uppercase; letter-spacin
       <span class="item-title">Educación secundaria · Grado 11</span>
       <span class="item-date">2026</span>
     </div>
-    <div class="item-sub">SAMAC, Montelibano, Córdoba, Colombia</div>
+    <div class="item-sub">SAMAC, Montelíbano, Córdoba, Colombia</div>
     <div class="item-desc">
       Último año. Formación autodidacta paralela en programación, Linux e infraestructura.
     </div>
