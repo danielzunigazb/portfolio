@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<script>
+(function () {
+  var saved = localStorage.getItem('theme');
+  if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+})();
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Daniel Zuñiga · Software &amp; Infrastructure</title>
@@ -29,9 +35,31 @@
   --blue-bg: rgba(29,95,174,0.08);
   --green: #2f7a4d;
   --green-bg: rgba(47,122,77,0.09);
+  --panel-bg: rgba(255,255,255,0.5);
+  --panel-bg-soft: rgba(255,255,255,0.4);
+  --nav-bg: rgba(246,244,238,0.92);
   --font-head: 'Space Grotesk', 'Inter', sans-serif;
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}
+html[data-theme="dark"] {
+  --paper: #16150f;
+  --paper-2: #1e1c15;
+  --ink: #f1efe6;
+  --ink-2: #b3b0a1;
+  --ink-3: #7d7a6b;
+  --line: #322f24;
+  --line-strong: #47432f;
+  --accent: #ff5f2e;
+  --accent-ink: #ff8a5c;
+  --accent-bg: rgba(255,95,46,0.12);
+  --blue: #6ba3f0;
+  --blue-bg: rgba(107,163,240,0.1);
+  --green: #5cbf85;
+  --green-bg: rgba(92,191,133,0.1);
+  --panel-bg: rgba(255,255,255,0.035);
+  --panel-bg-soft: rgba(255,255,255,0.025);
+  --nav-bg: rgba(22,21,15,0.85);
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -44,6 +72,10 @@ body {
   color: var(--ink);
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+.card, .principle-list, .skill-cat, .gh-panel, .contact-links a, .spec-block {
+  transition: background-color 0.25s ease, border-color 0.25s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 a { color: var(--accent-ink); }
 h1, h2, h3 { font-family: var(--font-head); }
@@ -54,9 +86,10 @@ section { padding: 88px 0; }
 /* nav */
 nav {
   position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-  background: rgba(246,244,238,0.92);
+  background: var(--nav-bg);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--line);
+  transition: background-color 0.25s ease, border-color 0.25s ease;
 }
 nav .container { display: flex; align-items: center; justify-content: space-between; height: 60px; gap: 16px; }
 nav .plate {
@@ -79,11 +112,36 @@ nav .links a {
   text-decoration: none; white-space: nowrap; flex-shrink: 0;
 }
 nav .links a:hover { color: var(--accent-ink); }
+.theme-toggle {
+  flex-shrink: 0; width: 30px; height: 30px;
+  display: flex; align-items: center; justify-content: center;
+  border: 1px solid var(--line-strong); border-radius: 3px;
+  background: transparent; color: var(--ink); cursor: pointer;
+  font-size: 0.85rem; line-height: 1; transition: all 0.15s;
+}
+.theme-toggle:hover { border-color: var(--accent); color: var(--accent-ink); }
 @media (max-width: 640px) {
   nav .plate .full { display: none; }
   nav .plate .short { display: inline; }
   nav .links { gap: 16px; justify-content: flex-start; }
   nav .links a { font-size: 0.68rem; }
+}
+
+/* motion */
+.hero .kicker .cursor { display: inline-block; width: 7px; height: 1em; background: var(--accent-ink); margin-left: 2px; vertical-align: -2px; animation: blink 1.1s step-end infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+.led { animation: pulse 2.2s ease-in-out infinite; }
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 3px var(--green-bg); }
+  50% { box-shadow: 0 0 0 6px var(--green-bg); }
+}
+.card:hover { transform: translateY(-3px); box-shadow: 0 10px 24px -12px rgba(0,0,0,0.25); }
+.reveal { opacity: 0; transform: translateY(16px); transition: opacity 0.5s ease, transform 0.5s ease; }
+.reveal.is-visible { opacity: 1; transform: translateY(0); }
+@media (prefers-reduced-motion: reduce) {
+  .hero .kicker .cursor, .led { animation: none; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .card:hover { transform: none; }
 }
 
 /* hero */
@@ -105,7 +163,7 @@ nav .links a:hover { color: var(--accent-ink); }
 }
 .spec-block {
   border: 1px solid var(--line-strong);
-  background: rgba(255,255,255,0.4);
+  background: var(--panel-bg-soft);
   border-radius: 4px;
   font-family: var(--font-mono);
   font-size: 0.8rem;
@@ -148,7 +206,7 @@ nav .links a:hover { color: var(--accent-ink); }
 /* project cards */
 .card {
   position: relative;
-  background: rgba(255,255,255,0.5);
+  background: var(--panel-bg);
   border: 1px solid var(--line-strong);
   border-radius: 2px;
   padding: 26px 28px;
@@ -185,7 +243,7 @@ nav .links a:hover { color: var(--accent-ink); }
 .card .foot .muted { color: var(--ink-3); }
 
 /* manifesto */
-.principle-list { border: 1px solid var(--line-strong); border-radius: 2px; background: rgba(255,255,255,0.5); }
+.principle-list { border: 1px solid var(--line-strong); border-radius: 2px; background: var(--panel-bg); }
 .principle { display: flex; gap: 18px; padding: 18px 22px; border-bottom: 1px solid var(--line); }
 .principle:last-child { border-bottom: none; }
 .principle .num { font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-ink); font-weight: 600; flex-shrink: 0; width: 28px; padding-top: 2px; }
@@ -195,7 +253,7 @@ nav .links a:hover { color: var(--accent-ink); }
 /* skills */
 .skills-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 @media (max-width: 600px) { .skills-grid { grid-template-columns: 1fr; } }
-.skill-cat { border: 1px solid var(--line-strong); border-radius: 2px; background: rgba(255,255,255,0.5); padding: 20px 22px; }
+.skill-cat { border: 1px solid var(--line-strong); border-radius: 2px; background: var(--panel-bg); padding: 20px 22px; }
 .skill-cat h3 {
   font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em;
   color: var(--accent-ink); margin-bottom: 12px;
@@ -207,7 +265,7 @@ nav .links a:hover { color: var(--accent-ink); }
 }
 
 /* github */
-.gh-panel { border: 1px solid var(--line-strong); border-radius: 2px; background: rgba(255,255,255,0.5); padding: 24px; }
+.gh-panel { border: 1px solid var(--line-strong); border-radius: 2px; background: var(--panel-bg); padding: 24px; }
 .gh-panel .gh-header { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; }
 .gh-panel .avatar { width: 42px; height: 42px; border-radius: 4px; border: 1px solid var(--line-strong); }
 .gh-panel .gh-name { font-family: var(--font-head); font-weight: 600; font-size: 0.92rem; }
@@ -235,7 +293,7 @@ nav .links a:hover { color: var(--accent-ink); }
 .contact-links a {
   display: flex; align-items: center; gap: 9px; padding: 12px 20px;
   border: 1px solid var(--line-strong); border-radius: 3px; color: var(--ink);
-  font-size: 0.88rem; text-decoration: none; background: rgba(255,255,255,0.5);
+  font-size: 0.88rem; text-decoration: none; background: var(--panel-bg);
   transition: all 0.15s;
 }
 .contact-links a:hover { border-color: var(--accent); background: var(--accent-bg); color: var(--accent-ink); }
@@ -264,12 +322,13 @@ footer .container { display: flex; justify-content: space-between; flex-wrap: wr
       <a href="#operator">Operator</a>
       <a href="#contact">Contact</a>
     </div>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Cambiar tema" title="Cambiar tema">◐</button>
   </div>
 </nav>
 
 <section class="hero">
   <div class="container">
-    <div class="kicker">$ whoami</div>
+    <div class="kicker">$ whoami<span class="cursor"></span></div>
     <h1>Daniel <span class="last">Zuñiga</span><br>Software &amp; Infrastructure</h1>
     <p class="sub">
       Autodidacta colombiano. Construyo herramientas de infraestructura,
@@ -295,7 +354,7 @@ footer .container { display: flex; justify-content: space-between; flex-wrap: wr
     <div class="section-rule"></div>
     <p class="section-sub" style="margin-top:-24px;">Software real, no ejercicios. Cada proyecto tiene código, documentación y tests.</p>
 
-    <div class="card">
+    <div class="card reveal">
       <div class="tick-br"></div>
       <div class="id">SYS-01</div>
       <div class="top">
@@ -321,7 +380,7 @@ footer .container { display: flex; justify-content: space-between; flex-wrap: wr
       </div>
     </div>
 
-    <div class="card">
+    <div class="card reveal">
       <div class="tick-br"></div>
       <div class="id">SYS-02</div>
       <div class="top">
@@ -346,7 +405,7 @@ footer .container { display: flex; justify-content: space-between; flex-wrap: wr
       </div>
     </div>
 
-    <div class="card">
+    <div class="card reveal">
       <div class="tick-br"></div>
       <div class="id">SYS-03</div>
       <div class="top">
@@ -369,7 +428,7 @@ footer .container { display: flex; justify-content: space-between; flex-wrap: wr
       <div class="foot"><span class="muted">Privado · Infraestructura personal</span></div>
     </div>
 
-    <div class="card">
+    <div class="card reveal">
       <div class="tick-br"></div>
       <div class="id">SYS-04</div>
       <div class="top">
@@ -392,7 +451,7 @@ footer .container { display: flex; justify-content: space-between; flex-wrap: wr
     <div class="section-header"><span class="idx">§ 02</span><h2>Principles</h2></div>
     <div class="section-rule"></div>
     <p class="section-sub" style="margin-top:-24px;">Principios con los que construyo y opero sistemas.</p>
-    <div class="principle-list">
+    <div class="principle-list reveal">
       <div class="principle">
         <div class="num">01</div>
         <div><div class="p-title">Reproducibilidad por defecto</div><div class="p-desc">No confío en artefactos binarios sin checksum. No versiono datos, solo manifiestos, scripts y URLs. Todo pipeline debe poder reconstruirse desde cero con un solo comando.</div></div>
@@ -426,10 +485,10 @@ footer .container { display: flex; justify-content: space-between; flex-wrap: wr
     <div class="section-header"><span class="idx">§ 03</span><h2>Stack</h2></div>
     <div class="section-rule"></div>
     <div class="skills-grid">
-      <div class="skill-cat"><h3>Lenguajes</h3><div class="items"><span>Python</span><span>Bash</span><span>SQL</span><span>HTML/CSS</span><span>JavaScript (básico)</span></div></div>
-      <div class="skill-cat"><h3>Frameworks</h3><div class="items"><span>FastAPI</span><span>Typer</span><span>Pytest</span><span>uv</span><span>Ruff</span><span>Ty</span></div></div>
-      <div class="skill-cat"><h3>Infraestructura</h3><div class="items"><span>Arch Linux</span><span>systemd</span><span>Git</span><span>GitHub Actions</span><span>SSH</span><span>XDG Spec</span></div></div>
-      <div class="skill-cat"><h3>Áreas</h3><div class="items"><span>CLI tools</span><span>Automatización</span><span>Bioinformática</span><span>BLE/RE</span></div></div>
+      <div class="skill-cat reveal"><h3>Lenguajes</h3><div class="items"><span>Python</span><span>Bash</span><span>SQL</span><span>HTML/CSS</span><span>JavaScript (básico)</span></div></div>
+      <div class="skill-cat reveal"><h3>Frameworks</h3><div class="items"><span>FastAPI</span><span>Typer</span><span>Pytest</span><span>uv</span><span>Ruff</span><span>Ty</span></div></div>
+      <div class="skill-cat reveal"><h3>Infraestructura</h3><div class="items"><span>Arch Linux</span><span>systemd</span><span>Git</span><span>GitHub Actions</span><span>SSH</span><span>XDG Spec</span></div></div>
+      <div class="skill-cat reveal"><h3>Áreas</h3><div class="items"><span>CLI tools</span><span>Automatización</span><span>Bioinformática</span><span>BLE/RE</span></div></div>
     </div>
   </div>
 </section>
@@ -439,7 +498,7 @@ footer .container { display: flex; justify-content: space-between; flex-wrap: wr
     <div class="section-header"><span class="idx">§ 04</span><h2>Repository</h2></div>
     <div class="section-rule"></div>
     <p class="section-sub" style="margin-top:-24px;">Código público y contribuciones.</p>
-    <div class="gh-panel">
+    <div class="gh-panel reveal">
       <div class="gh-header">
         <img class="avatar" src="https://avatars.githubusercontent.com/u/279340792?v=4" alt="avatar" loading="lazy">
         <div>
@@ -459,7 +518,7 @@ footer .container { display: flex; justify-content: space-between; flex-wrap: wr
   <div class="container">
     <div class="section-header"><span class="idx">§ 05</span><h2>Operator</h2></div>
     <div class="section-rule"></div>
-    <div class="about-grid">
+    <div class="about-grid reveal">
       <div class="label">Bio</div>
       <div class="about-text">
         <p>Estudiante de último año en Montelíbano, Córdoba, Colombia. Aprendí a programar
@@ -478,7 +537,7 @@ footer .container { display: flex; justify-content: space-between; flex-wrap: wr
   <div class="container">
     <div class="section-header"><span class="idx">§ 06</span><h2>Contact</h2></div>
     <div class="section-rule"></div>
-    <div class="contact-links">
+    <div class="contact-links reveal">
       <a href="mailto:danielzunigazb@gmail.com"><span class="icon">✉</span> danielzunigazb@gmail.com</a>
       <a href="https://github.com/danielzunigazb" target="_blank"><span class="icon"></span> /danielzunigazb</a>
       <a href="cv.html" target="_blank"><span class="icon">📄</span> CV</a>
@@ -501,6 +560,32 @@ document.querySelectorAll('nav a[href^="#"]').forEach(a => {
     document.querySelector(id)?.scrollIntoView({ behavior: 'smooth' });
   });
 });
+
+const toggle = document.getElementById('theme-toggle');
+function syncToggleIcon() {
+  toggle.textContent = document.documentElement.getAttribute('data-theme') === 'dark' ? '◑' : '◐';
+}
+toggle.addEventListener('click', () => {
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  if (isDark) {
+    document.documentElement.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'light');
+  } else {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    localStorage.setItem('theme', 'dark');
+  }
+  syncToggleIcon();
+});
+syncToggleIcon();
+
+if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('is-visible'); io.unobserve(e.target); } });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+} else {
+  document.querySelectorAll('.reveal').forEach(el => el.classList.add('is-visible'));
+}
 </script>
 
 </body>
