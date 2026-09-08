@@ -7,49 +7,56 @@
 <meta name="description" content="CV técnico de Daniel Zuñiga — desarrollador autodidacta: infraestructura, automatización y bioinformática. Python, systemd, FastAPI, CLI tools.">
 <link rel="canonical" href="https://danzuniga.xyz/cv.html">
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@600;700&family=JetBrains+Mono:wght@500;600;700&display=swap');
 * { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --pink: oklch(72% 0.24 350); --green: oklch(76% 0.21 150);
+  --blue: oklch(72% 0.19 255); --yellow: oklch(88% 0.17 95);
+}
 body {
-  font-family: 'Inter', -apple-system, sans-serif;
-  background: #fdfcf9;
-  color: #1c1b18;
+  font-family: 'Space Grotesk', -apple-system, sans-serif;
+  background: #f5efe1;
+  color: #0a0a0f;
   font-size: 10.5pt;
   line-height: 1.5;
-  padding: 48px;
+  padding: 44px;
   max-width: 800px;
   margin: 0 auto;
 }
-h1 { font-family: 'Space Grotesk', sans-serif; font-size: 22pt; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 2px; }
-.subtitle { font-size: 10pt; color: #55534a; margin-bottom: 20px; }
-.contact-row { display: flex; gap: 20px; font-family: 'JetBrains Mono', monospace; font-size: 8.5pt; color: #333; margin-bottom: 6px; flex-wrap: wrap; }
-.contact-row a { color: #b23a14; text-decoration: none; }
-hr { border: none; border-top: 2px solid #ff4d1c; margin: 14px 0; }
+h1 { font-family: 'Anton', sans-serif; font-size: 34pt; letter-spacing: -0.01em; line-height: .95; text-shadow: 3px 3px 0 var(--pink); margin-bottom: 8px; }
+.subtitle { font-family: 'JetBrains Mono', monospace; font-size: 9.5pt; font-weight: 600; color: #4a4658; margin-bottom: 16px; }
+.contact-row { display: flex; gap: 18px; font-family: 'JetBrains Mono', monospace; font-size: 8.5pt; font-weight: 600; color: #0a0a0f; margin-bottom: 20px; flex-wrap: wrap; border: 2.5px solid #0a0a0f; box-shadow: 4px 4px 0 #0a0a0f; padding: 10px 14px; background: #fff; }
+.contact-row a { color: #0a0a0f; text-decoration: none; }
 h2 {
+  display: inline-block;
   font-family: 'JetBrains Mono', monospace;
-  font-size: 9.5pt; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em;
-  color: #b23a14; margin-bottom: 8px;
+  font-size: 9pt; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;
+  color: #0a0a0f; margin-bottom: 12px;
+  border: 2px solid #0a0a0f; box-shadow: 3px 3px 0 #0a0a0f;
+  padding: 4px 10px;
 }
-.section { margin-bottom: 18px; }
-.item { margin-bottom: 12px; }
+.section { margin-bottom: 20px; }
+.item { margin-bottom: 13px; }
 .item-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 2px; }
-.item-title { font-weight: 600; font-size: 10.5pt; font-family: 'Space Grotesk', sans-serif; }
-.item-sub { font-size: 9.5pt; color: #55534a; font-weight: 500; }
-.item-date { font-family: 'JetBrains Mono', monospace; font-size: 8.5pt; color: #8c8a7e; white-space: nowrap; }
-.item-desc { font-size: 9.5pt; color: #333; margin-top: 3px; }
+.item-title { font-weight: 700; font-size: 10.5pt; font-family: 'Space Grotesk', sans-serif; }
+.item-sub { font-size: 9.5pt; color: #4a4658; font-weight: 500; }
+.item-date { font-family: 'JetBrains Mono', monospace; font-size: 8.5pt; color: #726d85; white-space: nowrap; }
+.item-desc { font-size: 9.5pt; color: #262530; margin-top: 3px; }
 .item-desc ul { list-style: none; padding: 0; }
 .item-desc li { position: relative; padding-left: 14px; margin-bottom: 2px; }
-.item-desc li::before { content: '·'; position: absolute; left: 4px; color: #ff4d1c; font-weight: 700; }
-.tag-row { display: flex; flex-wrap: wrap; gap: 4px 10px; margin-top: 4px; font-family: 'JetBrains Mono', monospace; font-size: 8.5pt; color: #55534a; }
+.item-desc li::before { content: '▪'; position: absolute; left: 0; top: 1px; font-size: 7pt; color: var(--pink); }
+.tag-row { display: flex; flex-wrap: wrap; gap: 4px 10px; margin-top: 4px; font-family: 'JetBrains Mono', monospace; font-size: 8.5pt; color: #4a4658; }
 @media print {
   body { padding: 0; background: #fff; }
-  a { color: #1c1b18; text-decoration: none; }
+  h1 { text-shadow: 2px 2px 0 var(--pink); }
+  .contact-row { background: #fff; }
 }
 </style>
 </head>
 <body>
 
 <h1>Daniel Zuñiga</h1>
-<div class="subtitle">Desarrollador · Infraestructura, automatización, bioinformática</div>
+<div class="subtitle">DESARROLLADOR · INFRAESTRUCTURA, AUTOMATIZACIÓN, BIOINFORMÁTICA</div>
 
 <div class="contact-row">
   <span>Córdoba, Colombia</span>
@@ -58,11 +65,9 @@ h2 {
   <a href="mailto:danielzunigazb@gmail.com">danielzunigazb@gmail.com</a>
 </div>
 
-<hr>
-
 <div class="section">
-  <h2>Perfil</h2>
-  <p style="font-size:9.5pt;color:#333;">
+  <h2 style="background:var(--pink);">Perfil</h2>
+  <p style="font-size:9.5pt;color:#262530;">
     Autodidacta con experiencia construyendo software real en Linux: automatización con systemd,
     herramientas CLI, pipelines bioinformáticos. Enfoque en código con tests, documentación
     rigurosa y arquitectura reproducible.
@@ -70,7 +75,7 @@ h2 {
 </div>
 
 <div class="section">
-  <h2>Proyectos</h2>
+  <h2 style="background:var(--blue);">Proyectos</h2>
 
   <div class="item">
     <div class="item-header">
@@ -138,7 +143,7 @@ h2 {
 </div>
 
 <div class="section">
-  <h2>Habilidades</h2>
+  <h2 style="background:var(--green);">Habilidades</h2>
   <div class="tag-row">
     <strong>Lenguajes:</strong> <span>Python 3.14</span> <span>Bash</span> <span>SQL</span> <span>HTML/CSS</span>
   </div>
@@ -156,7 +161,7 @@ h2 {
 </div>
 
 <div class="section">
-  <h2>Educación</h2>
+  <h2 style="background:var(--yellow);">Educación</h2>
   <div class="item">
     <div class="item-header">
       <span class="item-title">Educación secundaria · Grado 11</span>
@@ -170,8 +175,8 @@ h2 {
 </div>
 
 <div class="section">
-  <h2>Idiomas</h2>
-  <p style="font-size:9.5pt;color:#333;">
+  <h2 style="background:var(--pink);">Idiomas</h2>
+  <p style="font-size:9.5pt;color:#262530;">
     <strong>Español:</strong> Nativo · <strong>Inglés:</strong> Avanzado (lectura y escritura técnica, conversación fluida)
   </p>
 </div>
