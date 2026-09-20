@@ -1,8 +1,8 @@
 {
-  "heart_rate_bpm": 114,
+  "heart_rate_bpm": 93,
   "oxygen_saturation_pct": 98,
-  "steps_today": 4979,
-  "floors_climbed_today": 3,
+  "steps_today": 6065,
+  "floors_climbed_today": 4,
   "sleep_duration_minutes": 452,
   "sleep_score": 64,
   "last_exercise": {
@@ -12,15 +12,15 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "updated_at": "2026-09-20T21:51:47.534946Z",
+  "updated_at": "2026-09-20T23:03:39.051101Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-09-20T21:51:47.535091Z"
+    "is_playing": true,
+    "track": "Amigos? No.",
+    "artists": "Oscar Maydon, Neton Vega",
+    "album": "Rico o Muerto, Vol. 1",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e020697c8807331635b1ca25e84",
+    "url": "https:\/\/open.spotify.com\/track\/5MBAaEt7s8El3WWhYinLzv",
+    "updated_at": "2026-09-20T23:03:39.051203Z"
   }
 }
