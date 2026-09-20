@@ -12,15 +12,15 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "updated_at": "2026-09-20T23:45:00.636615Z",
+  "updated_at": "2026-09-20T23:47:12.461052Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Bateando Como Los Yankees",
-    "artists": "cclonaze, moonie., chapito",
-    "album": "Bateando Como Los Yankees",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d4c08683be23304ada5ce723",
-    "url": "https:\/\/open.spotify.com\/track\/4Nef3OHWYmIRRtkyjfvf6H",
-    "updated_at": "2026-09-20T23:45:00.636735Z"
+    "track": "Gangsta Love",
+    "artists": "Dan Sanchez, Jimmy Guzman",
+    "album": "Gangsta Love",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02555b87c788152949f1635b0d",
+    "url": "https:\/\/open.spotify.com\/track\/6bgneDyfpvOVA7hDzUAiGT",
+    "updated_at": "2026-09-20T23:47:12.461213Z"
   }
 }
