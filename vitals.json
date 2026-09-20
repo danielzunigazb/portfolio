@@ -12,7 +12,7 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "updated_at": "2026-09-20T21:29:41.648814Z",
+  "updated_at": "2026-09-20T21:29:54.661548Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
@@ -21,6 +21,6 @@
     "album": "Corridos Tumbados Vol. 2",
     "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0285cc502ea6b0fe70310f96cd",
     "url": "https:\/\/open.spotify.com\/track\/45igj3SybyjfFrUuKGJkpi",
-    "updated_at": "2026-09-20T21:29:41.648974Z"
+    "updated_at": "2026-09-20T21:29:54.661688Z"
   }
 }
