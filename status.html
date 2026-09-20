@@ -185,6 +185,7 @@ footer { margin-top: 44px; padding: 22px 0 34px; border-top: 4px solid var(--ink
 
   <div class="vitals-src">
     <span id="sync-badge">● SIN SEÑAL</span> ·
+    revisado <span id="poll-ago">ahora</span> ·
     fuente: Galaxy Fit3 · Health Connect ·
     <a href="https://github.com/danielzunigazb/portfolio/tree/data" target="_blank" style="text-decoration:underline;">rama data</a> vía
     <a href="https://github.com/danielzunigazb/galaxy-vitals-bridge" target="_blank" style="text-decoration:underline;">galaxy-vitals-bridge</a>
@@ -378,10 +379,33 @@ function render(data) {
   renderInventory(fresh, npFresh);
 }
 
-fetch(VITALS_URL, { cache: 'no-store' })
-  .then(r => (r.ok ? r.json() : null))
-  .catch(() => null)
-  .then(render);
+/* Auto-poll: raw.githubusercontent.com caches ~5 min server-side regardless
+   of how often we ask, so polling faster than that doesn't get fresher data
+   — it just tells you sooner once new data has actually landed. Pauses when
+   the tab isn't visible, and syncs immediately when it becomes visible again. */
+const POLL_MS = 60 * 1000;
+let lastPollAt = null;
+
+function syncNow() {
+  return fetch(VITALS_URL, { cache: 'no-store' })
+    .then(r => (r.ok ? r.json() : null))
+    .catch(() => null)
+    .then(data => {
+      render(data);
+      lastPollAt = Date.now();
+    });
+}
+
+syncNow();
+setInterval(() => { if (!document.hidden) syncNow(); }, POLL_MS);
+document.addEventListener('visibilitychange', () => { if (!document.hidden) syncNow(); });
+
+setInterval(() => {
+  const el = document.getElementById('poll-ago');
+  if (!lastPollAt || !el) return;
+  const s = Math.floor((Date.now() - lastPollAt) / 1000);
+  el.textContent = s < 5 ? 'ahora' : `hace ${s}s`;
+}, 1000);
 </script>
 
 </body>
