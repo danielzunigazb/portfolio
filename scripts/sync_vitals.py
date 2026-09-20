@@ -1,40 +1,41 @@
 #!/usr/bin/env python3
 """Sync Galaxy Fit3 vitals (heart rate + battery) to the portfolio's `data`
-branch via BLE GATT, so /status can fetch them straight from
-raw.githubusercontent.com — no GitHub Pages rebuild, no history bloat on
-main (the site's own principle: no versionar datos, solo manifiestos).
+branch, so /status can fetch them straight from raw.githubusercontent.com.
 
 Reads the standard BLE SIG services the Fit3 exposes alongside its
 proprietary Samsung protocol: Heart Rate Service (0x180D) and, if present,
-Battery Service (0x180F). Pairing/BLE address discovery is the same one
-used in the Galaxy Fit3 BLE RE project.
+Battery Service (0x180F). Publishing goes through GitHub's Contents API
+directly (one authenticated PUT) instead of a local git checkout — the
+same endpoint also works from a phone automation (Tasker/Shortcuts) if
+that ends up being the actual data source for a given metric, so this
+script and that path stay interchangeable.
 
-One-time setup, from your portfolio checkout:
-    git worktree add ../portfolio-data data
-    pip install bleak
+Setup:
+    pip install bleak requests
+    export GITHUB_TOKEN=<fine-grained PAT, Contents: read/write, this repo only>
 
-Then run this periodically (cron, or a systemd --user timer) on a machine
-near the watch — wiring it into systemd-hooks as a Hook works too:
-
-    python3 sync_vitals.py AA:BB:CC:DD:EE:FF --worktree ../portfolio-data
-
-Each run overwrites vitals.json in that worktree and force-pushes a single
-amended commit to `data` — the branch never grows, it's just a pointer to
-the latest reading (same pattern as a gh-pages deploy).
+Run periodically (cron / systemd --user timer) on a machine near the watch:
+    python3 sync_vitals.py AA:BB:CC:DD:EE:FF
 """
 from __future__ import annotations
 
 import argparse
 import asyncio
+import base64
 import json
-import subprocess
+import os
 from datetime import datetime, timezone
-from pathlib import Path
 
+import requests
 from bleak import BleakClient
 
 HEART_RATE_MEASUREMENT = "00002a37-0000-1000-8000-00805f9b34fb"
 BATTERY_LEVEL = "00002a19-0000-1000-8000-00805f9b34fb"
+
+REPO = "danielzunigazb/portfolio"
+BRANCH = "data"
+FILE_PATH = "vitals.json"
+API_URL = f"https://api.github.com/repos/{REPO}/contents/{FILE_PATH}"
 
 
 async def read_vitals(address: str, timeout: float) -> dict:
@@ -69,34 +70,44 @@ async def read_vitals(address: str, timeout: float) -> dict:
     }
 
 
-def publish(vitals: dict, worktree: Path, push: bool) -> None:
-    if not (worktree / ".git").exists():
-        raise SystemExit(
-            f"{worktree} no es un worktree de git. Primero: "
-            f"git worktree add {worktree} data"
-        )
-    (worktree / "vitals.json").write_text(json.dumps(vitals, indent=2) + "\n")
+def publish(vitals: dict, token: str) -> None:
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+    }
+    current = requests.get(API_URL, headers=headers, params={"ref": BRANCH}, timeout=10)
+    sha = current.json()["sha"] if current.status_code == 200 else None
 
-    def git(*args: str) -> None:
-        subprocess.run(["git", "-C", str(worktree), *args], check=True)
+    body = {
+        "message": f"vitals @ {vitals['updated_at']}",
+        "content": base64.b64encode((json.dumps(vitals, indent=2) + "\n").encode()).decode(),
+        "branch": BRANCH,
+    }
+    if sha:
+        body["sha"] = sha
 
-    git("add", "vitals.json")
-    git("commit", "--amend", "-m", f"vitals @ {vitals['updated_at']}")
-    if push:
-        git("push", "--force", "origin", "data")
+    resp = requests.put(API_URL, headers=headers, json=body, timeout=10)
+    resp.raise_for_status()
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("address", help="dirección BLE (MAC) del Galaxy Fit3")
-    parser.add_argument("--worktree", default=Path("../portfolio-data"), type=Path, help="worktree local de la rama `data`")
     parser.add_argument("--timeout", default=15.0, type=float, help="segundos esperando una lectura de heart rate")
-    parser.add_argument("--no-push", action="store_true", help="solo escribe/commitea local, no hace push")
+    parser.add_argument("--dry-run", action="store_true", help="solo lee e imprime, no publica")
     args = parser.parse_args()
 
     vitals = asyncio.run(read_vitals(args.address, args.timeout))
-    publish(vitals, args.worktree, push=not args.no_push)
     print(json.dumps(vitals, indent=2))
+
+    if args.dry_run:
+        return
+
+    token = os.environ.get("GITHUB_TOKEN")
+    if not token:
+        raise SystemExit("Falta GITHUB_TOKEN en el entorno (PAT con Contents: read/write sobre este repo)")
+    publish(vitals, token)
 
 
 if __name__ == "__main__":
