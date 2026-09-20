@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 78,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
   "steps_today": 4611,
   "floors_climbed_today": 3,
@@ -12,15 +12,15 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "updated_at": "2026-09-20T20:58:38.442954Z",
+  "updated_at": "2026-09-20T21:00:44.877690Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Pretty Sweet",
-    "artists": "Frank Ocean",
-    "album": "Blonde",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02c5649add07ed3720be9d5526",
-    "url": "https:\/\/open.spotify.com\/track\/17yrCsl1Ai6CZLBmGj6d6p",
-    "updated_at": "2026-09-20T20:58:38.443081Z"
+    "track": "Bound 2",
+    "artists": "Kanye West",
+    "album": "Yeezus",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e021dacfbc31cc873d132958af9",
+    "url": "https:\/\/open.spotify.com\/track\/3sNVsP50132BTNlImLx70i",
+    "updated_at": "2026-09-20T21:00:44.877784Z"
   }
 }
