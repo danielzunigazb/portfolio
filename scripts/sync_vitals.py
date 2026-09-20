@@ -1,30 +1,33 @@
 #!/usr/bin/env python3
-"""Sync Galaxy Fit3 vitals (heart rate + battery) into data/vitals.json via BLE GATT.
+"""Sync Galaxy Fit3 vitals (heart rate + battery) to the portfolio's `data`
+branch via BLE GATT, so /status can fetch them straight from
+raw.githubusercontent.com — no GitHub Pages rebuild, no history bloat on
+main (the site's own principle: no versionar datos, solo manifiestos).
 
 Reads the standard BLE SIG services the Fit3 exposes alongside its
 proprietary Samsung protocol: Heart Rate Service (0x180D) and, if present,
 Battery Service (0x180F). Pairing/BLE address discovery is the same one
 used in the Galaxy Fit3 BLE RE project.
 
-Run this on a machine near the watch (cron or a systemd --user timer work
-fine, or wire it into systemd-hooks as a Hook). It just writes the JSON
-file locally — committing/pushing data/vitals.json is left to that
-scheduler, e.g.:
-
-    python3 sync_vitals.py AA:BB:CC:DD:EE:FF && \
-      git -C /path/to/portfolio add data/vitals.json && \
-      git -C /path/to/portfolio commit -m "sync vitals" && \
-      git -C /path/to/portfolio push
-
-Usage:
+One-time setup, from your portfolio checkout:
+    git worktree add ../portfolio-data data
     pip install bleak
-    python3 sync_vitals.py AA:BB:CC:DD:EE:FF --out ../data/vitals.json
+
+Then run this periodically (cron, or a systemd --user timer) on a machine
+near the watch — wiring it into systemd-hooks as a Hook works too:
+
+    python3 sync_vitals.py AA:BB:CC:DD:EE:FF --worktree ../portfolio-data
+
+Each run overwrites vitals.json in that worktree and force-pushes a single
+amended commit to `data` — the branch never grows, it's just a pointer to
+the latest reading (same pattern as a gh-pages deploy).
 """
 from __future__ import annotations
 
 import argparse
 import asyncio
 import json
+import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -66,16 +69,33 @@ async def read_vitals(address: str, timeout: float) -> dict:
     }
 
 
+def publish(vitals: dict, worktree: Path, push: bool) -> None:
+    if not (worktree / ".git").exists():
+        raise SystemExit(
+            f"{worktree} no es un worktree de git. Primero: "
+            f"git worktree add {worktree} data"
+        )
+    (worktree / "vitals.json").write_text(json.dumps(vitals, indent=2) + "\n")
+
+    def git(*args: str) -> None:
+        subprocess.run(["git", "-C", str(worktree), *args], check=True)
+
+    git("add", "vitals.json")
+    git("commit", "--amend", "-m", f"vitals @ {vitals['updated_at']}")
+    if push:
+        git("push", "--force", "origin", "data")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("address", help="dirección BLE (MAC) del Galaxy Fit3")
-    parser.add_argument("--out", default=Path("data/vitals.json"), type=Path)
+    parser.add_argument("--worktree", default=Path("../portfolio-data"), type=Path, help="worktree local de la rama `data`")
     parser.add_argument("--timeout", default=15.0, type=float, help="segundos esperando una lectura de heart rate")
+    parser.add_argument("--no-push", action="store_true", help="solo escribe/commitea local, no hace push")
     args = parser.parse_args()
 
     vitals = asyncio.run(read_vitals(args.address, args.timeout))
-    args.out.parent.mkdir(parents=True, exist_ok=True)
-    args.out.write_text(json.dumps(vitals, indent=2) + "\n")
+    publish(vitals, args.worktree, push=not args.no_push)
     print(json.dumps(vitals, indent=2))
 
 

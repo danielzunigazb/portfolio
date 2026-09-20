@@ -133,7 +133,7 @@ footer { margin-top: 44px; padding: 22px 0 34px; border-top: 4px solid var(--ink
       <span class="sync-badge" id="sync-badge">● SIN SEÑAL</span>
     </div>
     <div class="vitals-grid" id="vitals-grid"></div>
-    <div class="vitals-src">fuente: Galaxy Fit3 · BLE GATT (heart rate + battery) · sync local vía <a href="https://github.com/danielzunigazb/portfolio/blob/main/scripts/sync_vitals.py" target="_blank" style="text-decoration:underline;">scripts/sync_vitals.py</a></div>
+    <div class="vitals-src">fuente: Galaxy Fit3 · BLE GATT · <a href="https://github.com/danielzunigazb/portfolio/tree/data" target="_blank" style="text-decoration:underline;">rama data</a> vía <a href="https://github.com/danielzunigazb/portfolio/blob/main/scripts/sync_vitals.py" target="_blank" style="text-decoration:underline;">sync_vitals.py</a></div>
   </div>
 </div>
 
@@ -199,12 +199,15 @@ if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
 }
 
 /* ============================================================
-   VITALS — placeholders que se llenan desde data/vitals.json.
+   VITALS — placeholders que se llenan desde vitals.json en la
+   rama `data` del repo (fetch cross-origin a raw.githubusercontent,
+   no desde main: así no le mete ruido al historial del sitio).
    Ese archivo lo escribe scripts/sync_vitals.py corriendo local
    contra el Galaxy Fit3 (BLE GATT: heart rate 0x180D, battery
-   0x180F) y se sube al repo. Si no hay datos frescos (<6h), se
-   muestran los placeholders vacíos en vez de inventar números.
+   0x180F). Si no hay datos frescos (<6h), se muestran los
+   placeholders vacíos en vez de inventar números.
    ============================================================ */
+const VITALS_URL = 'https://raw.githubusercontent.com/danielzunigazb/portfolio/data/vitals.json';
 const VITAL_DEFS = [
   { key: 'heart_rate_bpm', label: 'HEART RATE', unit: ' bpm', max: 180, zone: v => (v < 50 || v > 110 ? 'warn' : 'ok') },
   { key: 'battery_pct',    label: 'BATTERY',     unit: '%',   max: 100, zone: v => (v < 20 ? 'warn' : v < 50 ? 'mid' : 'ok') },
@@ -239,7 +242,7 @@ function renderVitals(data) {
   }).join('');
 }
 
-fetch('data/vitals.json', { cache: 'no-store' })
+fetch(VITALS_URL, { cache: 'no-store' })
   .then(r => (r.ok ? r.json() : null))
   .catch(() => null)
   .then(renderVitals);
