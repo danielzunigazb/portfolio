@@ -188,7 +188,7 @@ footer { margin-top: 14px; padding: 8px 0 12px; border-top: 3px solid var(--ink)
   <div class="vitals-src">
     <span id="sync-badge">● SIN SEÑAL</span> ·
     revisado <span id="poll-ago">ahora</span> ·
-    fuente: Galaxy Fit3 · Health Connect ·
+    fuente: Galaxy Fit3 · Samsung Health · Spotify ·
     <a href="https://github.com/danielzunigazb/portfolio/tree/data" target="_blank" style="text-decoration:underline;">rama data</a> vía
     <a href="https://github.com/danielzunigazb/galaxy-vitals-bridge" target="_blank" style="text-decoration:underline;">galaxy-vitals-bridge</a>
   </div>
@@ -259,11 +259,10 @@ if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
    VITALS + NOW PLAYING — todo sale de vitals.json en la rama
    `data` del repo (fetch cross-origin a raw.githubusercontent, no
    desde main: así no le mete ruido al historial del sitio).
-   - heart rate / spo2 / steps / sleep / ejercicio los escribe
-     galaxy-vitals-bridge (Health Connect, en el celular) o
-     scripts/sync_vitals.py (BLE directo).
-   - now_playing lo actualiza un cron aparte que pega a la API de
-     Spotify y escribe al mismo archivo.
+   Ambos campos (heart rate/spo2/steps/sleep/ejercicio y now_playing)
+   los escribe galaxy-vitals-bridge, corriendo en el celular
+   (Samsung Health Data SDK + OAuth de Spotify, ambos en el mismo
+   WorkManager cada 15 min) — sin depender de nada externo.
    El "estado" (activo/tranquilo/reposo) es una inferencia simple
    desde el heart rate, no un dato explícito — no hay timestamp de
    "cuándo empezó/terminó" el último ejercicio como para saber con
