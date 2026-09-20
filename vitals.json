@@ -13,5 +13,14 @@
   },
   "battery_pct": null,
   "updated_at": "2026-09-20T20:40:55.160148Z",
-  "source": "galaxy-fit3-samsunghealth"
+  "source": "galaxy-fit3-samsunghealth",
+  "now_playing": {
+    "is_playing": true,
+    "track": "Jamaican (Bam Bam)",
+    "artists": "HUGEL, SOLTO (FR)",
+    "album": "Jamaican (Bam Bam)",
+    "cover_url": "https://i.scdn.co/image/ab67616d00001e02450a730dd72f3bf49882ae9d",
+    "url": "https://open.spotify.com/track/1ExjoMeJQxAYtHFke6eW31",
+    "updated_at": "2026-09-20T20:41:43+00:00"
+  }
 }
