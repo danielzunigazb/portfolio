@@ -12,15 +12,15 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "updated_at": "2026-09-20T20:55:23.756758Z",
+  "updated_at": "2026-09-20T20:58:38.442954Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Nights",
+    "track": "Pretty Sweet",
     "artists": "Frank Ocean",
     "album": "Blonde",
     "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02c5649add07ed3720be9d5526",
-    "url": "https:\/\/open.spotify.com\/track\/7eqoqGkKwgOaWNNHx90uEZ",
-    "updated_at": "2026-09-20T20:55:23.756921Z"
+    "url": "https:\/\/open.spotify.com\/track\/17yrCsl1Ai6CZLBmGj6d6p",
+    "updated_at": "2026-09-20T20:58:38.443081Z"
   }
 }
