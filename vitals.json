@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 93,
+  "heart_rate_bpm": 103,
   "oxygen_saturation_pct": 98,
-  "steps_today": 6066,
+  "steps_today": 6682,
   "floors_climbed_today": 4,
   "sleep_duration_minutes": 452,
   "sleep_score": 64,
@@ -12,15 +12,15 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "updated_at": "2026-09-20T23:03:48.424855Z",
+  "updated_at": "2026-09-20T23:45:00.636615Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Amigos? No.",
-    "artists": "Oscar Maydon, Neton Vega",
-    "album": "Rico o Muerto, Vol. 1",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e020697c8807331635b1ca25e84",
-    "url": "https:\/\/open.spotify.com\/track\/5MBAaEt7s8El3WWhYinLzv",
-    "updated_at": "2026-09-20T23:03:48.424980Z"
+    "track": "Bateando Como Los Yankees",
+    "artists": "cclonaze, moonie., chapito",
+    "album": "Bateando Como Los Yankees",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d4c08683be23304ada5ce723",
+    "url": "https:\/\/open.spotify.com\/track\/4Nef3OHWYmIRRtkyjfvf6H",
+    "updated_at": "2026-09-20T23:45:00.636735Z"
   }
 }
