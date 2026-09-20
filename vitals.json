@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 80,
+  "heart_rate_bpm": 78,
   "oxygen_saturation_pct": 98,
-  "steps_today": 4600,
+  "steps_today": 4611,
   "floors_climbed_today": 3,
   "sleep_duration_minutes": 452,
   "sleep_score": 64,
@@ -12,15 +12,6 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "updated_at": "2026-09-20T20:09:04.439974Z",
-  "source": "galaxy-fit3-samsunghealth",
-  "now_playing": {
-    "is_playing": true,
-    "track": "Salsa Del 78",
-    "artists": "Camilo Salazar",
-    "album": "Salsa Del 78",
-    "cover_url": "https://i.scdn.co/image/ab67616d00001e02308e9f8b82c9630a019eb093",
-    "url": "https://open.spotify.com/track/11FvxxICgpWZafrlkAfFo2",
-    "updated_at": "2026-09-20T20:32:56+00:00"
-  }
+  "updated_at": "2026-09-20T20:33:58.387519Z",
+  "source": "galaxy-fit3-samsunghealth"
 }
