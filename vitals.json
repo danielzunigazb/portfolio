@@ -12,15 +12,6 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "updated_at": "2026-09-20T21:07:25.200934Z",
-  "source": "galaxy-fit3-samsunghealth",
-  "now_playing": {
-    "is_playing": true,
-    "track": "Soy El Diablo (Version Estudio)",
-    "artists": "Natanael Cano",
-    "album": "Soy El Diablo (Version Estudio)",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e024a9e99b8416ef2c1279a3dd9",
-    "url": "https:\/\/open.spotify.com\/track\/2a7k72mbwUnvIa2N98dQWr",
-    "updated_at": "2026-09-20T21:07:25.201045Z"
-  }
+  "updated_at": "2026-09-20T21:08:10.112999Z",
+  "source": "galaxy-fit3-samsunghealth"
 }
