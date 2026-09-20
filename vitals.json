@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 81,
+  "heart_rate_bpm": 114,
   "oxygen_saturation_pct": 98,
-  "steps_today": 4750,
+  "steps_today": 4979,
   "floors_climbed_today": 3,
   "sleep_duration_minutes": 452,
   "sleep_score": 64,
@@ -12,15 +12,15 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "updated_at": "2026-09-20T21:29:54.661548Z",
+  "updated_at": "2026-09-20T21:51:47.534946Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Bien Tumbado",
-    "artists": "Natanael Cano, Ovi",
-    "album": "Corridos Tumbados Vol. 2",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0285cc502ea6b0fe70310f96cd",
-    "url": "https:\/\/open.spotify.com\/track\/45igj3SybyjfFrUuKGJkpi",
-    "updated_at": "2026-09-20T21:29:54.661688Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-20T21:51:47.535091Z"
   }
 }
