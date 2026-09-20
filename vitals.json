@@ -1,6 +1,17 @@
 {
   "heart_rate_bpm": 80,
+  "oxygen_saturation_pct": 98,
+  "steps_today": 4600,
+  "floors_climbed_today": 3,
+  "sleep_duration_minutes": 452,
+  "sleep_score": 64,
+  "last_exercise": {
+    "type": "OTHER",
+    "duration_minutes": 11,
+    "calories": 75,
+    "mean_heart_rate_bpm": 123
+  },
   "battery_pct": null,
-  "updated_at": "2026-09-20T19:50:11.306146Z",
-  "source": "galaxy-fit3-healthconnect"
+  "updated_at": "2026-09-20T19:58:45.057427Z",
+  "source": "galaxy-fit3-samsunghealth"
 }
