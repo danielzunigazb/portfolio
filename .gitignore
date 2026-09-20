@@ -1,2 +1,4 @@
 audit.md
 opportunities.md
+__pycache__/
+*.pyc
