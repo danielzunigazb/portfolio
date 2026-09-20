@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 71,
   "oxygen_saturation_pct": 98,
-  "steps_today": 4611,
+  "steps_today": 4656,
   "floors_climbed_today": 3,
   "sleep_duration_minutes": 452,
   "sleep_score": 64,
@@ -12,15 +12,15 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "updated_at": "2026-09-20T21:08:22.803149Z",
+  "updated_at": "2026-09-20T21:11:31.856187Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Soy El Diablo (Version Estudio)",
-    "artists": "Natanael Cano",
-    "album": "Soy El Diablo (Version Estudio)",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e024a9e99b8416ef2c1279a3dd9",
-    "url": "https:\/\/open.spotify.com\/track\/2a7k72mbwUnvIa2N98dQWr",
-    "updated_at": "2026-09-20T21:08:22.803258Z"
+    "track": "Jamaican (Bam Bam)",
+    "artists": "HUGEL, SOLTO (FR)",
+    "album": "Jamaican (Bam Bam)",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02450a730dd72f3bf49882ae9d",
+    "url": "https:\/\/open.spotify.com\/track\/7e4zDInS6tA2jwzphvs2Ay",
+    "updated_at": "2026-09-20T21:11:31.856317Z"
   }
 }
