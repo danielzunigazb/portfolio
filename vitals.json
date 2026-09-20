@@ -12,7 +12,7 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "updated_at": "2026-09-20T21:06:58.905911Z",
+  "updated_at": "2026-09-20T21:07:17.194511Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
@@ -21,6 +21,6 @@
     "album": "Soy El Diablo (Version Estudio)",
     "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e024a9e99b8416ef2c1279a3dd9",
     "url": "https:\/\/open.spotify.com\/track\/2a7k72mbwUnvIa2N98dQWr",
-    "updated_at": "2026-09-20T21:06:58.906002Z"
+    "updated_at": "2026-09-20T21:07:17.194601Z"
   }
 }
