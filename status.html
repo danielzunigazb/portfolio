@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<script>
+(function () {
+  var saved = localStorage.getItem('theme');
+  if (saved === 'light') document.documentElement.setAttribute('data-theme', 'light');
+})();
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daniel Zuñiga · Status</title>
+<meta name="description" content="Character sheet / health check de Daniel Zuñiga: vitals, stats y quest log en formato RPG.">
+<link rel="canonical" href="https://danzuniga.xyz/status.html">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="Daniel Zuñiga · Status">
+<meta property="og:description" content="Character sheet / health check personal en formato RPG.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://danzuniga.xyz/status.html">
+<meta property="og:image" content="https://danzuniga.xyz/og-image.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0a0f'/%3E%3Crect x='2' y='2' width='28' height='28' fill='none' stroke='%23ff2d78' stroke-width='2'/%3E%3Ctext x='16' y='22' font-family='monospace' font-size='16' font-weight='700' fill='%23f7f4ff' text-anchor='middle'%3EDZ%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:#0a0a0f; --bg-2:#15131c; --bg-3:#1c1926;
+  --ink:#f7f4ff; --ink-2:#b3aec7; --ink-3:#7a7591;
+  --pink: oklch(72% 0.24 350); --green: oklch(76% 0.21 150);
+  --blue: oklch(72% 0.19 255); --yellow: oklch(88% 0.17 95);
+  --red: oklch(62% 0.22 25);
+  --font-display: 'Anton', sans-serif;
+  --font-sans: 'Space Grotesk', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+html[data-theme="light"] {
+  --bg:#f5efe1; --bg-2:#ece2c8; --bg-3:#e1d4ac;
+  --ink:#0a0a0f; --ink-2:#4a4658; --ink-3:#726d85;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-sans); background: var(--bg); color: var(--ink); overflow-x: hidden; transition: background-color .2s ease, color .2s ease; }
+a { text-decoration: none; color: inherit; }
+::selection { background: var(--pink); color: #0a0a0f; }
+.container { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+@media (max-width: 640px) { .container { padding: 0 18px; } }
+
+.brutal-btn { display: inline-flex; align-items: center; gap: 8px; padding: 15px 28px; border: 3px solid var(--ink); font-family: var(--font-sans); font-weight: 700; font-size: 15px; color: var(--ink); box-shadow: 6px 6px 0 var(--ink); transition: transform .12s ease, box-shadow .12s ease; cursor: pointer; background: transparent; }
+.brutal-btn:hover { transform: translate(4px,4px); box-shadow: 2px 2px 0 var(--ink); }
+
+nav { position: sticky; top: 0; z-index: 50; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 24px; background: var(--bg); border-bottom: 4px solid var(--ink); }
+nav .plate { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+nav .plate .dz { width: 42px; height: 42px; background: var(--pink); border: 3px solid var(--ink); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 20px; color: #0a0a0f; transform: rotate(-6deg); box-shadow: 4px 4px 0 var(--ink); flex-shrink: 0; }
+nav .plate .label { font-family: var(--font-mono); font-weight: 700; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
+nav .plate .label .short { display: none; }
+nav .links { display: flex; gap: 26px; align-items: center; overflow-x: auto; scrollbar-width: none; -ms-overflow-style: none; }
+nav .links::-webkit-scrollbar { display: none; }
+nav .links a { font-family: var(--font-mono); font-weight: 600; font-size: 12.5px; text-transform: uppercase; letter-spacing: .06em; white-space: nowrap; flex-shrink: 0; }
+nav .links a:hover { color: var(--pink); }
+nav .links a.active { color: var(--pink); }
+.theme-btn { width: 96px; height: 38px; flex-shrink: 0; border: 3px solid var(--ink); background: var(--yellow); font-family: var(--font-mono); font-weight: 700; font-size: 10.5px; letter-spacing: .03em; color: #0a0a0f; box-shadow: 4px 4px 0 var(--ink); cursor: pointer; transition: transform .12s ease, box-shadow .12s ease; }
+.theme-btn:hover { transform: translate(2px,2px); box-shadow: 2px 2px 0 var(--ink); }
+@media (max-width: 640px) { nav .plate .label .full { display: none; } nav .plate .label .short { display: inline; } nav .links { gap: 16px; } nav .links a { font-size: 11px; } .theme-btn { width: 44px; font-size: 15px; } }
+
+section.pad { padding: clamp(48px, 7vw, 90px) 0; }
+.section-head { display: flex; align-items: baseline; gap: 16px; margin-bottom: 10px; }
+.section-head .idx { font-family: var(--font-mono); font-size: 18px; font-weight: 700; }
+.section-head h2 { font-family: var(--font-display); font-size: clamp(30px, 4.4vw, 48px); line-height: 1; text-transform: uppercase; }
+.section-note { font-family: var(--font-mono); font-size: 13px; color: var(--ink-3); margin: 12px 0 36px; }
+
+.chip { display: inline-block; border: 2.5px solid var(--ink); padding: 9px 16px; font-family: var(--font-mono); font-weight: 700; font-size: 12px; color: #0a0a0f; transition: transform .15s ease; }
+.chip:hover { transform: scale(1.08) translateY(-2px); }
+
+/* ---- page hero ---- */
+.status-hero { position: relative; overflow: hidden; padding: clamp(48px, 8vw, 84px) 0 60px;
+  background: radial-gradient(circle at 10% 15%, color-mix(in oklch, var(--pink) 28%, transparent) 0%, transparent 42%),
+              radial-gradient(circle at 90% 8%, color-mix(in oklch, var(--blue) 26%, transparent) 0%, transparent 48%),
+              repeating-linear-gradient(135deg, transparent 0 27px, color-mix(in oklch, var(--ink) 6%, transparent) 27px 28px); }
+.kicker { display: inline-flex; background: var(--yellow); border: 3px solid var(--ink); padding: 7px 18px; box-shadow: 5px 5px 0 var(--ink); font-family: var(--font-mono); font-weight: 700; font-size: 13px; text-transform: uppercase; color: #0a0a0f; margin-bottom: 24px; transform: rotate(-3deg); }
+.status-hero h1 { font-family: var(--font-display); font-size: clamp(44px, 8vw, 88px); line-height: .92; letter-spacing: -0.01em; color: var(--ink); text-shadow: 5px 5px 0 var(--pink), 10px 10px 0 var(--blue); margin-bottom: 22px; }
+@media (max-width: 480px) { .status-hero h1 { text-shadow: 4px 4px 0 var(--pink); } }
+.status-hero .sub { font-size: clamp(15px, 2vw, 18px); font-weight: 600; line-height: 1.6; max-width: 640px; color: var(--ink-2); }
+
+/* ---- character card ---- */
+.char-card { display: flex; gap: 28px; align-items: center; flex-wrap: wrap; background: var(--bg-2); border: 3px solid var(--ink); box-shadow: 8px 8px 0 var(--pink); padding: 26px; margin-top: 40px; }
+.char-card .who { flex: 1 1 240px; min-width: 200px; }
+
+/* ---- pixel avatar ---- */
+.portrait-wrap { flex: 0 0 auto; display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.portrait-frame { background: #0a0a0f; border: 4px solid var(--ink); box-shadow: 6px 6px 0 var(--blue); padding: 12px; line-height: 0; }
+.portrait-grid { display: grid; grid-template-columns: repeat(12, 1fr); grid-template-rows: repeat(14, 1fr); width: clamp(140px, 18vw, 196px); aspect-ratio: 12 / 14; animation: portrait-bob 2.6s ease-in-out infinite; }
+.portrait-px { width: 100%; height: 100%; }
+@keyframes portrait-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+.portrait-caption { font-family: var(--font-mono); font-size: 11px; color: #7cffb2; text-align: center; letter-spacing: .04em; }
+.portrait-caption .blink { animation: blink-caret .9s steps(1) infinite; }
+@keyframes blink-caret { 50% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .portrait-grid { animation: none; } .portrait-caption .blink { animation: none; } }
+.char-card .name { font-family: var(--font-display); font-size: clamp(26px, 4vw, 36px); line-height: 1; margin-bottom: 6px; }
+.char-card .cls { font-family: var(--font-mono); font-size: 12.5px; color: var(--ink-3); text-transform: uppercase; letter-spacing: .05em; }
+.char-card .lvl-block { flex: 0 0 220px; min-width: 200px; }
+.lvl-row { display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 11.5px; font-weight: 700; text-transform: uppercase; margin-bottom: 6px; }
+.xp-track { height: 16px; border: 2.5px solid var(--ink); background: var(--bg-3); position: relative; overflow: hidden; }
+.xp-fill { height: 100%; background: var(--yellow); }
+
+/* ---- vitals ---- */
+.vitals-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 22px; margin-top: 36px; }
+@media (max-width: 760px) { .vitals-grid { grid-template-columns: 1fr; } }
+.vital-card { background: var(--bg-2); border: 3px solid var(--ink); padding: 18px 20px 20px; }
+.vital-top { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px; }
+.vital-name { font-family: var(--font-mono); font-weight: 700; font-size: 12.5px; text-transform: uppercase; letter-spacing: .05em; }
+.vital-val { font-family: var(--font-mono); font-weight: 700; font-size: 13px; }
+.bar-track { height: 20px; border: 2.5px solid var(--ink); background: var(--bg-3); position: relative; overflow: hidden; }
+.bar-fill { height: 100%; transition: width .4s ease; }
+.vital-note { font-family: var(--font-mono); font-size: 10.5px; color: var(--ink-3); margin-top: 8px; }
+
+/* ---- stats (D&D style) ---- */
+.stats-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 18px; margin-top: 36px; }
+@media (max-width: 760px) { .stats-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } }
+@media (max-width: 460px) { .stats-grid { grid-template-columns: 1fr; } }
+.stat-block { background: var(--tint); border: 3px solid #0a0a0f; box-shadow: 5px 5px 0 #0a0a0f; color: #0a0a0f; padding: 16px 18px; }
+.stat-block .abbr { font-family: var(--font-display); font-size: 22px; }
+.stat-block .val { font-family: var(--font-mono); font-weight: 700; font-size: 20px; float: right; }
+.stat-block .label { font-family: var(--font-sans); font-weight: 700; font-size: 13px; margin: 6px 0 4px; clear: both; }
+.stat-block .flavor { font-size: 11.5px; opacity: .78; line-height: 1.5; }
+
+/* ---- status effects ---- */
+.effects-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 36px; }
+.effect-chip { font-family: var(--font-mono); font-weight: 700; font-size: 12px; padding: 10px 16px; border: 2.5px solid var(--ink); display: inline-flex; align-items: center; gap: 8px; }
+.effect-chip.buff { background: color-mix(in oklch, var(--green) 30%, var(--bg-2)); }
+.effect-chip.debuff { background: color-mix(in oklch, var(--red) 24%, var(--bg-2)); }
+
+/* ---- quest log ---- */
+.quest-list { display: flex; flex-direction: column; gap: 16px; margin-top: 36px; }
+.quest-item { background: var(--bg-2); border: 3px solid var(--ink); padding: 16px 20px; }
+.quest-top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 8px; }
+.quest-name { font-weight: 700; font-size: 15px; }
+.quest-tag { font-family: var(--font-mono); font-size: 10px; font-weight: 700; letter-spacing: .05em; padding: 3px 9px; border: 2px solid var(--ink); color: #0a0a0f; white-space: nowrap; }
+.quest-track { height: 12px; border: 2px solid var(--ink); background: var(--bg-3); overflow: hidden; margin-top: 8px; }
+.quest-fill { height: 100%; }
+.quest-desc { font-size: 12.5px; color: var(--ink-2); margin-top: 8px; }
+
+/* ---- inventory / achievements ---- */
+.inv-grid { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 36px; }
+.ach-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px,1fr)); gap: 14px; margin-top: 36px; }
+.ach-badge { background: var(--bg-2); border: 3px solid var(--ink); padding: 14px 16px; display: flex; align-items: center; gap: 12px; }
+.ach-badge .ico { font-size: 22px; flex-shrink: 0; }
+.ach-badge .txt { font-family: var(--font-mono); font-size: 11.5px; font-weight: 700; line-height: 1.4; }
+
+/* ---- data source note ---- */
+.term-note { background: #0a0a0f; border: 3px solid var(--ink); box-shadow: 8px 8px 0 var(--green); font-family: var(--font-mono); font-size: 12.5px; color: #7cffb2; padding: 20px 22px; margin-top: 44px; }
+.term-note .dots { display: flex; gap: 6px; margin-bottom: 12px; }
+.term-note .dots span { width: 10px; height: 10px; border-radius: 50%; }
+.term-note .l { color: #fff; }
+
+footer { margin-top: 40px; padding: 26px 0 34px; border-top: 4px solid var(--ink); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; font-family: var(--font-mono); font-size: 11.5px; color: var(--ink-3); }
+
+.reveal { opacity: 0; transform: translateY(16px); transition: opacity .5s ease, transform .5s ease; }
+.reveal.is-visible { opacity: 1; transform: translateY(0); }
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="plate">
+    <span class="dz">DZ</span>
+    <span class="label"><span class="full">DZ / PORTFOLIO</span><span class="short">DZ.</span></span>
+  </a>
+  <div class="links">
+    <a href="index.html">Inicio</a>
+    <a href="index.html#systems">Proyectos</a>
+    <a href="status.html" class="active">Status</a>
+    <a href="cv.html">CV</a>
+    <a href="index.html#contact">Contacto</a>
+  </div>
+  <button class="theme-btn" id="theme-toggle">◐ LIGHT</button>
+</nav>
+
+<section class="status-hero">
+  <div class="container">
+    <div class="kicker">$ curl -s /status</div>
+    <h1>STATUS</h1>
+    <p class="sub">Health check personal en formato character sheet: avatar, vitals, stats y quest log de un operador autodidacta. Datos cargados a mano por ahora — el pipeline que los jale de verdad va después.</p>
+
+    <div class="char-card reveal">
+      <div class="portrait-wrap">
+        <div class="portrait-frame">
+          <div class="portrait-grid" id="portrait-grid"></div>
+        </div>
+        <div class="portrait-caption">DANIEL.EXE <span class="blink">▮</span></div>
+        <a href="https://github.com/danielzunigazb" target="_blank" class="chip" style="background:var(--blue);font-size:10px;padding:5px 10px;">based on @danielzunigazb ↗</a>
+      </div>
+      <div class="who">
+        <div class="name">DANIEL ZUÑIGA</div>
+        <div class="cls">Autodidact Engineer · Infra &amp; Automation</div>
+      </div>
+      <div class="lvl-block">
+        <div class="lvl-row"><span>LVL 12</span><span id="xp-label">2,340 / 3,000 XP</span></div>
+        <div class="xp-track"><div class="xp-fill" id="xp-fill" style="width:78%;"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pad" id="vitals">
+  <div class="container">
+    <div class="section-head"><span class="idx" style="color:var(--pink);">§01</span><h2>Vitals</h2></div>
+    <p class="section-note">Signos vitales del operador. Manual por ahora.</p>
+
+    <div class="vitals-grid" id="vitals-grid"></div>
+
+    <div class="effects-row" id="effects-row"></div>
+  </div>
+</section>
+
+<section class="pad" id="stats" style="background:var(--bg-2);border-top:4px solid var(--ink);border-bottom:4px solid var(--ink);">
+  <div class="container">
+    <div class="section-head"><span class="idx" style="color:var(--blue);">§02</span><h2>Stats</h2></div>
+    <p class="section-note">Atributos, tirados a mano.</p>
+
+    <div class="stats-grid" id="stats-grid"></div>
+  </div>
+</section>
+
+<section class="pad" id="quests">
+  <div class="container">
+    <div class="section-head"><span class="idx" style="color:var(--green);">§03</span><h2>Quest Log</h2></div>
+    <p class="section-note">Misiones activas — a.k.a. los proyectos de siempre.</p>
+
+    <div class="quest-list" id="quest-list"></div>
+  </div>
+</section>
+
+<section class="pad" id="inventory" style="padding-top:0;">
+  <div class="container">
+    <div class="section-head"><span class="idx" style="color:var(--yellow);">§04</span><h2>Loadout</h2></div>
+    <p class="section-note">Equipo actual.</p>
+
+    <div class="inv-grid" id="inv-grid"></div>
+  </div>
+</section>
+
+<section class="pad" id="achievements" style="padding-top:0;">
+  <div class="container">
+    <div class="section-head"><span class="idx" style="color:var(--pink);">§05</span><h2>Achievements</h2></div>
+    <p class="section-note">Logros desbloqueados.</p>
+
+    <div class="ach-grid" id="ach-grid"></div>
+
+    <div class="term-note reveal">
+      <div class="dots"><span style="background:var(--pink);"></span><span style="background:var(--yellow);"></span><span style="background:var(--green);"></span></div>
+      <div>$ cat DATA_SOURCE.md</div>
+      <div class="l" style="margin-top:8px;">Todo lo de esta página es manual/placeholder por ahora.</div>
+      <div>Próximo: conectar vitals/stats a datos reales (GitHub API, systemd, wearable, lo que sea) vía <code>DATA</code> en el JS de abajo.</div>
+    </div>
+  </div>
+</section>
+
+<footer class="container">
+  <span>Daniel Zuñiga — Córdoba, CO</span>
+  <span>STATUS · MANUAL DATA</span>
+</footer>
+
+<script data-goatcounter="https://danfolio.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+<script>
+const toggle = document.getElementById('theme-toggle');
+function syncToggleLabel() {
+  toggle.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '◑ DARK' : '◐ LIGHT';
+}
+toggle.addEventListener('click', () => {
+  const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+  if (isLight) {
+    document.documentElement.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    document.documentElement.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  }
+  syncToggleLabel();
+});
+syncToggleLabel();
+
+/* ============================================================
+   PIXEL AVATAR — sprite dibujado a mano, 12x14, renderizado
+   como grid de divs. Fácil de cambiar el mapa si luego quieres
+   otra pose/outfit.
+   ============================================================ */
+const PORTRAIT_PALETTE = { '.': 'transparent', H: '#241b2e', S: '#e8b48c', K: '#120d16', P: '#ff2d78', Z: '#f7f4ff' };
+const PORTRAIT_OPEN = [
+  '..HHHHHHHH..',
+  '.HHHHHHHHHH.',
+  'HHHHHHHHHHHH',
+  'HHSSSSSSSSHH',
+  'HSSSSSSSSSSH',
+  'SSSKSSSSKSSS',
+  'SSSSSSSSSSSS',
+  'SSSSSSSSSSSS',
+  '..SSSSSSSS..',
+  '.PPPPPPPPPP.',
+  'PPPPPZZPPPPP',
+  'PPPPPZZPPPPP',
+  'PPPPPZZPPPPP',
+  '.PPPPPPPPPP.',
+];
+const PORTRAIT_BLINK = PORTRAIT_OPEN.map((row, i) => (i === 5 ? 'SSSSSSSSSSSS' : row));
+
+function renderPortrait(rows) {
+  const grid = document.getElementById('portrait-grid');
+  let html = '';
+  rows.forEach(row => {
+    for (const ch of row) html += `<div class="portrait-px" style="background:${PORTRAIT_PALETTE[ch]};"></div>`;
+  });
+  grid.innerHTML = html;
+}
+renderPortrait(PORTRAIT_OPEN);
+if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  setInterval(() => {
+    renderPortrait(PORTRAIT_BLINK);
+    setTimeout(() => renderPortrait(PORTRAIT_OPEN), 140);
+  }, 3600);
+}
+
+/* ============================================================
+   DATA — todo manual/placeholder por ahora. Cuando haya una
+   fuente real (GitHub API, systemd, health tracker, etc.),
+   este objeto es lo único que hay que reemplazar por un fetch().
+   ============================================================ */
+const DATA = {
+  vitals: [
+    { name: 'HP · ENERGÍA',   value: 82, max: 100, color: 'var(--green)',  note: 'Cafeína dentro de rango nominal.' },
+    { name: 'MP · FOCUS',     value: 64, max: 100, color: 'var(--blue)',   note: 'Deep work disponible ~4h más.' },
+    { name: 'STAMINA · RACHA',value: 91, max: 100, color: 'var(--pink)',   note: 'Streak de commits activa.' },
+  ],
+  effects: [
+    { label: '☕ CAFFEINATED +10 FOC', type: 'buff' },
+    { label: '🔥 IN THE ZONE',         type: 'buff' },
+    { label: '📚 STUDYING',            type: 'buff' },
+    { label: '🌙 SLEEP DEBT -5 HP',    type: 'debuff' },
+  ],
+  stats: [
+    { abbr: 'STR', label: 'Infra Power',    val: 16, flavor: 'Linux, systemd, servicios corriendo sin caerse.' },
+    { abbr: 'DEX', label: 'Automation Spd', val: 15, flavor: 'Scripts que reemplazan tareas manuales.' },
+    { abbr: 'CON', label: 'Reliability',    val: 14, flavor: 'Tests, CI gates, cobertura ≥85%.' },
+    { abbr: 'INT', label: 'Problem Solve',  val: 17, flavor: 'Bioinformática, pipelines, debugging.' },
+    { abbr: 'WIS', label: 'Architecture',   val: 13, flavor: 'ADRs, docs, decisiones que envejecen bien.' },
+    { abbr: 'CHA', label: 'Comms',          val: 12, flavor: 'Inglés avanzado, README que se entienden.' },
+  ],
+  quests: [
+    { name: 'fungi-discovery', tag: 'ALPHA', color: 'var(--blue)', progress: 60, desc: 'Pipeline ITS: BLAST/VSEARCH, taxonomía UNITE v10.0.' },
+    { name: 'systemd-hooks', tag: 'ACTIVO', color: 'var(--green)', progress: 85, desc: 'Framework de hooks systemd, 11 tests pasando.' },
+    { name: 'cognitive-core (blini)', tag: 'ACTIVO', color: 'var(--green)', progress: 70, desc: '7 servicios systemd de automatización personal.' },
+    { name: 'Galaxy Fit3 BLE RE', tag: 'EXPERIMENTAL', color: 'var(--yellow)', progress: 35, desc: 'Reverse engineering del protocolo BLE del Fit3.' },
+  ],
+  inventory: ['Python', 'Bash', 'systemd', 'FastAPI', 'Arch Linux', 'Git', 'SSH', 'Typer'],
+  achievements: [
+    { icon: '🏆', text: 'Primer CI en verde' },
+    { icon: '🐛', text: 'Cazó un heisenbug' },
+    { icon: '📦', text: '4 repos públicos shippeados' },
+    { icon: '🧬', text: 'Parseó FASTA sin llorar' },
+    { icon: '🔌', text: 'Reverse-engineerió un BLE' },
+    { icon: '🛡️', text: 'Cobertura ≥85% mantenida' },
+  ],
+};
+
+function renderVitals() {
+  const grid = document.getElementById('vitals-grid');
+  grid.innerHTML = DATA.vitals.map(v => `
+    <div class="vital-card reveal">
+      <div class="vital-top"><span class="vital-name">${v.name}</span><span class="vital-val">${v.value}/${v.max}</span></div>
+      <div class="bar-track"><div class="bar-fill" style="width:${(v.value/v.max*100).toFixed(0)}%;background:${v.color};"></div></div>
+      <div class="vital-note">${v.note}</div>
+    </div>
+  `).join('');
+
+  const effects = document.getElementById('effects-row');
+  effects.innerHTML = DATA.effects.map(e => `<span class="effect-chip ${e.type} reveal">${e.label}</span>`).join('');
+}
+
+function renderStats() {
+  const colors = ['var(--pink)', 'var(--blue)', 'var(--green)', 'var(--yellow)', 'var(--pink)', 'var(--blue)'];
+  const grid = document.getElementById('stats-grid');
+  grid.innerHTML = DATA.stats.map((s, i) => `
+    <div class="stat-block reveal" style="--tint: color-mix(in oklch, ${colors[i % colors.length]} 34%, white);">
+      <span class="val">${s.val}</span>
+      <span class="abbr">${s.abbr}</span>
+      <div class="label">${s.label}</div>
+      <div class="flavor">${s.flavor}</div>
+    </div>
+  `).join('');
+}
+
+function renderQuests() {
+  const list = document.getElementById('quest-list');
+  list.innerHTML = DATA.quests.map(q => `
+    <div class="quest-item reveal">
+      <div class="quest-top">
+        <span class="quest-name">${q.name}</span>
+        <span class="quest-tag" style="background:${q.color};">${q.tag}</span>
+      </div>
+      <div class="quest-desc">${q.desc}</div>
+      <div class="quest-track"><div class="quest-fill" style="width:${q.progress}%;background:${q.color};"></div></div>
+    </div>
+  `).join('');
+}
+
+function renderInventory() {
+  const grid = document.getElementById('inv-grid');
+  const colors = ['var(--pink)', 'var(--blue)', 'var(--green)', 'var(--yellow)'];
+  grid.innerHTML = DATA.inventory.map((item, i) => `<span class="chip reveal" style="background:${colors[i % colors.length]};transform:rotate(${(i % 2 === 0 ? -1 : 1) * (2 + i % 3)}deg);">${item}</span>`).join('');
+}
+
+function renderAchievements() {
+  const grid = document.getElementById('ach-grid');
+  grid.innerHTML = DATA.achievements.map(a => `
+    <div class="ach-badge reveal"><span class="ico">${a.icon}</span><span class="txt">${a.text}</span></div>
+  `).join('');
+}
+
+renderVitals();
+renderStats();
+renderQuests();
+renderInventory();
+renderAchievements();
+
+if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('is-visible'); io.unobserve(e.target); } });
+  }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+} else {
+  document.querySelectorAll('.reveal').forEach(el => el.classList.add('is-visible'));
+}
+</script>
+
+</body>
+</html>
