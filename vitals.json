@@ -13,5 +13,14 @@
   },
   "battery_pct": null,
   "updated_at": "2026-09-20T20:33:59.612260Z",
-  "source": "galaxy-fit3-samsunghealth"
+  "source": "galaxy-fit3-samsunghealth",
+  "now_playing": {
+    "is_playing": true,
+    "track": "Edge of Desire",
+    "artists": "Jonas Blue, Malive",
+    "album": "Edge of Desire",
+    "cover_url": "https://i.scdn.co/image/ab67616d00001e02d62a34460f9106ee437bb0b5",
+    "url": "https://open.spotify.com/track/4A56h4B9xUuMMXoKuj18HT",
+    "updated_at": "2026-09-20T20:37:06+00:00"
+  }
 }
