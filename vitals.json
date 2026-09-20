@@ -12,6 +12,15 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "updated_at": "2026-09-20T20:52:36.241626Z",
-  "source": "galaxy-fit3-samsunghealth"
+  "updated_at": "2026-09-20T20:55:23.756758Z",
+  "source": "galaxy-fit3-samsunghealth",
+  "now_playing": {
+    "is_playing": true,
+    "track": "Nights",
+    "artists": "Frank Ocean",
+    "album": "Blonde",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02c5649add07ed3720be9d5526",
+    "url": "https:\/\/open.spotify.com\/track\/7eqoqGkKwgOaWNNHx90uEZ",
+    "updated_at": "2026-09-20T20:55:23.756921Z"
+  }
 }
