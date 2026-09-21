@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 88,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 97,
   "steps_today": 6011,
   "floors_climbed_today": 1,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "escuela",
-  "updated_at": "2026-09-21T20:42:19.631740Z",
+  "updated_at": "2026-09-21T21:11:28.841209Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-09-21T20:42:19.631959Z"
+    "is_playing": true,
+    "track": "Madrid",
+    "artists": "Natanael Cano",
+    "album": "NataKong",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0259ee17a860f6ce4b35b031e2",
+    "url": "https:\/\/open.spotify.com\/track\/4At5UqkhN2soNreIhYdx5X",
+    "updated_at": "2026-09-21T21:11:28.842254Z"
   }
 }
