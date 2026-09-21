@@ -1,10 +1,10 @@
 {
-  "heart_rate_bpm": null,
-  "oxygen_saturation_pct": 98,
-  "steps_today": 5823,
+  "heart_rate_bpm": 86,
+  "oxygen_saturation_pct": 97,
+  "steps_today": 5936,
   "floors_climbed_today": 1,
-  "sleep_duration_minutes": 326,
-  "sleep_score": 55,
+  "sleep_duration_minutes": 85,
+  "sleep_score": null,
   "last_exercise": {
     "type": "OTHER",
     "duration_minutes": 11,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-21T20:27:13.586281Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-09-21T20:31:32.060765Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-09-21T20:27:13.586548Z"
+    "is_playing": true,
+    "track": "Loco",
+    "artists": "Andrés Calamaro",
+    "album": "Alta Suciedad",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e4b8ec3d2ffe1f77c7185d48",
+    "url": "https:\/\/open.spotify.com\/track\/0jePqZlutXGa8xz6NNyKAy",
+    "updated_at": "2026-09-21T20:31:32.061174Z"
   }
 }
