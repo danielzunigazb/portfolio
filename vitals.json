@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 95,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
   "steps_today": 5806,
   "floors_climbed_today": 1,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-21T18:45:28.631930Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-09-21T19:01:45.099550Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Ojitos Rojos",
-    "artists": "Julio Caesar",
-    "album": "Ojitos Rojos",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d493df6037fe5fb9074932e8",
-    "url": "https:\/\/open.spotify.com\/track\/3laLiRlOtNA6HBKklPSE1E",
-    "updated_at": "2026-09-21T18:45:28.632190Z"
+    "track": "Mi Vicio",
+    "artists": "Eslabon Armado, T3R Elemento",
+    "album": "Summer School Mixtape, Vol. 1",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02cc611438d223b37132bf70e0",
+    "url": "https:\/\/open.spotify.com\/track\/6sGYPF1Ud3pYSyh28XOUp2",
+    "updated_at": "2026-09-21T19:01:45.100252Z"
   }
 }
