@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
-  "steps_today": 5365,
+  "steps_today": 5367,
   "floors_climbed_today": 1,
   "sleep_duration_minutes": 326,
   "sleep_score": 55,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "escuela",
-  "updated_at": "2026-09-21T18:08:07.492378Z",
+  "updated_at": "2026-09-21T18:15:03.631565Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-09-21T18:08:07.492500Z"
+    "is_playing": true,
+    "track": "Lo Mejor de Mi Vida",
+    "artists": "T3R Elemento",
+    "album": "Our Wave Nuestra Ola",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e8cd581d3b929d4cff1f9168",
+    "url": "https:\/\/open.spotify.com\/track\/3NheBcGXdkrtihpL1PyUjV",
+    "updated_at": "2026-09-21T18:15:03.631982Z"
   }
 }
