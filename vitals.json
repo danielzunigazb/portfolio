@@ -13,7 +13,7 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-21T20:25:41.255281Z",
+  "updated_at": "2026-09-21T20:25:47.729927Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
@@ -22,6 +22,6 @@
     "album": "Don't Stop The Magic",
     "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02c98f30e0afd08bb2c5be30ef",
     "url": "https:\/\/open.spotify.com\/track\/17wCAQqinJDfxVWwYQjftn",
-    "updated_at": "2026-09-21T20:25:41.255415Z"
+    "updated_at": "2026-09-21T20:25:47.730093Z"
   }
 }
