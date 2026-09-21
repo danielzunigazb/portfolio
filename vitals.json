@@ -13,7 +13,7 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-21T16:26:12.916315Z",
+  "updated_at": "2026-09-21T16:28:09.052907Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
@@ -22,6 +22,6 @@
     "album": "Todo Es Diferente",
     "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02885823ab5a54dc425ea53370",
     "url": "https:\/\/open.spotify.com\/track\/7K2JfvcKhIMwOndE6QBodf",
-    "updated_at": "2026-09-21T16:26:12.916439Z"
+    "updated_at": "2026-09-21T16:28:09.053081Z"
   }
 }
