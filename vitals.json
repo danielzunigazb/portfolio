@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "escuela",
-  "updated_at": "2026-09-21T19:01:45.099550Z",
+  "updated_at": "2026-09-21T19:18:34.437780Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Mi Vicio",
-    "artists": "Eslabon Armado, T3R Elemento",
-    "album": "Summer School Mixtape, Vol. 1",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02cc611438d223b37132bf70e0",
-    "url": "https:\/\/open.spotify.com\/track\/6sGYPF1Ud3pYSyh28XOUp2",
-    "updated_at": "2026-09-21T19:01:45.100252Z"
+    "track": "Te Quiero a Ti",
+    "artists": "Eslabon Armado",
+    "album": "Vibras de Noche",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02ae8c49bd8fc80ac5f7241dd5",
+    "url": "https:\/\/open.spotify.com\/track\/5OpHUq6Fo1qaUhU3imV6TK",
+    "updated_at": "2026-09-21T19:18:34.438044Z"
   }
 }
