@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-09-21T23:14:12.970726Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-21T23:23:57.246812Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Compa Bladi",
-    "artists": "Natanael Cano",
-    "album": "Mi Nuevo Yo",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02cb685e9856eb278b50c68315",
-    "url": "https:\/\/open.spotify.com\/track\/6OXDTduxjhhvcuqhapshMR",
-    "updated_at": "2026-09-21T23:14:12.971226Z"
+    "track": "Amapola",
+    "artists": "Natanael Cano, Nueva H",
+    "album": "Amapola",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e252ac1e6e76327b5ff94543",
+    "url": "https:\/\/open.spotify.com\/track\/43558Td2trz7O0chZYohEE",
+    "updated_at": "2026-09-21T23:23:57.247068Z"
   }
 }
