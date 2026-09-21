@@ -13,7 +13,7 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-21T12:05:43.303082Z",
+  "updated_at": "2026-09-21T12:05:56.605661Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
@@ -22,6 +22,6 @@
     "album": "LA ODISEA",
     "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e029b7b01c383be069b94003e85",
     "url": "https:\/\/open.spotify.com\/track\/2nzyGNE4LqFlplOLWBLI8y",
-    "updated_at": "2026-09-21T12:05:43.303498Z"
+    "updated_at": "2026-09-21T12:05:56.605752Z"
   }
 }
