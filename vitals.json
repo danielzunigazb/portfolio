@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "escuela",
-  "updated_at": "2026-09-21T17:57:50.351898Z",
+  "updated_at": "2026-09-21T18:02:48.509761Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "JUGADOR FRANQUICIA",
-    "artists": "Myke Towers",
-    "album": "LYKE MIKE",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02769b161844bef4f5f8c9719f",
-    "url": "https:\/\/open.spotify.com\/track\/4kNpoVStauSMwm0mF0qShU",
-    "updated_at": "2026-09-21T17:57:50.352622Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-21T18:02:48.510639Z"
   }
 }
