@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-21T20:12:08.397139Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-09-21T20:14:42.086124Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "24K",
-    "artists": "T3R Elemento",
-    "album": "La Divinidad Femenina",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02eba0c41d751b712fecc3600d",
-    "url": "https:\/\/open.spotify.com\/track\/0McLRzQ5Nz4uq4kbaMLXA5",
-    "updated_at": "2026-09-21T20:12:08.397294Z"
+    "track": "El De Las Dos Pistolas",
+    "artists": "Abraham Vazquez, T3R Elemento, Los de la O",
+    "album": "El De Las Dos Pistolas",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e025baf7dc5745d2e8df6c214fc",
+    "url": "https:\/\/open.spotify.com\/track\/3BvGcHKkSKRdkathkvvxRp",
+    "updated_at": "2026-09-21T20:14:42.086276Z"
   }
 }
