@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-21T19:57:04.228535Z",
+  "updated_at": "2026-09-21T20:10:15.435469Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Contigo Ya Me Veo",
-    "artists": "T3R Elemento",
-    "album": "Our Wave Nuestra Ola",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e8cd581d3b929d4cff1f9168",
-    "url": "https:\/\/open.spotify.com\/track\/1SpUQqL6orOwQZnUcKiuXp",
-    "updated_at": "2026-09-21T19:57:04.228759Z"
+    "track": "J.",
+    "artists": "Ivan Cornejo",
+    "album": "Dañado",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e026d7a8a34f348d587f007045f",
+    "url": "https:\/\/open.spotify.com\/track\/4lUsBLTAiufWocWtg4H0my",
+    "updated_at": "2026-09-21T20:10:15.435636Z"
   }
 }
