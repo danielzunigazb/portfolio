@@ -13,7 +13,7 @@
   },
   "battery_pct": null,
   "location_zone": "escuela",
-  "updated_at": "2026-09-21T18:31:22.529172Z",
+  "updated_at": "2026-09-21T18:31:39.503685Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
@@ -22,6 +22,6 @@
     "album": "Románticas de Hoy",
     "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e023532fbcf6196c0c1ea8f9e01",
     "url": "https:\/\/open.spotify.com\/track\/5qdEi11OZDCZwHwcxMYkfo",
-    "updated_at": "2026-09-21T18:31:22.529357Z"
+    "updated_at": "2026-09-21T18:31:39.503778Z"
   }
 }
