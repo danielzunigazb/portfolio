@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 94,
   "oxygen_saturation_pct": 98,
-  "steps_today": 879,
+  "steps_today": 884,
   "floors_climbed_today": 1,
   "sleep_duration_minutes": 326,
   "sleep_score": 55,
@@ -13,7 +13,7 @@
   },
   "battery_pct": null,
   "location_zone": "escuela",
-  "updated_at": "2026-09-21T11:21:29.018420Z",
+  "updated_at": "2026-09-21T11:22:25.567228Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
@@ -22,6 +22,6 @@
     "album": "MUSICA <3",
     "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02b308130670080be7c6f97713",
     "url": "https:\/\/open.spotify.com\/track\/68x2TVlhCCwwBmszzLeCcQ",
-    "updated_at": "2026-09-21T11:21:29.018834Z"
+    "updated_at": "2026-09-21T11:22:25.567504Z"
   }
 }
