@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 41,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
   "steps_today": 7340,
   "floors_climbed_today": 4,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-21T03:26:44.444583Z",
+  "updated_at": "2026-09-21T03:41:48.334032Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Todo a Su Tiempo",
-    "artists": "Grupo Marca Registrada, Grupo Primer Grado",
-    "album": "Todo a Su Tiempo",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02a471389d0cdd4794149a0c70",
-    "url": "https:\/\/open.spotify.com\/track\/6sBjyBwRAQEONPaJunUZVm",
-    "updated_at": "2026-09-21T03:26:44.446048Z"
+    "track": "Princesa",
+    "artists": "Grupo Marca Registrada",
+    "album": "Princesa",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02ee5c88fd3f52fefe04615485",
+    "url": "https:\/\/open.spotify.com\/track\/1JhGcvVRdJoteIf56GkGwf",
+    "updated_at": "2026-09-21T03:41:48.334165Z"
   }
 }
