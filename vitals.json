@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
-  "steps_today": 1045,
+  "steps_today": 1098,
   "floors_climbed_today": 1,
   "sleep_duration_minutes": 326,
   "sleep_score": 55,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-21T12:13:30.978834Z",
+  "updated_at": "2026-09-21T12:25:53.955943Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "DEMENCIA",
-    "artists": "Junior H, Gael Valenzuela",
-    "album": "DEPR<\/3$$ED MFKZ",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02f1b7ee109bd8626cad94f478",
-    "url": "https:\/\/open.spotify.com\/track\/3BAtCOv7easPy9xoZ4h9Ng",
-    "updated_at": "2026-09-21T12:13:30.979154Z"
+    "track": "Pinta De Estudiante",
+    "artists": "Grupo Marca Registrada",
+    "album": "Corleone",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e9da100ac57960dbb5022139",
+    "url": "https:\/\/open.spotify.com\/track\/1OTcRTOQXOE40fHHSTKQk5",
+    "updated_at": "2026-09-21T12:25:53.956412Z"
   }
 }
