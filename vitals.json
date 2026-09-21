@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-21T23:01:17.830016Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-09-21T23:14:12.970726Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "SERPIENTE",
-    "artists": "Junior H",
-    "album": "$AD BOYZ 4 LIFE II",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02ef88ad49166e31598ff7d4d0",
-    "url": "https:\/\/open.spotify.com\/track\/431Dwa4XSR1z1aWgmCisnP",
-    "updated_at": "2026-09-21T23:01:17.830125Z"
+    "track": "Compa Bladi",
+    "artists": "Natanael Cano",
+    "album": "Mi Nuevo Yo",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02cb685e9856eb278b50c68315",
+    "url": "https:\/\/open.spotify.com\/track\/6OXDTduxjhhvcuqhapshMR",
+    "updated_at": "2026-09-21T23:14:12.971226Z"
   }
 }
