@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 103,
   "oxygen_saturation_pct": 98,
-  "steps_today": 2817,
+  "steps_today": 2818,
   "floors_climbed_today": 1,
   "sleep_duration_minutes": 326,
   "sleep_score": 55,
@@ -13,15 +13,6 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-21T13:57:56.341240Z",
-  "source": "galaxy-fit3-samsunghealth",
-  "now_playing": {
-    "is_playing": true,
-    "track": "BIPOLAR",
-    "artists": "Peso Pluma, Jasiel Nuñez, Junior H",
-    "album": "BIPOLAR",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e26340898110cbde4cb74e17",
-    "url": "https:\/\/open.spotify.com\/track\/3wlIAXSDtlD9iU8ysld06Z",
-    "updated_at": "2026-09-21T13:57:56.341721Z"
-  }
+  "updated_at": "2026-09-21T13:58:33.654893Z",
+  "source": "galaxy-fit3-samsunghealth"
 }
