@@ -80,6 +80,8 @@ body[data-state="active"] .portrait-grid { animation-duration: 1s; }
 body[data-state="rest"] .portrait-grid { animation-duration: 4.2s; }
 .state-badge { position: absolute; top: -12px; right: -12px; font-size: 22px; display: none; }
 .state-badge.show { display: block; animation: badge-pulse 1.1s ease-in-out infinite; }
+.zone-badge { position: absolute; bottom: -10px; left: -10px; font-size: 20px; display: none; transform: rotate(-8deg); }
+.zone-badge.show { display: block; }
 @keyframes badge-pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.18); } }
 .portrait-caption { font-family: var(--font-mono); font-size: 9.5px; color: #7cffb2; letter-spacing: .04em; }
 .portrait-caption .blink { animation: blink-caret .9s steps(1) infinite; }
@@ -191,6 +193,7 @@ footer { margin-top: 14px; padding: 8px 0 12px; border-top: 3px solid var(--ink)
         <div class="portrait-frame">
           <div class="portrait-grid" id="portrait-grid"></div>
           <div class="state-badge" id="state-badge"></div>
+          <div class="zone-badge" id="zone-badge"></div>
         </div>
         <div class="portrait-caption">DANIEL.EXE <span class="blink">▮</span></div>
       </div>
@@ -276,8 +279,10 @@ syncToggleLabel();
 /* ============================================================
    PIXEL AVATAR — sprite 12x14 renderizado como grid de divs.
    ============================================================ */
-const PORTRAIT_PALETTE = { '.': 'transparent', H: '#241b2e', S: '#e8b48c', K: '#120d16', P: '#ff2d78', Z: '#f7f4ff' };
-const PORTRAIT_OPEN = [
+const PORTRAIT_PALETTE = { '.': 'transparent', H: '#241b2e', S: '#e8b48c', K: '#120d16', P: '#ff2d78', Z: '#f7f4ff', N: '#1c3a6e' };
+// Head/face is shared across outfits — only the shirt (rows 9-13) changes
+// by location_zone, so "getting dressed" is just swapping 5 rows.
+const HEAD_ROWS = [
   '..HHHHHHHH..',
   '.HHHHHHHHHH.',
   'HHHHHHHHHHHH',
@@ -287,13 +292,20 @@ const PORTRAIT_OPEN = [
   'SSSSSSSSSSSS',
   'SSSSSSSSSSSS',
   '..SSSSSSSS..',
-  '.PPPPPPPPPP.',
-  'PPPPPZZPPPPP',
-  'PPPPPZZPPPPP',
-  'PPPPPZZPPPPP',
-  '.PPPPPPPPPP.',
 ];
-const PORTRAIT_BLINK = PORTRAIT_OPEN.map((row, i) => (i === 5 ? 'SSSSSSSSSSSS' : row));
+const OUTFITS = {
+  // casa: capucha rosa de siempre — también el default si no hay zona.
+  casa:    ['.PPPPPPPPPP.', 'PPPPPZZPPPPP', 'PPPPPZZPPPPP', 'PPPPPZZPPPPP', '.PPPPPPPPPP.'],
+  // escuela: camisa blanca + corbata azul marino.
+  escuela: ['.ZZZZZZZZZZ.', 'ZZZZZNNZZZZZ', 'ZZZZZNNZZZZZ', 'ZZZZZNNZZZZZ', '.ZZZZZZZZZZ.'],
+  // afuera: blazer azul marino con cuello blanco.
+  afuera:  ['.NNNNNNNNNN.', 'NNNNNZZNNNNN', 'NNNNNZZNNNNN', 'NNNNNZZNNNNN', '.NNNNNNNNNN.'],
+};
+const ZONE_PROP = { escuela: '📓', afuera: '🧥' };
+
+function buildPortrait(zoneKey) {
+  return HEAD_ROWS.concat(OUTFITS[zoneKey] || OUTFITS.casa);
+}
 
 function renderPortrait(rows) {
   const grid = document.getElementById('portrait-grid');
@@ -303,11 +315,23 @@ function renderPortrait(rows) {
   });
   grid.innerHTML = html;
 }
-renderPortrait(PORTRAIT_OPEN);
+
+let currentZoneKey = 'casa';
+function renderOutfit(zoneKey) {
+  currentZoneKey = zoneKey || 'casa';
+  renderPortrait(buildPortrait(currentZoneKey));
+  const propEl = document.getElementById('zone-badge');
+  const prop = ZONE_PROP[currentZoneKey];
+  if (prop) { propEl.textContent = prop; propEl.classList.add('show'); }
+  else { propEl.classList.remove('show'); }
+}
+
+renderOutfit('casa');
 if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   setInterval(() => {
-    renderPortrait(PORTRAIT_BLINK);
-    setTimeout(() => renderPortrait(PORTRAIT_OPEN), 140);
+    const rows = buildPortrait(currentZoneKey);
+    renderPortrait(rows.map((row, i) => (i === 5 ? 'SSSSSSSSSSSS' : row)));
+    setTimeout(() => renderPortrait(rows), 140);
   }, 3600);
 }
 
@@ -315,11 +339,14 @@ if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
    VITALS + NOW PLAYING — todo sale de vitals.json en la rama
    `data` del repo (fetch cross-origin a raw.githubusercontent, no
    desde main: así no le mete ruido al historial del sitio).
-   - heart rate / spo2 / steps / sleep / ejercicio los escribe
-     galaxy-vitals-bridge (Health Connect, en el celular) o
-     scripts/sync_vitals.py (BLE directo).
-   - now_playing lo actualiza un cron aparte que pega a la API de
-     Spotify y escribe al mismo archivo.
+   Todo el JSON lo publica galaxy-vitals-bridge (app Android, corre
+   en el propio celular por WorkManager cada ~15 min):
+   - heart rate / spo2 / steps / sleep / ejercicio, vía Samsung
+     Health Data SDK.
+   - now_playing, vía OAuth propio contra la API de Spotify.
+   - location_zone: "casa"/"escuela"/"afuera" calculado en el
+     teléfono contra dos puntos guardados a mano — nunca coordenadas
+     crudas, ver galaxy-vitals-bridge/README.md.
    El "estado" (activo/tranquilo/reposo) es una inferencia simple
    desde el heart rate, no un dato explícito — no hay timestamp de
    "cuándo empezó/terminó" el último ejercicio como para saber con
@@ -442,11 +469,13 @@ function renderEkg(bpm) {
    en una frase, en vez de dejar que el visitante lea 4 números
    sueltos y arme la historia solo.
    ============================================================ */
+const ZONE_LABEL = { casa: 'en casa', escuela: 'en la escuela', afuera: 'por ahí' };
 function narrativeLine(data, fresh, npFresh, np) {
   if (!fresh) return 'sin conexión con el bridge — estado desconocido';
   const bits = [];
   const hr = data.heart_rate_bpm;
   const hour = new Date().getHours();
+  if (data.location_zone && ZONE_LABEL[data.location_zone]) bits.push(ZONE_LABEL[data.location_zone]);
   if (hr != null) {
     if (hr > 110) bits.push('pulso acelerado, actividad en curso');
     else if (hr < 55) bits.push(hour < 8 || hour >= 23 ? 'durmiendo, pulso en reposo' : 'pulso bajo, reposo profundo');
@@ -473,6 +502,7 @@ function render(data) {
   const npFresh = renderNowPlaying(data ? data.now_playing : null);
   renderInventory(fresh, npFresh);
   renderEkg(fresh ? data.heart_rate_bpm : null);
+  renderOutfit(fresh ? data.location_zone : null);
   document.getElementById('narrative-line').innerHTML =
     '&gt; ' + narrativeLine(data, fresh, npFresh, data ? data.now_playing : null) + ' <span class="blink">▮</span>';
 }
