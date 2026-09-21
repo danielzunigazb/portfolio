@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-21T02:23:25.560877Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-21T02:30:38.676600Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-09-21T02:23:25.561123Z"
+    "is_playing": true,
+    "track": "En Corto",
+    "artists": "Natanael Cano, Chino Pacas",
+    "album": "Nata Montana",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02066c67e297dd388e5b25bc3a",
+    "url": "https:\/\/open.spotify.com\/track\/6PlLiHoRcjCgK5som2T3ph",
+    "updated_at": "2026-09-21T02:30:38.676758Z"
   }
 }
