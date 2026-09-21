@@ -131,6 +131,37 @@ body[data-state="rest"] .portrait-grid { animation-duration: 4.2s; }
 
 .vitals-src { font-family: var(--font-mono); font-size: 9.5px; color: var(--ink-3); margin-top: 10px; }
 
+/* ---- EKG monitor ---- */
+.ekg-card { margin-top: 10px; background: #06060a; border: 3px solid var(--ink); box-shadow: 6px 6px 0 var(--red); padding: 8px 10px 6px; }
+.ekg-top { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px; }
+.ekg-label { font-family: var(--font-mono); font-weight: 700; font-size: 9.5px; letter-spacing: .08em; color: #7a7591; }
+.ekg-bpm { font-family: var(--font-mono); font-weight: 700; font-size: 13px; color: #38ff8e; }
+body[data-state="unknown"] .ekg-bpm { color: #4a4658; }
+.ekg-scope { position: relative; height: 56px; overflow: hidden; background:
+  repeating-linear-gradient(0deg, transparent, transparent 13px, #ffffff0a 13px, #ffffff0a 14px),
+  repeating-linear-gradient(90deg, transparent, transparent 19px, #ffffff0a 19px, #ffffff0a 20px); }
+.ekg-svg { position: absolute; top: 0; left: 0; width: 200%; height: 100%; display: block; }
+.ekg-path { fill: none; stroke: #38ff8e; stroke-width: 2; filter: drop-shadow(0 0 3px #38ff8ea0); }
+body[data-state="unknown"] .ekg-path { stroke: #3a3646; filter: none; }
+#ekg-track { animation: ekg-scroll linear infinite; animation-duration: 1s; }
+body[data-state="unknown"] #ekg-track { animation-play-state: paused; }
+@keyframes ekg-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { #ekg-track { animation: none; } }
+
+/* ---- narrative status line ---- */
+.narrative-line { margin-top: 8px; background: var(--bg-2); border: 3px solid var(--ink); padding: 7px 10px; font-family: var(--font-mono); font-size: 10.5px; color: #7cffb2; line-height: 1.4; }
+.narrative-line .blink { animation: blink-caret .9s steps(1) infinite; }
+@media (prefers-reduced-motion: reduce) { .narrative-line .blink { animation: none; } }
+
+/* ---- time travel scrubber ---- */
+.tt-card { margin-top: 10px; background: var(--bg-2); border: 3px solid var(--ink); padding: 9px 10px 10px; }
+.tt-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 6px; flex-wrap: wrap; }
+.tt-label { font-family: var(--font-mono); font-weight: 700; font-size: 9.5px; letter-spacing: .08em; color: var(--ink-3); }
+.tt-time { font-family: var(--font-mono); font-size: 10.5px; font-weight: 700; flex: 1; text-align: center; }
+.tt-live-btn { font-family: var(--font-mono); font-weight: 700; font-size: 9px; text-transform: uppercase; background: var(--yellow); border: 2px solid var(--ink); padding: 3px 8px; cursor: pointer; box-shadow: 2px 2px 0 var(--ink); }
+.tt-live-btn:disabled { opacity: .35; cursor: default; box-shadow: none; }
+.tt-slider { width: 100%; accent-color: var(--pink); display: block; }
+
 footer { margin-top: 14px; padding: 8px 0 12px; border-top: 3px solid var(--ink); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; font-family: var(--font-mono); font-size: 10px; color: var(--ink-3); }
 </style>
 </head>
@@ -176,6 +207,22 @@ footer { margin-top: 14px; padding: 8px 0 12px; border-top: 3px solid var(--ink)
     <div class="ring-side" id="ring-right"></div>
   </div>
 
+  <div class="ekg-card">
+    <div class="ekg-top">
+      <span class="ekg-label">◈ MONITOR CARDÍACO</span>
+      <span class="ekg-bpm" id="ekg-bpm">-- BPM</span>
+    </div>
+    <div class="ekg-scope">
+      <svg class="ekg-svg" viewBox="0 0 200 40" preserveAspectRatio="none">
+        <g id="ekg-track">
+          <path class="ekg-path" d="M0,20 L10,20 L14,15 L18,20 L28,20 L31,22 L34,2 L37,34 L40,20 L48,20 L54,12 L60,20 L100,20 L110,20 L114,15 L118,20 L128,20 L131,22 L134,2 L137,34 L140,20 L148,20 L154,12 L160,20 L200,20"></path>
+        </g>
+      </svg>
+    </div>
+  </div>
+
+  <div class="narrative-line" id="narrative-line">&gt; conectando <span class="blink">▮</span></div>
+
   <div class="status-row">
     <div class="state-row" id="state-row"></div>
     <div class="now-playing" id="now-playing"></div>
@@ -185,10 +232,19 @@ footer { margin-top: 14px; padding: 8px 0 12px; border-top: 3px solid var(--ink)
 
   <div class="inventory" id="inventory"></div>
 
+  <div class="tt-card">
+    <div class="tt-top">
+      <span class="tt-label">⏱ TIME TRAVEL</span>
+      <span class="tt-time" id="tt-time">EN VIVO</span>
+      <button class="tt-live-btn" id="tt-live-btn" disabled>◀ VOLVER A EN VIVO</button>
+    </div>
+    <input type="range" class="tt-slider" id="tt-slider" min="0" max="0" value="0" disabled>
+  </div>
+
   <div class="vitals-src">
     <span id="sync-badge">● SIN SEÑAL</span> ·
     revisado <span id="poll-ago">ahora</span> ·
-    fuente: Galaxy Fit3 · Health Connect ·
+    fuente: Galaxy Fit3 · Samsung Health ·
     <a href="https://github.com/danielzunigazb/portfolio/tree/data" target="_blank" style="text-decoration:underline;">rama data</a> vía
     <a href="https://github.com/danielzunigazb/galaxy-vitals-bridge" target="_blank" style="text-decoration:underline;">galaxy-vitals-bridge</a>
   </div>
@@ -366,6 +422,43 @@ function renderInventory(healthFresh, npFresh) {
     </div>`;
 }
 
+/* ============================================================
+   EKG — una sola forma de latido en un SVG de doble ancho, corrida
+   con translateX(-50%) en loop. Como las dos mitades son idénticas,
+   el loop es perfecto, y como el ciclo completo mueve exactamente
+   un ancho de latido, poner animation-duration = 60/bpm segundos
+   hace que la línea lata al pulso real, no a una animación fija.
+   ============================================================ */
+function renderEkg(bpm) {
+  const bpmEl = document.getElementById('ekg-bpm');
+  const track = document.getElementById('ekg-track');
+  if (bpm == null) { bpmEl.textContent = '-- BPM'; return; }
+  bpmEl.textContent = `${bpm} BPM`;
+  track.style.animationDuration = (60 / bpm) + 's';
+}
+
+/* ============================================================
+   NARRATIVE LINE — combina pulso + hora + spotify + pasos + sueño
+   en una frase, en vez de dejar que el visitante lea 4 números
+   sueltos y arme la historia solo.
+   ============================================================ */
+function narrativeLine(data, fresh, npFresh, np) {
+  if (!fresh) return 'sin conexión con el bridge — estado desconocido';
+  const bits = [];
+  const hr = data.heart_rate_bpm;
+  const hour = new Date().getHours();
+  if (hr != null) {
+    if (hr > 110) bits.push('pulso acelerado, actividad en curso');
+    else if (hr < 55) bits.push(hour < 8 || hour >= 23 ? 'durmiendo, pulso en reposo' : 'pulso bajo, reposo profundo');
+    else bits.push(`pulso estable a ${hr} bpm`);
+  }
+  if (npFresh && np && np.is_playing) bits.push(`sonando "${np.track}" · ${np.artists}`);
+  if (data.steps_today != null && data.steps_today > 8000) bits.push(`ya lleva ${data.steps_today} pasos hoy`);
+  if (data.sleep_score != null && data.sleep_score < 50) bits.push('durmió mal anoche');
+  if (bits.length === 0) bits.push('todo normal por acá');
+  return bits.join(' · ');
+}
+
 function render(data) {
   const fresh = !!(data && data.updated_at && (Date.now() - new Date(data.updated_at).getTime()) < FRESH_WINDOW_MS);
   const badge = document.getElementById('sync-badge');
@@ -379,21 +472,28 @@ function render(data) {
   renderState(data, fresh);
   const npFresh = renderNowPlaying(data ? data.now_playing : null);
   renderInventory(fresh, npFresh);
+  renderEkg(fresh ? data.heart_rate_bpm : null);
+  document.getElementById('narrative-line').innerHTML =
+    '&gt; ' + narrativeLine(data, fresh, npFresh, data ? data.now_playing : null) + ' <span class="blink">▮</span>';
 }
 
 /* Auto-poll: raw.githubusercontent.com caches ~5 min server-side regardless
    of how often we ask, so polling faster than that doesn't get fresher data
    — it just tells you sooner once new data has actually landed. Pauses when
-   the tab isn't visible, and syncs immediately when it becomes visible again. */
+   the tab isn't visible, and syncs immediately when it becomes visible again.
+   Skips re-rendering while time-traveling, but keeps polling so liveData
+   stays fresh for whenever the visitor hits "volver a en vivo". */
 const POLL_MS = 60 * 1000;
 let lastPollAt = null;
+let liveData = null;
 
 function syncNow() {
   return fetch(VITALS_URL, { cache: 'no-store' })
     .then(r => (r.ok ? r.json() : null))
     .catch(() => null)
     .then(data => {
-      render(data);
+      liveData = data;
+      if (!timeTraveling) render(data);
       lastPollAt = Date.now();
     });
 }
@@ -401,6 +501,66 @@ function syncNow() {
 syncNow();
 setInterval(() => { if (!document.hidden) syncNow(); }, POLL_MS);
 document.addEventListener('visibilitychange', () => { if (!document.hidden) syncNow(); });
+
+/* ============================================================
+   TIME TRAVEL — el historial de git de vitals.json ya es una base
+   de datos: cada commit es un snapshot completo. Arrastrar el
+   slider pide ese snapshot puntual (raw.githubusercontent.com/
+   <repo>/<sha>/vitals.json, gratis, sin backend nuevo) y lo pasa
+   por el mismo render() que usa el modo en vivo.
+   ============================================================ */
+const COMMITS_URL = 'https://api.github.com/repos/danielzunigazb/portfolio/commits?sha=data&path=vitals.json&per_page=60';
+let commitLog = []; // [{sha, date}] oldest first
+let timeTraveling = false;
+
+async function loadCommitLog() {
+  try {
+    const res = await fetch(COMMITS_URL);
+    if (!res.ok) return;
+    const commits = await res.json();
+    commitLog = commits.map(c => ({ sha: c.sha, date: c.commit.author.date })).reverse();
+    const slider = document.getElementById('tt-slider');
+    slider.max = String(Math.max(0, commitLog.length - 1));
+    slider.value = slider.max;
+    slider.disabled = commitLog.length < 2;
+  } catch (e) { /* time travel es un bonus — si falla, el resto de la página sigue viva */ }
+}
+
+async function fetchHistoricalSnapshot(sha) {
+  try {
+    const res = await fetch(`https://raw.githubusercontent.com/danielzunigazb/portfolio/${sha}/vitals.json`, { cache: 'no-store' });
+    return res.ok ? await res.json() : null;
+  } catch (e) { return null; }
+}
+
+function fmtDateTime(iso) {
+  return new Date(iso).toLocaleString('es-CO', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
+}
+
+let ttDebounce = null;
+document.getElementById('tt-slider').addEventListener('input', (e) => {
+  timeTraveling = true;
+  document.getElementById('tt-live-btn').disabled = false;
+  const entry = commitLog[Number(e.target.value)];
+  if (!entry) return;
+  document.getElementById('tt-time').textContent = fmtDateTime(entry.date);
+  clearTimeout(ttDebounce);
+  ttDebounce = setTimeout(async () => {
+    const data = await fetchHistoricalSnapshot(entry.sha);
+    if (data) render(data);
+  }, 180);
+});
+
+document.getElementById('tt-live-btn').addEventListener('click', () => {
+  timeTraveling = false;
+  document.getElementById('tt-live-btn').disabled = true;
+  document.getElementById('tt-time').textContent = 'EN VIVO';
+  const slider = document.getElementById('tt-slider');
+  slider.value = slider.max;
+  render(liveData);
+});
+
+loadCommitLog();
 
 setInterval(() => {
   const el = document.getElementById('poll-ago');
