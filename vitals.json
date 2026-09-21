@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-09-21T22:55:35.541022Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-21T23:01:14.691506Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-09-21T22:55:35.541913Z"
+    "is_playing": true,
+    "track": "SERPIENTE",
+    "artists": "Junior H",
+    "album": "$AD BOYZ 4 LIFE II",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02ef88ad49166e31598ff7d4d0",
+    "url": "https:\/\/open.spotify.com\/track\/431Dwa4XSR1z1aWgmCisnP",
+    "updated_at": "2026-09-21T23:01:14.692577Z"
   }
 }
