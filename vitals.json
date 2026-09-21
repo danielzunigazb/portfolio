@@ -1,8 +1,8 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
-  "steps_today": 7340,
-  "floors_climbed_today": 4,
+  "steps_today": 0,
+  "floors_climbed_today": 0,
   "sleep_duration_minutes": 452,
   "sleep_score": 64,
   "last_exercise": {
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-21T04:54:17.909735Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-21T05:28:34.305787Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-09-21T04:54:17.909938Z"
+    "is_playing": true,
+    "track": "Mafiosa",
+    "artists": "Grupo Marca Registrada, Junior H",
+    "album": "Mafiosa",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e027c8577d456f01299d8b524ff",
+    "url": "https:\/\/open.spotify.com\/track\/5LXnSZVJ3kvi0MpA4ryjIb",
+    "updated_at": "2026-09-21T05:28:34.305944Z"
   }
 }
