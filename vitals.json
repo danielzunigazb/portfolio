@@ -12,15 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "updated_at": "2026-09-21T00:08:35.614197Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-21T00:20:05.907708Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Salazar",
-    "artists": "zboouu, 4x4TRO, 7EVEN STARS",
-    "album": "Salazar",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02c81d9ed93ec04d496caabfa8",
-    "url": "https:\/\/open.spotify.com\/track\/4NTGT6WIsQ9gNJMdILTksG",
-    "updated_at": "2026-09-21T00:08:35.614963Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-21T00:20:05.907849Z"
   }
 }
