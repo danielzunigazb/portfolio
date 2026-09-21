@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
-  "steps_today": 5806,
+  "steps_today": 5823,
   "floors_climbed_today": 1,
   "sleep_duration_minutes": 326,
   "sleep_score": 55,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-09-21T20:14:42.086124Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-21T20:25:41.255281Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "El De Las Dos Pistolas",
-    "artists": "Abraham Vazquez, T3R Elemento, Los de la O",
-    "album": "El De Las Dos Pistolas",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e025baf7dc5745d2e8df6c214fc",
-    "url": "https:\/\/open.spotify.com\/track\/3BvGcHKkSKRdkathkvvxRp",
-    "updated_at": "2026-09-21T20:14:42.086276Z"
+    "track": "Todo Se Va",
+    "artists": "Grupo Marca Registrada",
+    "album": "Don't Stop The Magic",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02c98f30e0afd08bb2c5be30ef",
+    "url": "https:\/\/open.spotify.com\/track\/17wCAQqinJDfxVWwYQjftn",
+    "updated_at": "2026-09-21T20:25:41.255415Z"
   }
 }
