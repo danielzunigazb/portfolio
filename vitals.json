@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-09-21T11:41:09.430507Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-21T11:58:17.595037Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "supercogelona",
-    "artists": "Doony Graff, Ezya",
-    "album": "supercogelona",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02f380eda089223d49f7a8407b",
-    "url": "https:\/\/open.spotify.com\/track\/35NXhkGu4SlvUm5XMycvCj",
-    "updated_at": "2026-09-21T11:41:09.430877Z"
+    "track": "Se Te Hizo Tarde",
+    "artists": "Ñejo, Ele A, Jon Z, Jamby El Favo",
+    "album": "Se Te Hizo Tarde",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02de4c79d8bd61cdded8f05d97",
+    "url": "https:\/\/open.spotify.com\/track\/4ZtSifmVEda37YUYnnHz1y",
+    "updated_at": "2026-09-21T11:58:17.595206Z"
   }
 }
