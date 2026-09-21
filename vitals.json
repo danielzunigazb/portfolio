@@ -1,8 +1,8 @@
 {
-  "heart_rate_bpm": 89,
+  "heart_rate_bpm": 92,
   "oxygen_saturation_pct": 97,
-  "steps_today": 6608,
-  "floors_climbed_today": 1,
+  "steps_today": 7113,
+  "floors_climbed_today": 3,
   "sleep_duration_minutes": 68,
   "sleep_score": 29,
   "last_exercise": {
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "escuela",
-  "updated_at": "2026-09-21T21:40:24.064364Z",
+  "updated_at": "2026-09-21T22:21:51.929270Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Le Pido a DIOS",
-    "artists": "Feid, DJ Premier",
-    "album": "SIXDO",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e027cc7b0d6a82846cd8b158f99",
-    "url": "https:\/\/open.spotify.com\/track\/4TFNKnMWjcMWzpkSwQrrcu",
-    "updated_at": "2026-09-21T21:40:24.064832Z"
+    "track": "Dinero Digital",
+    "artists": "Natanael Cano, Badguychapo",
+    "album": "NataKong",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0259ee17a860f6ce4b35b031e2",
+    "url": "https:\/\/open.spotify.com\/track\/5nggFqmrxKwOpmTS7sS48F",
+    "updated_at": "2026-09-21T22:21:51.929691Z"
   }
 }
