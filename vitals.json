@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-09-21T18:32:11.605667Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-21T18:45:28.631930Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Sencillamente De Ti",
-    "artists": "T3R Elemento",
-    "album": "Underground",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e020388063466b838bbed6c85f2",
-    "url": "https:\/\/open.spotify.com\/track\/4Uv1RLERf8btrbR2VbtiTK",
-    "updated_at": "2026-09-21T18:32:11.605777Z"
+    "track": "Ojitos Rojos",
+    "artists": "Julio Caesar",
+    "album": "Ojitos Rojos",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d493df6037fe5fb9074932e8",
+    "url": "https:\/\/open.spotify.com\/track\/3laLiRlOtNA6HBKklPSE1E",
+    "updated_at": "2026-09-21T18:45:28.632190Z"
   }
 }
