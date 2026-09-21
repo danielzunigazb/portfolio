@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 43,
   "oxygen_saturation_pct": 98,
-  "steps_today": 7327,
+  "steps_today": 7340,
   "floors_climbed_today": 4,
   "sleep_duration_minutes": 452,
   "sleep_score": 64,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-21T02:54:24.350915Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-21T03:10:34.641491Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "La Guerita",
-    "artists": "Grupo Marca Registrada",
-    "album": "La Guerita",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d9a5d05010c2d30715e3f25e",
-    "url": "https:\/\/open.spotify.com\/track\/3ScaLvfm2RJvLaXETbIYut",
-    "updated_at": "2026-09-21T02:54:24.351102Z"
+    "track": "Y Sigues Siendo Tú",
+    "artists": "Grupo Marca Registrada, Grupo Arriesgado",
+    "album": "Haciendo Magia",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02cd229eae34516e859a537d33",
+    "url": "https:\/\/open.spotify.com\/track\/74rsDogaPfxMdSMHAiWL3l",
+    "updated_at": "2026-09-21T03:10:34.641630Z"
   }
 }
