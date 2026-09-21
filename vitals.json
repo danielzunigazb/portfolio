@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 43,
+  "heart_rate_bpm": 41,
   "oxygen_saturation_pct": 98,
   "steps_today": 7340,
   "floors_climbed_today": 4,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-21T03:10:34.641491Z",
+  "updated_at": "2026-09-21T03:26:44.444583Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Y Sigues Siendo Tú",
-    "artists": "Grupo Marca Registrada, Grupo Arriesgado",
-    "album": "Haciendo Magia",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02cd229eae34516e859a537d33",
-    "url": "https:\/\/open.spotify.com\/track\/74rsDogaPfxMdSMHAiWL3l",
-    "updated_at": "2026-09-21T03:10:34.641630Z"
+    "track": "Todo a Su Tiempo",
+    "artists": "Grupo Marca Registrada, Grupo Primer Grado",
+    "album": "Todo a Su Tiempo",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02a471389d0cdd4794149a0c70",
+    "url": "https:\/\/open.spotify.com\/track\/6sBjyBwRAQEONPaJunUZVm",
+    "updated_at": "2026-09-21T03:26:44.446048Z"
   }
 }
