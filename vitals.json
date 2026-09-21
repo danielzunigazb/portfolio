@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 101,
+  "heart_rate_bpm": 104,
   "oxygen_saturation_pct": 98,
-  "steps_today": 1388,
+  "steps_today": 2604,
   "floors_climbed_today": 1,
   "sleep_duration_minutes": 326,
   "sleep_score": 55,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-21T12:30:55.763631Z",
+  "updated_at": "2026-09-21T13:51:49.560315Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Pinta De Estudiante",
-    "artists": "Grupo Marca Registrada",
-    "album": "Corleone",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e9da100ac57960dbb5022139",
-    "url": "https:\/\/open.spotify.com\/track\/1OTcRTOQXOE40fHHSTKQk5",
-    "updated_at": "2026-09-21T12:30:55.763785Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-21T13:51:49.560504Z"
   }
 }
