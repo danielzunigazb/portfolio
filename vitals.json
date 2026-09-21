@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 94,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
-  "steps_today": 884,
+  "steps_today": 910,
   "floors_climbed_today": 1,
   "sleep_duration_minutes": 326,
   "sleep_score": 55,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "escuela",
-  "updated_at": "2026-09-21T11:22:25.567228Z",
+  "updated_at": "2026-09-21T11:41:09.430507Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Suena",
-    "artists": "Junior H, José Mejía",
-    "album": "MUSICA <3",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02b308130670080be7c6f97713",
-    "url": "https:\/\/open.spotify.com\/track\/68x2TVlhCCwwBmszzLeCcQ",
-    "updated_at": "2026-09-21T11:22:25.567504Z"
+    "track": "supercogelona",
+    "artists": "Doony Graff, Ezya",
+    "album": "supercogelona",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02f380eda089223d49f7a8407b",
+    "url": "https:\/\/open.spotify.com\/track\/35NXhkGu4SlvUm5XMycvCj",
+    "updated_at": "2026-09-21T11:41:09.430877Z"
   }
 }
