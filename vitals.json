@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-09-21T19:18:34.437780Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-21T19:35:49.513768Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Te Quiero a Ti",
-    "artists": "Eslabon Armado",
-    "album": "Vibras de Noche",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02ae8c49bd8fc80ac5f7241dd5",
-    "url": "https:\/\/open.spotify.com\/track\/5OpHUq6Fo1qaUhU3imV6TK",
-    "updated_at": "2026-09-21T19:18:34.438044Z"
+    "track": "El Dueño De Tu Amor",
+    "artists": "DannyLux",
+    "album": "Las Dos Caras Del Amor",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0249f4f85b9c86c1b443415239",
+    "url": "https:\/\/open.spotify.com\/track\/3CJaDcjZKse7X7eVUukQJB",
+    "updated_at": "2026-09-21T19:35:49.513924Z"
   }
 }
