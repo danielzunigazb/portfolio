@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-22T08:18:26.582118Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-22T08:34:01.844833Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Agua de Horchata",
-    "artists": "Neton Vega, Rey Quinto",
+    "track": "El Plumas",
+    "artists": "Neton Vega, Luis R Conriquez",
     "album": "Mi Vida Mi Muerte",
     "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e025c0540f97b3f95e387a9b58e",
-    "url": "https:\/\/open.spotify.com\/track\/0nSRGOgdDFvAj6lGzKjEvo",
-    "updated_at": "2026-09-22T08:18:26.582420Z"
+    "url": "https:\/\/open.spotify.com\/track\/3S6m6J4ExpHdzoV9Pfxa0U",
+    "updated_at": "2026-09-22T08:34:01.845074Z"
   }
 }
