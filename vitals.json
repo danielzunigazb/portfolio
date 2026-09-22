@@ -12,8 +12,8 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-22T10:54:38.908433Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-22T10:54:44.409219Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
@@ -22,6 +22,6 @@
     "album": "Porque La Demora",
     "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02b60ef80c5a8a3b25dd6bea6e",
     "url": "https:\/\/open.spotify.com\/track\/23QWj1JRJdtdBv1uyjN9Yx",
-    "updated_at": "2026-09-22T10:54:38.908547Z"
+    "updated_at": "2026-09-22T10:54:44.409347Z"
   }
 }
