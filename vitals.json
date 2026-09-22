@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 96,
-  "steps_today": 6481,
+  "steps_today": 6485,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 361,
   "sleep_score": 78,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "casa",
-  "updated_at": "2026-09-22T23:09:40.298943Z",
+  "updated_at": "2026-09-22T23:10:06.229078Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Together Onetime - Agent! Remix",
-    "artists": "Dole & Kom, Agent!",
-    "album": "Together Onetime",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e025ef28d0cb607974e87283c90",
-    "url": "https:\/\/open.spotify.com\/track\/6FlEvIBe2pO6g63ZIww5An",
-    "updated_at": "2026-09-22T23:09:40.298943Z"
+    "track": "The Hanging Tree",
+    "artists": "Jack Villa",
+    "album": "The Hanging Tree",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e027a68b5f44596fb74a033374f",
+    "url": "https:\/\/open.spotify.com\/track\/2d1s2Vefl3tQ7VYr50ipIX",
+    "updated_at": "2026-09-22T23:10:06.229078Z"
   }
 }
