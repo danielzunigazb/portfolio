@@ -13,7 +13,7 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-22T09:05:22.728463Z",
+  "updated_at": "2026-09-22T09:21:15.944354Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": false,
@@ -22,6 +22,6 @@
     "album": null,
     "cover_url": null,
     "url": null,
-    "updated_at": "2026-09-22T09:05:22.729147Z"
+    "updated_at": "2026-09-22T09:21:15.944912Z"
   }
 }
