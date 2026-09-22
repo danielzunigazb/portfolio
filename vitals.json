@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 84,
   "oxygen_saturation_pct": 96,
-  "steps_today": 5271,
+  "steps_today": 5520,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 361,
   "sleep_score": 78,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-22T20:22:26.781813Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-22T20:37:31.510061Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Me Matas",
-    "artists": "Eslabon Armado",
-    "album": "Corta Venas",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02657fa1079d4f17b7e06dd86e",
-    "url": "https:\/\/open.spotify.com\/track\/50g9l7cOUIXt9LVl9eX784",
-    "updated_at": "2026-09-22T20:22:26.781813Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-22T20:37:31.510061Z"
   }
 }
