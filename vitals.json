@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 82,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 96,
   "steps_today": 185,
   "floors_climbed_today": 0,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-22T10:54:44.409219Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-22T11:06:45.050325Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "El Juez",
-    "artists": "Natanael Cano, Myke Towers, Ganggy",
-    "album": "Porque La Demora",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02b60ef80c5a8a3b25dd6bea6e",
-    "url": "https:\/\/open.spotify.com\/track\/23QWj1JRJdtdBv1uyjN9Yx",
-    "updated_at": "2026-09-22T10:54:44.409347Z"
+    "track": "Me Ha Costado",
+    "artists": "Neton Vega, Alemán, Victor Mendivil",
+    "album": "Mi Vida Mi Muerte",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e025c0540f97b3f95e387a9b58e",
+    "url": "https:\/\/open.spotify.com\/track\/1V14rt4SEpMU1wCdmGz6eB",
+    "updated_at": "2026-09-22T11:06:45.050500Z"
   }
 }
