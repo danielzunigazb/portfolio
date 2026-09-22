@@ -286,6 +286,20 @@ footer { margin-top: 56px; padding: 26px 0 34px; border-top: 4px solid var(--ink
         <div class="sys-desc">Análisis de protocolo BLE del Samsung Galaxy Fit3: dirección pública, mapeo de servicios GATT, heart rate service (0x180d), emparejamiento con BlueZ 5.86 sobre HCI 4.2 Realtek.</div>
         <div class="sys-tech"><span>BLE</span><span>GATT</span><span>BlueZ</span><span>Linux</span></div>
       </div>
+
+      <div class="sys-card reveal" style="box-shadow:8px 8px 0 var(--blue);">
+        <div class="ghost-num" style="color:var(--blue);">05</div>
+        <div class="sys-top">
+          <div class="sys-name">galaxy-vitals-bridge</div>
+          <span class="sys-status" style="background:var(--green);">ACTIVO</span>
+        </div>
+        <div class="sys-desc">App Android que lee heart rate, SpO2, pasos, pisos y sueño directo del Galaxy Fit3 vía Samsung Health Data SDK, y los publica cada 15 min a un status page en vivo — con zona de ubicación (casa/escuela/afuera) sin exponer coordenadas, widget de pantalla de inicio y monitor EKG con time-travel sobre el historial de git.</div>
+        <div class="sys-tech"><span>Kotlin</span><span>Jetpack Compose</span><span>WorkManager</span><span>Samsung Health SDK</span></div>
+        <div style="margin-top:18px;display:flex;gap:10px;flex-wrap:wrap;">
+          <a href="https://github.com/danielzunigazb/galaxy-vitals-bridge" target="_blank" class="brutal-btn" style="padding:9px 16px;font-size:12px;box-shadow:4px 4px 0 var(--ink);background:var(--blue);color:#0a0a0f;">Repo →</a>
+          <a href="status.html" class="brutal-btn" style="padding:9px 16px;font-size:12px;box-shadow:4px 4px 0 var(--ink);">Status en vivo →</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -385,6 +399,7 @@ footer { margin-top: 56px; padding: 26px 0 34px; border-top: 4px solid var(--ink
       <div class="repo-links">
         <a href="https://github.com/danielzunigazb/fungi-discovery" target="_blank" class="brutal-btn" style="background:var(--blue);color:#0a0a0f;">fungi-discovery</a>
         <a href="https://github.com/danielzunigazb/systemd-hooks" target="_blank" class="brutal-btn" style="background:var(--green);color:#0a0a0f;">systemd-hooks</a>
+        <a href="https://github.com/danielzunigazb/galaxy-vitals-bridge" target="_blank" class="brutal-btn" style="background:var(--pink);color:#0a0a0f;">galaxy-vitals-bridge</a>
       </div>
     </div>
   </div>
