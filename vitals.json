@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 97,
-  "steps_today": 7849,
+  "steps_today": 7866,
   "floors_climbed_today": 3,
   "sleep_duration_minutes": 68,
   "sleep_score": 29,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-09-22T00:18:51.951720Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-22T00:34:39.134303Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Aura",
-    "artists": "Omar Camacho",
-    "album": "Nunca Voy a Morir",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02b1be77ca2239c960e068895c",
-    "url": "https:\/\/open.spotify.com\/track\/3jLboakUBDG4gXr4iWHKuR",
-    "updated_at": "2026-09-22T00:18:51.952258Z"
+    "track": "Ohtani",
+    "artists": "ksuu, liannslz, Jesp7Tearz",
+    "album": "Ohtani",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02eb8e949632901e1c855b8887",
+    "url": "https:\/\/open.spotify.com\/track\/0Fxshcfr2xYomlbDFsCAqv",
+    "updated_at": "2026-09-22T00:34:39.134494Z"
   }
 }
