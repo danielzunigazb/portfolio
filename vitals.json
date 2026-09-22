@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-09-22T00:49:43.755460Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-22T01:03:44.894908Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "De A De Veras",
-    "artists": "Natanael Cano, Codiciado",
-    "album": "NataKong",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0259ee17a860f6ce4b35b031e2",
-    "url": "https:\/\/open.spotify.com\/track\/3C2wa3nyaZl7CCbW9N3oAg",
-    "updated_at": "2026-09-22T00:49:43.755635Z"
+    "track": "Los Botones Azules",
+    "artists": "Junior H, Luis R Conriquez",
+    "album": "Mi Vida En Un Cigarro 2",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02bce9f6ae2b428bc6a3616a10",
+    "url": "https:\/\/open.spotify.com\/track\/3ZGkdrigbWXLgHungXfZkt",
+    "updated_at": "2026-09-22T01:03:44.895068Z"
   }
 }
