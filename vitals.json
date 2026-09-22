@@ -13,7 +13,7 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-22T11:12:32.509973Z",
+  "updated_at": "2026-09-22T11:15:10.127860Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
@@ -22,6 +22,6 @@
     "album": "Mi Vida En Un Cigarro 2",
     "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02bce9f6ae2b428bc6a3616a10",
     "url": "https:\/\/open.spotify.com\/track\/24teIhDYO2RocTA2v5dY0r",
-    "updated_at": "2026-09-22T11:12:32.510102Z"
+    "updated_at": "2026-09-22T11:15:10.128027Z"
   }
 }
