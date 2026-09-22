@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 68,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 96,
   "steps_today": 5016,
   "floors_climbed_today": 2,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "casa",
-  "updated_at": "2026-09-22T19:04:35.001610Z",
+  "updated_at": "2026-09-22T19:19:38.796255Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Iván Archivaldo",
-    "artists": "Virlan Garcia",
-    "album": "Y Cambió Mi Suerte",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e51f7ad6fa3f27efe5732dc4",
-    "url": "https:\/\/open.spotify.com\/track\/32JplO1RXlUJbAmXXP2CA5",
-    "updated_at": "2026-09-22T19:04:35.001610Z"
+    "track": "Lo Que Es",
+    "artists": "Herencia de Patrones",
+    "album": "Sorry For The Wait",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e020ceeb4ae277c5ba1646db0ab",
+    "url": "https:\/\/open.spotify.com\/track\/3I8CEUQgFMuGu1UkGrtSTk",
+    "updated_at": "2026-09-22T19:19:38.796255Z"
   }
 }
