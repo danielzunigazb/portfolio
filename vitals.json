@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-22T04:38:58.903542Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-22T04:54:34.494063Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Siempre Activo",
-    "artists": "Herencia de Patrones",
-    "album": "Pa' las Vibras 2",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02f02d0e6c2fea12e41245d1c1",
-    "url": "https:\/\/open.spotify.com\/track\/0K4SyhuWJ915Og82kI8DRz",
-    "updated_at": "2026-09-22T04:38:58.904116Z"
+    "track": "La Glocksita",
+    "artists": "Nueva H",
+    "album": "La Glocksita",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02868e7423afb37d5f040e0694",
+    "url": "https:\/\/open.spotify.com\/track\/2i46vPYKwHqAQnflk843DF",
+    "updated_at": "2026-09-22T04:54:34.494247Z"
   }
 }
