@@ -24,7 +24,7 @@
 <meta name="twitter:title" content="Daniel Zuñiga · Software & Infrastructure">
 <meta name="twitter:description" content="Autodidacta colombiano. Construyo herramientas de infraestructura, automatización y bioinformática.">
 <meta name="twitter:image" content="https://danzuniga.xyz/og-image.png">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0a0f'/%3E%3Crect x='2' y='2' width='28' height='28' fill='none' stroke='%23ff2d78' stroke-width='2'/%3E%3Ctext x='16' y='22' font-family='monospace' font-size='16' font-weight='700' fill='%23f7f4ff' text-anchor='middle'%3EDZ%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' fill='%230e0c0a'/%3E%3Ctext x='20' y='30' text-anchor='middle' font-family='monospace' font-weight='800' font-size='34' fill='%23d6a23e'%3E%C3%B1%3C/text%3E%3C/svg%3E">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -36,410 +36,305 @@
   "jobTitle": "Software & Infrastructure Developer",
   "description": "Autodidacta colombiano construyendo herramientas de infraestructura, automatización y bioinformática.",
   "email": "mailto:danielzunigazb@gmail.com",
-  "address": {
-    "@type": "PostalAddress",
-    "addressRegion": "Córdoba",
-    "addressCountry": "CO"
-  },
-  "sameAs": [
-    "https://github.com/danielzunigazb"
-  ],
-  "knowsAbout": [
-    "Python", "Linux", "systemd", "FastAPI", "Bioinformática", "Automatización", "CLI tools", "Bash"
-  ]
+  "address": { "@type": "PostalAddress", "addressRegion": "Córdoba", "addressCountry": "CO" },
+  "sameAs": ["https://github.com/danielzunigazb"],
+  "knowsAbout": ["Python", "Linux", "systemd", "FastAPI", "Bioinformática", "Automatización", "CLI tools", "Bash"]
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles/tokens.css">
+<link rel="stylesheet" href="/styles/base.css">
 <style>
-:root {
-  --bg:#0a0a0f; --bg-2:#15131c; --bg-3:#1c1926;
-  --ink:#f7f4ff; --ink-2:#b3aec7; --ink-3:#7a7591;
-  --pink: oklch(72% 0.24 350); --green: oklch(76% 0.21 150);
-  --blue: oklch(72% 0.19 255); --yellow: oklch(88% 0.17 95);
-  --font-display: 'Anton', sans-serif;
-  --font-sans: 'Space Grotesk', sans-serif;
-  --font-mono: 'JetBrains Mono', monospace;
-}
-html[data-theme="light"] {
-  --bg:#f5efe1; --bg-2:#ece2c8; --bg-3:#e1d4ac;
-  --ink:#0a0a0f; --ink-2:#4a4658; --ink-3:#726d85;
-}
-* { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
-body { font-family: var(--font-sans); background: var(--bg); color: var(--ink); overflow-x: hidden; transition: background-color .2s ease, color .2s ease; }
-a { text-decoration: none; color: inherit; }
-::selection { background: var(--pink); color: #0a0a0f; }
-.container { max-width: 1280px; margin: 0 auto; padding: 0 24px; }
-@media (max-width: 640px) { .container { padding: 0 18px; } }
+  .hero { padding: clamp(48px, 8vw, var(--space-16)) 0 var(--space-16); }
+  .hero-inner { display: flex; gap: var(--space-16); align-items: flex-start; flex-wrap: wrap; }
+  .hero-main { flex: 1 1 520px; min-width: 280px; }
+  .hero-side { flex: 0 0 260px; min-width: 220px; display: flex; flex-direction: column; gap: var(--space-4); }
+  .hero .name { margin: var(--space-2) 0 var(--space-4); }
+  .hero .name .line { display: block; }
+  .hero .role { display: block; margin-bottom: var(--space-2); }
+  .hero .sub { color: var(--ink-muted); max-width: 60ch; margin-bottom: var(--space-8); }
+  .hero .actions { display: flex; gap: var(--space-4); flex-wrap: wrap; }
+  .tag-row { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+  .status-block { background: var(--surface); border: 1px solid var(--line); padding: var(--space-4); }
+  .status-block .row { display: flex; justify-content: space-between; gap: var(--space-2); padding: var(--space-1) 0; color: var(--ink-muted); }
+  .status-block .row b { color: var(--ink); font-weight: 400; }
 
-.brutal-btn { display: inline-flex; align-items: center; gap: 8px; padding: 15px 28px; border: 3px solid var(--ink); font-family: var(--font-sans); font-weight: 700; font-size: 15px; color: var(--ink); box-shadow: 6px 6px 0 var(--ink); transition: transform .12s ease, box-shadow .12s ease; cursor: pointer; background: transparent; }
-.brutal-btn:hover { transform: translate(4px,4px); box-shadow: 2px 2px 0 var(--ink); }
+  .sys-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: var(--space-4); align-items: start; }
+  @media (max-width: 800px) { .sys-grid { grid-template-columns: 1fr; } }
+  .sys-grid .project-card + .project-card { margin-top: 0; }
 
-nav { position: sticky; top: 0; z-index: 50; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 24px; background: var(--bg); border-bottom: 4px solid var(--ink); }
-nav .plate { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
-nav .plate .dz { width: 42px; height: 42px; background: var(--pink); border: 3px solid var(--ink); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 20px; color: #0a0a0f; transform: rotate(-6deg); box-shadow: 4px 4px 0 var(--ink); flex-shrink: 0; }
-nav .plate .label { font-family: var(--font-mono); font-weight: 700; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
-nav .plate .label .short { display: none; }
-nav .links { display: flex; gap: 26px; align-items: center; overflow-x: auto; scrollbar-width: none; -ms-overflow-style: none; }
-nav .links::-webkit-scrollbar { display: none; }
-nav .links a { font-family: var(--font-mono); font-weight: 600; font-size: 12.5px; text-transform: uppercase; letter-spacing: .06em; white-space: nowrap; flex-shrink: 0; }
-nav .links a:hover { color: var(--pink); }
-.theme-btn { width: 96px; height: 38px; flex-shrink: 0; border: 3px solid var(--ink); background: var(--yellow); font-family: var(--font-mono); font-weight: 700; font-size: 10.5px; letter-spacing: .03em; color: #0a0a0f; box-shadow: 4px 4px 0 var(--ink); cursor: pointer; transition: transform .12s ease, box-shadow .12s ease; }
-.theme-btn:hover { transform: translate(2px,2px); box-shadow: 2px 2px 0 var(--ink); }
-@media (max-width: 640px) { nav .plate .label .full { display: none; } nav .plate .label .short { display: inline; } nav .links { gap: 16px; } nav .links a { font-size: 11px; } .theme-btn { width: 44px; font-size: 15px; } }
+  .principles-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: var(--space-4); }
+  @media (max-width: 900px) { .principles-grid { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 560px) { .principles-grid { grid-template-columns: 1fr; } }
+  .principle { border: 1px solid var(--line); padding: var(--space-4); }
+  .principle .num { color: var(--gold); display: block; margin-bottom: var(--space-2); }
+  .principle h2 { margin-bottom: var(--space-2); }
+  .principle p { color: var(--ink-muted); font-size: var(--text-small-size); line-height: var(--text-small-line); }
 
-.hero { position: relative; overflow: hidden; padding: clamp(56px, 9vw, 100px) 0 0;
-  background: radial-gradient(circle at 12% 18%, color-mix(in oklch, var(--blue) 32%, transparent) 0%, transparent 42%),
-              radial-gradient(circle at 88% 6%, color-mix(in oklch, var(--pink) 26%, transparent) 0%, transparent 48%),
-              repeating-linear-gradient(135deg, transparent 0 27px, color-mix(in oklch, var(--ink) 6%, transparent) 27px 28px); }
-.hero-inner { display: flex; gap: 56px; align-items: flex-start; flex-wrap: wrap; padding-bottom: clamp(50px, 8vw, 90px); }
-.hero-main { flex: 1 1 560px; min-width: 280px; }
-.hero-side { flex: 0 0 300px; display: flex; flex-direction: column; gap: 22px; align-items: flex-end; min-width: 260px; }
-.kicker { display: inline-flex; background: var(--yellow); border: 3px solid var(--ink); padding: 7px 18px; box-shadow: 5px 5px 0 var(--ink); font-family: var(--font-mono); font-weight: 700; font-size: 13px; text-transform: uppercase; color: #0a0a0f; margin-bottom: 30px; transform: rotate(-3deg); }
-.hero h1 { font-family: var(--font-display); font-size: clamp(52px, 9.5vw, 118px); line-height: .9; letter-spacing: -0.01em; margin: 0; }
-.hero h1.line1 { color: var(--ink); text-shadow: 6px 6px 0 var(--pink), 12px 12px 0 var(--blue); }
-.hero h1.line2 { color: var(--pink); text-shadow: 6px 6px 0 var(--ink); margin: 6px 0 28px; }
-@media (max-width: 480px) { .hero h1.line1, .hero h1.line2 { text-shadow: 4px 4px 0 var(--pink); } .hero h1.line2 { text-shadow: 4px 4px 0 var(--ink); } }
-.hero .sub { font-size: clamp(16px, 2.4vw, 22px); font-weight: 600; line-height: 1.5; max-width: 620px; color: var(--ink-2); margin: 0 0 34px; }
-.hero .actions { display: flex; gap: 16px; flex-wrap: wrap; }
-.term-sticker { width: 100%; max-width: 280px; background: #0a0a0f; border: 3px solid var(--ink); box-shadow: 8px 8px 0 var(--green); font-family: var(--font-mono); font-size: 12.5px; color: #7cffb2; padding: 18px; transform: rotate(4deg); }
-.term-sticker .dots { display: flex; gap: 6px; margin-bottom: 12px; }
-.term-sticker .dots span { width: 10px; height: 10px; border-radius: 50%; }
-.badge-row { display: flex; gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
-.chip { display: inline-block; border: 2.5px solid var(--ink); padding: 9px 16px; font-family: var(--font-mono); font-weight: 700; font-size: 12px; color: #0a0a0f; transition: transform .15s ease; }
-.chip:hover { transform: scale(1.08) translateY(-2px); }
-@media (max-width: 900px) { .hero-side { align-items: flex-start; } .badge-row { justify-content: flex-start; } }
+  .stack-group { margin-bottom: var(--space-8); }
+  .stack-group:last-child { margin-bottom: 0; }
+  .stack-group .label { display: block; margin-bottom: var(--space-2); }
 
-@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-.marquee-wrap { overflow: hidden; white-space: nowrap; background: var(--ink); border-top: 4px solid var(--ink); border-bottom: 4px solid var(--ink); padding: 15px 0; }
-.marquee-track { display: inline-flex; gap: 48px; animation: marquee 24s linear infinite; }
-.marquee-track span.word { font-family: var(--font-display); font-size: clamp(16px, 2.6vw, 22px); color: var(--bg); text-transform: uppercase; display: inline-flex; align-items: center; gap: 16px; }
-.marquee-track .dot4 { width: 9px; height: 9px; display: inline-block; transform: rotate(45deg); }
+  .repo-panel { background: var(--surface); border: 1px solid var(--line); padding: var(--space-4); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: var(--space-4); }
+  .repo-who { display: flex; align-items: center; gap: var(--space-2); }
+  .repo-who img { width: 40px; height: 40px; border: 1px solid var(--line); }
+  .repo-who .sub { color: var(--ink-muted); }
+  .repo-links { display: flex; gap: var(--space-2); flex-wrap: wrap; }
 
-section.pad { padding: clamp(64px, 9vw, 110px) 0; }
-.section-head { display: flex; align-items: baseline; gap: 16px; margin-bottom: 10px; }
-.section-head .idx { font-family: var(--font-mono); font-size: 18px; font-weight: 700; }
-.section-head h2 { font-family: var(--font-display); font-size: clamp(34px, 5vw, 56px); line-height: 1; text-transform: uppercase; }
-.section-note { font-family: var(--font-mono); font-size: 13.5px; color: var(--ink-3); margin: 14px 0 44px; }
+  .op-wrap { display: flex; gap: var(--space-8); flex-wrap: wrap; }
+  .op-quote { flex: 1 1 480px; }
+  .op-quote .mark-n { color: var(--gold); }
+  .op-facts { flex: 0 0 260px; }
 
-.sys-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 44px; }
-@media (max-width: 800px) { .sys-grid { grid-template-columns: 1fr; } }
-.sys-card { position: relative; background: var(--bg-2); border: 3px solid var(--ink); padding: 30px 26px 24px; margin-top: 38px; transition: transform .15s ease, box-shadow .15s ease; }
-.sys-card:hover { transform: translate(-4px,-4px); }
-.ghost-num { font-family: var(--font-display); font-size: clamp(70px, 9vw, 116px); line-height: 1; -webkit-text-stroke: 2.5px var(--ink); color: transparent; position: absolute; top: -32px; left: -8px; opacity: .6; pointer-events: none; }
-.sys-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 12px; position: relative; }
-.sys-name { font-family: var(--font-sans); font-size: 20px; font-weight: 700; }
-.sys-status { font-family: var(--font-mono); font-size: 10.5px; font-weight: 700; letter-spacing: .05em; padding: 4px 10px; border: 2px solid var(--ink); color: #0a0a0f; white-space: nowrap; }
-.sys-desc { font-size: 14px; line-height: 1.7; color: var(--ink-2); margin-bottom: 18px; }
-.sys-tech { display: flex; flex-wrap: wrap; gap: 8px; }
-.sys-tech span { font-size: 11px; font-family: var(--font-mono); padding: 4px 10px; border: 2px solid var(--ink); color: var(--ink-2); }
-
-.principles-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 24px; }
-@media (max-width: 900px) { .principles-grid { grid-template-columns: 1fr 1fr; } }
-@media (max-width: 560px) { .principles-grid { grid-template-columns: 1fr; } }
-.principle-block { background: var(--tint); border: 3px solid #0a0a0f; padding: 26px 22px; box-shadow: 6px 6px 0 #0a0a0f; color: #0a0a0f; }
-.principle-block .pnum { font-family: var(--font-display); font-size: 36px; margin-bottom: 8px; }
-.principle-block .ptitle { font-weight: 700; font-size: 16px; margin-bottom: 8px; }
-.principle-block .pdesc { font-size: 12.5px; line-height: 1.6; opacity: .78; }
-
-.stack-group { margin-bottom: 32px; }
-.stack-group:last-child { margin-bottom: 0; }
-.stack-group .label { font-family: var(--font-mono); font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 14px; }
-.stack-items { display: flex; flex-wrap: wrap; gap: 12px; }
-.stack-items .chip { background: var(--bg-2); color: var(--ink); }
-
-.repo-panel { background: var(--bg-2); border: 3px solid var(--ink); box-shadow: 8px 8px 0 var(--ink); padding: 28px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 22px; }
-.repo-who { display: flex; align-items: center; gap: 16px; }
-.repo-who img { width: 54px; height: 54px; border: 3px solid var(--ink); box-shadow: 4px 4px 0 var(--pink); }
-.repo-who .name { font-weight: 700; font-size: 17px; }
-.repo-who .sub { font-family: var(--font-mono); font-size: 12px; color: var(--ink-3); }
-.repo-links { display: flex; gap: 12px; flex-wrap: wrap; }
-.repo-links a { padding: 10px 18px; font-size: 13px; box-shadow: 4px 4px 0 var(--ink); }
-
-.op-wrap { display: flex; gap: 44px; flex-wrap: wrap; }
-.op-quote { flex: 1 1 520px; font-size: clamp(18px, 2.6vw, 24px); font-weight: 600; line-height: 1.55; }
-.op-quote .accent { color: var(--pink); }
-.op-facts { flex: 0 0 280px; border: 3px solid var(--ink); box-shadow: 6px 6px 0 var(--yellow); background: var(--bg-2); }
-.op-facts .row { display: flex; justify-content: space-between; padding: 13px 18px; border-bottom: 2.5px solid var(--ink); font-family: var(--font-mono); font-size: 12px; }
-.op-facts .row:last-child { border-bottom: none; }
-.op-facts .row .k { color: var(--ink-3); }
-
-.contact-box { text-align: center; background: var(--bg-2); border: 4px solid var(--ink); box-shadow: 12px 12px 0 var(--pink); padding: clamp(48px, 8vw, 80px) 32px; }
-.contact-box h2 { font-family: var(--font-display); font-size: clamp(44px, 8vw, 84px); line-height: .95; text-transform: uppercase; margin-bottom: 22px; }
-.contact-box h2 .dot { color: var(--pink); }
-.contact-box p { color: var(--ink-2); max-width: 500px; margin: 0 auto 36px; font-size: 16px; }
-.contact-links { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
-.contact-chip { display: flex; align-items: center; gap: 9px; padding: 15px 24px; border: 3px solid var(--ink); font-family: var(--font-mono); font-weight: 700; font-size: 13px; box-shadow: 6px 6px 0 var(--pink); transition: transform .12s ease, box-shadow .12s ease; }
-.contact-chip:hover { transform: translate(4px,4px); box-shadow: 2px 2px 0 var(--pink); }
-
-footer { margin-top: 56px; padding: 26px 0 34px; border-top: 4px solid var(--ink); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; font-family: var(--font-mono); font-size: 11.5px; color: var(--ink-3); }
-
-.reveal { opacity: 0; transform: translateY(16px); transition: opacity .5s ease, transform .5s ease; }
-.reveal.is-visible { opacity: 1; transform: translateY(0); }
-@media (prefers-reduced-motion: reduce) {
-  .marquee-track { animation: none; }
-  .reveal { opacity: 1; transform: none; transition: none; }
-  .sys-card:hover, .chip:hover, .brutal-btn:hover, .contact-chip:hover, .theme-btn:hover { transform: none; }
-}
+  .contact-box { border: 1px solid var(--line); padding: var(--space-16) var(--space-4); text-align: left; }
+  .contact-box h2 { margin-bottom: var(--space-2); }
+  .contact-box p { color: var(--ink-muted); margin-bottom: var(--space-4); }
+  .contact-links { display: flex; gap: var(--space-2); flex-wrap: wrap; }
 </style>
 </head>
-<body>
+<body id="top">
 
-<nav>
+<nav class="dz-nav">
   <a href="#top" class="plate">
-    <span class="dz">DZ</span>
-    <span class="label"><span class="full">DZ / PORTFOLIO</span><span class="short">DZ.</span></span>
+    <svg class="mark" viewBox="0 0 40 40" aria-hidden="true"><text x="20" y="30" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-weight="800" font-size="34" fill="var(--gold)">ñ</text></svg>
+    <span class="label full">daniel zúñiga</span>
   </a>
   <div class="links">
-    <a href="#systems">Systems</a>
-    <a href="#principles">Principles</a>
-    <a href="#stack">Stack</a>
-    <a href="#operator">Operator</a>
-    <a href="/status/">Status</a>
-    <a href="#contact">Contact</a>
+    <a href="#systems">systems</a>
+    <a href="#principles">principles</a>
+    <a href="#stack">stack</a>
+    <a href="/status/">status</a>
+    <a href="#operator">operator</a>
+    <a href="#contact">contact</a>
   </div>
-  <button class="theme-btn" id="theme-toggle">◐ LIGHT</button>
+  <button class="theme-toggle" id="theme-toggle">◐ light</button>
 </nav>
 
-<section class="hero" id="top">
+<section class="section hero">
   <div class="container">
     <div class="hero-inner">
       <div class="hero-main">
-        <div class="kicker">$ whoami</div>
-        <h1 class="line1">DANIEL</h1>
-        <h1 class="line2">ZUÑIGA</h1>
-        <p class="sub">Software &amp; Infrastructure. Autodidacta colombiano construyendo herramientas de infraestructura, automatización y bioinformática. Aprendo, construyo y publico.</p>
+        <div class="title reveal">
+          <span class="label eyebrow">$ whoami</span>
+          <h1 class="text-display name">
+            <span class="line">daniel</span>
+            <span class="line">zú<span class="mark-n">ñ</span>iga</span>
+          </h1>
+          <span class="label role">software &amp; infrastructure</span>
+        </div>
+        <p class="sub">Autodidacta colombiano. Construyo herramientas de infraestructura, automatización y bioinformática. Aprendo, construyo y publico.</p>
         <div class="actions">
-          <a href="#systems" class="brutal-btn" style="background:var(--pink);color:#0a0a0f;">Ver proyectos →</a>
-          <a href="/cv/" target="_blank" class="brutal-btn">Descargar CV</a>
-          <a href="#contact" class="brutal-btn">Contacto</a>
+          <a href="#systems" class="btn btn-primary">ver proyectos →</a>
+          <a href="/cv/" target="_blank" class="btn btn-secondary">descargar cv</a>
+          <a href="#contact" class="btn btn-ghost">contacto</a>
         </div>
       </div>
-      <div class="hero-side">
-        <div class="term-sticker">
-          <div class="dots">
-            <span style="background:var(--pink);"></span><span style="background:var(--yellow);"></span><span style="background:var(--green);"></span>
-          </div>
-          <div>$ cat status.txt</div>
-          <div style="color:#fff;margin-top:8px;font-weight:700;">DISPONIBLE PARA<br>OPORTUNIDADES</div>
-          <div style="margin-top:10px;">$ whereis --region</div>
-          <div style="color:#fff;">Córdoba, Colombia</div>
+      <div class="hero-side reveal">
+        <div class="status-block">
+          <div class="row"><span>ubicación</span><b>córdoba, co</b></div>
+          <div class="row"><span>foco</span><b>infra · automatización</b></div>
+          <div class="row"><span>estado</span><b style="color:var(--verdigris);">● disponible</b></div>
         </div>
-        <div class="badge-row">
-          <span class="chip" style="background:var(--blue);transform:rotate(-7deg);">PYTHON</span>
-          <span class="chip" style="background:var(--green);transform:rotate(5deg);">SYSTEMD</span>
-          <span class="chip" style="background:var(--pink);transform:rotate(-4deg);">LINUX/ARCH</span>
+        <div class="tag-row">
+          <span class="tag">python</span>
+          <span class="tag">linux/arch</span>
+          <span class="tag">cli</span>
+          <span class="tag">fastapi</span>
+          <span class="tag">bash</span>
+          <span class="tag">systemd</span>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<div class="marquee-wrap">
-  <div class="marquee-track" id="marquee-track"></div>
-</div>
-
-<section class="pad" id="systems">
+<section class="section" id="systems">
   <div class="container">
-    <div class="section-head"><span class="idx" style="color:var(--pink);">§01</span><h2>Systems</h2></div>
-    <p class="section-note">Software real, no ejercicios. Cada proyecto tiene código, documentación y tests.</p>
+    <div class="title reveal">
+      <span class="label eyebrow">01 — systems</span>
+      <h1>Proyectos</h1>
+    </div>
+    <p class="text-small" style="color:var(--ink-muted); margin: var(--space-2) 0 var(--space-8);">Software real, no ejercicios. Cada proyecto tiene código, documentación y tests.</p>
 
     <div class="sys-grid">
-      <div class="sys-card reveal" style="box-shadow:8px 8px 0 var(--blue);">
-        <div class="ghost-num" style="color:var(--blue);">01</div>
-        <div class="sys-top">
-          <div class="sys-name">fungi-discovery</div>
-          <span class="sys-status" style="background:var(--blue);">ALPHA</span>
+      <div class="project-card reveal">
+        <div class="top">
+          <h2><span class="index">01</span>fungi-discovery</h2>
+          <span class="tag tag-wip">alpha</span>
         </div>
-        <div class="sys-desc">Pipeline reproducible para procesar amplicones ITS de hongos y priorizar secuencias que requieren revisión taxonómica. BLAST y VSEARCH como motores de alineamiento, taxonomía UNITE v10.0. CLI con Typer, ADRs, cobertura ≥85%, CI en GitHub Actions.</div>
-        <div class="sys-tech"><span>Python 3.14</span><span>BioPython</span><span>Typer</span><span>BLAST+</span><span>VSEARCH</span></div>
+        <p class="desc">Pipeline reproducible para procesar amplicones ITS de hongos y priorizar secuencias que requieren revisión taxonómica. BLAST y VSEARCH como motores de alineamiento, taxonomía UNITE v10.0. CLI con Typer, ADRs, cobertura ≥85%, CI en GitHub Actions.</p>
+        <div class="tags">
+          <span class="tag">Python 3.14</span><span class="tag">BioPython</span><span class="tag">Typer</span><span class="tag">BLAST+</span><span class="tag">VSEARCH</span>
+        </div>
+        <div class="links"><a href="https://github.com/danielzunigazb/fungi-discovery" target="_blank">github <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a></div>
       </div>
 
-      <div class="sys-card reveal" style="box-shadow:8px 8px 0 var(--green);">
-        <div class="ghost-num" style="color:var(--green);">02</div>
-        <div class="sys-top">
-          <div class="sys-name">systemd-hooks</div>
-          <span class="sys-status" style="background:var(--green);">ACTIVO</span>
+      <div class="project-card reveal">
+        <div class="top">
+          <h2><span class="index">02</span>systemd-hooks</h2>
+          <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
         </div>
-        <div class="sys-desc">Framework mínimo para orquestar scripts Python con servicios systemd user. Hook class con setup/run/teardown, paths XDG-compliant, logging JSONL con forwarding a journald. Cero dependencias externas, 11 tests pasando.</div>
-        <div class="sys-tech"><span>Python 3.12+</span><span>systemd</span><span>XDG Spec</span><span>Pytest</span></div>
+        <p class="desc">Framework mínimo para orquestar scripts Python con servicios systemd user. Hook class con setup/run/teardown, paths XDG-compliant, logging JSONL con forwarding a journald. Cero dependencias externas, 11 tests pasando.</p>
+        <div class="tags">
+          <span class="tag">Python 3.12+</span><span class="tag">systemd</span><span class="tag">XDG Spec</span><span class="tag">Pytest</span>
+        </div>
+        <div class="links"><a href="https://github.com/danielzunigazb/systemd-hooks" target="_blank">github <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a></div>
       </div>
 
-      <div class="sys-card reveal" style="box-shadow:8px 8px 0 var(--pink);">
-        <div class="ghost-num" style="color:var(--pink);">03</div>
-        <div class="sys-top">
-          <div class="sys-name">cognitive-core (blini)</div>
-          <span class="sys-status" style="background:var(--green);">ACTIVO</span>
+      <div class="project-card reveal">
+        <div class="top">
+          <h2><span class="index">03</span>cognitive-core (blini)</h2>
+          <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
         </div>
-        <div class="sys-desc">Sistema de automatización personal: 7 servicios systemd para monitoreo continuo, captura de contexto y sugerencias. 21 scripts Python (3,393 LOC, 95 funciones). Dashboard con FastAPI, bitácora JSONL.</div>
-        <div class="sys-tech"><span>Python</span><span>systemd</span><span>FastAPI</span><span>SQLite</span></div>
+        <p class="desc">Sistema de automatización personal: 7 servicios systemd para monitoreo continuo, captura de contexto y sugerencias. 21 scripts Python (3,393 LOC, 95 funciones). Dashboard con FastAPI, bitácora JSONL.</p>
+        <div class="tags">
+          <span class="tag">Python</span><span class="tag">systemd</span><span class="tag">FastAPI</span><span class="tag">SQLite</span>
+        </div>
+        <div class="links"><span class="text-small" style="color:var(--ink-muted);">privado · infraestructura personal</span></div>
       </div>
 
-      <div class="sys-card reveal" style="box-shadow:8px 8px 0 var(--yellow);">
-        <div class="ghost-num" style="color:var(--yellow);">04</div>
-        <div class="sys-top">
-          <div class="sys-name">Galaxy Fit3 BLE RE</div>
-          <span class="sys-status" style="background:var(--yellow);">EXPERIMENTAL</span>
+      <div class="project-card reveal">
+        <div class="top">
+          <h2><span class="index">04</span>Galaxy Fit3 BLE RE</h2>
+          <span class="tag">experimental</span>
         </div>
-        <div class="sys-desc">Análisis de protocolo BLE del Samsung Galaxy Fit3: dirección pública, mapeo de servicios GATT, heart rate service (0x180d), emparejamiento con BlueZ 5.86 sobre HCI 4.2 Realtek.</div>
-        <div class="sys-tech"><span>BLE</span><span>GATT</span><span>BlueZ</span><span>Linux</span></div>
+        <p class="desc">Análisis de protocolo BLE del Samsung Galaxy Fit3: dirección pública, mapeo de servicios GATT, heart rate service (0x180d), emparejamiento con BlueZ 5.86 sobre HCI 4.2 Realtek.</p>
+        <div class="tags">
+          <span class="tag">BLE</span><span class="tag">GATT</span><span class="tag">BlueZ</span><span class="tag">Linux</span>
+        </div>
+        <div class="links"><span class="text-small" style="color:var(--ink-muted);">en progreso</span></div>
       </div>
 
-      <div class="sys-card reveal" style="box-shadow:8px 8px 0 var(--blue);">
-        <div class="ghost-num" style="color:var(--blue);">05</div>
-        <div class="sys-top">
-          <div class="sys-name">galaxy-vitals-bridge</div>
-          <span class="sys-status" style="background:var(--green);">ACTIVO</span>
+      <div class="project-card reveal" style="grid-column: 1 / -1;">
+        <div class="top">
+          <h2><span class="index">05</span>galaxy-vitals-bridge</h2>
+          <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
         </div>
-        <div class="sys-desc">App Android que lee heart rate, SpO2, pasos, pisos y sueño directo del Galaxy Fit3 vía Samsung Health Data SDK, y los publica cada 15 min a un status page en vivo — con zona de ubicación (casa/escuela/afuera) sin exponer coordenadas, widget de pantalla de inicio y monitor EKG con time-travel sobre el historial de git.</div>
-        <div class="sys-tech"><span>Kotlin</span><span>Jetpack Compose</span><span>WorkManager</span><span>Samsung Health SDK</span></div>
-        <div style="margin-top:18px;display:flex;gap:10px;flex-wrap:wrap;">
-          <a href="https://github.com/danielzunigazb/galaxy-vitals-bridge" target="_blank" class="brutal-btn" style="padding:9px 16px;font-size:12px;box-shadow:4px 4px 0 var(--ink);background:var(--blue);color:#0a0a0f;">Repo →</a>
-          <a href="/status/" class="brutal-btn" style="padding:9px 16px;font-size:12px;box-shadow:4px 4px 0 var(--ink);">Status en vivo →</a>
+        <p class="desc">App Android que lee heart rate, SpO2, pasos, pisos y sueño directo del Galaxy Fit3 vía Samsung Health Data SDK, y los publica cada 15 min a un status page en vivo — con zona de ubicación (casa/escuela/afuera) sin exponer coordenadas, widget de pantalla de inicio y monitor EKG con time-travel sobre el historial de git.</p>
+        <div class="tags">
+          <span class="tag">Kotlin</span><span class="tag">Jetpack Compose</span><span class="tag">WorkManager</span><span class="tag">Samsung Health SDK</span>
+        </div>
+        <div class="links">
+          <a href="https://github.com/danielzunigazb/galaxy-vitals-bridge" target="_blank">repo <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a>
+          <a href="/status/">status en vivo <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="pad" id="principles" style="background:var(--bg-2);border-top:4px solid var(--ink);border-bottom:4px solid var(--ink);">
+<section class="section" id="principles" style="border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: var(--surface);">
   <div class="container">
-    <div class="section-head"><span class="idx" style="color:var(--blue);">§02</span><h2>Principles</h2></div>
-    <p class="section-note" style="margin-bottom:44px;">Principios con los que construyo y opero sistemas.</p>
-
+    <div class="title reveal">
+      <span class="label eyebrow">02 — principles</span>
+      <h1>Cómo trabajo</h1>
+    </div>
+    <p class="text-small" style="color:var(--ink-muted); margin: var(--space-2) 0 var(--space-8);">Principios con los que construyo y opero sistemas.</p>
     <div class="principles-grid">
-      <div class="principle-block reveal" style="--tint: color-mix(in oklch, var(--pink) 38%, white);">
-        <div class="pnum">01</div><div class="ptitle">Reproducibilidad por defecto</div>
-        <div class="pdesc">No confío en artefactos binarios sin checksum. No versiono datos, solo manifiestos, scripts y URLs.</div>
+      <div class="principle reveal"><span class="num text-h2">01</span><h2>Reproducibilidad por defecto</h2><p>No confío en artefactos binarios sin checksum. No versiono datos, solo manifiestos, scripts y URLs.</p></div>
+      <div class="principle reveal"><span class="num text-h2">02</span><h2>Documentación como infraestructura</h2><p>Un sistema sin documentación es un sistema fallido. ADRs, worklogs, READMEs funcionales.</p></div>
+      <div class="principle reveal"><span class="num text-h2">03</span><h2>Testing no negociable</h2><p>Si no tiene tests, no está terminado. Cobertura ≥85%, CI gates obligatorios.</p></div>
+      <div class="principle reveal"><span class="num text-h2">04</span><h2>Portabilidad vía estándares</h2><p>XDG Base Directory, systemd para servicios. Cero hardcodeo de rutas.</p></div>
+      <div class="principle reveal"><span class="num text-h2">05</span><h2>Observabilidad desde el inicio</h2><p>Logs estructurados, health checks, monitoreo continuo. Evidencia de por qué algo falla.</p></div>
+      <div class="principle reveal"><span class="num text-h2">06</span><h2>Menos but more</h2><p>Frameworks mínimos, dependencias justas. CLI sobre GUI. Evitar abstracciones prematuras.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="stack">
+  <div class="container">
+    <div class="title reveal">
+      <span class="label eyebrow">03 — stack</span>
+      <h1>Stack</h1>
+    </div>
+    <div style="margin-top: var(--space-8);">
+      <div class="stack-group reveal">
+        <span class="label">lenguajes</span>
+        <div class="tag-row">
+          <span class="tag">Python</span><span class="tag">Bash</span><span class="tag">SQL</span><span class="tag">HTML/CSS</span><span class="tag">JavaScript</span>
+        </div>
       </div>
-      <div class="principle-block reveal" style="--tint: color-mix(in oklch, var(--green) 38%, white);">
-        <div class="pnum">02</div><div class="ptitle">Documentación como infraestructura</div>
-        <div class="pdesc">Un sistema sin documentación es un sistema fallido. ADRs, worklogs, READMEs funcionales.</div>
+      <div class="stack-group reveal">
+        <span class="label">frameworks</span>
+        <div class="tag-row">
+          <span class="tag">FastAPI</span><span class="tag">Typer</span><span class="tag">Pytest</span><span class="tag">uv</span><span class="tag">Ruff</span><span class="tag">Ty</span>
+        </div>
       </div>
-      <div class="principle-block reveal" style="--tint: color-mix(in oklch, var(--blue) 36%, white);">
-        <div class="pnum">03</div><div class="ptitle">Testing no negociable</div>
-        <div class="pdesc">Si no tiene tests, no está terminado. Cobertura ≥85%, CI gates obligatorios.</div>
+      <div class="stack-group reveal">
+        <span class="label">infraestructura</span>
+        <div class="tag-row">
+          <span class="tag">Arch Linux</span><span class="tag">systemd</span><span class="tag">Git</span><span class="tag">GitHub Actions</span><span class="tag">SSH</span><span class="tag">XDG Spec</span>
+        </div>
       </div>
-      <div class="principle-block reveal" style="--tint: color-mix(in oklch, var(--yellow) 46%, white);">
-        <div class="pnum">04</div><div class="ptitle">Portabilidad vía estándares</div>
-        <div class="pdesc">XDG Base Directory, systemd para servicios. Cero hardcodeo de rutas.</div>
-      </div>
-      <div class="principle-block reveal" style="--tint: color-mix(in oklch, var(--pink) 28%, white);">
-        <div class="pnum">05</div><div class="ptitle">Observabilidad desde el inicio</div>
-        <div class="pdesc">Logs estructurados, health checks, monitoreo continuo. Evidencia de por qué algo falla.</div>
-      </div>
-      <div class="principle-block reveal" style="--tint: color-mix(in oklch, var(--blue) 26%, white);">
-        <div class="pnum">06</div><div class="ptitle">Menos but more</div>
-        <div class="pdesc">Frameworks mínimos, dependencias justas. CLI sobre GUI. Evitar abstracciones prematuras.</div>
+      <div class="stack-group reveal">
+        <span class="label">áreas</span>
+        <div class="tag-row">
+          <span class="tag">CLI tools</span><span class="tag">Automatización</span><span class="tag">Bioinformática</span><span class="tag">BLE/RE</span>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="pad" id="stack">
+<section class="section" id="repo" style="padding-top: 0;">
   <div class="container">
-    <div class="section-head"><span class="idx" style="color:var(--green);">§03</span><h2>Stack</h2></div>
-    <p class="section-note" style="margin-bottom:44px;"></p>
-
-    <div class="stack-group reveal">
-      <div class="label" style="color:var(--pink);">Lenguajes</div>
-      <div class="stack-items">
-        <span class="chip" style="transform:rotate(-2deg);">Python</span>
-        <span class="chip" style="transform:rotate(1.5deg);">Bash</span>
-        <span class="chip" style="transform:rotate(-1deg);">SQL</span>
-        <span class="chip" style="transform:rotate(2deg);">HTML/CSS</span>
-        <span class="chip" style="transform:rotate(-1.5deg);">JavaScript</span>
-      </div>
+    <div class="title reveal">
+      <span class="label eyebrow">04 — repository</span>
+      <h1>Código público</h1>
     </div>
-    <div class="stack-group reveal">
-      <div class="label" style="color:var(--green);">Frameworks</div>
-      <div class="stack-items">
-        <span class="chip" style="transform:rotate(1deg);">FastAPI</span>
-        <span class="chip" style="transform:rotate(-2deg);">Typer</span>
-        <span class="chip" style="transform:rotate(1.5deg);">Pytest</span>
-        <span class="chip" style="transform:rotate(-1deg);">uv</span>
-        <span class="chip" style="transform:rotate(2deg);">Ruff</span>
-        <span class="chip" style="transform:rotate(-1.5deg);">Ty</span>
-      </div>
-    </div>
-    <div class="stack-group reveal">
-      <div class="label" style="color:var(--blue);">Infraestructura</div>
-      <div class="stack-items">
-        <span class="chip" style="transform:rotate(-2deg);">Arch Linux</span>
-        <span class="chip" style="transform:rotate(1.5deg);">systemd</span>
-        <span class="chip" style="transform:rotate(-1deg);">Git</span>
-        <span class="chip" style="transform:rotate(2deg);">GitHub Actions</span>
-        <span class="chip" style="transform:rotate(-1.5deg);">SSH</span>
-        <span class="chip" style="transform:rotate(1deg);">XDG Spec</span>
-      </div>
-    </div>
-    <div class="stack-group reveal">
-      <div class="label" style="color:var(--yellow);">Áreas</div>
-      <div class="stack-items">
-        <span class="chip" style="transform:rotate(1deg);">CLI Tools</span>
-        <span class="chip" style="transform:rotate(-2deg);">Automatización</span>
-        <span class="chip" style="transform:rotate(1.5deg);">Bioinformática</span>
-        <span class="chip" style="transform:rotate(-1deg);">BLE/RE</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="pad" id="repo" style="padding-top:0;">
-  <div class="container">
-    <div class="section-head"><span class="idx" style="color:var(--yellow);">§04</span><h2>Repository</h2></div>
-    <p class="section-note" style="margin-bottom:44px;">Código público y contribuciones.</p>
-    <div class="repo-panel reveal">
+    <div class="repo-panel reveal" style="margin-top: var(--space-8);">
       <div class="repo-who">
         <img src="https://avatars.githubusercontent.com/u/279340792?v=4" alt="avatar de danielzunigazb en GitHub">
-        <div><div class="name">danielzunigazb</div><div class="sub">Cuenta principal</div></div>
+        <div><div>danielzunigazb</div><div class="text-small sub">cuenta principal</div></div>
       </div>
       <div class="repo-links">
-        <a href="https://github.com/danielzunigazb/fungi-discovery" target="_blank" class="brutal-btn" style="background:var(--blue);color:#0a0a0f;">fungi-discovery</a>
-        <a href="https://github.com/danielzunigazb/systemd-hooks" target="_blank" class="brutal-btn" style="background:var(--green);color:#0a0a0f;">systemd-hooks</a>
-        <a href="https://github.com/danielzunigazb/galaxy-vitals-bridge" target="_blank" class="brutal-btn" style="background:var(--pink);color:#0a0a0f;">galaxy-vitals-bridge</a>
+        <a href="https://github.com/danielzunigazb/fungi-discovery" target="_blank" class="btn btn-secondary">fungi-discovery</a>
+        <a href="https://github.com/danielzunigazb/systemd-hooks" target="_blank" class="btn btn-secondary">systemd-hooks</a>
+        <a href="https://github.com/danielzunigazb/galaxy-vitals-bridge" target="_blank" class="btn btn-secondary">galaxy-vitals-bridge</a>
       </div>
     </div>
   </div>
 </section>
 
-<section class="pad" id="operator" style="padding-top:0;">
+<section class="section" id="operator" style="padding-top: 0;">
   <div class="container">
-    <div class="section-head"><span class="idx" style="color:var(--pink);">§05</span><h2>Operator</h2></div>
-    <div class="op-wrap reveal" style="margin-top:36px;">
-      <p class="op-quote">Estudiante de último año en Córdoba, Colombia. Aprendí a programar trasteando con dotfiles de Linux hasta terminar construyendo sistemas de automatización, pipelines bioinformáticos y herramientas CLI. Terminales sobre GUIs. Protocolos sobre frameworks. <span class="accent">Evidencia sobre claims.</span></p>
-      <div class="op-facts">
-        <div class="row"><span class="k">UBICACIÓN</span><span>Córdoba, CO</span></div>
-        <div class="row"><span class="k">INGLÉS</span><span>Avanzado</span></div>
-        <div class="row"><span class="k">ESTADO</span><span style="color:var(--green);font-weight:700;">● DISPONIBLE</span></div>
+    <div class="title reveal">
+      <span class="label eyebrow">05 — operator</span>
+      <h1>Sobre mí</h1>
+    </div>
+    <div class="op-wrap reveal" style="margin-top: var(--space-8);">
+      <p class="op-quote">Estudiante de último año en Córdoba, Colombia. Aprendí a programar trasteando con dotfiles de Linux hasta terminar construyendo sistemas de automatización, pipelines bioinformáticos y herramientas CLI. Terminales sobre GUIs. Protocolos sobre frameworks. Evidencia sobre claims.</p>
+      <div class="op-facts status-block">
+        <div class="row"><span>ubicación</span><b>córdoba, co</b></div>
+        <div class="row"><span>inglés</span><b>avanzado</b></div>
+        <div class="row"><span>estado</span><b style="color:var(--verdigris);">● disponible</b></div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="pad" id="contact" style="padding-top:24px;">
+<section class="section" id="contact" style="padding-top: 0;">
   <div class="container">
     <div class="contact-box reveal">
-      <h2>Hablemos<span class="dot">.</span></h2>
+      <span class="label eyebrow">06 — contact</span>
+      <h1>Hablemos<span class="mark-n" style="color:var(--gold);">.</span></h1>
       <p>Disponible para colaborar en infraestructura, automatización o bioinformática.</p>
       <div class="contact-links">
-        <a href="mailto:danielzunigazb@gmail.com" class="contact-chip">✉ danielzunigazb@gmail.com</a>
-        <a href="https://github.com/danielzunigazb" target="_blank" class="contact-chip">/danielzunigazb</a>
-        <a href="/cv/" target="_blank" class="contact-chip">↓ CV</a>
+        <a href="mailto:danielzunigazb@gmail.com" class="btn btn-secondary"><svg class="icon"><use href="/assets/icons.svg#icon-mail"/></svg> danielzunigazb@gmail.com</a>
+        <a href="https://github.com/danielzunigazb" target="_blank" class="btn btn-secondary">/danielzunigazb</a>
+        <a href="/cv/" target="_blank" class="btn btn-secondary">cv ↓</a>
       </div>
     </div>
   </div>
 </section>
 
-<footer class="container">
-  <span>Daniel Zuñiga — Córdoba, CO</span>
-  <span>REV 2026.09 · MAXIMALIST</span>
+<footer class="dz-footer container">
+  <span>daniel zúñiga — córdoba, co</span>
+  <span>rev 2026.09</span>
 </footer>
 
-<script data-goatcounter="https://danfolio.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
 <script>
 document.querySelectorAll('nav a[href^="#"]').forEach(a => {
   a.addEventListener('click', e => {
@@ -451,7 +346,7 @@ document.querySelectorAll('nav a[href^="#"]').forEach(a => {
 
 const toggle = document.getElementById('theme-toggle');
 function syncToggleLabel() {
-  toggle.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '◑ DARK' : '◐ LIGHT';
+  toggle.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '◑ dark' : '◐ light';
 }
 toggle.addEventListener('click', () => {
   const isLight = document.documentElement.getAttribute('data-theme') === 'light';
@@ -466,22 +361,6 @@ toggle.addEventListener('click', () => {
 });
 syncToggleLabel();
 
-const marqueeWords = [
-  ['PYTHON', 'var(--pink)'], ['LINUX/ARCH', 'var(--green)'], ['SYSTEMD', 'var(--blue)'], ['FASTAPI', 'var(--yellow)'],
-  ['BASH', 'var(--pink)'], ['CLI TOOLS', 'var(--green)'], ['BIOINFORMÁTICA', 'var(--blue)'], ['GIT/CI', 'var(--yellow)']
-];
-const track = document.getElementById('marquee-track');
-function buildMarquee() {
-  let html = '';
-  for (let rep = 0; rep < 2; rep++) {
-    marqueeWords.forEach(([label, color]) => {
-      html += `<span class="word">${label}<span class="dot4" style="background:${color};"></span></span>`;
-    });
-  }
-  track.innerHTML = html;
-}
-buildMarquee();
-
 if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   const io = new IntersectionObserver((entries) => {
     entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('is-visible'); io.unobserve(e.target); } });
@@ -491,6 +370,9 @@ if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   document.querySelectorAll('.reveal').forEach(el => el.classList.add('is-visible'));
 }
 </script>
+
+<script data-goatcounter="https://danfolio.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 
 </body>
 </html>
