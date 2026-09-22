@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 96,
-  "steps_today": 6471,
+  "steps_today": 6481,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 361,
   "sleep_score": 78,
@@ -12,8 +12,8 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-22T23:08:56.106707Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-22T23:09:40.298943Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
@@ -22,6 +22,6 @@
     "album": "Together Onetime",
     "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e025ef28d0cb607974e87283c90",
     "url": "https:\/\/open.spotify.com\/track\/6FlEvIBe2pO6g63ZIww5An",
-    "updated_at": "2026-09-22T23:08:56.106707Z"
+    "updated_at": "2026-09-22T23:09:40.298943Z"
   }
 }
