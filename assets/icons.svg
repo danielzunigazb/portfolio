@@ -38,13 +38,12 @@
   <rect x="17" y="14" width="4" height="6"/>
 </symbol>
 <symbol id="icon-watch" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter">
-  <rect x="7" y="7" width="10" height="10"/>
-  <path d="M9 7V3h6v4M9 17v4h6v-4"/>
-  <path d="M12 10v2.5l2 1.5"/>
+  <rect x="6.5" y="6.5" width="11" height="11"/>
+  <path d="M9 6.5V3h6v3.5M9 17.5V21h6v-3.5"/>
 </symbol>
 <symbol id="icon-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter">
-  <rect x="6" y="2.5" width="12" height="19"/>
-  <path d="M10 18.5h4"/>
+  <rect x="5.5" y="3.5" width="13" height="17"/>
+  <path d="M9.5 17.5h5"/>
 </symbol>
 <symbol id="icon-question-circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter">
   <circle cx="12" cy="12" r="9"/>
