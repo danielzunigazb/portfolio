@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-22T20:06:26.667275Z",
+  "updated_at": "2026-09-22T20:22:26.781813Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "El Chivo (feat. T3r Elemento)",
-    "artists": "Berner, T3R Elemento",
-    "album": "El Chivo",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0216837cb74b93e5b33585ee2a",
-    "url": "https:\/\/open.spotify.com\/track\/1t0P9nBKpnrh5MntGd3qw6",
-    "updated_at": "2026-09-22T20:06:26.667275Z"
+    "track": "Me Matas",
+    "artists": "Eslabon Armado",
+    "album": "Corta Venas",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02657fa1079d4f17b7e06dd86e",
+    "url": "https:\/\/open.spotify.com\/track\/50g9l7cOUIXt9LVl9eX784",
+    "updated_at": "2026-09-22T20:22:26.781813Z"
   }
 }
