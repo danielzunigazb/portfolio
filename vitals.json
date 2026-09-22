@@ -13,7 +13,7 @@
   },
   "battery_pct": null,
   "location_zone": "casa",
-  "updated_at": "2026-09-22T02:14:28.676361Z",
+  "updated_at": "2026-09-22T02:15:20.408654Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
@@ -22,6 +22,6 @@
     "album": "INCÓMODO",
     "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0247e9618ef7411438f9c9478b",
     "url": "https:\/\/open.spotify.com\/track\/0R23grfg7MaNE9TUpNNQUU",
-    "updated_at": "2026-09-22T02:14:28.676503Z"
+    "updated_at": "2026-09-22T02:15:20.408819Z"
   }
 }
