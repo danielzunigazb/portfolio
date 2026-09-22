@@ -1,8 +1,8 @@
 {
-  "heart_rate_bpm": 106,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 96,
-  "steps_today": 709,
-  "floors_climbed_today": 0,
+  "steps_today": 2892,
+  "floors_climbed_today": 2,
   "sleep_duration_minutes": 361,
   "sleep_score": 78,
   "last_exercise": {
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-22T11:26:22.397147Z",
+  "updated_at": "2026-09-22T15:41:24.079263Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "El Precio De La Soledad",
-    "artists": "Alfredo Olivas",
-    "album": "Así Es Esto",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e3dd9f273535e21ed496b58b",
-    "url": "https:\/\/open.spotify.com\/track\/179TZwPk0txEvjkraVTVKo",
-    "updated_at": "2026-09-22T11:26:22.397389Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-22T15:41:24.082410Z"
   }
 }
