@@ -1,8 +1,8 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 44,
   "oxygen_saturation_pct": 97,
-  "steps_today": 8905,
-  "floors_climbed_today": 3,
+  "steps_today": 0,
+  "floors_climbed_today": 0,
   "sleep_duration_minutes": 452,
   "sleep_score": 64,
   "last_exercise": {
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-22T04:54:34.494063Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-22T05:09:59.587034Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "La Glocksita",
-    "artists": "Nueva H",
-    "album": "La Glocksita",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02868e7423afb37d5f040e0694",
-    "url": "https:\/\/open.spotify.com\/track\/2i46vPYKwHqAQnflk843DF",
-    "updated_at": "2026-09-22T04:54:34.494247Z"
+    "track": "El Mago Merlín",
+    "artists": "Enigma Norteño",
+    "album": "XX",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02f2942c7b48f5d16d9f03cbe0",
+    "url": "https:\/\/open.spotify.com\/track\/3HUVWutnroDxcTtrYpYX7q",
+    "updated_at": "2026-09-22T05:09:59.587329Z"
   }
 }
