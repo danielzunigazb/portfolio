@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-22T02:19:37.706080Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-22T02:22:50.317015Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Tome y Fume",
-    "artists": "Eslabon Armado",
-    "album": "Corta Venas",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02657fa1079d4f17b7e06dd86e",
-    "url": "https:\/\/open.spotify.com\/track\/5nvXRwd42haErzniRvcR2x",
-    "updated_at": "2026-09-22T02:19:37.706279Z"
+    "track": "El Jelty",
+    "artists": "Herencia De Grandes",
+    "album": "Lo Que Sigue Rifando",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0247227f19a9a590afe9231e79",
+    "url": "https:\/\/open.spotify.com\/track\/353HXuXU1Xui5p00eSGCKL",
+    "updated_at": "2026-09-22T02:22:50.317141Z"
   }
 }
