@@ -293,6 +293,9 @@ const HEAD_ROWS = [
   'SSSSSSSSSSSS',
   '..SSSSSSSS..',
 ];
+// Same head, eyes closed (row 5 loses its K pupils) — used instead of
+// HEAD_ROWS whenever deriveState() says we're asleep.
+const HEAD_ROWS_ASLEEP = HEAD_ROWS.map((row, i) => (i === 5 ? 'SSSSSSSSSSSS' : row));
 const OUTFITS = {
   // casa: capucha rosa de siempre — también el default si no hay zona.
   casa:    ['.PPPPPPPPPP.', 'PPPPPZZPPPPP', 'PPPPPZZPPPPP', 'PPPPPZZPPPPP', '.PPPPPPPPPP.'],
@@ -303,8 +306,8 @@ const OUTFITS = {
 };
 const ZONE_PROP = { escuela: '📓', afuera: '🧥' };
 
-function buildPortrait(zoneKey) {
-  return HEAD_ROWS.concat(OUTFITS[zoneKey] || OUTFITS.casa);
+function buildPortrait(zoneKey, asleep) {
+  return (asleep ? HEAD_ROWS_ASLEEP : HEAD_ROWS).concat(OUTFITS[zoneKey] || OUTFITS.casa);
 }
 
 function renderPortrait(rows) {
@@ -317,16 +320,18 @@ function renderPortrait(rows) {
 }
 
 let currentZoneKey = 'casa';
-function renderOutfit(zoneKey) {
+function renderOutfit(zoneKey, asleep) {
   currentZoneKey = zoneKey || 'casa';
-  renderPortrait(buildPortrait(currentZoneKey));
+  renderPortrait(buildPortrait(currentZoneKey, asleep));
   const propEl = document.getElementById('zone-badge');
-  const prop = ZONE_PROP[currentZoneKey];
+  // Asleep overrides the zone prop (📓/🧥) with 💤 — dormido pesa más que
+  // el uniforme, aunque el location_zone siga siendo "escuela".
+  const prop = asleep ? '💤' : ZONE_PROP[currentZoneKey];
   if (prop) { propEl.textContent = prop; propEl.classList.add('show'); }
   else { propEl.classList.remove('show'); }
 }
 
-renderOutfit('casa');
+renderOutfit('casa', false);
 if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   setInterval(() => {
     const rows = buildPortrait(currentZoneKey);
@@ -400,11 +405,20 @@ function renderExtra(data, fresh) {
   el.innerHTML = rows.map(r => `<div class="row">${r}</div>`).join('');
 }
 
+// 22:00–08:00 cuenta como "de noche" para decidir entre dormido y en reposo
+// — un mismo pulso bajo significa cosas distintas a las 3am que a las 3pm.
+function isNightHour(hour) { return hour < 8 || hour >= 22; }
+
 function deriveState(data, fresh) {
   const hr = fresh ? data.heart_rate_bpm : null;
   if (hr == null) return { key: 'unknown', label: 'SIN SEÑAL', icon: '❔', dot: 'var(--ink-3)', badge: null };
   if (hr > 110) return { key: 'active', label: 'ACTIVO', icon: '🔥', dot: 'var(--red)', badge: '🔥' };
-  if (hr < 55) return { key: 'rest', label: 'REPOSO', icon: '😴', dot: 'var(--blue)', badge: '💤' };
+  if (hr < 55) {
+    if (isNightHour(new Date().getHours())) {
+      return { key: 'asleep', label: 'DORMIDITO', icon: '😴', dot: 'var(--blue)', badge: '💤' };
+    }
+    return { key: 'rest', label: 'REPOSO', icon: '😌', dot: 'var(--blue)', badge: '💤' };
+  }
   return { key: 'normal', label: 'TRANQUILO', icon: '🙂', dot: 'var(--green)', badge: null };
 }
 
@@ -478,7 +492,7 @@ function narrativeLine(data, fresh, npFresh, np) {
   if (data.location_zone && ZONE_LABEL[data.location_zone]) bits.push(ZONE_LABEL[data.location_zone]);
   if (hr != null) {
     if (hr > 110) bits.push('pulso acelerado, actividad en curso');
-    else if (hr < 55) bits.push(hour < 8 || hour >= 23 ? 'durmiendo, pulso en reposo' : 'pulso bajo, reposo profundo');
+    else if (hr < 55) bits.push(isNightHour(hour) ? 'dormidito, pulso en reposo' : 'pulso bajo, reposo profundo');
     else bits.push(`pulso estable a ${hr} bpm`);
   }
   if (npFresh && np && np.is_playing) bits.push(`sonando "${np.track}" · ${np.artists}`);
@@ -498,11 +512,11 @@ function render(data) {
   document.getElementById('ring-right').innerHTML = VITAL_DEFS.filter(d => d.side === 'right').map(d => vitalCard(d, data, fresh)).join('');
 
   renderExtra(fresh ? data : {}, fresh);
-  renderState(data, fresh);
+  const state = renderState(data, fresh);
   const npFresh = renderNowPlaying(data ? data.now_playing : null);
   renderInventory(fresh, npFresh);
   renderEkg(fresh ? data.heart_rate_bpm : null);
-  renderOutfit(fresh ? data.location_zone : null);
+  renderOutfit(fresh ? data.location_zone : null, state.key === 'asleep');
   document.getElementById('narrative-line').innerHTML =
     '&gt; ' + narrativeLine(data, fresh, npFresh, data ? data.now_playing : null) + ' <span class="blink">▮</span>';
 }
