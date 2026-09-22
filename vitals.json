@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 71,
   "oxygen_saturation_pct": 96,
-  "steps_today": 5016,
+  "steps_today": 5153,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 361,
   "sleep_score": 78,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "casa",
-  "updated_at": "2026-09-22T19:19:38.796255Z",
+  "updated_at": "2026-09-22T19:35:04.602264Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Lo Que Es",
-    "artists": "Herencia de Patrones",
-    "album": "Sorry For The Wait",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e020ceeb4ae277c5ba1646db0ab",
-    "url": "https:\/\/open.spotify.com\/track\/3I8CEUQgFMuGu1UkGrtSTk",
-    "updated_at": "2026-09-22T19:19:38.796255Z"
+    "track": "El Paisa",
+    "artists": "Grupo Marca Registrada",
+    "album": "Corleone",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e9da100ac57960dbb5022139",
+    "url": "https:\/\/open.spotify.com\/track\/5bihD1yhbA9NsIQRBxgcl1",
+    "updated_at": "2026-09-22T19:35:04.602264Z"
   }
 }
