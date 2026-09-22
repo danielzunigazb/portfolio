@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 102,
+  "heart_rate_bpm": 82,
   "oxygen_saturation_pct": 96,
-  "steps_today": 34,
+  "steps_today": 168,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 361,
   "sleep_score": 78,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-22T10:29:22.197449Z",
+  "updated_at": "2026-09-22T10:46:36.606737Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-09-22T10:29:22.197640Z"
+    "is_playing": true,
+    "track": "Olivia",
+    "artists": "7EVEN STARS, zboouu",
+    "album": "Olivia",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e4103060400b80c0aea544e8",
+    "url": "https:\/\/open.spotify.com\/track\/5QhVjPSa020Zz8Vh5zZDOv",
+    "updated_at": "2026-09-22T10:46:36.606880Z"
   }
 }
