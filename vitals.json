@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 84,
   "oxygen_saturation_pct": 96,
-  "steps_today": 5520,
+  "steps_today": 5554,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 361,
   "sleep_score": 78,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-22T20:37:31.510061Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-22T20:55:09.520121Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-09-22T20:37:31.510061Z"
+    "is_playing": true,
+    "track": "Gangsta Love",
+    "artists": "Dan Sanchez, Jimmy Guzman",
+    "album": "Gangsta Love",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02555b87c788152949f1635b0d",
+    "url": "https:\/\/open.spotify.com\/track\/6bgneDyfpvOVA7hDzUAiGT",
+    "updated_at": "2026-09-22T20:55:09.520121Z"
   }
 }
