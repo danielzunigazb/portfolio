@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-22T07:47:28.412623Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-22T08:03:13.850706Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Las Babys",
-    "artists": "Jose Imperial, Toriclika",
-    "album": "Las Babys",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0215a9f46198e70d2b1515482e",
-    "url": "https:\/\/open.spotify.com\/track\/5q6MTQDfJRzlpcKPvHYTnj",
-    "updated_at": "2026-09-22T07:47:28.413037Z"
+    "track": "Anda Alegre La Plebada",
+    "artists": "Uriel Gaxiola",
+    "album": "Anda Alegre La Plebada",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e028fba59dbd4465c7438eb65d2",
+    "url": "https:\/\/open.spotify.com\/track\/4eGJ6D4Bp31ds5nGqYejQX",
+    "updated_at": "2026-09-22T08:03:13.851074Z"
   }
 }
