@@ -1,0 +1,97 @@
+/*
+  Daniel Zúñiga — design system tokens
+  Fuente: claude.ai/design, proyecto "Daniel Zúñiga" v2 (tokens.json).
+  No editar valores sueltos en otros archivos — todo color/tipografía/
+  espaciado/radio del sitio se referencia desde aquí. Cero hex fuera de
+  este archivo.
+*/
+
+:root {
+  /* — color (Obsidiana / dark, tema por defecto) — */
+  --bg: #0e0c0a;
+  --surface: #181512;
+  --line: #2f2923;
+  --ink: #efe6d6;
+  --ink-muted: #a2978a;
+  --gold: #d6a23e;
+  --on-gold: var(--bg);
+  --verdigris: #5cb09c;
+  --ember: #e0573c;
+
+  /* — foco: gap de bg + 2px de gold — */
+  --focus-ring: 0 0 0 2px var(--bg), 0 0 0 4px var(--gold);
+
+  /* — tipografía — */
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --font-serif: "Instrument Serif", "Iowan Old Style", Georgia, serif;
+
+  --text-display-size: 56px;
+  --text-display-line: 60px;
+  --text-display-weight: 800;
+  --text-display-tracking: -0.035em;
+
+  --text-h1-size: 32px;
+  --text-h1-line: 40px;
+  --text-h1-weight: 600;
+  --text-h1-tracking: -0.02em;
+
+  --text-h2-size: 20px;
+  --text-h2-line: 28px;
+  --text-h2-weight: 600;
+  --text-h2-tracking: -0.01em;
+
+  --text-body-size: 15px;
+  --text-body-line: 26px;
+  --text-body-weight: 400;
+  --text-body-measure: 68ch;
+
+  --text-small-size: 13px;
+  --text-small-line: 20px;
+  --text-small-weight: 400;
+
+  --text-label-size: 11px;
+  --text-label-line: 16px;
+  --text-label-weight: 500;
+  --text-label-tracking: 0.14em;
+
+  --text-whisper-size: 28px;
+  --text-whisper-line: 34px;
+  --text-whisper-weight: 400;
+
+  --text-whisper-lg-size: 64px;
+  --text-whisper-lg-line: 64px;
+  --text-whisper-lg-weight: 400;
+
+  /* — espaciado — */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-4: 16px;
+  --space-8: 32px;
+  --space-16: 64px;
+
+  /* — radio: esquinas duras por default — */
+  --radius-none: 0px;
+  --radius-sm: 2px;
+  --radius-full: 999px;
+
+  /* — motion — */
+  --motion-fast: 120ms;
+  --motion-base: 160ms;
+  --motion-ease: ease-out;
+}
+
+html[data-theme="light"] {
+  /* — color (Pergamino / light) — */
+  --bg: #f3ede2;
+  --surface: #e9e1d2;
+  --line: #d3c8b4;
+  --ink: #1b1713;
+  --ink-muted: #5c5347;
+  --gold: #8a5a10;
+  --verdigris: #2b6a5c;
+  --ember: #b0381f;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --motion-fast: 0ms; --motion-base: 0ms; }
+}
