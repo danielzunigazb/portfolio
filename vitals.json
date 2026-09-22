@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 59,
   "oxygen_saturation_pct": 97,
-  "steps_today": 8355,
+  "steps_today": 8356,
   "floors_climbed_today": 3,
   "sleep_duration_minutes": 452,
   "sleep_score": 64,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-22T02:18:12.128026Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-22T02:19:37.706080Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "20s",
-    "artists": "Peso Pluma, Tito Double P",
-    "album": "DINASTÍA",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02a9e6a250ea86a8f387873ef9",
-    "url": "https:\/\/open.spotify.com\/track\/7BkpesGJWJqrVKSsIdNLHn",
-    "updated_at": "2026-09-22T02:18:12.128139Z"
+    "track": "Tome y Fume",
+    "artists": "Eslabon Armado",
+    "album": "Corta Venas",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02657fa1079d4f17b7e06dd86e",
+    "url": "https:\/\/open.spotify.com\/track\/5nvXRwd42haErzniRvcR2x",
+    "updated_at": "2026-09-22T02:19:37.706279Z"
   }
 }
