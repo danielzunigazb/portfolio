@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-22T06:46:06.021475Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-22T07:01:42.712695Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "El N1 El Perfil o El Chavalon",
-    "artists": "Grupo Maximo Grado, Neton Vega",
-    "album": "Somos Leyenda",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0259aa47ac9e4f756b2a00ca27",
-    "url": "https:\/\/open.spotify.com\/track\/1VVvuXw7WMC9UJQQZw8vYd",
-    "updated_at": "2026-09-22T06:46:06.021667Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-22T07:01:42.712905Z"
   }
 }
