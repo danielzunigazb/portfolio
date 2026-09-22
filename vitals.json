@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "casa",
-  "updated_at": "2026-09-22T07:16:46.851484Z",
+  "updated_at": "2026-09-22T07:31:52.728828Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-09-22T07:16:46.851741Z"
+    "is_playing": true,
+    "track": "El Cabezón (El Papas Fritas)",
+    "artists": "Enigma Norteño",
+    "album": "XX",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02f2942c7b48f5d16d9f03cbe0",
+    "url": "https:\/\/open.spotify.com\/track\/3yrIy3fZAaGYIh1Lej78k5",
+    "updated_at": "2026-09-22T07:31:52.729124Z"
   }
 }
