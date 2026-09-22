@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 96,
-  "steps_today": 5554,
+  "steps_today": 5564,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 361,
   "sleep_score": 78,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-22T21:11:09.254286Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-22T21:27:18.224141Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Do To Me",
-    "artists": "Tim Sanders",
-    "album": "Do To Me",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0270ac1f0bd5de3f8024732514",
-    "url": "https:\/\/open.spotify.com\/track\/6ow9Iwh3H3ud5cRREiEX53",
-    "updated_at": "2026-09-22T21:11:09.254286Z"
+    "track": "AMEYAL",
+    "artists": "Yeyo, Ezya",
+    "album": "AMEYAL",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02f4d59adb91a897d0d3aaad06",
+    "url": "https:\/\/open.spotify.com\/track\/0N7GKowZsNCd1yHUKjuQY2",
+    "updated_at": "2026-09-22T21:27:18.224141Z"
   }
 }
