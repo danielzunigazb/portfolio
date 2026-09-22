@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 71,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 96,
   "steps_today": 5271,
   "floors_climbed_today": 2,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-22T19:50:10.215087Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-22T20:06:26.667275Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Ojos Colorados",
-    "artists": "Junior H, Alto Linaje",
-    "album": "Cruisin' with Junior H",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02163027188d86f4a532d670d0",
-    "url": "https:\/\/open.spotify.com\/track\/1MY56ZqalQ4ACafBxetOG9",
-    "updated_at": "2026-09-22T19:50:10.215087Z"
+    "track": "El Chivo (feat. T3r Elemento)",
+    "artists": "Berner, T3R Elemento",
+    "album": "El Chivo",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0216837cb74b93e5b33585ee2a",
+    "url": "https:\/\/open.spotify.com\/track\/1t0P9nBKpnrh5MntGd3qw6",
+    "updated_at": "2026-09-22T20:06:26.667275Z"
   }
 }
