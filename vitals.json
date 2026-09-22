@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 84,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 96,
   "steps_today": 5554,
   "floors_climbed_today": 2,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-22T20:55:09.520121Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-22T21:11:09.254286Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Gangsta Love",
-    "artists": "Dan Sanchez, Jimmy Guzman",
-    "album": "Gangsta Love",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02555b87c788152949f1635b0d",
-    "url": "https:\/\/open.spotify.com\/track\/6bgneDyfpvOVA7hDzUAiGT",
-    "updated_at": "2026-09-22T20:55:09.520121Z"
+    "track": "Do To Me",
+    "artists": "Tim Sanders",
+    "album": "Do To Me",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0270ac1f0bd5de3f8024732514",
+    "url": "https:\/\/open.spotify.com\/track\/6ow9Iwh3H3ud5cRREiEX53",
+    "updated_at": "2026-09-22T21:11:09.254286Z"
   }
 }
