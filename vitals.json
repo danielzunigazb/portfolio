@@ -13,7 +13,7 @@
   },
   "battery_pct": null,
   "location_zone": "casa",
-  "updated_at": "2026-09-22T23:07:42.300224Z",
+  "updated_at": "2026-09-22T23:07:43.683882Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
@@ -22,6 +22,6 @@
     "album": "Together Onetime",
     "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e025ef28d0cb607974e87283c90",
     "url": "https:\/\/open.spotify.com\/track\/6FlEvIBe2pO6g63ZIww5An",
-    "updated_at": "2026-09-22T23:07:42.300224Z"
+    "updated_at": "2026-09-22T23:07:43.683882Z"
   }
 }
