@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "casa",
-  "updated_at": "2026-09-22T02:15:20.408654Z",
+  "updated_at": "2026-09-22T02:18:12.128026Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "LA TROKA",
-    "artists": "Tito Double P, Eslabon Armado",
-    "album": "INCÓMODO",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0247e9618ef7411438f9c9478b",
-    "url": "https:\/\/open.spotify.com\/track\/0R23grfg7MaNE9TUpNNQUU",
-    "updated_at": "2026-09-22T02:15:20.408819Z"
+    "track": "20s",
+    "artists": "Peso Pluma, Tito Double P",
+    "album": "DINASTÍA",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02a9e6a250ea86a8f387873ef9",
+    "url": "https:\/\/open.spotify.com\/track\/7BkpesGJWJqrVKSsIdNLHn",
+    "updated_at": "2026-09-22T02:18:12.128139Z"
   }
 }
