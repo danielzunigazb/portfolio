@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-22T02:24:12.346206Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-22T02:29:07.712618Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Ya Fue",
-    "artists": "Herencia De Grandes",
-    "album": "Noches Sin Fin",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02595c866ba8d19bd9dd531bdc",
-    "url": "https:\/\/open.spotify.com\/track\/0l9nwoGmhk5ckCdRqJcPB8",
-    "updated_at": "2026-09-22T02:24:12.346351Z"
+    "track": "Hoy Todo Cambio",
+    "artists": "Grupo Marca Registrada",
+    "album": "Corleone",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e9da100ac57960dbb5022139",
+    "url": "https:\/\/open.spotify.com\/track\/1tinKBj5pMxJswRan96Mj7",
+    "updated_at": "2026-09-22T02:29:07.712773Z"
   }
 }
