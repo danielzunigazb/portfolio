@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-22T02:29:07.712618Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-22T02:38:28.566301Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Hoy Todo Cambio",
-    "artists": "Grupo Marca Registrada",
-    "album": "Corleone",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e9da100ac57960dbb5022139",
-    "url": "https:\/\/open.spotify.com\/track\/1tinKBj5pMxJswRan96Mj7",
-    "updated_at": "2026-09-22T02:29:07.712773Z"
+    "track": "Di Que Si",
+    "artists": "Grupo Marca Registrada, Grupo Frontera",
+    "album": "Di Que Si",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02aab35973ece2916fb24244fe",
+    "url": "https:\/\/open.spotify.com\/track\/0kzN7YAMSbmlHOvxlbQW9y",
+    "updated_at": "2026-09-22T02:38:28.566470Z"
   }
 }
