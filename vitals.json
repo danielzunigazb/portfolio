@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 53,
   "oxygen_saturation_pct": 97,
-  "steps_today": 8878,
+  "steps_today": 8905,
   "floors_climbed_today": 3,
   "sleep_duration_minutes": 452,
   "sleep_score": 64,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-22T03:48:34.256907Z",
+  "updated_at": "2026-09-22T04:04:09.653517Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "La Sandía",
+    "track": "Arriba Mi Culiacán",
     "artists": "Grupo Marca Registrada, Angel Cervantes",
     "album": "THE GOAT",
     "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02faae724e37331e286bface2a",
-    "url": "https:\/\/open.spotify.com\/track\/4qIa4rPS4QCFJPcyumlSv1",
-    "updated_at": "2026-09-22T03:48:34.257105Z"
+    "url": "https:\/\/open.spotify.com\/track\/1BNcijTdTP1qEqOSZN0Irj",
+    "updated_at": "2026-09-22T04:04:09.653803Z"
   }
 }
