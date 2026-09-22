@@ -13,7 +13,7 @@
   },
   "battery_pct": null,
   "location_zone": "casa",
-  "updated_at": "2026-09-22T02:22:50.317015Z",
+  "updated_at": "2026-09-22T02:23:05.927825Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
@@ -22,6 +22,6 @@
     "album": "Lo Que Sigue Rifando",
     "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0247227f19a9a590afe9231e79",
     "url": "https:\/\/open.spotify.com\/track\/353HXuXU1Xui5p00eSGCKL",
-    "updated_at": "2026-09-22T02:22:50.317141Z"
+    "updated_at": "2026-09-22T02:23:05.927964Z"
   }
 }
