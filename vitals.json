@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "casa",
-  "updated_at": "2026-09-22T05:09:59.587034Z",
+  "updated_at": "2026-09-22T05:25:04.023364Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "El Mago Merlín",
-    "artists": "Enigma Norteño",
-    "album": "XX",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02f2942c7b48f5d16d9f03cbe0",
-    "url": "https:\/\/open.spotify.com\/track\/3HUVWutnroDxcTtrYpYX7q",
-    "updated_at": "2026-09-22T05:09:59.587329Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-22T05:25:04.023636Z"
   }
 }
