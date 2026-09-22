@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 81,
   "oxygen_saturation_pct": 96,
-  "steps_today": 7821,
+  "steps_today": 7911,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 361,
   "sleep_score": 78,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-22T23:42:47.264917Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-22T23:59:16.813112Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Ladeando (feat. Fuerza Regida)",
-    "artists": "Herencia de Patrones, Fuerza Regida",
-    "album": "Jimmy Humilde Presenta Lo Mejor De Las Calles Vol. 4",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02fddda716def1e39cec3f3416",
-    "url": "https:\/\/open.spotify.com\/track\/0vgqt0mRZmbb3b57i9p8wV",
-    "updated_at": "2026-09-22T23:42:47.264917Z"
+    "track": "El Famoso Chino Antrax",
+    "artists": "Lenin Ramírez",
+    "album": "Mi Conquista",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e025b830f943080ecffa235cca9",
+    "url": "https:\/\/open.spotify.com\/track\/5JINcxe6jLF09D6RSpHH5p",
+    "updated_at": "2026-09-22T23:59:16.813112Z"
   }
 }
