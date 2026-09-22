@@ -27,8 +27,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 
 /* — layout: una columna, alineada a la izquierda — */
-.container { max-width: 1040px; padding: 0 var(--space-4); }
-@media (min-width: 1040px) { .container { padding-left: var(--space-8); } }
+.container { max-width: 1040px; margin: 0 auto; padding: 0 var(--space-4); }
+@media (min-width: 1040px) { .container { padding: 0 var(--space-8); } }
 
 /* — tipografía — */
 .text-display { font-family: var(--font-mono); font-size: var(--text-display-size); line-height: var(--text-display-line); font-weight: var(--text-display-weight); letter-spacing: var(--text-display-tracking); margin: 0; }
