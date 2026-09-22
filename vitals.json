@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 70,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 97,
   "steps_today": 8266,
   "floors_climbed_today": 3,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-22T01:07:48.313102Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-22T01:20:31.097821Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Diran De Mi",
-    "artists": "Natanael Cano, Tito Torbellino Jr",
-    "album": "Nata Montana",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02066c67e297dd388e5b25bc3a",
-    "url": "https:\/\/open.spotify.com\/track\/57pe0wF0RgVPtcR4f1eXH2",
-    "updated_at": "2026-09-22T01:07:48.313257Z"
+    "track": "LADYHOY",
+    "artists": "La Vendicion, La Obsesion, Yeyo, Doony Graff",
+    "album": "La Hermandad",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e2b5483c967518740889f865",
+    "url": "https:\/\/open.spotify.com\/track\/2GGVKT0t4s594JTy9z29fI",
+    "updated_at": "2026-09-22T01:20:31.097982Z"
   }
 }
