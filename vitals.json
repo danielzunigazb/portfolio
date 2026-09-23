@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 64,
   "oxygen_saturation_pct": 98,
-  "steps_today": 9473,
+  "steps_today": 9478,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 105
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-23T21:37:39.595755Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-23T21:48:29.160243Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Gente de Aquel",
-    "artists": "Julián Mercado",
-    "album": "Gente de Aquel",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02556e7710441b89fb1c907f12",
-    "url": "https:\/\/open.spotify.com\/track\/2SZu0Xvmc5VSbr1dKB0fQ0",
-    "updated_at": "2026-09-23T21:37:39.595755Z"
+    "track": "Lately",
+    "artists": "Luar La L",
+    "album": "Lately",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e028738b434cac90d0a7404ff3a",
+    "url": "https:\/\/open.spotify.com\/track\/4RhPikdazBZyoLEXWAEmSI",
+    "updated_at": "2026-09-23T21:48:29.160243Z"
   }
 }
