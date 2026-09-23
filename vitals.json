@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 81,
+  "heart_rate_bpm": 68,
   "oxygen_saturation_pct": 96,
-  "steps_today": 7911,
+  "steps_today": 8318,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 361,
   "sleep_score": 78,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-22T23:59:16.813112Z",
+  "updated_at": "2026-09-23T00:24:41.027806Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "El Famoso Chino Antrax",
-    "artists": "Lenin Ramírez",
-    "album": "Mi Conquista",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e025b830f943080ecffa235cca9",
-    "url": "https:\/\/open.spotify.com\/track\/5JINcxe6jLF09D6RSpHH5p",
-    "updated_at": "2026-09-22T23:59:16.813112Z"
+    "track": "LADY GAGA",
+    "artists": "Peso Pluma, Gabito Ballesteros, Junior H",
+    "album": "GÉNESIS",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e022fb583ed96f8f35cbf2897ba",
+    "url": "https:\/\/open.spotify.com\/track\/7mXuWTczZNxG5EDcjFEuJR",
+    "updated_at": "2026-09-23T00:24:41.027806Z"
   }
 }
