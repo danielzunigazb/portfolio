@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 64,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
   "steps_today": 9478,
   "floors_climbed_today": 2,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 105
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-23T21:48:29.160243Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-23T21:53:16.933285Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Lately",
-    "artists": "Luar La L",
-    "album": "Lately",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e028738b434cac90d0a7404ff3a",
-    "url": "https:\/\/open.spotify.com\/track\/4RhPikdazBZyoLEXWAEmSI",
-    "updated_at": "2026-09-23T21:48:29.160243Z"
+    "track": "No Podemos - Remix",
+    "artists": "Ele A El Dominio, Eladio Carrion, Myke Towers",
+    "album": "No Podemos (Remix)",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0263f4b27f56a0b83b96e715b2",
+    "url": "https:\/\/open.spotify.com\/track\/1jZXWu9aglrtzS9IqLbnrd",
+    "updated_at": "2026-09-23T21:53:16.933285Z"
   }
 }
