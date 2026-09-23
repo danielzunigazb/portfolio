@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 87,
+  "heart_rate_bpm": 79,
   "oxygen_saturation_pct": 96,
-  "steps_today": 8677,
+  "steps_today": 8747,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 361,
   "sleep_score": 78,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-23T02:43:55.470179Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-23T03:00:54.051385Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "El F",
-    "artists": "Natanael Cano, Junior H",
-    "album": "A Mis 20",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02ba974a351159771735c9614a",
-    "url": "https:\/\/open.spotify.com\/track\/04QX4SHRnYuMj5PffvG0dA",
-    "updated_at": "2026-09-23T02:43:55.470179Z"
+    "track": "Rapp Snitch Knishes",
+    "artists": "MF DOOM, Mr. Fantastik",
+    "album": "MM..FOOD",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0252f194d02c39909d1b284799",
+    "url": "https:\/\/open.spotify.com\/track\/5KUNwkaNf8l5A9sXZhiCgI",
+    "updated_at": "2026-09-23T03:00:54.051385Z"
   }
 }
