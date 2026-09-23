@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 78,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
   "steps_today": 9407,
   "floors_climbed_today": 2,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 105
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-23T21:03:51.415154Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-23T21:19:26.534198Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Me Tira Por El Phone",
-    "artists": "Natanael Cano, Tyan G",
-    "album": "Trap Tumbado",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e024c825e625710591195fba087",
-    "url": "https:\/\/open.spotify.com\/track\/2FGOdDfpkraPwMLW4kg3ds",
-    "updated_at": "2026-09-23T21:03:51.415154Z"
+    "track": "Mi Tío Snoop (feat. Snoop Dogg)",
+    "artists": "Alemán, Snoop Dogg",
+    "album": "Huracán",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0205a28a761fcd032b94a30bb0",
+    "url": "https:\/\/open.spotify.com\/track\/0qnFEzYZipPSi1toFwK5Xz",
+    "updated_at": "2026-09-23T21:19:26.534198Z"
   }
 }
