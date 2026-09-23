@@ -1,8 +1,8 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 89,
   "oxygen_saturation_pct": 98,
-  "steps_today": 9478,
-  "floors_climbed_today": 2,
+  "steps_today": 11072,
+  "floors_climbed_today": 3,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
   "last_exercise": {
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 105
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-23T21:53:16.933285Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-23T22:28:54.913478Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "No Podemos - Remix",
-    "artists": "Ele A El Dominio, Eladio Carrion, Myke Towers",
-    "album": "No Podemos (Remix)",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0263f4b27f56a0b83b96e715b2",
-    "url": "https:\/\/open.spotify.com\/track\/1jZXWu9aglrtzS9IqLbnrd",
-    "updated_at": "2026-09-23T21:53:16.933285Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-23T22:28:54.913478Z"
   }
 }
