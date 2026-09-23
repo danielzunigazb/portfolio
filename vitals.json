@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 92,
   "oxygen_saturation_pct": 98,
-  "steps_today": 8404,
+  "steps_today": 8790,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-23T18:02:16.426834Z",
+  "updated_at": "2026-09-23T18:20:04.388377Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-09-23T18:02:16.426834Z"
+    "is_playing": true,
+    "track": "Inferno",
+    "artists": "Carl Cox, Reinier Zonneveld, Christopher Coe",
+    "album": "Inferno",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d6fc2882b12e60a7c32fd005",
+    "url": "https:\/\/open.spotify.com\/track\/5TLCWDk3OqCe9mTPEJFbgU",
+    "updated_at": "2026-09-23T18:20:04.388377Z"
   }
 }
