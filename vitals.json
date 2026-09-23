@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 100,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
-  "steps_today": 4403,
+  "steps_today": 5512,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-23T14:00:11.608334Z",
+  "updated_at": "2026-09-23T14:48:34.556103Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Buenos Ratos",
-    "artists": "Natanael Cano, Junior H",
-    "album": "Corridos Tumbados",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e028bdd97bcdc83463812277751",
-    "url": "https:\/\/open.spotify.com\/track\/6M5NgWwRMEFLt4bx457TTy",
-    "updated_at": "2026-09-23T14:00:11.608334Z"
+    "track": "Cosas De La Clika",
+    "artists": "Herencia de Patrones",
+    "album": "Pa Las Vibras",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e020f93db39251f6911b35f5abf",
+    "url": "https:\/\/open.spotify.com\/track\/6ZyRBFspc4a4seZam5Hi8Z",
+    "updated_at": "2026-09-23T14:48:34.556103Z"
   }
 }
