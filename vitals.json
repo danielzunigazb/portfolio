@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 105,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
-  "steps_today": 8049,
+  "steps_today": 8404,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 105
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-23T17:46:34.618788Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-23T18:02:16.426834Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Tal Vez",
-    "artists": "Junior H",
-    "album": "$ad Boyz 4 Life",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02b3062f4365ced902e4aebb63",
-    "url": "https:\/\/open.spotify.com\/track\/75j9y4cWHtRKDT8PCFkYjO",
-    "updated_at": "2026-09-23T17:46:34.618788Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-23T18:02:16.426834Z"
   }
 }
