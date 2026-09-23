@@ -1,27 +1,27 @@
 {
-  "heart_rate_bpm": 110,
+  "heart_rate_bpm": 100,
   "oxygen_saturation_pct": 98,
-  "steps_today": 2150,
+  "steps_today": 3650,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
   "last_exercise": {
-    "type": "OTHER",
-    "duration_minutes": 11,
-    "calories": 75,
-    "mean_heart_rate_bpm": 123
+    "type": "WALKING",
+    "duration_minutes": 13,
+    "calories": 71,
+    "mean_heart_rate_bpm": 105
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-23T13:28:42.246330Z",
+  "updated_at": "2026-09-23T13:44:32.606425Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Lo Que Es",
-    "artists": "Herencia de Patrones",
-    "album": "Sorry For The Wait",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e020ceeb4ae277c5ba1646db0ab",
-    "url": "https:\/\/open.spotify.com\/track\/3I8CEUQgFMuGu1UkGrtSTk",
-    "updated_at": "2026-09-23T13:28:42.246330Z"
+    "track": "Prati",
+    "artists": "Carluccio",
+    "album": "Prati",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02c3c9e1b5199692dc8a4725c3",
+    "url": "https:\/\/open.spotify.com\/track\/7rXBrWGuXfc64IG5gD7Kee",
+    "updated_at": "2026-09-23T13:44:32.606425Z"
   }
 }
