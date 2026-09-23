@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 68,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 96,
   "steps_today": 8318,
   "floors_climbed_today": 2,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-23T00:41:36.151511Z",
+  "updated_at": "2026-09-23T00:58:45.877Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "El Muchacho Alegre",
-    "artists": "Fuerza Regida",
-    "album": "Pisteando Con La Regida",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0263988606ddc2d38d43ab7cb0",
-    "url": "https:\/\/open.spotify.com\/track\/2jFf11yM0aRv4DrNOcJtFX",
-    "updated_at": "2026-09-23T00:41:36.151511Z"
+    "track": "Esta Vida",
+    "artists": "Tony Loya",
+    "album": "Town Shit",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e025124b845fbbb19b4fcfb781d",
+    "url": "https:\/\/open.spotify.com\/track\/272tVT9JfxveQCC8QKCShz",
+    "updated_at": "2026-09-23T00:58:45.877Z"
   }
 }
