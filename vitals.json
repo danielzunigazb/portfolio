@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 80,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
   "steps_today": 9214,
   "floors_climbed_today": 2,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-23T19:28:06.878754Z",
+  "updated_at": "2026-09-23T19:47:10.203121Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "EXCXSXS",
-    "artists": "Feid",
-    "album": "FERXXO (VOL 1: M.O.R)",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e028e8753ff69b7efb6f8e146cd",
-    "url": "https:\/\/open.spotify.com\/track\/0GbrwlmnRMJOQ5bRV9QcZa",
-    "updated_at": "2026-09-23T19:28:06.878754Z"
+    "track": "Ella",
+    "artists": "Junior H",
+    "album": "Corridos Tumbados",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e028bdd97bcdc83463812277751",
+    "url": "https:\/\/open.spotify.com\/track\/0tKl8ZVM6xJkhznvJAS3Nq",
+    "updated_at": "2026-09-23T19:47:10.203121Z"
   }
 }
