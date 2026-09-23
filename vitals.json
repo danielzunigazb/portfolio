@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 102,
   "oxygen_saturation_pct": 98,
-  "steps_today": 522,
+  "steps_today": 1152,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-23T12:54:41.351550Z",
+  "updated_at": "2026-09-23T13:12:09.864131Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-09-23T12:54:41.351550Z"
+    "is_playing": true,
+    "track": "Done for Me (feat. Kehlani)",
+    "artists": "Charlie Puth, Kehlani",
+    "album": "Voicenotes",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02897f73256b9128a9d70eaf66",
+    "url": "https:\/\/open.spotify.com\/track\/1lsBTdE6MGsKeZCD6llNu7",
+    "updated_at": "2026-09-23T13:12:09.864131Z"
   }
 }
