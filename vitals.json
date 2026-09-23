@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 76,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
-  "steps_today": 6953,
+  "steps_today": 7449,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-23T15:30:22.355824Z",
+  "updated_at": "2026-09-23T17:25:13.775981Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-09-23T15:30:22.355824Z"
+    "is_playing": true,
+    "track": "Se Quedan Viendo",
+    "artists": "Junior H",
+    "album": "MUSICA <3",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02b308130670080be7c6f97713",
+    "url": "https:\/\/open.spotify.com\/track\/5AZBBx9tnjEI5q7UyNpgra",
+    "updated_at": "2026-09-23T17:25:13.775981Z"
   }
 }
