@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 96,
-  "steps_today": 8318,
+  "steps_today": 8382,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 361,
   "sleep_score": 78,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 123
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-23T01:49:13.377348Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-23T02:04:40.386844Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Mcgregor",
-    "artists": "Anuel AA",
-    "album": "Las Leyendas Nunca Mueren",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e021fbb8aa211472dc81f4e4ebc",
-    "url": "https:\/\/open.spotify.com\/track\/5zaIVQv1oPnTa86BUmmbjz",
-    "updated_at": "2026-09-23T01:49:13.377348Z"
+    "track": "Lampareado",
+    "artists": "Chino Pacas",
+    "album": "Que Sigan Llegando Las Pacas (Extended)",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02ef6655b813e1b2cd726e99d3",
+    "url": "https:\/\/open.spotify.com\/track\/6yDZz99VfBY8NTsx3ZDKkZ",
+    "updated_at": "2026-09-23T02:04:40.386844Z"
   }
 }
