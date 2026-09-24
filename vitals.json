@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 105
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-24T01:40:47.785735Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-24T01:42:28.310087Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Here To There",
-    "artists": "Michael Nyman",
-    "album": "The Piano: Music From The Motion Picture",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0282f80bc680463b2059c5826d",
-    "url": "https:\/\/open.spotify.com\/track\/16FSqhikE6jV5jHUP5Dlth",
-    "updated_at": "2026-09-24T01:40:47.785735Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-24T01:42:28.310087Z"
   }
 }
