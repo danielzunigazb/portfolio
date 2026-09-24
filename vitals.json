@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 97,
   "oxygen_saturation_pct": 96,
-  "steps_today": 712,
+  "steps_today": 953,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 105
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-24T10:59:31.407659Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-24T11:14:44.504348Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Taco El Flaco",
-    "artists": "Jorsshh, Luis R Conriquez, Neton Vega",
-    "album": "Ay Weyy",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e0362128cef895ccb9ae1295",
-    "url": "https:\/\/open.spotify.com\/track\/1TKtOAr9HUZyF3dCdwwcJE",
-    "updated_at": "2026-09-24T10:59:31.407659Z"
+    "track": "Mi Religión",
+    "artists": "T3R Elemento",
+    "album": "The Green Trip",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d102854b79e5b4360edd990b",
+    "url": "https:\/\/open.spotify.com\/track\/33MU3TnkqOle5HjXefemdx",
+    "updated_at": "2026-09-24T11:14:44.504348Z"
   }
 }
