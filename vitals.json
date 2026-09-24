@@ -1,8 +1,8 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 78,
   "oxygen_saturation_pct": 96,
-  "steps_today": 9472,
-  "floors_climbed_today": 2,
+  "steps_today": 9739,
+  "floors_climbed_today": 3,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
   "last_exercise": {
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "casa",
-  "updated_at": "2026-09-24T20:42:42.959400Z",
+  "updated_at": "2026-09-24T20:58:15.271588Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Milonga del moro judío",
-    "artists": "Jorge Drexler",
-    "album": "Eco",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02057def248fcaa6439a4079f7",
-    "url": "https:\/\/open.spotify.com\/track\/2aIutITgklpsnkA4Y8WbsI",
-    "updated_at": "2026-09-24T20:42:42.959400Z"
+    "track": "PICK UP THE PHONE (feat. Nate Dogg)",
+    "artists": "PAWSA, Nate Dogg",
+    "album": "PICK UP THE PHONE (feat. Nate Dogg)",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e024003cdfe6d95955403b98264",
+    "url": "https:\/\/open.spotify.com\/track\/6o0gJtOgimGamRBTS80H5g",
+    "updated_at": "2026-09-24T20:58:15.271588Z"
   }
 }
