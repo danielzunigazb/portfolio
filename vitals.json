@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
-  "steps_today": 13173,
+  "steps_today": 13212,
   "floors_climbed_today": 3,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "casa",
-  "updated_at": "2026-09-24T02:19:32.877858Z",
+  "updated_at": "2026-09-24T02:46:45.408714Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah)",
-    "artists": "CHIC",
-    "album": "Dance, Dance, Dance: The Best of Chic",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02966507d369a0de6da093d5f1",
-    "url": "https:\/\/open.spotify.com\/track\/1SwyDb5qUcLjukFqSCRqxy",
-    "updated_at": "2026-09-24T02:19:32.877858Z"
+    "track": "\/Qué Motor",
+    "artists": "Neton Vega",
+    "album": "DELIRIUM",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0271e38d4d55521f3381018801",
+    "url": "https:\/\/open.spotify.com\/track\/3moTCNPEEwSpU4jKxhc52i",
+    "updated_at": "2026-09-24T02:46:45.408714Z"
   }
 }
