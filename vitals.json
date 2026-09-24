@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 96,
-  "steps_today": 2096,
+  "steps_today": 2114,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-24T12:04:54.195676Z",
+  "updated_at": "2026-09-24T12:29:09.758485Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Buenos Ratos",
-    "artists": "Natanael Cano, Junior H",
-    "album": "Corridos Tumbados",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e028bdd97bcdc83463812277751",
-    "url": "https:\/\/open.spotify.com\/track\/6M5NgWwRMEFLt4bx457TTy",
-    "updated_at": "2026-09-24T12:04:54.195676Z"
+    "track": "Tay",
+    "artists": "Natanael Cano",
+    "album": "NataKong",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0259ee17a860f6ce4b35b031e2",
+    "url": "https:\/\/open.spotify.com\/track\/4tmdfH3f6KVx6I6LHkCgqg",
+    "updated_at": "2026-09-24T12:29:09.758485Z"
   }
 }
