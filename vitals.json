@@ -1,8 +1,8 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 44,
   "oxygen_saturation_pct": 98,
-  "steps_today": 13518,
-  "floors_climbed_today": 3,
+  "steps_today": 0,
+  "floors_climbed_today": 0,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
   "last_exercise": {
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-24T04:44:14.209010Z",
+  "updated_at": "2026-09-24T05:01:23.112904Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Denver Ruleteamos",
-    "artists": "Javier Rosas, Los Minis de Caborca",
-    "album": "Hombre De Ley",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0233d03ab83cf1367a93dff1c7",
-    "url": "https:\/\/open.spotify.com\/track\/4BQLs9OP2RUPGvjK9ABGex",
-    "updated_at": "2026-09-24T04:44:14.209010Z"
+    "track": "El N1 El Perfil o El Chavalon",
+    "artists": "Grupo Maximo Grado",
+    "album": "Unas Heladas",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e024f9db8060b145d0f9f0e8ef7",
+    "url": "https:\/\/open.spotify.com\/track\/2Q8WPAfr4nv4beiE1jJXMe",
+    "updated_at": "2026-09-24T05:01:23.112904Z"
   }
 }
