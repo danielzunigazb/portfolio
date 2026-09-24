@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 105,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 96,
   "steps_today": 11795,
   "floors_climbed_today": 4,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-24T22:13:23.899491Z",
+  "updated_at": "2026-09-24T22:38:09.137517Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Cuando Se Requiere",
-    "artists": "Natanael Cano",
-    "album": "A Mis 20",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02ba974a351159771735c9614a",
-    "url": "https:\/\/open.spotify.com\/track\/4ZomzapsPnKjVxSjijSqB4",
-    "updated_at": "2026-09-24T22:13:23.899491Z"
+    "track": "También Me Llamo Ismael - En Vivo",
+    "artists": "Enigma Norteño, Legion RG, Fraccion EME",
+    "album": "Enigma Norteño Y Sus Amigos",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e029a57e9a3257398b08bd27b15",
+    "url": "https:\/\/open.spotify.com\/track\/5gGfA7GMxYlK0UyCOzTVch",
+    "updated_at": "2026-09-24T22:38:09.137517Z"
   }
 }
