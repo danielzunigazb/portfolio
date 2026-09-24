@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 96,
-  "steps_today": 8576,
+  "steps_today": 8750,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 105
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-24T18:15:37.300365Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-24T18:41:53.972967Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-09-24T18:15:37.300365Z"
+    "is_playing": true,
+    "track": "Causa y efecto",
+    "artists": "Jorge Drexler",
+    "album": "Sea",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02ffbb66eddb82445e0c9c6cb4",
+    "url": "https:\/\/open.spotify.com\/track\/4AnMHETBYUYoZeFJRNnE8n",
+    "updated_at": "2026-09-24T18:41:53.972967Z"
   }
 }
