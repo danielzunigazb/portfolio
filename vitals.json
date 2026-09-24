@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 105
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-24T03:01:24.020817Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-24T03:02:25.752518Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Álbum JGL",
-    "artists": "Luis Mexia, Enigma Norteño, Los Dareyes De La Sierra",
-    "album": "Álbum JGL",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e028cfcb56535a79d047d2685b0",
-    "url": "https:\/\/open.spotify.com\/track\/7wQMaZgnqNolW1ATTUW1mq",
-    "updated_at": "2026-09-24T03:01:24.020817Z"
+    "track": "GIMME A SECOND",
+    "artists": "Peso Pluma, Rich The Kid",
+    "album": "ÉXODO",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e022690127e1d6cd0aa35cc353b",
+    "url": "https:\/\/open.spotify.com\/track\/0S0pOwYmfbzGgQBYnL9U1j",
+    "updated_at": "2026-09-24T03:02:25.752518Z"
   }
 }
