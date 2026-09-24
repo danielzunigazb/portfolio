@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 96,
-  "steps_today": 9464,
+  "steps_today": 9472,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 105
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-24T20:27:26.899037Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-24T20:42:42.959400Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Technologic",
-    "artists": "Daft Punk",
-    "album": "Human After All",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e022ed719bad67261c7bf090c70",
-    "url": "https:\/\/open.spotify.com\/track\/1iNeZGJsoC0D7ZyJTdIbDS",
-    "updated_at": "2026-09-24T20:27:26.899037Z"
+    "track": "Milonga del moro judío",
+    "artists": "Jorge Drexler",
+    "album": "Eco",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02057def248fcaa6439a4079f7",
+    "url": "https:\/\/open.spotify.com\/track\/2aIutITgklpsnkA4Y8WbsI",
+    "updated_at": "2026-09-24T20:42:42.959400Z"
   }
 }
