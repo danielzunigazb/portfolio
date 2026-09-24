@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 105
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-24T03:02:25.752518Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-24T03:18:01.199343Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "GIMME A SECOND",
-    "artists": "Peso Pluma, Rich The Kid",
-    "album": "ÉXODO",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e022690127e1d6cd0aa35cc353b",
-    "url": "https:\/\/open.spotify.com\/track\/0S0pOwYmfbzGgQBYnL9U1j",
-    "updated_at": "2026-09-24T03:02:25.752518Z"
+    "track": "Passionfruit",
+    "artists": "Drake",
+    "album": "More Life",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e024f0fd9dad63977146e685700",
+    "url": "https:\/\/open.spotify.com\/track\/5mCPDVBb16L4XQwDdbRUpz",
+    "updated_at": "2026-09-24T03:18:01.199343Z"
   }
 }
