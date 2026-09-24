@@ -1,8 +1,8 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 119,
   "oxygen_saturation_pct": 96,
-  "steps_today": 11795,
-  "floors_climbed_today": 4,
+  "steps_today": 12881,
+  "floors_climbed_today": 5,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
   "last_exercise": {
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 105
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-24T22:38:09.137517Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-24T23:09:48.666213Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "También Me Llamo Ismael - En Vivo",
-    "artists": "Enigma Norteño, Legion RG, Fraccion EME",
-    "album": "Enigma Norteño Y Sus Amigos",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e029a57e9a3257398b08bd27b15",
-    "url": "https:\/\/open.spotify.com\/track\/5gGfA7GMxYlK0UyCOzTVch",
-    "updated_at": "2026-09-24T22:38:09.137517Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-24T23:09:48.666213Z"
   }
 }
