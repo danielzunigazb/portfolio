@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 84,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 96,
   "steps_today": 9464,
   "floors_climbed_today": 2,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 105
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-24T20:10:34.539909Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-24T20:27:26.899037Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Paris Hilton",
-    "artists": "$HUPE, Victor Mendivil",
-    "album": "Paris Hilton",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02262208ef13429ee38372ab8c",
-    "url": "https:\/\/open.spotify.com\/track\/7ed8tIVWqNumP9WtpT2c44",
-    "updated_at": "2026-09-24T20:10:34.539909Z"
+    "track": "Technologic",
+    "artists": "Daft Punk",
+    "album": "Human After All",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e022ed719bad67261c7bf090c70",
+    "url": "https:\/\/open.spotify.com\/track\/1iNeZGJsoC0D7ZyJTdIbDS",
+    "updated_at": "2026-09-24T20:27:26.899037Z"
   }
 }
