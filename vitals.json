@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 87,
+  "heart_rate_bpm": 97,
   "oxygen_saturation_pct": 96,
-  "steps_today": 218,
+  "steps_today": 712,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "casa",
-  "updated_at": "2026-09-24T10:44:17.167467Z",
+  "updated_at": "2026-09-24T10:59:31.407659Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Bling Bling",
-    "artists": "Grupo Marca Registrada, Octavio Cuadras",
-    "album": "Bling Bling",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e023916f576b36a7c75e730f974",
-    "url": "https:\/\/open.spotify.com\/track\/5B8FWDSKUT5Ui1CsCfopWh",
-    "updated_at": "2026-09-24T10:44:17.167467Z"
+    "track": "Taco El Flaco",
+    "artists": "Jorsshh, Luis R Conriquez, Neton Vega",
+    "album": "Ay Weyy",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e0362128cef895ccb9ae1295",
+    "url": "https:\/\/open.spotify.com\/track\/1TKtOAr9HUZyF3dCdwwcJE",
+    "updated_at": "2026-09-24T10:59:31.407659Z"
   }
 }
