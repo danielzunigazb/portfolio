@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 55,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
   "steps_today": 13080,
   "floors_climbed_today": 3,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 105
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-24T01:10:54.868763Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-24T01:40:47.785735Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "REHABILITADO",
-    "artists": "Chuyin",
-    "album": "Los Locos Nunca Mueren",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e028f18cf2affad9a759d489200",
-    "url": "https:\/\/open.spotify.com\/track\/0yIeD98W17kQa4FdZzieiE",
-    "updated_at": "2026-09-24T01:10:54.868763Z"
+    "track": "Here To There",
+    "artists": "Michael Nyman",
+    "album": "The Piano: Music From The Motion Picture",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0282f80bc680463b2059c5826d",
+    "url": "https:\/\/open.spotify.com\/track\/16FSqhikE6jV5jHUP5Dlth",
+    "updated_at": "2026-09-24T01:40:47.785735Z"
   }
 }
