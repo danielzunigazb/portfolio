@@ -1,8 +1,8 @@
 {
-  "heart_rate_bpm": 85,
+  "heart_rate_bpm": 105,
   "oxygen_saturation_pct": 96,
-  "steps_today": 10924,
-  "floors_climbed_today": 3,
+  "steps_today": 11746,
+  "floors_climbed_today": 4,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
   "last_exercise": {
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-24T21:33:59.203772Z",
+  "updated_at": "2026-09-24T21:58:15.039149Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "La Vida Loca",
-    "artists": "El Padrinito Toys, Neton Vega",
-    "album": "La Vida Loca",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02cac9a5d855cef19b2fc174f1",
-    "url": "https:\/\/open.spotify.com\/track\/1nexAZpehtaPLqJZJSz0VI",
-    "updated_at": "2026-09-24T21:33:59.203772Z"
+    "track": "Casual Day",
+    "artists": "Alvaro Diaz",
+    "album": "Felicilandia",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e024385062efd655ededc0d2caa",
+    "url": "https:\/\/open.spotify.com\/track\/14RvZBvYcUH5anFMYx6vOi",
+    "updated_at": "2026-09-24T21:58:15.039149Z"
   }
 }
