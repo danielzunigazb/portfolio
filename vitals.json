@@ -1,27 +1,27 @@
 {
-  "heart_rate_bpm": 119,
+  "heart_rate_bpm": 111,
   "oxygen_saturation_pct": 96,
-  "steps_today": 12881,
+  "steps_today": 13803,
   "floors_climbed_today": 5,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
   "last_exercise": {
     "type": "WALKING",
-    "duration_minutes": 13,
-    "calories": 71,
-    "mean_heart_rate_bpm": 105
+    "duration_minutes": 12,
+    "calories": 64,
+    "mean_heart_rate_bpm": 116
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-24T23:09:48.666213Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-24T23:30:43.899974Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-09-24T23:09:48.666213Z"
+    "is_playing": true,
+    "track": "300 Noches",
+    "artists": "Belinda, Natanael Cano",
+    "album": "INDÓMITA",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e021496df70732b573ba13e9c96",
+    "url": "https:\/\/open.spotify.com\/track\/6UgRrmtg3duAesUZ8pqiM4",
+    "updated_at": "2026-09-24T23:30:43.899974Z"
   }
 }
