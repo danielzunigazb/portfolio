@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 92,
   "oxygen_saturation_pct": 96,
-  "steps_today": 9113,
+  "steps_today": 9139,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-24T19:07:55.877304Z",
+  "updated_at": "2026-09-24T19:23:14.060224Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Massive",
-    "artists": "Drake",
-    "album": "Honestly, Nevermind",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0222dfcfcc0742f339986d20cb",
-    "url": "https:\/\/open.spotify.com\/track\/0oiv4E896TUTTeQU0cmIui",
-    "updated_at": "2026-09-24T19:07:55.877304Z"
+    "track": "Doctor Marihuana",
+    "artists": "Cartel De Santa, bigman",
+    "album": "Golpe Avisa",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0286a61fa9352b4722862ccdf1",
+    "url": "https:\/\/open.spotify.com\/track\/4jzUIyAeosr1rNU9vlBDOv",
+    "updated_at": "2026-09-24T19:23:14.060224Z"
   }
 }
