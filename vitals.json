@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 92,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 96,
-  "steps_today": 9139,
+  "steps_today": 9234,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 105
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-24T19:23:14.060224Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-24T19:39:17.331128Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Doctor Marihuana",
-    "artists": "Cartel De Santa, bigman",
-    "album": "Golpe Avisa",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0286a61fa9352b4722862ccdf1",
-    "url": "https:\/\/open.spotify.com\/track\/4jzUIyAeosr1rNU9vlBDOv",
-    "updated_at": "2026-09-24T19:23:14.060224Z"
+    "track": "La Obsesión",
+    "artists": "La Obsesion, Yeyo, Doony Graff, Novato El Flow",
+    "album": "LA OBSESION, VOL. 1",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0261c0d04269094ca9dfbdd91d",
+    "url": "https:\/\/open.spotify.com\/track\/5NK5vkJQCtC721Ut1OvHYj",
+    "updated_at": "2026-09-24T19:39:17.331128Z"
   }
 }
