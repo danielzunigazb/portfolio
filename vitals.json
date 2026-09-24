@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 78,
+  "heart_rate_bpm": 61,
   "oxygen_saturation_pct": 96,
-  "steps_today": 9739,
+  "steps_today": 9923,
   "floors_climbed_today": 3,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 105
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-24T20:58:15.271588Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-24T21:13:59.593190Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "PICK UP THE PHONE (feat. Nate Dogg)",
-    "artists": "PAWSA, Nate Dogg",
-    "album": "PICK UP THE PHONE (feat. Nate Dogg)",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e024003cdfe6d95955403b98264",
-    "url": "https:\/\/open.spotify.com\/track\/6o0gJtOgimGamRBTS80H5g",
-    "updated_at": "2026-09-24T20:58:15.271588Z"
+    "track": "Low",
+    "artists": "Natanael Cano",
+    "album": "Soy El Nata",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e020c2ae6c355eefa77380e216f",
+    "url": "https:\/\/open.spotify.com\/track\/7bU1sTsK09PlT9YtqTeT7L",
+    "updated_at": "2026-09-24T21:13:59.593190Z"
   }
 }
