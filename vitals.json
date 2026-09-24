@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
-  "steps_today": 13212,
+  "steps_today": 13228,
   "floors_climbed_today": 3,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 105
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-24T02:46:45.408714Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-24T03:01:24.020817Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "\/Qué Motor",
-    "artists": "Neton Vega",
-    "album": "DELIRIUM",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0271e38d4d55521f3381018801",
-    "url": "https:\/\/open.spotify.com\/track\/3moTCNPEEwSpU4jKxhc52i",
-    "updated_at": "2026-09-24T02:46:45.408714Z"
+    "track": "Álbum JGL",
+    "artists": "Luis Mexia, Enigma Norteño, Los Dareyes De La Sierra",
+    "album": "Álbum JGL",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e028cfcb56535a79d047d2685b0",
+    "url": "https:\/\/open.spotify.com\/track\/7wQMaZgnqNolW1ATTUW1mq",
+    "updated_at": "2026-09-24T03:01:24.020817Z"
   }
 }
