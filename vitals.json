@@ -1,8 +1,8 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 93,
   "oxygen_saturation_pct": 96,
-  "steps_today": 3300,
-  "floors_climbed_today": 1,
+  "steps_today": 5353,
+  "floors_climbed_today": 2,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
   "last_exercise": {
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-24T13:52:11.569152Z",
+  "updated_at": "2026-09-24T15:06:59.705620Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "YA NI SU NOMBRE ME SE - Private AfroHouse",
-    "artists": "Harvy Valencia, Diego Teran, Mr.Diamond, Global Afro, MILENNA",
-    "album": "YA NI SU NOMBRE ME SE (Private AfroHouse)",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02eb79e3d8a79f13333b0790af",
-    "url": "https:\/\/open.spotify.com\/track\/49CKCJJmxjnB4WUmEp8vat",
-    "updated_at": "2026-09-24T13:52:11.569152Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-24T15:06:59.705620Z"
   }
 }
