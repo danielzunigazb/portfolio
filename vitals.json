@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 44,
-  "oxygen_saturation_pct": 98,
-  "steps_today": 0,
+  "heart_rate_bpm": 88,
+  "oxygen_saturation_pct": 96,
+  "steps_today": 43,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 105
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-24T05:01:23.112904Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-24T10:07:59.504731Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "El N1 El Perfil o El Chavalon",
-    "artists": "Grupo Maximo Grado",
-    "album": "Unas Heladas",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e024f9db8060b145d0f9f0e8ef7",
-    "url": "https:\/\/open.spotify.com\/track\/2Q8WPAfr4nv4beiE1jJXMe",
-    "updated_at": "2026-09-24T05:01:23.112904Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-24T10:07:59.504731Z"
   }
 }
