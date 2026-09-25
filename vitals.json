@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 116
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-25T00:30:42.097059Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-25T00:50:25.902381Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Cosa Guapa",
-    "artists": "Rauw Alejandro",
-    "album": "VICE VERSA",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02f793c0c53727d8c5c950f809",
-    "url": "https:\/\/open.spotify.com\/track\/7aWiJeMyxxPEyjwvZyauAF",
-    "updated_at": "2026-09-25T00:30:42.097059Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-25T00:50:25.902381Z"
   }
 }
