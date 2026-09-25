@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 96,
+  "heart_rate_bpm": 82,
   "oxygen_saturation_pct": 98,
-  "steps_today": 19813,
+  "steps_today": 20320,
   "floors_climbed_today": 76,
   "sleep_duration_minutes": 299,
   "sleep_score": 69,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-25T23:00:27.250479Z",
+  "updated_at": "2026-09-25T23:17:48.880667Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-09-25T23:00:27.250479Z"
+    "is_playing": true,
+    "track": "Cansada",
+    "artists": "actualhate, Arox, iHunty",
+    "album": "Cansada",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02372b72a9bf9eca0d31670cc9",
+    "url": "https:\/\/open.spotify.com\/track\/1cpTnr9jYGgyQPQbpAZGLW",
+    "updated_at": "2026-09-25T23:17:48.880667Z"
   }
 }
