@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 98,
   "oxygen_saturation_pct": 98,
-  "steps_today": 399,
+  "steps_today": 454,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 403,
   "sleep_score": 62,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 116
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-25T10:19:28.177046Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-25T10:35:11.325468Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Rafa Caro - Narco Version",
+    "track": "Rolling One - En Vivo",
     "artists": "T3R Elemento",
-    "album": "Rafa Caro",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e025e39018a175f528bec0a6716",
-    "url": "https:\/\/open.spotify.com\/track\/0pYDdfAZhe8FEbr8L3AQX8",
-    "updated_at": "2026-09-25T10:19:28.177046Z"
+    "album": "Underground (En Vivo)",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02098f6eeca6df48d2569d5acf",
+    "url": "https:\/\/open.spotify.com\/track\/1lCf72d4Ks74nbJSOedSNU",
+    "updated_at": "2026-09-25T10:35:11.325468Z"
   }
 }
