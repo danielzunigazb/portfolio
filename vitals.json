@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 46,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 96,
   "steps_today": 14898,
   "floors_climbed_today": 5,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 116
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-25T03:33:03.849337Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-25T03:48:52.072840Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "FRESITA",
-    "artists": "Fuerza Regida, Bellakath",
-    "album": "PERO NO TE ENAMORES",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0258f920f157b29869020a0f0d",
-    "url": "https:\/\/open.spotify.com\/track\/6hA12wp8wT93WpLwNYUmOq",
-    "updated_at": "2026-09-25T03:33:03.849337Z"
+    "track": "Salgamos",
+    "artists": "KEVIN ROLDAN, Andy Rivera, Maluma",
+    "album": "The Beginning",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e022375d8e43b48ae098bf1fe1e",
+    "url": "https:\/\/open.spotify.com\/track\/6gI7UZyH9wwAaRfcF070Hz",
+    "updated_at": "2026-09-25T03:48:52.072840Z"
   }
 }
