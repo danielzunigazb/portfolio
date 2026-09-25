@@ -1,27 +1,27 @@
 {
-  "heart_rate_bpm": 89,
+  "heart_rate_bpm": 103,
   "oxygen_saturation_pct": 98,
-  "steps_today": 10534,
+  "steps_today": 11235,
   "floors_climbed_today": 62,
   "sleep_duration_minutes": 299,
   "sleep_score": 69,
   "last_exercise": {
     "type": "WALKING",
-    "duration_minutes": 14,
-    "calories": 75,
+    "duration_minutes": 10,
+    "calories": 51,
     "mean_heart_rate_bpm": 107
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-25T15:20:49.487228Z",
+  "updated_at": "2026-09-25T15:36:55.561351Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Dias Nublados",
-    "artists": "Junior H",
-    "album": "MUSICA <3",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02b308130670080be7c6f97713",
-    "url": "https:\/\/open.spotify.com\/track\/7xQrt5TkFBBmlTEPJvXTH8",
-    "updated_at": "2026-09-25T15:20:49.487228Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-25T15:36:55.561351Z"
   }
 }
