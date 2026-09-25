@@ -1,8 +1,8 @@
 {
-  "heart_rate_bpm": 105,
+  "heart_rate_bpm": 103,
   "oxygen_saturation_pct": 98,
-  "steps_today": 17358,
-  "floors_climbed_today": 72,
+  "steps_today": 19282,
+  "floors_climbed_today": 76,
   "sleep_duration_minutes": 299,
   "sleep_score": 69,
   "last_exercise": {
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 135
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-25T20:19:52.520983Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-25T21:54:38.978026Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-09-25T20:19:52.520983Z"
+    "is_playing": true,
+    "track": "Don Chon (En Vivo)",
+    "artists": "Juanpa Salazar, Fuerza Regida, Natanael Cano",
+    "album": "Don Chon (En Vivo)",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e023d6b07d19fc45f65e7545774",
+    "url": "https:\/\/open.spotify.com\/track\/0OeX94j6rMIBHX7DGlOGzB",
+    "updated_at": "2026-09-25T21:54:38.978026Z"
   }
 }
