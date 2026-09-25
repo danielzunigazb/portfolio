@@ -1,10 +1,10 @@
 {
-  "heart_rate_bpm": 99,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
-  "steps_today": 1189,
+  "steps_today": 1225,
   "floors_climbed_today": 0,
-  "sleep_duration_minutes": 403,
-  "sleep_score": 62,
+  "sleep_duration_minutes": 299,
+  "sleep_score": 69,
   "last_exercise": {
     "type": "WALKING",
     "duration_minutes": 12,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-25T11:07:28.235093Z",
+  "updated_at": "2026-09-25T11:23:25.791644Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "La Fea",
-    "artists": "Edicion Especial",
-    "album": "La Fea",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e026d6da01231ab5c1deb8e6510",
-    "url": "https:\/\/open.spotify.com\/track\/6qRDRRc6ySs99VGB1KTNsf",
-    "updated_at": "2026-09-25T11:07:28.235093Z"
+    "track": "No Cap",
+    "artists": "Junior H",
+    "album": "MUSICA <3",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02b308130670080be7c6f97713",
+    "url": "https:\/\/open.spotify.com\/track\/4wgmFVOhq23V49NoEavJmj",
+    "updated_at": "2026-09-25T11:23:25.791644Z"
   }
 }
