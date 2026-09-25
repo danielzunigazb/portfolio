@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 116
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-25T03:48:52.072840Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-25T04:04:59.481403Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Salgamos",
-    "artists": "KEVIN ROLDAN, Andy Rivera, Maluma",
-    "album": "The Beginning",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e022375d8e43b48ae098bf1fe1e",
-    "url": "https:\/\/open.spotify.com\/track\/6gI7UZyH9wwAaRfcF070Hz",
-    "updated_at": "2026-09-25T03:48:52.072840Z"
+    "track": "Solo Me Dejaste",
+    "artists": "Grupo Marca Registrada",
+    "album": "Solo Me Dejaste",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e023cbeb2e7857839f23ca07144",
+    "url": "https:\/\/open.spotify.com\/track\/3K7Cn4Fusqlo19eKZb5x8S",
+    "updated_at": "2026-09-25T04:04:59.481403Z"
   }
 }
