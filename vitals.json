@@ -1,27 +1,27 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 89,
   "oxygen_saturation_pct": 98,
-  "steps_today": 1225,
-  "floors_climbed_today": 0,
+  "steps_today": 5088,
+  "floors_climbed_today": 31,
   "sleep_duration_minutes": 299,
   "sleep_score": 69,
   "last_exercise": {
     "type": "WALKING",
-    "duration_minutes": 12,
-    "calories": 64,
-    "mean_heart_rate_bpm": 116
+    "duration_minutes": 45,
+    "calories": 251,
+    "mean_heart_rate_bpm": 100
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-25T11:23:25.791644Z",
+  "updated_at": "2026-09-25T12:26:29.440738Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "No Cap",
-    "artists": "Junior H",
-    "album": "MUSICA <3",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02b308130670080be7c6f97713",
-    "url": "https:\/\/open.spotify.com\/track\/4wgmFVOhq23V49NoEavJmj",
-    "updated_at": "2026-09-25T11:23:25.791644Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-25T12:26:29.440738Z"
   }
 }
