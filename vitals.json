@@ -1,27 +1,27 @@
 {
-  "heart_rate_bpm": 83,
+  "heart_rate_bpm": 97,
   "oxygen_saturation_pct": 98,
-  "steps_today": 6955,
-  "floors_climbed_today": 56,
+  "steps_today": 7886,
+  "floors_climbed_today": 62,
   "sleep_duration_minutes": 299,
   "sleep_score": 69,
   "last_exercise": {
     "type": "WALKING",
-    "duration_minutes": 11,
-    "calories": 63,
-    "mean_heart_rate_bpm": 86
+    "duration_minutes": 13,
+    "calories": 69,
+    "mean_heart_rate_bpm": 82
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-25T13:02:13.999080Z",
+  "updated_at": "2026-09-25T13:23:22.884864Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-09-25T13:02:13.999080Z"
+    "is_playing": true,
+    "track": "Sin Ti",
+    "artists": "Natanael Cano",
+    "album": "A Mis 20",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02ba974a351159771735c9614a",
+    "url": "https:\/\/open.spotify.com\/track\/391dJizAzRYufWsrP8SB35",
+    "updated_at": "2026-09-25T13:23:22.884864Z"
   }
 }
