@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 97,
+  "heart_rate_bpm": 75,
   "oxygen_saturation_pct": 98,
-  "steps_today": 8569,
+  "steps_today": 8845,
   "floors_climbed_today": 62,
   "sleep_duration_minutes": 299,
   "sleep_score": 69,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-25T13:42:36.648423Z",
+  "updated_at": "2026-09-25T13:58:42.615017Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Amor Tumbado",
-    "artists": "Natanael Cano",
-    "album": "Mi Nuevo Yo",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02cb685e9856eb278b50c68315",
-    "url": "https:\/\/open.spotify.com\/track\/5aJ1M43pinROpwaPnO8KRj",
-    "updated_at": "2026-09-25T13:42:36.648423Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-25T13:58:42.615017Z"
   }
 }
