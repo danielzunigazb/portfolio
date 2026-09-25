@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 82,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
-  "steps_today": 20348,
+  "steps_today": 20431,
   "floors_climbed_today": 76,
   "sleep_duration_minutes": 299,
   "sleep_score": 69,
@@ -12,16 +12,7 @@
     "mean_heart_rate_bpm": 135
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-25T23:34:02.969506Z",
-  "source": "galaxy-fit3-samsunghealth",
-  "now_playing": {
-    "is_playing": true,
-    "track": "Sabanas Blancas",
-    "artists": "La Santa Grifa",
-    "album": "Frenia",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02b355dd86f43394eb09c710ac",
-    "url": "https:\/\/open.spotify.com\/track\/0IBhXEEKXhv0bdpboaw5M3",
-    "updated_at": "2026-09-25T23:34:02.969506Z"
-  }
+  "location_zone": "afuera",
+  "updated_at": "2026-09-25T23:55:21.049037Z",
+  "source": "galaxy-fit3-samsunghealth"
 }
