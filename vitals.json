@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 58,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
-  "steps_today": 20818,
+  "steps_today": 20967,
   "floors_climbed_today": 76,
   "sleep_duration_minutes": 299,
   "sleep_score": 69,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 135
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-26T00:10:55.776314Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-26T01:44:20.891421Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "La Vida Loca",
-    "artists": "El Padrinito Toys, Neton Vega",
-    "album": "La Vida Loca",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02cac9a5d855cef19b2fc174f1",
-    "url": "https:\/\/open.spotify.com\/track\/1nexAZpehtaPLqJZJSz0VI",
-    "updated_at": "2026-09-26T00:10:55.776314Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-26T01:44:20.891421Z"
   }
 }
