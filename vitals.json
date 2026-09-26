@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 80,
   "oxygen_saturation_pct": 98,
-  "steps_today": 3649,
+  "steps_today": 3876,
   "floors_climbed_today": 1,
   "sleep_duration_minutes": 287,
   "sleep_score": 68,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-26T17:33:11.493298Z",
+  "updated_at": "2026-09-26T17:48:46.520602Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Recordando a Manuel",
-    "artists": "Lenin Ramírez, Gerardo Ortiz, Jesús Chairez",
-    "album": "Bendecído",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0248a927bcedc8fc51b0d3e613",
-    "url": "https:\/\/open.spotify.com\/track\/3JuPa0jxEAacGtz4mAKVZA",
-    "updated_at": "2026-09-26T17:33:11.493298Z"
+    "track": "Déjenme Hacer Dinero",
+    "artists": "Edicion Especial, Grupo Marca Registrada, La Ventaja, Código FN",
+    "album": "Déjenme Hacer Dinero",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02fd6aea5c843f9043ba4f64b6",
+    "url": "https:\/\/open.spotify.com\/track\/36Sb1v2RoaxKDFkzergWCO",
+    "updated_at": "2026-09-26T17:48:46.520602Z"
   }
 }
