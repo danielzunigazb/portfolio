@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 79,
   "oxygen_saturation_pct": 98,
-  "steps_today": 1335,
+  "steps_today": 1532,
   "floors_climbed_today": 1,
   "sleep_duration_minutes": 287,
   "sleep_score": 68,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-26T15:23:56.155701Z",
+  "updated_at": "2026-09-26T15:40:13.836803Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Kong",
-    "artists": "Natanael Cano",
+    "track": "Quien Va A Caer",
+    "artists": "Natanael Cano, Tyan G",
     "album": "NataKong",
     "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0259ee17a860f6ce4b35b031e2",
-    "url": "https:\/\/open.spotify.com\/track\/5qJBRW4DEL0kVi7wdzM8hc",
-    "updated_at": "2026-09-26T15:23:56.155701Z"
+    "url": "https:\/\/open.spotify.com\/track\/6xpWfCGB1sS57f7k15ROkH",
+    "updated_at": "2026-09-26T15:40:13.836803Z"
   }
 }
