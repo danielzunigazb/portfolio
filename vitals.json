@@ -3,8 +3,8 @@
   "oxygen_saturation_pct": 98,
   "steps_today": 0,
   "floors_climbed_today": 0,
-  "sleep_duration_minutes": 287,
-  "sleep_score": 68,
+  "sleep_duration_minutes": 250,
+  "sleep_score": 62,
   "last_exercise": {
     "type": "WALKING",
     "duration_minutes": 15,
@@ -13,7 +13,7 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-27T05:12:11.253963Z",
+  "updated_at": "2026-09-27T10:07:01.803500Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": false,
@@ -22,6 +22,6 @@
     "album": null,
     "cover_url": null,
     "url": null,
-    "updated_at": "2026-09-27T05:12:11.253963Z"
+    "updated_at": "2026-09-27T10:07:01.803500Z"
   }
 }
