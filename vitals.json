@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 89,
   "oxygen_saturation_pct": 98,
-  "steps_today": 3435,
+  "steps_today": 3625,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 250,
   "sleep_score": 62,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 135
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-28T00:37:52.077788Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-28T00:53:10.942251Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "chiclona",
-    "artists": "Peso Pluma, Tito Double P, LENCHO",
-    "album": "DINASTÍA (DELUXE)",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e028ff0dc6e03af2b4b83e9e274",
-    "url": "https:\/\/open.spotify.com\/track\/5Q4HTsEGKanxOwL1nYCnhQ",
-    "updated_at": "2026-09-28T00:37:52.077788Z"
+    "track": "Doctor Marihuana",
+    "artists": "Cartel De Santa, bigman",
+    "album": "Golpe Avisa",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0286a61fa9352b4722862ccdf1",
+    "url": "https:\/\/open.spotify.com\/track\/4jzUIyAeosr1rNU9vlBDOv",
+    "updated_at": "2026-09-28T00:53:10.942251Z"
   }
 }
