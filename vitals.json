@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 89,
+  "heart_rate_bpm": 79,
   "oxygen_saturation_pct": 98,
-  "steps_today": 3625,
+  "steps_today": 3916,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 250,
   "sleep_score": 62,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "casa",
-  "updated_at": "2026-09-28T00:53:10.942251Z",
+  "updated_at": "2026-09-28T01:08:33.559969Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Doctor Marihuana",
-    "artists": "Cartel De Santa, bigman",
-    "album": "Golpe Avisa",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0286a61fa9352b4722862ccdf1",
-    "url": "https:\/\/open.spotify.com\/track\/4jzUIyAeosr1rNU9vlBDOv",
-    "updated_at": "2026-09-28T00:53:10.942251Z"
+    "track": "Lo Que Me Das",
+    "artists": "Peso Pluma",
+    "album": "Efectos Secundarios",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02209cc1eea682009f9d9c18a1",
+    "url": "https:\/\/open.spotify.com\/track\/2zq4jvlUHtOk3v5eBLmCje",
+    "updated_at": "2026-09-28T01:08:33.559969Z"
   }
 }
