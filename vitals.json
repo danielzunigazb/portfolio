@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "casa",
-  "updated_at": "2026-09-28T03:41:12.211972Z",
+  "updated_at": "2026-09-28T03:56:53.636519Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Hierba de Receta",
-    "artists": "Lenin Ramírez, T3R Elemento, Oscar Cortez",
-    "album": "Seguimos Adelante",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02fbed4d986a2acf2636c6db21",
-    "url": "https:\/\/open.spotify.com\/track\/2ApWM2QZy7n5zZxwaCvH6j",
-    "updated_at": "2026-09-28T03:41:12.211972Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-28T03:56:53.636519Z"
   }
 }
