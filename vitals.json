@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 122,
   "oxygen_saturation_pct": 97,
-  "steps_today": 9546,
+  "steps_today": 9547,
   "floors_climbed_today": 5,
   "sleep_duration_minutes": 416,
   "sleep_score": 81,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 101
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-29T19:01:15.053967Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-29T19:01:56.727224Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Intenciones Malas",
-    "artists": "Dan Sanchez, Junior H",
-    "album": "Intenciones Malas",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02672f4922f1b0972fe1b76e78",
-    "url": "https:\/\/open.spotify.com\/track\/5mHvccDXkSclGx5no3wtZ1",
-    "updated_at": "2026-09-29T19:01:15.053967Z"
+    "track": "Me Tira Por El Phone",
+    "artists": "Natanael Cano, Tyan G",
+    "album": "Trap Tumbado",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e024c825e625710591195fba087",
+    "url": "https:\/\/open.spotify.com\/track\/2FGOdDfpkraPwMLW4kg3ds",
+    "updated_at": "2026-09-29T19:01:56.727224Z"
   }
 }
