@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 111,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 97,
-  "steps_today": 10234,
+  "steps_today": 10283,
   "floors_climbed_today": 5,
   "sleep_duration_minutes": 416,
   "sleep_score": 81,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "casa",
-  "updated_at": "2026-09-29T19:33:06.576584Z",
+  "updated_at": "2026-09-29T19:50:22.990673Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "PIENSO EN TI.",
-    "artists": "Alvaro Diaz",
-    "album": "OMAKASE",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e026ed39fc4ac85aa4ce6ea1793",
-    "url": "https:\/\/open.spotify.com\/track\/6P5J1CxWKrJLunXdSu5HRd",
-    "updated_at": "2026-09-29T19:33:06.576584Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-29T19:50:22.990673Z"
   }
 }
