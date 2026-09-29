@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 83,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 97,
   "steps_today": 8073,
   "floors_climbed_today": 3,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-29T01:19:39.240293Z",
+  "updated_at": "2026-09-29T01:35:50.954468Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Answer",
-    "artists": "Tyler, The Creator",
-    "album": "Wolf",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02913f492347e1585748450855",
-    "url": "https:\/\/open.spotify.com\/track\/6rqj2zeKhLy3exkuFi6mSz",
-    "updated_at": "2026-09-29T01:19:39.240293Z"
+    "track": "ball w\/o you",
+    "artists": "21 Savage",
+    "album": "i am > i was",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e021afd2e526e3723dd4a9fb4c8",
+    "url": "https:\/\/open.spotify.com\/track\/50a8bKqlwDEqeiEknrzkTO",
+    "updated_at": "2026-09-29T01:35:50.954468Z"
   }
 }
