@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 67,
+  "heart_rate_bpm": 79,
   "oxygen_saturation_pct": 97,
-  "steps_today": 38,
+  "steps_today": 492,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 416,
   "sleep_score": 81,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 111
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-29T10:44:21.545574Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-29T10:59:56.481106Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "\/Desvelaos",
-    "artists": "Neton Vega",
-    "album": "DELIRIUM",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0271e38d4d55521f3381018801",
-    "url": "https:\/\/open.spotify.com\/track\/4v4ZRvkVBzSOeMY0Is3Cfk",
-    "updated_at": "2026-09-29T10:44:21.545574Z"
+    "track": "El Jelty",
+    "artists": "Herencia De Grandes",
+    "album": "Lo Que Sigue Rifando",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0247227f19a9a590afe9231e79",
+    "url": "https:\/\/open.spotify.com\/track\/353HXuXU1Xui5p00eSGCKL",
+    "updated_at": "2026-09-29T10:59:56.481106Z"
   }
 }
