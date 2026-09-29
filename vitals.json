@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 122,
   "oxygen_saturation_pct": 97,
-  "steps_today": 9547,
+  "steps_today": 9813,
   "floors_climbed_today": 5,
   "sleep_duration_minutes": 416,
   "sleep_score": 81,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "casa",
-  "updated_at": "2026-09-29T19:01:56.727224Z",
+  "updated_at": "2026-09-29T19:17:28.064747Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Me Tira Por El Phone",
-    "artists": "Natanael Cano, Tyan G",
-    "album": "Trap Tumbado",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e024c825e625710591195fba087",
-    "url": "https:\/\/open.spotify.com\/track\/2FGOdDfpkraPwMLW4kg3ds",
-    "updated_at": "2026-09-29T19:01:56.727224Z"
+    "track": "Pideme La Luna",
+    "artists": "natamontana",
+    "album": "Pideme La Luna",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0232c752264ca26f41d67162a9",
+    "url": "https:\/\/open.spotify.com\/track\/3ECHpPyo1huZLBoez1T73o",
+    "updated_at": "2026-09-29T19:17:28.064747Z"
   }
 }
