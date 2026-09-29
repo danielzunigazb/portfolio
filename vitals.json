@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 91,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 97,
-  "steps_today": 10792,
+  "steps_today": 11406,
   "floors_climbed_today": 6,
   "sleep_duration_minutes": 416,
   "sleep_score": 81,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 120
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-29T20:42:51.979159Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-29T21:21:20.183017Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-09-29T20:42:51.979159Z"
+    "is_playing": true,
+    "track": "Quién Pidió Pollo",
+    "artists": "Granuja, Doble Porcion",
+    "album": "Círculo Vicioso",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d2f31ce8db996e443196db3a",
+    "url": "https:\/\/open.spotify.com\/track\/3eg52bwJ7r5Ma9ZmLOGAts",
+    "updated_at": "2026-09-29T21:21:20.183017Z"
   }
 }
