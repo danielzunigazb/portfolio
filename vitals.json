@@ -1,10 +1,10 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 67,
   "oxygen_saturation_pct": 97,
   "steps_today": 0,
   "floors_climbed_today": 0,
-  "sleep_duration_minutes": 388,
-  "sleep_score": 72,
+  "sleep_duration_minutes": 416,
+  "sleep_score": 81,
   "last_exercise": {
     "type": "OTHER",
     "duration_minutes": 15,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 111
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-29T10:05:30.780036Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-29T10:28:34.680439Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-09-29T10:05:30.780036Z"
+    "is_playing": true,
+    "track": "El AK",
+    "artists": "Junior H",
+    "album": "Corridos Tumbados",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e028bdd97bcdc83463812277751",
+    "url": "https:\/\/open.spotify.com\/track\/5TcrOVydCIXJnEVBOcd4c0",
+    "updated_at": "2026-09-29T10:28:34.680439Z"
   }
 }
