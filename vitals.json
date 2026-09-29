@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 111
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-29T01:35:50.954468Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-29T01:51:00.134498Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "ball w\/o you",
-    "artists": "21 Savage",
-    "album": "i am > i was",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e021afd2e526e3723dd4a9fb4c8",
-    "url": "https:\/\/open.spotify.com\/track\/50a8bKqlwDEqeiEknrzkTO",
-    "updated_at": "2026-09-29T01:35:50.954468Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-29T01:51:00.134498Z"
   }
 }
