@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 99,
   "oxygen_saturation_pct": 97,
-  "steps_today": 6867,
+  "steps_today": 7463,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 388,
   "sleep_score": 72,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 135
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-29T00:32:31.532773Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-29T00:48:54.901088Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "La Mentira",
-    "artists": "Luis Miguel",
-    "album": "Romance",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02bda5c1e56bf06c3c7fc173f7",
-    "url": "https:\/\/open.spotify.com\/track\/3wogsSWyEEu5eVgLqUqySF",
-    "updated_at": "2026-09-29T00:32:31.532773Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-29T00:48:54.901088Z"
   }
 }
