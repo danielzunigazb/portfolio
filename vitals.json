@@ -1,27 +1,27 @@
 {
-  "heart_rate_bpm": 122,
+  "heart_rate_bpm": 111,
   "oxygen_saturation_pct": 97,
-  "steps_today": 9813,
+  "steps_today": 10234,
   "floors_climbed_today": 5,
   "sleep_duration_minutes": 416,
   "sleep_score": 81,
   "last_exercise": {
-    "type": "WALKING",
-    "duration_minutes": 14,
-    "calories": 70,
-    "mean_heart_rate_bpm": 101
+    "type": "OTHER",
+    "duration_minutes": 10,
+    "calories": 63,
+    "mean_heart_rate_bpm": 120
   },
   "battery_pct": null,
   "location_zone": "casa",
-  "updated_at": "2026-09-29T19:17:28.064747Z",
+  "updated_at": "2026-09-29T19:33:06.576584Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Pideme La Luna",
-    "artists": "natamontana",
-    "album": "Pideme La Luna",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0232c752264ca26f41d67162a9",
-    "url": "https:\/\/open.spotify.com\/track\/3ECHpPyo1huZLBoez1T73o",
-    "updated_at": "2026-09-29T19:17:28.064747Z"
+    "track": "PIENSO EN TI.",
+    "artists": "Alvaro Diaz",
+    "album": "OMAKASE",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e026ed39fc4ac85aa4ce6ea1793",
+    "url": "https:\/\/open.spotify.com\/track\/6P5J1CxWKrJLunXdSu5HRd",
+    "updated_at": "2026-09-29T19:33:06.576584Z"
   }
 }
