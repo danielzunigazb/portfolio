@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 97,
-  "steps_today": 14287,
+  "steps_today": 14331,
   "floors_climbed_today": 8,
   "sleep_duration_minutes": 416,
   "sleep_score": 81,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "casa",
-  "updated_at": "2026-09-30T03:29:33.753070Z",
+  "updated_at": "2026-09-30T04:00:41.273582Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-09-30T03:29:33.753070Z"
+    "is_playing": true,
+    "track": "Quien Diria",
+    "artists": "Victor Mendivil, Natanael Cano",
+    "album": "Tutankamon",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d9804cbf2de637f09890ffb8",
+    "url": "https:\/\/open.spotify.com\/track\/7in3iob45LtO2p6njGZiUT",
+    "updated_at": "2026-09-30T04:00:41.273582Z"
   }
 }
