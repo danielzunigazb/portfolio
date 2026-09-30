@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
-  "steps_today": 5899,
+  "steps_today": 5944,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 416,
   "sleep_score": 81,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-30T20:04:10.936904Z",
+  "updated_at": "2026-09-30T20:36:46.721229Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-09-30T20:04:10.936904Z"
+    "is_playing": true,
+    "track": "TU TU TU",
+    "artists": "Clave Especial, Edgardo Nuñez",
+    "album": "TU TU TU",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d714432ce7b65981e5bea405",
+    "url": "https:\/\/open.spotify.com\/track\/5sK3SqHia7p5dXjdq1dluB",
+    "updated_at": "2026-09-30T20:36:46.721229Z"
   }
 }
