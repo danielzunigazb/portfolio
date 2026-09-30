@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 97,
-  "steps_today": 14331,
+  "steps_today": 14397,
   "floors_climbed_today": 8,
   "sleep_duration_minutes": 416,
   "sleep_score": 81,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 120
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-30T04:00:41.273582Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-30T04:16:16.350419Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Quien Diria",
-    "artists": "Victor Mendivil, Natanael Cano",
-    "album": "Tutankamon",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d9804cbf2de637f09890ffb8",
-    "url": "https:\/\/open.spotify.com\/track\/7in3iob45LtO2p6njGZiUT",
-    "updated_at": "2026-09-30T04:00:41.273582Z"
+    "track": "Primero Muerto",
+    "artists": "Natanael Cano",
+    "album": "Porque La Demora",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02b60ef80c5a8a3b25dd6bea6e",
+    "url": "https:\/\/open.spotify.com\/track\/1cROHCdUPenxfzElY6dC48",
+    "updated_at": "2026-09-30T04:16:16.350419Z"
   }
 }
