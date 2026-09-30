@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
-  "steps_today": 6519,
+  "steps_today": 6534,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 416,
   "sleep_score": 81,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-09-30T22:29:03.958851Z",
+  "updated_at": "2026-09-30T23:03:34.782251Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Mar Azul",
+    "track": "Iniciales AL (Porte Fino)",
     "artists": "Natanael Cano",
-    "album": "Natanael Cano, Vol.1",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0263e46889b1cb3b87dc33f6f3",
-    "url": "https:\/\/open.spotify.com\/track\/16x23W9udcF7iPcNfU4k28",
-    "updated_at": "2026-09-30T22:29:03.958851Z"
+    "album": "Corridos Tumbados",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e028bdd97bcdc83463812277751",
+    "url": "https:\/\/open.spotify.com\/track\/58bqqIYUIbkMOgD1ZBAr1E",
+    "updated_at": "2026-09-30T23:03:34.782251Z"
   }
 }
