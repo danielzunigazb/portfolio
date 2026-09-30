@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 120
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-30T22:13:26.681250Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-30T22:29:03.958851Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-09-30T22:13:26.681250Z"
+    "is_playing": true,
+    "track": "Mar Azul",
+    "artists": "Natanael Cano",
+    "album": "Natanael Cano, Vol.1",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0263e46889b1cb3b87dc33f6f3",
+    "url": "https:\/\/open.spotify.com\/track\/16x23W9udcF7iPcNfU4k28",
+    "updated_at": "2026-09-30T22:29:03.958851Z"
   }
 }
