@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 120
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-30T21:10:56.181081Z",
+  "location_zone": "casa",
+  "updated_at": "2026-09-30T21:26:34.164344Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Llamé Pa' Verte (Bailando Sexy)",
-    "artists": "Wisin & Yandel",
-    "album": "Pa'l Mundo",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e027715c409b824e68db51c7adf",
-    "url": "https:\/\/open.spotify.com\/track\/5SgN4mSGVEZ8TZQ5YSsKKb",
-    "updated_at": "2026-09-30T21:10:56.181081Z"
+    "track": "Me Matas",
+    "artists": "R.K.M & Ken-Y",
+    "album": "Masterpiece: Nuestra Obra Maestra",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02714a625bc59a6c96a067d329",
+    "url": "https:\/\/open.spotify.com\/track\/5mVcyopMGY8dSpN1ZyaBUD",
+    "updated_at": "2026-09-30T21:26:34.164344Z"
   }
 }
