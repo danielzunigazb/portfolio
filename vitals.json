@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 50,
+  "heart_rate_bpm": 63,
   "oxygen_saturation_pct": 97,
-  "steps_today": 14244,
+  "steps_today": 14250,
   "floors_climbed_today": 8,
   "sleep_duration_minutes": 416,
   "sleep_score": 81,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 120
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-30T02:27:35.126889Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-30T02:43:11.775139Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "HIGHER",
-    "artists": "STICX",
-    "album": "HIGHER",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02db9dc7fdcfc429f7b2bf99ed",
-    "url": "https:\/\/open.spotify.com\/track\/1pgG7KWtlm76wO9JeZuXc9",
-    "updated_at": "2026-09-30T02:27:35.126889Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-30T02:43:11.775139Z"
   }
 }
