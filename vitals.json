@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 105,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 97,
-  "steps_today": 14031,
+  "steps_today": 14107,
   "floors_climbed_today": 8,
   "sleep_duration_minutes": 416,
   "sleep_score": 81,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 120
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-30T01:00:42.655522Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-30T01:30:56.943669Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "\/Turistico",
-    "artists": "Neton Vega",
-    "album": "DELIRIUM",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0271e38d4d55521f3381018801",
-    "url": "https:\/\/open.spotify.com\/track\/2vzf4z67gX8v7MntugFLXx",
-    "updated_at": "2026-09-30T01:00:42.655522Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-30T01:30:56.943669Z"
   }
 }
