@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 120
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-30T21:26:34.164344Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-30T21:42:37.024610Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Me Matas",
-    "artists": "R.K.M & Ken-Y",
-    "album": "Masterpiece: Nuestra Obra Maestra",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02714a625bc59a6c96a067d329",
-    "url": "https:\/\/open.spotify.com\/track\/5mVcyopMGY8dSpN1ZyaBUD",
-    "updated_at": "2026-09-30T21:26:34.164344Z"
+    "track": "DILE A TU AMIGA",
+    "artists": "Dalmata",
+    "album": "DILE A TU AMIGA",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02c27b7a7a7aa391a742f1b0b7",
+    "url": "https:\/\/open.spotify.com\/track\/2PdbPN4zOatxvhtT2cDGKx",
+    "updated_at": "2026-09-30T21:42:37.024610Z"
   }
 }
