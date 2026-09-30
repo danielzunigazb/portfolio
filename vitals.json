@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 120
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-09-30T23:29:46.959017Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-09-30T23:45:29.722324Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Ganó Holanda, Perdió China",
-    "artists": "Calibre 50",
-    "album": "Historias de la Calle",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02a91b2790f7171b4909a92d8f",
-    "url": "https:\/\/open.spotify.com\/track\/4a50ELsSeCF8HDDwSn51wK",
-    "updated_at": "2026-09-30T23:29:46.959017Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-09-30T23:45:29.722324Z"
   }
 }
