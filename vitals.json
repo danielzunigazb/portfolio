@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 105,
   "oxygen_saturation_pct": 98,
-  "steps_today": 3136,
+  "steps_today": 3199,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 339,
   "sleep_score": 69,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-01T14:17:25.267581Z",
+  "updated_at": "2026-10-01T14:33:00.730717Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-01T14:17:25.267581Z"
+    "is_playing": true,
+    "track": "Fvck",
+    "artists": "Junior H",
+    "album": "$ad Boyz 4 Life",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02b3062f4365ced902e4aebb63",
+    "url": "https:\/\/open.spotify.com\/track\/1OGH9iojfuPYkn9cfF2pwc",
+    "updated_at": "2026-10-01T14:33:00.730717Z"
   }
 }
