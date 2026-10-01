@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 120
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-10-01T20:54:42.704170Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-01T21:10:21.671844Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Aura",
-    "artists": "Omar Camacho",
-    "album": "Nunca Voy a Morir",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02b1be77ca2239c960e068895c",
-    "url": "https:\/\/open.spotify.com\/track\/3jLboakUBDG4gXr4iWHKuR",
-    "updated_at": "2026-10-01T20:54:42.704170Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-01T21:10:21.671844Z"
   }
 }
