@@ -1,10 +1,10 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 105,
   "oxygen_saturation_pct": 98,
-  "steps_today": 7759,
+  "steps_today": 72,
   "floors_climbed_today": 0,
-  "sleep_duration_minutes": 416,
-  "sleep_score": 81,
+  "sleep_duration_minutes": 339,
+  "sleep_score": 69,
   "last_exercise": {
     "type": "OTHER",
     "duration_minutes": 10,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "casa",
-  "updated_at": "2026-10-01T02:46:19.530223Z",
+  "updated_at": "2026-10-01T10:21:53.606576Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Mi Último Deseo",
-    "artists": "Banda Los Recoditos",
-    "album": "El Free",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02ad4a0b7c80c4fee4cc466223",
-    "url": "https:\/\/open.spotify.com\/track\/01ksPzu3Bw8Lsf9o6xIk8C",
-    "updated_at": "2026-10-01T02:46:19.530223Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-01T10:21:53.606576Z"
   }
 }
