@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
-  "steps_today": 6534,
+  "steps_today": 6560,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 416,
   "sleep_score": 81,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 120
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-10-01T00:00:35.643898Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-01T00:21:29.992159Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Mia",
-    "artists": "Victor Mendivil, Gabito Ballesteros",
-    "album": "Tutankamon",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d9804cbf2de637f09890ffb8",
-    "url": "https:\/\/open.spotify.com\/track\/2PXNL9x1lMXQkR7YM4USrC",
-    "updated_at": "2026-10-01T00:00:35.643898Z"
+    "track": "LETAL",
+    "artists": "Junior H, Gael Valenzuela, Peso Pluma",
+    "album": "DEPR<\/3$$ED MFKZ",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02f1b7ee109bd8626cad94f478",
+    "url": "https:\/\/open.spotify.com\/track\/0IMJsnmPXXgPyQDbhomx1B",
+    "updated_at": "2026-10-01T00:21:29.992159Z"
   }
 }
