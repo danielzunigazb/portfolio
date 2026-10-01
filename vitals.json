@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 110,
   "oxygen_saturation_pct": 98,
-  "steps_today": 5733,
+  "steps_today": 5750,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 339,
   "sleep_score": 69,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 120
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-01T17:33:54.279536Z",
+  "location_zone": "casa",
+  "updated_at": "2026-10-01T17:50:11.443493Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Intro",
-    "artists": "Junior H",
-    "album": "Cruisin' with Junior H",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02163027188d86f4a532d670d0",
-    "url": "https:\/\/open.spotify.com\/track\/1s1hRKC0zaL2O7zdLIm6md",
-    "updated_at": "2026-10-01T17:33:54.279536Z"
+    "track": "El Toro Encartado - Spotify Singles",
+    "artists": "Natanael Cano",
+    "album": "El Toro Encartado - Spotify Singles",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0241a36b80d1c6314def174dea",
+    "url": "https:\/\/open.spotify.com\/track\/2cpAMkytkJoaaLYO6pXBey",
+    "updated_at": "2026-10-01T17:50:11.443493Z"
   }
 }
