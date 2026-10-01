@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 120
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-01T02:31:14.183361Z",
+  "location_zone": "casa",
+  "updated_at": "2026-10-01T02:46:19.530223Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Muere una Flor",
-    "artists": "Binomio de Oro",
-    "album": "De Caché",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e021a98c7dbb751d7c4aadf737c",
-    "url": "https:\/\/open.spotify.com\/track\/0jnKOvTW1XTC6Na2VPJyXL",
-    "updated_at": "2026-10-01T02:31:14.183361Z"
+    "track": "Mi Último Deseo",
+    "artists": "Banda Los Recoditos",
+    "album": "El Free",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02ad4a0b7c80c4fee4cc466223",
+    "url": "https:\/\/open.spotify.com\/track\/01ksPzu3Bw8Lsf9o6xIk8C",
+    "updated_at": "2026-10-01T02:46:19.530223Z"
   }
 }
