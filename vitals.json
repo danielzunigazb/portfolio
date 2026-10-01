@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
-  "steps_today": 7719,
+  "steps_today": 7759,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 416,
   "sleep_score": 81,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 120
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-01T01:58:45.878659Z",
+  "location_zone": "casa",
+  "updated_at": "2026-10-01T02:15:38.273808Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-01T01:58:45.878659Z"
+    "is_playing": true,
+    "track": "Beautiful",
+    "artists": "Snoop Dogg, Pharrell Williams, Charlie Wilson",
+    "album": "Paid Tha Cost To Be Da Bo$$",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e028cdb0d29bb99ad4febccac39",
+    "url": "https:\/\/open.spotify.com\/track\/7FrJV8tydWEv1Mxu2mIQrm",
+    "updated_at": "2026-10-01T02:15:38.273808Z"
   }
 }
