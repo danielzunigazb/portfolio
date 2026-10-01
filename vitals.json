@@ -1,27 +1,27 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 91,
   "oxygen_saturation_pct": 98,
-  "steps_today": 8045,
+  "steps_today": 8872,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 339,
   "sleep_score": 69,
   "last_exercise": {
-    "type": "OTHER",
-    "duration_minutes": 10,
-    "calories": 63,
-    "mean_heart_rate_bpm": 120
+    "type": "WALKING",
+    "duration_minutes": 11,
+    "calories": 62,
+    "mean_heart_rate_bpm": 95
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-10-01T23:09:49.104796Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-01T23:25:24.658478Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "SUIZA",
-    "artists": "Calle 24",
-    "album": "ONDEADO$",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e029068bf12aece9d168cc16848",
-    "url": "https:\/\/open.spotify.com\/track\/7585wxMp2e3IhBq3tJAXgw",
-    "updated_at": "2026-10-01T23:09:49.104796Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-01T23:25:24.658478Z"
   }
 }
