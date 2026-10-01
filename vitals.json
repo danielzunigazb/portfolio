@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
-  "steps_today": 3426,
+  "steps_today": 3531,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 339,
   "sleep_score": 69,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-01T14:51:14.575310Z",
+  "updated_at": "2026-10-01T15:25:06.176030Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "OTRO AMOR",
-    "artists": "Junior H",
-    "album": "$AD BOYZ 4 LIFE II",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02ef88ad49166e31598ff7d4d0",
-    "url": "https:\/\/open.spotify.com\/track\/45jWNNpTqJ4gSty54msOLx",
-    "updated_at": "2026-10-01T14:51:14.575310Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-01T15:25:06.176030Z"
   }
 }
