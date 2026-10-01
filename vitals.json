@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
-  "steps_today": 6704,
+  "steps_today": 6731,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 339,
   "sleep_score": 69,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 120
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-01T20:07:36.622095Z",
+  "location_zone": "casa",
+  "updated_at": "2026-10-01T20:39:19.773843Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-01T20:07:36.622095Z"
+    "is_playing": true,
+    "track": "Cero Miedo",
+    "artists": "Grupo Marca Registrada",
+    "album": "Cero Miedo",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e029453fdca6130cf7ee0a404dc",
+    "url": "https:\/\/open.spotify.com\/track\/45ehHeg9Kr5ZK3sFRnbjOv",
+    "updated_at": "2026-10-01T20:39:19.773843Z"
   }
 }
