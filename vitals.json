@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 120
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-09-30T23:45:29.722324Z",
+  "location_zone": "casa",
+  "updated_at": "2026-10-01T00:00:35.643898Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-09-30T23:45:29.722324Z"
+    "is_playing": true,
+    "track": "Mia",
+    "artists": "Victor Mendivil, Gabito Ballesteros",
+    "album": "Tutankamon",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d9804cbf2de637f09890ffb8",
+    "url": "https:\/\/open.spotify.com\/track\/2PXNL9x1lMXQkR7YM4USrC",
+    "updated_at": "2026-10-01T00:00:35.643898Z"
   }
 }
