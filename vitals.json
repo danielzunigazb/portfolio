@@ -1,8 +1,8 @@
 {
-  "heart_rate_bpm": 95,
+  "heart_rate_bpm": 86,
   "oxygen_saturation_pct": 98,
-  "steps_today": 26,
-  "floors_climbed_today": 0,
+  "steps_today": 214,
+  "floors_climbed_today": 1,
   "sleep_duration_minutes": 384,
   "sleep_score": 65,
   "last_exercise": {
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 95
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-10-02T10:08:49.989893Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-02T10:41:46.101286Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Lexus",
-    "artists": "Omar Camacho",
-    "album": "Nunca Voy a Morir",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02b1be77ca2239c960e068895c",
-    "url": "https:\/\/open.spotify.com\/track\/1Le3WijnR0A3k4JWazoXXS",
-    "updated_at": "2026-10-02T10:08:49.989893Z"
+    "track": "Dando y Dando",
+    "artists": "Natanael Cano",
+    "album": "Nata Montana",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02066c67e297dd388e5b25bc3a",
+    "url": "https:\/\/open.spotify.com\/track\/1LftbNqQmQvAHAqnASk6ez",
+    "updated_at": "2026-10-02T10:41:46.101286Z"
   }
 }
