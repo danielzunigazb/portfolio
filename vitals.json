@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 86,
+  "heart_rate_bpm": 93,
   "oxygen_saturation_pct": 98,
-  "steps_today": 214,
+  "steps_today": 595,
   "floors_climbed_today": 1,
   "sleep_duration_minutes": 384,
   "sleep_score": 65,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 95
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-02T10:41:46.101286Z",
+  "location_zone": "casa",
+  "updated_at": "2026-10-02T11:14:13.514910Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Dando y Dando",
+    "track": "Por Amarte Así",
     "artists": "Natanael Cano",
-    "album": "Nata Montana",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02066c67e297dd388e5b25bc3a",
-    "url": "https:\/\/open.spotify.com\/track\/1LftbNqQmQvAHAqnASk6ez",
-    "updated_at": "2026-10-02T10:41:46.101286Z"
+    "album": "Natanael Cano, Vol.1",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0263e46889b1cb3b87dc33f6f3",
+    "url": "https:\/\/open.spotify.com\/track\/3O3bL4mhBEm5oSjT0GRyQ8",
+    "updated_at": "2026-10-02T11:14:13.514910Z"
   }
 }
