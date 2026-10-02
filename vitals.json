@@ -1,8 +1,8 @@
 {
-  "heart_rate_bpm": 87,
+  "heart_rate_bpm": 91,
   "oxygen_saturation_pct": 98,
-  "steps_today": 9168,
-  "floors_climbed_today": 1,
+  "steps_today": 9655,
+  "floors_climbed_today": 2,
   "sleep_duration_minutes": 384,
   "sleep_score": 65,
   "last_exercise": {
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 95
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-02T23:12:34.154956Z",
+  "location_zone": "casa",
+  "updated_at": "2026-10-02T23:47:07.021408Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-02T23:12:34.154956Z"
+    "is_playing": true,
+    "track": "Y LLORO",
+    "artists": "Junior H",
+    "album": "$AD BOYZ 4 LIFE II",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02ef88ad49166e31598ff7d4d0",
+    "url": "https:\/\/open.spotify.com\/track\/6RcAHyC5sAUIbPTkhOQwd8",
+    "updated_at": "2026-10-02T23:47:07.021408Z"
   }
 }
