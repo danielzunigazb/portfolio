@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 80,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
   "steps_today": 9698,
   "floors_climbed_today": 0,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 95
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-10-02T01:30:22.605744Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-02T01:46:41.693225Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "SARGENTO",
-    "artists": "Gabito Ballesteros, Calle 24",
-    "album": "Ya No Se Llevan Serenatas (Deluxe)",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0243618fad3d5d9114daf2610c",
-    "url": "https:\/\/open.spotify.com\/track\/4zi3rwIYv1Q6slxn620w8P",
-    "updated_at": "2026-10-02T01:30:22.605744Z"
+    "track": "Doble Vaso",
+    "artists": "VGLY",
+    "album": "VGLY (Original Soundtrack)",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e022c02ad13a25d45e520ca80e4",
+    "url": "https:\/\/open.spotify.com\/track\/6DlxxuLfJLZlynCWolPcGB",
+    "updated_at": "2026-10-02T01:46:41.693225Z"
   }
 }
