@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 95
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-02T00:44:14.357650Z",
+  "location_zone": "casa",
+  "updated_at": "2026-10-02T00:59:20.298940Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-02T00:44:14.357650Z"
+    "is_playing": true,
+    "track": "Brilloteo",
+    "artists": "Alvaro Diaz",
+    "album": "Felicilandia",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e024385062efd655ededc0d2caa",
+    "url": "https:\/\/open.spotify.com\/track\/4EDIAPw93YVubtjKR3OTNk",
+    "updated_at": "2026-10-02T00:59:20.298940Z"
   }
 }
