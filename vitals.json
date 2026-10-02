@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 80,
   "oxygen_saturation_pct": 98,
-  "steps_today": 9541,
+  "steps_today": 9698,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 339,
   "sleep_score": 69,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "casa",
-  "updated_at": "2026-10-02T01:14:49.304338Z",
+  "updated_at": "2026-10-02T01:30:22.605744Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-02T01:14:49.304338Z"
+    "is_playing": true,
+    "track": "SARGENTO",
+    "artists": "Gabito Ballesteros, Calle 24",
+    "album": "Ya No Se Llevan Serenatas (Deluxe)",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0243618fad3d5d9114daf2610c",
+    "url": "https:\/\/open.spotify.com\/track\/4zi3rwIYv1Q6slxn620w8P",
+    "updated_at": "2026-10-02T01:30:22.605744Z"
   }
 }
