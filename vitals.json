@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 80,
   "oxygen_saturation_pct": 98,
-  "steps_today": 9118,
+  "steps_today": 9541,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 339,
   "sleep_score": 69,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "casa",
-  "updated_at": "2026-10-02T00:59:20.298940Z",
+  "updated_at": "2026-10-02T01:14:49.304338Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Brilloteo",
-    "artists": "Alvaro Diaz",
-    "album": "Felicilandia",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e024385062efd655ededc0d2caa",
-    "url": "https:\/\/open.spotify.com\/track\/4EDIAPw93YVubtjKR3OTNk",
-    "updated_at": "2026-10-02T00:59:20.298940Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-02T01:14:49.304338Z"
   }
 }
