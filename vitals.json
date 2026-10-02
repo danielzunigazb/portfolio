@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
-  "steps_today": 9000,
+  "steps_today": 9118,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 339,
   "sleep_score": 69,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-02T00:28:38.406868Z",
+  "updated_at": "2026-10-02T00:44:14.357650Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Mi Historia Entre Tus Dedos",
-    "artists": "Eslabon Armado",
-    "album": "Corta Venas",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02657fa1079d4f17b7e06dd86e",
-    "url": "https:\/\/open.spotify.com\/track\/4cNOvC1mAjWEABZTxx2psa",
-    "updated_at": "2026-10-02T00:28:38.406868Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-02T00:44:14.357650Z"
   }
 }
