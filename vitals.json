@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
-  "steps_today": 9698,
+  "steps_today": 10067,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 339,
   "sleep_score": 69,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 95
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-02T01:46:41.693225Z",
+  "location_zone": "casa",
+  "updated_at": "2026-10-02T02:34:53.999498Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Doble Vaso",
-    "artists": "VGLY",
-    "album": "VGLY (Original Soundtrack)",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e022c02ad13a25d45e520ca80e4",
-    "url": "https:\/\/open.spotify.com\/track\/6DlxxuLfJLZlynCWolPcGB",
-    "updated_at": "2026-10-02T01:46:41.693225Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-02T02:34:53.999498Z"
   }
 }
