@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 95
   },
   "battery_pct": null,
-  "location_zone": "casa",
-  "updated_at": "2026-10-03T15:41:04.436225Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-03T15:58:00.960129Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-03T15:41:04.436225Z"
+    "is_playing": true,
+    "track": "CHINO",
+    "artists": "Tito Double P, Neton Vega",
+    "album": "INCÓMODO",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0247e9618ef7411438f9c9478b",
+    "url": "https:\/\/open.spotify.com\/track\/6b6qi0ObycTK8hdrkgU21Y",
+    "updated_at": "2026-10-03T15:58:00.960129Z"
   }
 }
