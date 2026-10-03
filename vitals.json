@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-03T21:21:16.017411Z",
+  "updated_at": "2026-10-03T21:36:20.606384Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Dios Te Bendiga",
-    "artists": "Arcángel",
-    "album": "Sentimiento, Elegancia y Maldad",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0202716d1c5348fcaa4fd7a8fe",
-    "url": "https:\/\/open.spotify.com\/track\/49EOHRqHSoGYEOSe15Zrpq",
-    "updated_at": "2026-10-03T21:21:16.017411Z"
+    "track": "Solo Me Dejaste",
+    "artists": "Grupo Marca Registrada",
+    "album": "Solo Me Dejaste",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e023cbeb2e7857839f23ca07144",
+    "url": "https:\/\/open.spotify.com\/track\/3K7Cn4Fusqlo19eKZb5x8S",
+    "updated_at": "2026-10-03T21:36:20.606384Z"
   }
 }
