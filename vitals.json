@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-04T19:11:29.093235Z",
+  "updated_at": "2026-10-04T19:26:34.667804Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-04T19:11:29.093235Z"
+    "is_playing": true,
+    "track": "Cuando Casi Te Olvidaba",
+    "artists": "Los Diablitos",
+    "album": "Mas Vallenato",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e021a13f46c4bda0e732096c39e",
+    "url": "https:\/\/open.spotify.com\/track\/6Fn0YHHglTA5qBVXS8yOER",
+    "updated_at": "2026-10-04T19:26:34.667804Z"
   }
 }
