@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-04T21:34:15.861075Z",
+  "updated_at": "2026-10-04T22:12:14.900149Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "3 AM",
-    "artists": "Jimmy Guzman, Omar Camacho",
-    "album": "Intuición",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e025b044bb17719f2b9d4c538db",
-    "url": "https:\/\/open.spotify.com\/track\/3xyzsJ94mnk86EeJsmi9O6",
-    "updated_at": "2026-10-04T21:34:15.861075Z"
+    "track": "Vengo Ganao",
+    "artists": "Luister La Voz",
+    "album": "11: 59",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0247103cca500d6e9226ccfbf0",
+    "url": "https:\/\/open.spotify.com\/track\/6sDVHMeNSUFzKRqTwbxh0k",
+    "updated_at": "2026-10-04T22:12:14.900149Z"
   }
 }
