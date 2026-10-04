@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-04T19:42:56.553513Z",
+  "updated_at": "2026-10-04T20:01:47.578138Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Te Empeliculaste",
-    "artists": "Peter Manjarrés, Sergio Luis Rodríguez",
-    "album": "Mundial",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02869fd7af26866d43dd123e2e",
-    "url": "https:\/\/open.spotify.com\/track\/2zLWJ7sdULqX5rgYoNliA7",
-    "updated_at": "2026-10-04T19:42:56.553513Z"
+    "track": "Vete",
+    "artists": "Yeison Jimenez",
+    "album": "Vete",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02496c8354b8ca1c69c5a0eafe",
+    "url": "https:\/\/open.spotify.com\/track\/6cZcn282SIMmuO8FHN8634",
+    "updated_at": "2026-10-04T20:01:47.578138Z"
   }
 }
