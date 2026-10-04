@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 84,
+  "heart_rate_bpm": 71,
   "oxygen_saturation_pct": 97,
-  "steps_today": 2618,
+  "steps_today": 3132,
   "floors_climbed_today": 1,
   "sleep_duration_minutes": 547,
   "sleep_score": 78,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-04T23:41:32.287687Z",
+  "updated_at": "2026-10-04T23:59:21.097297Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "El Terremoto",
-    "artists": "El Gran Martín Elías, Rolando Ochoa",
-    "album": "El Terremoto Musical",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02046d8dcf8737cfa4d51fffcc",
-    "url": "https:\/\/open.spotify.com\/track\/1W7CMs1bSqQvdEBvkaUexF",
-    "updated_at": "2026-10-04T23:41:32.287687Z"
+    "track": "Me La Paso Bien",
+    "artists": "Radi0",
+    "album": "Me La Paso Bien",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02b545bbd439dcf40813b79799",
+    "url": "https:\/\/open.spotify.com\/track\/2IEteZu6Uh83wPwZjKZr9e",
+    "updated_at": "2026-10-04T23:59:21.097297Z"
   }
 }
