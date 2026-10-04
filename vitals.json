@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 94,
   "oxygen_saturation_pct": 97,
-  "steps_today": 1579,
+  "steps_today": 2127,
   "floors_climbed_today": 1,
   "sleep_duration_minutes": 547,
   "sleep_score": 78,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-04T20:01:47.578138Z",
+  "updated_at": "2026-10-04T20:19:17.133601Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Vete",
-    "artists": "Yeison Jimenez",
-    "album": "Vete",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02496c8354b8ca1c69c5a0eafe",
-    "url": "https:\/\/open.spotify.com\/track\/6cZcn282SIMmuO8FHN8634",
-    "updated_at": "2026-10-04T20:01:47.578138Z"
+    "track": "Un Osito Dormilón",
+    "artists": "Binomio de Oro de América",
+    "album": "2.000",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0225add2d6f8ea9e06b0be4a6a",
+    "url": "https:\/\/open.spotify.com\/track\/2kfy5uzINhvThNfTqgXNPt",
+    "updated_at": "2026-10-04T20:19:17.133601Z"
   }
 }
