@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-05T03:11:56.380060Z",
+  "updated_at": "2026-10-05T03:30:53.289090Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-05T03:11:56.380060Z"
+    "is_playing": true,
+    "track": "Say Yes",
+    "artists": "Buhodermia 夜, Al Baro, A. Cheeze",
+    "album": "Euphanasia",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02f40052533a461c11db3ada84",
+    "url": "https:\/\/open.spotify.com\/track\/6ZHn7NFh4PPzDBIjfQB93w",
+    "updated_at": "2026-10-05T03:30:53.289090Z"
   }
 }
