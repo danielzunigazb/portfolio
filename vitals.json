@@ -1,8 +1,8 @@
 {
-  "heart_rate_bpm": null,
-  "oxygen_saturation_pct": 97,
-  "steps_today": 3654,
-  "floors_climbed_today": 1,
+  "heart_rate_bpm": 65,
+  "oxygen_saturation_pct": null,
+  "steps_today": 0,
+  "floors_climbed_today": 0,
   "sleep_duration_minutes": 547,
   "sleep_score": 78,
   "last_exercise": {
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-05T04:57:39.275467Z",
+  "updated_at": "2026-10-05T10:05:17.515819Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Confundido",
-    "artists": "Marca MP",
-    "album": "Confundido",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e023afad6302a7bcdc20e2f89d7",
-    "url": "https:\/\/open.spotify.com\/track\/5P8jblieOpniI73tEboMYf",
-    "updated_at": "2026-10-05T04:57:39.275467Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-05T10:05:17.515819Z"
   }
 }
