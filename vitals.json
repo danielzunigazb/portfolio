@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-05T00:16:24.853216Z",
+  "updated_at": "2026-10-05T00:32:43.099407Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Dame Amor",
-    "artists": "Officialalex425",
-    "album": "Dame Amor",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02538307910052282b574376ee",
-    "url": "https:\/\/open.spotify.com\/track\/5pzdnCfGS2uz5XjXx6gem3",
-    "updated_at": "2026-10-05T00:16:24.853216Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-05T00:32:43.099407Z"
   }
 }
