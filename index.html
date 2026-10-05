@@ -38,7 +38,7 @@
   "email": "mailto:danielzunigazb@gmail.com",
   "address": { "@type": "PostalAddress", "addressRegion": "Córdoba", "addressCountry": "CO" },
   "sameAs": ["https://github.com/danielzunigazb"],
-  "knowsAbout": ["Python", "Kotlin", "Linux", "systemd", "FastAPI", "Jetpack Compose", "Bioinformática", "Automatización", "CLI tools", "Bash"]
+  "knowsAbout": ["Python", "Kotlin", "Linux", "systemd", "FastAPI", "Jetpack Compose", "Bioinformática", "Automatización", "CLI tools", "Bash", "Docker", "MCP"]
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -195,26 +195,14 @@
         <div class="links"><span class="text-small" style="color:var(--ink-muted);">privado · infraestructura personal</span></div>
       </div>
 
-      <div class="project-card reveal">
-        <div class="top">
-          <h2><span class="index">04</span>Galaxy Fit3 BLE RE</h2>
-          <span class="tag">experimental</span>
-        </div>
-        <p class="desc">Análisis de protocolo BLE del Samsung Galaxy Fit3: dirección pública, mapeo de servicios GATT, heart rate service (0x180d), emparejamiento con BlueZ 5.86 sobre HCI 4.2 Realtek.</p>
-        <div class="tags">
-          <span class="tag">BLE</span><span class="tag">GATT</span><span class="tag">BlueZ</span><span class="tag">Linux</span>
-        </div>
-        <div class="links"><span class="text-small" style="color:var(--ink-muted);">en progreso</span></div>
-      </div>
-
       <div class="project-card reveal" style="grid-column: 1 / -1;">
         <div class="top">
-          <h2><span class="index">05</span>galaxy-vitals-bridge</h2>
+          <h2><span class="index">04</span>galaxy-vitals-bridge</h2>
           <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
         </div>
-        <p class="desc">App Android que lee heart rate, SpO2, pasos, pisos y sueño directo del Galaxy Fit3 vía Samsung Health Data SDK, y los publica cada 15 min a un status page en vivo — con zona de ubicación (casa/escuela/afuera) sin exponer coordenadas, now playing de Spotify vía OAuth PKCE, widget de pantalla de inicio y monitor EKG con time-travel sobre el historial de git.</p>
+        <p class="desc">App Android que lee heart rate, SpO2, pasos, pisos y sueño directo del Galaxy Fit3 vía Samsung Health Data SDK (antes de eso, ingeniería inversa a mano del protocolo BLE del reloj: GATT, heart rate service 0x180d, emparejamiento con BlueZ), y los publica cada 15 min a un status page en vivo — con zona de ubicación (casa/escuela/afuera) sin exponer coordenadas, now playing de Spotify vía OAuth PKCE, widget de pantalla de inicio y monitor EKG con time-travel sobre el historial de git.</p>
         <div class="tags">
-          <span class="tag">Kotlin</span><span class="tag">Jetpack Compose</span><span class="tag">WorkManager</span><span class="tag">Samsung Health SDK</span><span class="tag">Spotify Web API</span>
+          <span class="tag">Kotlin</span><span class="tag">Jetpack Compose</span><span class="tag">WorkManager</span><span class="tag">Samsung Health SDK</span><span class="tag">BLE/GATT</span><span class="tag">Spotify Web API</span>
         </div>
         <div class="links">
           <a href="https://github.com/danielzunigazb/galaxy-vitals-bridge" target="_blank">repo <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a>
@@ -225,7 +213,7 @@
 
       <div class="project-card reveal" style="grid-column: 1 / -1;">
         <div class="top">
-          <h2><span class="index">06</span>Player</h2>
+          <h2><span class="index">05</span>Player</h2>
           <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
         </div>
         <p class="desc">Reproductor de música nativo para Android, sin cuentas ni nube. Letras sincronizadas (LRC, ID3, FLAC o LRCLIB), terminal con autocompletado para manejar la música escribiendo, monitor web para controlarlo desde el navegador emparejando por QR, Android Auto, widget de inicio, ecualizador. Interfaz en Compose con el mismo design system de este sitio. v1.6.0 estable, con tests de UI/servicio/base de datos y CI que firma los releases.</p>
@@ -238,7 +226,22 @@
           <a href="https://github.com/danielzunigazb/player/releases/latest" target="_blank">descargar apk <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a>
         </div>
       </div>
+
+      <div class="project-card reveal" style="grid-column: 1 / -1;">
+        <div class="top">
+          <h2><span class="index">06</span>editor</h2>
+          <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
+        </div>
+        <p class="desc">Editor de video no lineal sin interfaz: un LLM lo maneja completo vía un servidor MCP. Motor MLT + FFmpeg — cortes, 15 transiciones, overlays animados, subtítulos, picture-in-picture, 15 plantillas visuales, librería de audio con licencias verificadas. Corre como app web con chat o como servidor MCP desde Claude Code. Dockerizado con hardening real: path fencing, límites de recursos, non-root, tests e2e con Playwright.</p>
+        <div class="tags">
+          <span class="tag">Python</span><span class="tag">MCP</span><span class="tag">MLT</span><span class="tag">FFmpeg</span><span class="tag">Docker</span>
+        </div>
+        <div class="links">
+          <a href="https://github.com/danielzunigazb/editor" target="_blank">repo <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a>
+        </div>
+      </div>
     </div>
+    <p class="text-small reveal" style="color: var(--ink-muted); margin-top: var(--space-4);">esto es una selección — hay más en <a href="https://github.com/danielzunigazb" target="_blank">github.com/danielzunigazb</a>.</p>
   </div>
 </section>
 
@@ -311,6 +314,7 @@
         <a href="https://github.com/danielzunigazb/systemd-hooks" target="_blank" class="btn btn-secondary">systemd-hooks</a>
         <a href="https://github.com/danielzunigazb/galaxy-vitals-bridge" target="_blank" class="btn btn-secondary">galaxy-vitals-bridge</a>
         <a href="https://github.com/danielzunigazb/player" target="_blank" class="btn btn-secondary">player</a>
+        <a href="https://github.com/danielzunigazb/editor" target="_blank" class="btn btn-secondary">editor</a>
       </div>
     </div>
   </div>
