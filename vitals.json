@@ -1,10 +1,10 @@
 {
-  "heart_rate_bpm": 43,
-  "oxygen_saturation_pct": 95,
-  "steps_today": 155,
+  "heart_rate_bpm": null,
+  "oxygen_saturation_pct": 98,
+  "steps_today": 156,
   "floors_climbed_today": 0,
-  "sleep_duration_minutes": 547,
-  "sleep_score": 78,
+  "sleep_duration_minutes": 281,
+  "sleep_score": 62,
   "last_exercise": {
     "type": "WALKING",
     "duration_minutes": 11,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-05T12:07:01.380999Z",
+  "updated_at": "2026-10-05T14:19:15.990370Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-05T12:07:01.380999Z"
+    "is_playing": true,
+    "track": "Un Pacto",
+    "artists": "Victor Mendivil, El Padrinito Toys",
+    "album": "Un Pacto",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0225eb40261b50e1b8b6f052f5",
+    "url": "https:\/\/open.spotify.com\/track\/1yxwBHV8dqJw4tCw6hlyMw",
+    "updated_at": "2026-10-05T14:19:15.990370Z"
   }
 }
