@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-06T04:15:13.818472Z",
+  "updated_at": "2026-10-06T04:32:48.444250Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Normal",
-    "artists": "Alcolirykoz",
-    "album": "Servicios Ambulatorioz",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02da04000aaf00d39c016402f9",
-    "url": "https:\/\/open.spotify.com\/track\/2Dj24olIFAq8Z9MlWndo6U",
-    "updated_at": "2026-10-06T04:15:13.818472Z"
+    "track": "Tren a Vapor",
+    "artists": "Doble Porcion, Métricas Frías, Mañas Ru-Fino",
+    "album": "Manzanas a la Vuelta",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0228f61734580994bdf0819891",
+    "url": "https:\/\/open.spotify.com\/track\/2TrVroFlr4TDSPtWZIwWEY",
+    "updated_at": "2026-10-06T04:32:48.444250Z"
   }
 }
