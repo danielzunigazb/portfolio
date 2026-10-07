@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-07T01:21:59.332018Z",
+  "updated_at": "2026-10-07T01:39:19.219508Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "El Chino (En Vivo)",
-    "artists": "Luis R Conriquez, La Decima Banda",
-    "album": "El Chino (En Vivo)",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e022bca5f7e39d01fbd2ad11241",
-    "url": "https:\/\/open.spotify.com\/track\/4b148u8CHf38OU1yW5Xf1F",
-    "updated_at": "2026-10-07T01:21:59.332018Z"
+    "track": "Rafa Caro",
+    "artists": "T3R Elemento",
+    "album": "Rafa Caro",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e026a9f423a71a428181dea1996",
+    "url": "https:\/\/open.spotify.com\/track\/2ESHwuLxQwjSrL1ukzVHVq",
+    "updated_at": "2026-10-07T01:39:19.219508Z"
   }
 }
