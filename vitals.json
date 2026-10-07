@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-07T00:16:42.480832Z",
+  "updated_at": "2026-10-07T00:33:13.944620Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-07T00:16:42.480832Z"
+    "is_playing": true,
+    "track": "El Chiken Little",
+    "artists": "Grupo 360",
+    "album": "Nunca Es Tarde",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02dc2a25762871090be44a149a",
+    "url": "https:\/\/open.spotify.com\/track\/0EKR77xPnO7ud9YgMdvGss",
+    "updated_at": "2026-10-07T00:33:13.944620Z"
   }
 }
