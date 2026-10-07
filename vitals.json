@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 99,
   "oxygen_saturation_pct": 99,
-  "steps_today": 6413,
+  "steps_today": 6959,
   "floors_climbed_today": 3,
   "sleep_duration_minutes": 305,
   "sleep_score": 57,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-07T00:48:55.911933Z",
+  "updated_at": "2026-10-07T01:05:14.446659Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "MAMI",
-    "artists": "Peso Pluma, Chino Pacas",
-    "album": "ÉXODO",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e022690127e1d6cd0aa35cc353b",
-    "url": "https:\/\/open.spotify.com\/track\/4xv5AneqR0bTokomIPfGyT",
-    "updated_at": "2026-10-07T00:48:55.911933Z"
+    "track": "Ladeando (feat. Fuerza Regida)",
+    "artists": "Herencia de Patrones, Fuerza Regida",
+    "album": "Jimmy Humilde Presenta Lo Mejor De Las Calles Vol. 4",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02fddda716def1e39cec3f3416",
+    "url": "https:\/\/open.spotify.com\/track\/0vgqt0mRZmbb3b57i9p8wV",
+    "updated_at": "2026-10-07T01:05:14.446659Z"
   }
 }
