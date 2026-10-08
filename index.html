@@ -61,8 +61,9 @@
   .status-block .row { display: flex; justify-content: space-between; gap: var(--space-2); padding: var(--space-1) 0; color: var(--ink-muted); }
   .status-block .row b { color: var(--ink); font-weight: 400; }
 
-  .sys-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: var(--space-4); align-items: start; }
-  @media (max-width: 800px) { .sys-grid { grid-template-columns: 1fr; } }
+  .sys-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: var(--space-4); align-items: start; }
+  .sys-grid .project-card.wide { grid-column: span 2; }
+  @media (max-width: 800px) { .sys-grid { grid-template-columns: 1fr; } .sys-grid .project-card.wide { grid-column: 1; } }
   .sys-grid .project-card + .project-card { margin-top: 0; }
 
   .principles-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: var(--space-4); }
@@ -171,33 +172,9 @@
         <div class="links"><a href="https://github.com/danielzunigazb/fungi-discovery" target="_blank">github <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a></div>
       </div>
 
-      <div class="project-card reveal">
+      <div class="project-card reveal wide">
         <div class="top">
-          <h2><span class="index">02</span>systemd-hooks</h2>
-          <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
-        </div>
-        <p class="desc">Framework mínimo para orquestar scripts Python con servicios systemd user. Hook class con setup/run/teardown, paths XDG-compliant, logging JSONL con forwarding a journald. Cero dependencias externas, 11 tests pasando.</p>
-        <div class="tags">
-          <span class="tag">Python 3.12+</span><span class="tag">systemd</span><span class="tag">XDG Spec</span><span class="tag">Pytest</span>
-        </div>
-        <div class="links"><a href="https://github.com/danielzunigazb/systemd-hooks" target="_blank">github <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a></div>
-      </div>
-
-      <div class="project-card reveal">
-        <div class="top">
-          <h2><span class="index">03</span>cognitive-core (blini)</h2>
-          <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
-        </div>
-        <p class="desc">Sistema de automatización personal: 7 servicios systemd para monitoreo continuo, captura de contexto y sugerencias. 21 scripts Python (3,393 LOC, 95 funciones). Dashboard con FastAPI, bitácora JSONL.</p>
-        <div class="tags">
-          <span class="tag">Python</span><span class="tag">systemd</span><span class="tag">FastAPI</span><span class="tag">SQLite</span>
-        </div>
-        <div class="links"><span class="text-small" style="color:var(--ink-muted);">privado · infraestructura personal</span></div>
-      </div>
-
-      <div class="project-card reveal" style="grid-column: 1 / -1;">
-        <div class="top">
-          <h2><span class="index">04</span>galaxy-vitals-bridge</h2>
+          <h2><span class="index">02</span>galaxy-vitals-bridge</h2>
           <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
         </div>
         <p class="desc">App Android que lee heart rate, SpO2, pasos, pisos y sueño directo del Galaxy Fit3 vía Samsung Health Data SDK (antes de eso, ingeniería inversa a mano del protocolo BLE del reloj: GATT, heart rate service 0x180d, emparejamiento con BlueZ), y los publica cada 15 min a un status page en vivo — con zona de ubicación (casa/escuela/afuera) sin exponer coordenadas, now playing de Spotify vía OAuth PKCE, widget de pantalla de inicio y monitor EKG con time-travel sobre el historial de git.</p>
@@ -211,9 +188,21 @@
         </div>
       </div>
 
-      <div class="project-card reveal" style="grid-column: 1 / -1;">
+      <div class="project-card reveal">
         <div class="top">
-          <h2><span class="index">05</span>Player</h2>
+          <h2><span class="index">03</span>systemd-hooks</h2>
+          <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
+        </div>
+        <p class="desc">Framework mínimo para orquestar scripts Python con servicios systemd user. Hook class con setup/run/teardown, paths XDG-compliant, logging JSONL con forwarding a journald. Cero dependencias externas, 11 tests pasando.</p>
+        <div class="tags">
+          <span class="tag">Python 3.12+</span><span class="tag">systemd</span><span class="tag">XDG Spec</span><span class="tag">Pytest</span>
+        </div>
+        <div class="links"><a href="https://github.com/danielzunigazb/systemd-hooks" target="_blank">github <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a></div>
+      </div>
+
+      <div class="project-card reveal wide">
+        <div class="top">
+          <h2><span class="index">04</span>Player</h2>
           <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
         </div>
         <p class="desc">Reproductor de música nativo para Android, sin cuentas ni nube. Letras sincronizadas (LRC, ID3, FLAC o LRCLIB), terminal con autocompletado para manejar la música escribiendo, monitor web para controlarlo desde el navegador emparejando por QR, Android Auto, widget de inicio, ecualizador. Interfaz en Compose con el mismo design system de este sitio. v1.6.0 estable, con tests de UI/servicio/base de datos y CI que firma los releases.</p>
@@ -227,7 +216,19 @@
         </div>
       </div>
 
-      <div class="project-card reveal" style="grid-column: 1 / -1;">
+      <div class="project-card reveal">
+        <div class="top">
+          <h2><span class="index">05</span>cognitive-core (blini)</h2>
+          <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
+        </div>
+        <p class="desc">Sistema de automatización personal: 7 servicios systemd para monitoreo continuo, captura de contexto y sugerencias. 21 scripts Python (3,393 LOC, 95 funciones). Dashboard con FastAPI, bitácora JSONL.</p>
+        <div class="tags">
+          <span class="tag">Python</span><span class="tag">systemd</span><span class="tag">FastAPI</span><span class="tag">SQLite</span>
+        </div>
+        <div class="links"><span class="text-small" style="color:var(--ink-muted);">privado · infraestructura personal</span></div>
+      </div>
+
+      <div class="project-card reveal wide">
         <div class="top">
           <h2><span class="index">06</span>editor</h2>
           <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
