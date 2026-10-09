@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 43,
   "oxygen_saturation_pct": 95,
   "steps_today": 4277,
   "floors_climbed_today": 0,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-09T02:56:12.852677Z",
+  "updated_at": "2026-10-09T03:14:28.427588Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "GTA II",
-    "artists": "Jasiel Nuñez, Luis R Conriquez",
-    "album": "LA ODISEA",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e029b7b01c383be069b94003e85",
-    "url": "https:\/\/open.spotify.com\/track\/7xoIdflRdcG3794rwJxm0s",
-    "updated_at": "2026-10-09T02:56:12.852677Z"
+    "track": "BLANCA ROSITA Y MARIA",
+    "artists": "Tito Double P",
+    "album": "INCÓMODO",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0247e9618ef7411438f9c9478b",
+    "url": "https:\/\/open.spotify.com\/track\/1wsDxqEDpsvNCatbXHjOje",
+    "updated_at": "2026-10-09T03:14:28.427588Z"
   }
 }
