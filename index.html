@@ -38,7 +38,7 @@
   "email": "mailto:danielzunigazb@gmail.com",
   "address": { "@type": "PostalAddress", "addressRegion": "Córdoba", "addressCountry": "CO" },
   "sameAs": ["https://github.com/danielzunigazb"],
-  "knowsAbout": ["Python", "Kotlin", "Linux", "systemd", "FastAPI", "Jetpack Compose", "Bioinformática", "Automatización", "CLI tools", "Bash", "Docker", "MCP"]
+  "knowsAbout": ["Python", "Kotlin", "Linux", "systemd", "FastAPI", "Jetpack Compose", "Bioinformática", "Automatización", "CLI tools", "Bash", "Docker", "MCP", "TypeScript", "Node.js"]
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -63,7 +63,8 @@
 
   .sys-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: var(--space-4); align-items: start; }
   .sys-grid .project-card.wide { grid-column: span 2; }
-  @media (max-width: 800px) { .sys-grid { grid-template-columns: 1fr; } .sys-grid .project-card.wide { grid-column: 1; } }
+  .sys-grid .project-card.full { grid-column: 1 / -1; }
+  @media (max-width: 800px) { .sys-grid { grid-template-columns: 1fr; } .sys-grid .project-card.wide, .sys-grid .project-card.full { grid-column: 1; } }
   .sys-grid .project-card + .project-card { margin-top: 0; }
 
   .principles-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: var(--space-4); }
@@ -240,6 +241,18 @@
         <div class="links">
           <a href="https://github.com/danielzunigazb/editor" target="_blank">repo <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a>
         </div>
+      </div>
+
+      <div class="project-card reveal full">
+        <div class="top">
+          <h2><span class="index">07</span>harness</h2>
+          <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
+        </div>
+        <p class="desc">Herramienta de desarrollo personal: CLI que orquesta agentes de código (Claude Code en modo headless) sobre repos reales con loop completo de verificación — plan, ejecuta paso a paso, verifica cada paso con los tests/lint/build propios del repo, repara, checkpoint, reporte. "El modelo dice que terminó" no cuenta como evidencia. TUI de tres paneles (worktree, flow, chat), roles planner/worker/reviewer con presupuesto de tokens, auto-reparación con escalamiento a un modelo más fuerte, sandboxing por allowlist de comandos, revisión con hallazgos auditables, y tests en vivo contra el CLI real.</p>
+        <div class="tags">
+          <span class="tag">TypeScript</span><span class="tag">Node.js</span><span class="tag">Claude Code</span><span class="tag">CLI</span>
+        </div>
+        <div class="links"><span class="text-small" style="color:var(--ink-muted);">privado · herramienta de desarrollo</span></div>
       </div>
     </div>
     <p class="text-small reveal" style="color: var(--ink-muted); margin-top: var(--space-4);">esto es una selección — hay más en <a href="https://github.com/danielzunigazb" target="_blank">github.com/danielzunigazb</a>.</p>
