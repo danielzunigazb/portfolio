@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 120
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-11T02:32:59.882954Z",
+  "location_zone": "casa",
+  "updated_at": "2026-10-11T02:48:21.496644Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Hay Niveles",
-    "artists": "Esteban Gabriel",
-    "album": "Hay Niveles",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e023c3f440dec1dcfff7cbeb4db",
-    "url": "https:\/\/open.spotify.com\/track\/1k0q2JsDxlakLdeHPNqfWn",
-    "updated_at": "2026-10-11T02:32:59.882954Z"
+    "track": "Guerreros Aztecas",
+    "artists": "Junior H",
+    "album": "Guerreros Aztecas",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0297755f8e1911ac500f413f21",
+    "url": "https:\/\/open.spotify.com\/track\/2BKTRdo32SFyNrDjcHgVFW",
+    "updated_at": "2026-10-11T02:48:21.496644Z"
   }
 }
