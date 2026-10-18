@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 89,
   "oxygen_saturation_pct": 99,
-  "steps_today": 5204,
+  "steps_today": 6001,
   "floors_climbed_today": 3,
   "sleep_duration_minutes": 420,
   "sleep_score": 82,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "escuela",
-  "updated_at": "2026-10-18T22:44:01.810532Z",
+  "updated_at": "2026-10-18T23:38:12.218658Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Blancanieves",
-    "artists": "Natanael Cano",
-    "album": "Porque La Demora",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02b60ef80c5a8a3b25dd6bea6e",
-    "url": "https:\/\/open.spotify.com\/track\/3BZUM1xojiL3TvRo3T50R9",
-    "updated_at": "2026-10-18T22:44:01.810532Z"
+    "track": "El Peor De Mis Fracasos - En Vivo",
+    "artists": "Los Del Roble, Gabito Ballesteros, El Gerry Oficial",
+    "album": "El Peor De Mis Fracasos (En Vivo)",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02a1f6e5ec244867686c810baf",
+    "url": "https:\/\/open.spotify.com\/track\/3MTvkLdzVB2V86oYpDpupp",
+    "updated_at": "2026-10-18T23:38:12.218658Z"
   }
 }
