@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 47,
   "oxygen_saturation_pct": 99,
-  "steps_today": 1911,
+  "steps_today": 2047,
   "floors_climbed_today": 3,
   "sleep_duration_minutes": 420,
   "sleep_score": 82,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 98
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-10-18T16:40:42.897973Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-18T16:56:18.937900Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "CHOLO",
-    "artists": "Junior H, Gael Valenzuela",
-    "album": "DEPR<\/3$$ED MFKZ",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02f1b7ee109bd8626cad94f478",
-    "url": "https:\/\/open.spotify.com\/track\/76m8kXyUf41NgbpzCLfWgs",
-    "updated_at": "2026-10-18T16:40:42.897973Z"
+    "track": "Ramito De Violetas",
+    "artists": "Mi Banda El Mexicano",
+    "album": "Su Majestad Mi Banda El Mexicano Con Ustedes...",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02a2ea271d4313ea4c6f269479",
+    "url": "https:\/\/open.spotify.com\/track\/58gbs8nQ1b5okqg9jXON4x",
+    "updated_at": "2026-10-18T16:56:18.937900Z"
   }
 }
