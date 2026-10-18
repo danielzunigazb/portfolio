@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 47,
   "oxygen_saturation_pct": 99,
-  "steps_today": 1822,
+  "steps_today": 1911,
   "floors_climbed_today": 3,
   "sleep_duration_minutes": 420,
   "sleep_score": 82,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 98
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-18T16:25:26.202364Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-10-18T16:40:42.897973Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Aura",
-    "artists": "Omar Camacho",
-    "album": "Nunca Voy a Morir",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0238ccaf860a6c35e2e3f8a0a7",
-    "url": "https:\/\/open.spotify.com\/track\/3jLboakUBDG4gXr4iWHKuR",
-    "updated_at": "2026-10-18T16:25:26.202364Z"
+    "track": "CHOLO",
+    "artists": "Junior H, Gael Valenzuela",
+    "album": "DEPR<\/3$$ED MFKZ",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02f1b7ee109bd8626cad94f478",
+    "url": "https:\/\/open.spotify.com\/track\/76m8kXyUf41NgbpzCLfWgs",
+    "updated_at": "2026-10-18T16:40:42.897973Z"
   }
 }
