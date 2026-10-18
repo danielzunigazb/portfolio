@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 79,
   "oxygen_saturation_pct": 99,
-  "steps_today": 3507,
+  "steps_today": 3586,
   "floors_climbed_today": 3,
   "sleep_duration_minutes": 420,
   "sleep_score": 82,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "escuela",
-  "updated_at": "2026-10-18T20:58:24.554040Z",
+  "updated_at": "2026-10-18T21:14:11.196559Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Si Mañana",
-    "artists": "Junior H, Natanael Cano",
-    "album": "Atrapado en un Sueño",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e029c076fb69a52578d6441d57e",
-    "url": "https:\/\/open.spotify.com\/track\/1l2kKqdmaXDouETVdMy2j4",
-    "updated_at": "2026-10-18T20:58:24.554040Z"
+    "track": "WHITE LINES (feat. Andre Troutman)",
+    "artists": "Kanye West, Ye, Andre Troutman",
+    "album": "BULLY",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0295184f6a953569b683ca9a0d",
+    "url": "https:\/\/open.spotify.com\/track\/3bbjDFVu9BtFtGD2fZpVfz",
+    "updated_at": "2026-10-18T21:14:11.196559Z"
   }
 }
