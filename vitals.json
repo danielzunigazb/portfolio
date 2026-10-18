@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 84,
   "oxygen_saturation_pct": 99,
-  "steps_today": 1737,
+  "steps_today": 1784,
   "floors_climbed_today": 3,
   "sleep_duration_minutes": 420,
   "sleep_score": 82,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-18T15:39:07.983975Z",
+  "updated_at": "2026-10-18T15:54:44.711895Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Somebody's Girl",
-    "artists": "Berner, T3R Elemento",
-    "album": "La Plaza",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02776d037f692a13e9aa73e72a",
-    "url": "https:\/\/open.spotify.com\/track\/2NeDBEgUv6SbsFLFZC06dZ",
-    "updated_at": "2026-10-18T15:39:07.983975Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-18T15:54:44.711895Z"
   }
 }
