@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 89,
   "oxygen_saturation_pct": 99,
-  "steps_today": 4708,
+  "steps_today": 5204,
   "floors_climbed_today": 3,
   "sleep_duration_minutes": 420,
   "sleep_score": 82,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 98
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-18T22:24:09.773844Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-10-18T22:44:01.810532Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-18T22:24:09.773844Z"
+    "is_playing": true,
+    "track": "Blancanieves",
+    "artists": "Natanael Cano",
+    "album": "Porque La Demora",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02b60ef80c5a8a3b25dd6bea6e",
+    "url": "https:\/\/open.spotify.com\/track\/3BZUM1xojiL3TvRo3T50R9",
+    "updated_at": "2026-10-18T22:44:01.810532Z"
   }
 }
