@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 79,
+  "heart_rate_bpm": 76,
   "oxygen_saturation_pct": 99,
-  "steps_today": 3586,
+  "steps_today": 4395,
   "floors_climbed_today": 3,
   "sleep_duration_minutes": 420,
   "sleep_score": 82,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 98
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-10-18T21:14:11.196559Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-18T21:48:51.975628Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "WHITE LINES (feat. Andre Troutman)",
-    "artists": "Kanye West, Ye, Andre Troutman",
-    "album": "BULLY",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0295184f6a953569b683ca9a0d",
-    "url": "https:\/\/open.spotify.com\/track\/3bbjDFVu9BtFtGD2fZpVfz",
-    "updated_at": "2026-10-18T21:14:11.196559Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-18T21:48:51.975628Z"
   }
 }
