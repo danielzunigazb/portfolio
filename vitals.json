@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 98
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-18T19:53:13.597493Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-10-18T20:09:33.618009Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-18T19:53:13.597493Z"
+    "is_playing": true,
+    "track": "La Navego Al Modo",
+    "artists": "Junior H",
+    "album": "Mi Vida En Un Cigarro 2",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02bce9f6ae2b428bc6a3616a10",
+    "url": "https:\/\/open.spotify.com\/track\/2PUkku0ojfF4wS1q8GGWSH",
+    "updated_at": "2026-10-18T20:09:33.618009Z"
   }
 }
