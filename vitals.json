@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 79,
   "oxygen_saturation_pct": 99,
-  "steps_today": 3015,
+  "steps_today": 3507,
   "floors_climbed_today": 3,
   "sleep_duration_minutes": 420,
   "sleep_score": 82,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 98
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-18T20:41:24.405818Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-10-18T20:58:24.554040Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-18T20:41:24.405818Z"
+    "is_playing": true,
+    "track": "Si Mañana",
+    "artists": "Junior H, Natanael Cano",
+    "album": "Atrapado en un Sueño",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e029c076fb69a52578d6441d57e",
+    "url": "https:\/\/open.spotify.com\/track\/1l2kKqdmaXDouETVdMy2j4",
+    "updated_at": "2026-10-18T20:58:24.554040Z"
   }
 }
