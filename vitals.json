@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 82,
+  "heart_rate_bpm": 88,
   "oxygen_saturation_pct": 95,
-  "steps_today": 5655,
+  "steps_today": 6322,
   "floors_climbed_today": 6,
   "sleep_duration_minutes": 443,
   "sleep_score": 70,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "escuela",
-  "updated_at": "2026-10-19T20:21:03.422362Z",
+  "updated_at": "2026-10-19T20:37:01.687086Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "No Va a Chocar",
-    "artists": "Norambuena, RealViviendo",
-    "album": "No Va a Chocar",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d35dcdfff916c36c2d92a8c5",
-    "url": "https:\/\/open.spotify.com\/track\/6mxnut3OxI5xxUnbYgDnXk",
-    "updated_at": "2026-10-19T20:21:03.422362Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-19T20:37:01.687086Z"
   }
 }
