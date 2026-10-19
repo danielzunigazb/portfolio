@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 95,
   "oxygen_saturation_pct": 99,
-  "steps_today": 6201,
+  "steps_today": 6263,
   "floors_climbed_today": 3,
   "sleep_duration_minutes": 420,
   "sleep_score": 82,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 98
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-18T23:53:47.458470Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-10-19T00:10:38.278914Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "FRESITA",
-    "artists": "Fuerza Regida, Bellakath",
-    "album": "PERO NO TE ENAMORES",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0258f920f157b29869020a0f0d",
-    "url": "https:\/\/open.spotify.com\/track\/6hA12wp8wT93WpLwNYUmOq",
-    "updated_at": "2026-10-18T23:53:47.458470Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-19T00:10:38.278914Z"
   }
 }
