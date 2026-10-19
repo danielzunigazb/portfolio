@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 89,
+  "heart_rate_bpm": 82,
   "oxygen_saturation_pct": 95,
-  "steps_today": 5140,
+  "steps_today": 5655,
   "floors_climbed_today": 6,
   "sleep_duration_minutes": 443,
   "sleep_score": 70,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 103
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-19T20:04:23.830555Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-10-19T20:21:03.422362Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "ZAPATA",
-    "artists": "Peso Pluma",
-    "album": "GÉNESIS",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e022fb583ed96f8f35cbf2897ba",
-    "url": "https:\/\/open.spotify.com\/track\/3CEk3KwDixeCKOVPacup7L",
-    "updated_at": "2026-10-19T20:04:23.830555Z"
+    "track": "No Va a Chocar",
+    "artists": "Norambuena, RealViviendo",
+    "album": "No Va a Chocar",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d35dcdfff916c36c2d92a8c5",
+    "url": "https:\/\/open.spotify.com\/track\/6mxnut3OxI5xxUnbYgDnXk",
+    "updated_at": "2026-10-19T20:21:03.422362Z"
   }
 }
