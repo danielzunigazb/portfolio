@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 84
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-20T01:47:21.902276Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-10-20T02:02:27.738414Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Bombos y Tarolas",
-    "artists": "Cartel De Santa",
-    "album": "Sincopa",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02f428b88a2a885c3b83481791",
-    "url": "https:\/\/open.spotify.com\/track\/5HxcRTUT0X0X7WzwPoj0cm",
-    "updated_at": "2026-10-20T01:47:21.902276Z"
+    "track": "La Durango",
+    "artists": "Dharius",
+    "album": "Mala Fama, Buena Vidha",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02dd2f234e0b73cc4894ba4114",
+    "url": "https:\/\/open.spotify.com\/track\/4iy8C1xOpkSaDrEufihTIA",
+    "updated_at": "2026-10-20T02:02:27.738414Z"
   }
 }
