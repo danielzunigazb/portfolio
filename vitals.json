@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 95,
-  "steps_today": 9964,
+  "steps_today": 9983,
   "floors_climbed_today": 6,
   "sleep_duration_minutes": 443,
   "sleep_score": 70,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 84
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-10-20T02:02:27.738414Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-20T02:29:40.607104Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "La Durango",
-    "artists": "Dharius",
-    "album": "Mala Fama, Buena Vidha",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02dd2f234e0b73cc4894ba4114",
-    "url": "https:\/\/open.spotify.com\/track\/4iy8C1xOpkSaDrEufihTIA",
-    "updated_at": "2026-10-20T02:02:27.738414Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-20T02:29:40.607104Z"
   }
 }
