@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 93,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 97,
-  "steps_today": 10012,
+  "steps_today": 10147,
   "floors_climbed_today": 4,
   "sleep_duration_minutes": 443,
   "sleep_score": 70,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 84
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-10-20T23:03:13.466303Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-20T23:21:23.871388Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-20T23:03:13.466303Z"
+    "is_playing": true,
+    "track": "INMORTAL",
+    "artists": "Fuerza Regida, Chuyin",
+    "album": "Pa las Baby's Y Belikeada",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02ad57982065339f7dc2058efe",
+    "url": "https:\/\/open.spotify.com\/track\/3BssiKHkHy0zXZCj1T8TcJ",
+    "updated_at": "2026-10-20T23:21:23.871388Z"
   }
 }
