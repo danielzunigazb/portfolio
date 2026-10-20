@@ -12,8 +12,8 @@
     "mean_heart_rate_bpm": 84
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-20T03:00:55.509154Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-10-20T03:18:07.078122Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": false,
@@ -22,6 +22,6 @@
     "album": null,
     "cover_url": null,
     "url": null,
-    "updated_at": "2026-10-20T03:00:55.509154Z"
+    "updated_at": "2026-10-20T03:18:07.078122Z"
   }
 }
