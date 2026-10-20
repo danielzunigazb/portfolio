@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 109,
   "oxygen_saturation_pct": 97,
-  "steps_today": 7278,
+  "steps_today": 8281,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 443,
   "sleep_score": 70,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 84
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-20T20:53:51.090752Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-10-20T21:58:44.119644Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "La Torre NY",
-    "artists": "Natanael Cano, Junior H",
-    "album": "Mi Nuevo Yo",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02cb685e9856eb278b50c68315",
-    "url": "https:\/\/open.spotify.com\/track\/5HD1VkxQlGGEXhwQ2REBY2",
-    "updated_at": "2026-10-20T20:53:51.090752Z"
+    "track": "Pink Matter",
+    "artists": "Frank Ocean, André 3000",
+    "album": "channel ORANGE",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e027aede4855f6d0d738012e2e5",
+    "url": "https:\/\/open.spotify.com\/track\/1fOkmYW3ZFkkjIdOZSf596",
+    "updated_at": "2026-10-20T21:58:44.119644Z"
   }
 }
