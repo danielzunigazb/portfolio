@@ -13,15 +13,6 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-20T15:17:53.057334Z",
-  "source": "galaxy-fit3-samsunghealth",
-  "now_playing": {
-    "is_playing": true,
-    "track": "El AK",
-    "artists": "Junior H",
-    "album": "Corridos Tumbados",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e028bdd97bcdc83463812277751",
-    "url": "https:\/\/open.spotify.com\/track\/5TcrOVydCIXJnEVBOcd4c0",
-    "updated_at": "2026-10-20T15:17:53.057334Z"
-  }
+  "updated_at": "2026-10-20T15:19:23.318685Z",
+  "source": "galaxy-fit3-samsunghealth"
 }
