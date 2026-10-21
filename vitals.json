@@ -1,8 +1,8 @@
 {
-  "heart_rate_bpm": 67,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 97,
-  "steps_today": 1770,
-  "floors_climbed_today": 0,
+  "steps_today": 5434,
+  "floors_climbed_today": 1,
   "sleep_duration_minutes": 396,
   "sleep_score": 71,
   "last_exercise": {
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 84
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-21T12:56:32.096034Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-10-21T18:31:17.562668Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Ella",
-    "artists": "Junior H",
-    "album": "Corridos Tumbados",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e028bdd97bcdc83463812277751",
-    "url": "https:\/\/open.spotify.com\/track\/0tKl8ZVM6xJkhznvJAS3Nq",
-    "updated_at": "2026-10-21T12:56:32.096034Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-21T18:31:17.562668Z"
   }
 }
