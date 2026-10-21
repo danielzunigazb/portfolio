@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 85,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 97,
-  "steps_today": 697,
+  "steps_today": 1063,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 396,
   "sleep_score": 71,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-21T11:19:20.736271Z",
+  "updated_at": "2026-10-21T11:51:27.371366Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "\/Baby De Los 2 Miles",
-    "artists": "Neton Vega, Jowell & Randy",
-    "album": "DELIRIUM",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0271e38d4d55521f3381018801",
-    "url": "https:\/\/open.spotify.com\/track\/3PqPYHMz56IR8Hw94UozHc",
-    "updated_at": "2026-10-21T11:19:20.736271Z"
+    "track": "BERETTA",
+    "artists": "Cocochanel",
+    "album": "BERETTA",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e028dfacf118f01337523bdada6",
+    "url": "https:\/\/open.spotify.com\/track\/4t0KYeX4krTZSCcDQ6XpkX",
+    "updated_at": "2026-10-21T11:51:27.371366Z"
   }
 }
