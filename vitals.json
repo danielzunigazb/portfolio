@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 95,
+  "heart_rate_bpm": 100,
   "oxygen_saturation_pct": 97,
-  "steps_today": 10540,
+  "steps_today": 11487,
   "floors_climbed_today": 4,
   "sleep_duration_minutes": 443,
   "sleep_score": 70,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 84
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-20T23:52:51.331752Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-10-21T00:34:11.127647Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Pa Que Sepan",
-    "artists": "Herencia de Patrones, Grupo Triple L",
-    "album": "Para Los Que Conocen El Rollo",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e020285bc96b568a4d9ddfc82b1",
-    "url": "https:\/\/open.spotify.com\/track\/4EJKQ9fDwPddxk44CyxYin",
-    "updated_at": "2026-10-20T23:52:51.331752Z"
+    "track": "Ojos Colorados",
+    "artists": "Junior H, Alto Linaje",
+    "album": "Cruisin' with Junior H",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02163027188d86f4a532d670d0",
+    "url": "https:\/\/open.spotify.com\/track\/1MY56ZqalQ4ACafBxetOG9",
+    "updated_at": "2026-10-21T00:34:11.127647Z"
   }
 }
