@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-21T03:21:03.624951Z",
+  "updated_at": "2026-10-21T03:43:25.028987Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Hoy Todo Cambio",
-    "artists": "Grupo Marca Registrada",
-    "album": "Corleone",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e9da100ac57960dbb5022139",
-    "url": "https:\/\/open.spotify.com\/track\/1tinKBj5pMxJswRan96Mj7",
-    "updated_at": "2026-10-21T03:21:03.624951Z"
+    "track": "Jimmy Neutron",
+    "artists": "Edicion Especial",
+    "album": "Las Guardadas",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0272d0efdc962fe7a710bffd21",
+    "url": "https:\/\/open.spotify.com\/track\/01P0P9xzhkQ3Mzs2QMzrjr",
+    "updated_at": "2026-10-21T03:43:25.028987Z"
   }
 }
