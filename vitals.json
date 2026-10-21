@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 84
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-10-21T19:59:24.145913Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-21T20:15:01.821575Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "La Bataca",
-    "artists": "Grupo Maximo Grado, Victor Mendivil, Amilkar Galaviz",
-    "album": "Síndrome Estocolmo",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e023be010bea4c67a7265d957c7",
-    "url": "https:\/\/open.spotify.com\/track\/71M0QTH5Gz4JKn9DwwEuSO",
-    "updated_at": "2026-10-21T19:59:24.145913Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-21T20:15:01.821575Z"
   }
 }
