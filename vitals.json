@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 97,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 97,
-  "steps_today": 7108,
+  "steps_today": 7126,
   "floors_climbed_today": 1,
   "sleep_duration_minutes": 396,
   "sleep_score": 71,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "escuela",
-  "updated_at": "2026-10-21T19:26:05.298611Z",
+  "updated_at": "2026-10-21T19:59:24.145913Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Fancy",
-    "artists": "Yeyo, Doony Graff",
-    "album": "Fancy",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e023013f595a4b41dfc55e1e8e4",
-    "url": "https:\/\/open.spotify.com\/track\/21p1eBu4YSjLpaq3HY3Kcv",
-    "updated_at": "2026-10-21T19:26:05.298611Z"
+    "track": "La Bataca",
+    "artists": "Grupo Maximo Grado, Victor Mendivil, Amilkar Galaviz",
+    "album": "Síndrome Estocolmo",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e023be010bea4c67a7265d957c7",
+    "url": "https:\/\/open.spotify.com\/track\/71M0QTH5Gz4JKn9DwwEuSO",
+    "updated_at": "2026-10-21T19:59:24.145913Z"
   }
 }
