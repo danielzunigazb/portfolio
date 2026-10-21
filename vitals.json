@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 74,
+  "heart_rate_bpm": 97,
   "oxygen_saturation_pct": 97,
-  "steps_today": 6059,
+  "steps_today": 7108,
   "floors_climbed_today": 1,
   "sleep_duration_minutes": 396,
   "sleep_score": 71,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 84
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-21T19:08:25.215770Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-10-21T19:26:05.298611Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Quien Diria",
-    "artists": "Victor Mendivil, Natanael Cano",
-    "album": "Tutankamon",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d9804cbf2de637f09890ffb8",
-    "url": "https:\/\/open.spotify.com\/track\/7in3iob45LtO2p6njGZiUT",
-    "updated_at": "2026-10-21T19:08:25.215770Z"
+    "track": "Fancy",
+    "artists": "Yeyo, Doony Graff",
+    "album": "Fancy",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e023013f595a4b41dfc55e1e8e4",
+    "url": "https:\/\/open.spotify.com\/track\/21p1eBu4YSjLpaq3HY3Kcv",
+    "updated_at": "2026-10-21T19:26:05.298611Z"
   }
 }
