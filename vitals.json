@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 84
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-21T20:30:40.460803Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-10-21T20:45:47.320782Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "El Hijo Del 7",
-    "artists": "Grupo 360",
-    "album": "El Hijo Del 7",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e35ba416bb9803725f6ebc9a",
-    "url": "https:\/\/open.spotify.com\/track\/0EhEOWhCDM7re1EdLuXhTA",
-    "updated_at": "2026-10-21T20:30:40.460803Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-21T20:45:47.320782Z"
   }
 }
