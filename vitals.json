@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "escuela",
-  "updated_at": "2026-10-22T20:16:29.783912Z",
+  "updated_at": "2026-10-22T20:33:00.455588Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "La Cherokee",
-    "artists": "Natanael Cano, Gabito Ballesteros",
-    "album": "La Cherokee",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0210de8a018b40b5bee140c7aa",
-    "url": "https:\/\/open.spotify.com\/track\/286FxdzLxQJPzLDH6QQd5K",
-    "updated_at": "2026-10-22T20:16:29.783912Z"
+    "track": "Mente Positiva",
+    "artists": "Junior H",
+    "album": "Atrapado en un Sueño (Deluxe)",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02ef659300cd0ab1f3a2cdabd5",
+    "url": "https:\/\/open.spotify.com\/track\/5xbstMA0nqhY8yRc8xqiuF",
+    "updated_at": "2026-10-22T20:33:00.455588Z"
   }
 }
