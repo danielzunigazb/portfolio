@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 44,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 97,
   "steps_today": 9075,
   "floors_climbed_today": 1,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 84
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-22T01:47:32.550515Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-10-22T02:02:40.168324Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-22T01:47:32.550515Z"
+    "is_playing": true,
+    "track": "Ñero Session 17",
+    "artists": "Alu Mix, Doony Graff, Ezya",
+    "album": "Ñero Session 17",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02c360af11546d02509d1f6cfa",
+    "url": "https:\/\/open.spotify.com\/track\/28sOcy3NXj7ga0JMEHauIU",
+    "updated_at": "2026-10-22T02:02:40.168324Z"
   }
 }
