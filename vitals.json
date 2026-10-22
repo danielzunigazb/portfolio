@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 84
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-10-22T20:33:00.455588Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-22T20:48:39.012893Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Mente Positiva",
-    "artists": "Junior H",
-    "album": "Atrapado en un Sueño (Deluxe)",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02ef659300cd0ab1f3a2cdabd5",
-    "url": "https:\/\/open.spotify.com\/track\/5xbstMA0nqhY8yRc8xqiuF",
-    "updated_at": "2026-10-22T20:33:00.455588Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-22T20:48:39.012893Z"
   }
 }
