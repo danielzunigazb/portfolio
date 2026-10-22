@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 84
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-10-22T02:02:40.168324Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-22T02:18:21.476177Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Ñero Session 17",
-    "artists": "Alu Mix, Doony Graff, Ezya",
-    "album": "Ñero Session 17",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02c360af11546d02509d1f6cfa",
-    "url": "https:\/\/open.spotify.com\/track\/28sOcy3NXj7ga0JMEHauIU",
-    "updated_at": "2026-10-22T02:02:40.168324Z"
+    "track": "TÍMIDA, SANTA Y PELIGROSA",
+    "artists": "PEDRO SAMPAIO, Cachirula, LOOJAN",
+    "album": "TÍMIDA, SANTA Y PELIGROSA",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02286a1375fb9a51fcd91b65e1",
+    "url": "https:\/\/open.spotify.com\/track\/6yhlBas06D4GJ7hLWod9gH",
+    "updated_at": "2026-10-22T02:18:21.476177Z"
   }
 }
