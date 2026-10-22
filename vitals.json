@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-22T02:18:21.476177Z",
+  "updated_at": "2026-10-22T02:33:59.490835Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "TÍMIDA, SANTA Y PELIGROSA",
-    "artists": "PEDRO SAMPAIO, Cachirula, LOOJAN",
-    "album": "TÍMIDA, SANTA Y PELIGROSA",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02286a1375fb9a51fcd91b65e1",
-    "url": "https:\/\/open.spotify.com\/track\/6yhlBas06D4GJ7hLWod9gH",
-    "updated_at": "2026-10-22T02:18:21.476177Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-22T02:33:59.490835Z"
   }
 }
