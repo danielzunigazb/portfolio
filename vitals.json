@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 83,
+  "heart_rate_bpm": 68,
   "oxygen_saturation_pct": 99,
-  "steps_today": 199,
+  "steps_today": 649,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 380,
   "sleep_score": 64,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 84
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-10-22T10:44:53.219623Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-22T11:17:01.088664Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-22T10:44:53.219623Z"
+    "is_playing": true,
+    "track": "Ovidado",
+    "artists": "Anthony",
+    "album": "Ovidado",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e029351e4161e4458c4a97b8c81",
+    "url": "https:\/\/open.spotify.com\/track\/2EWuXCWwNnL6htgHjv2hma",
+    "updated_at": "2026-10-22T11:17:01.088664Z"
   }
 }
