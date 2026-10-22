@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 84
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-10-21T23:50:01.130924Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-22T00:27:57.356220Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-21T23:50:01.130924Z"
+    "is_playing": true,
+    "track": "El Juez",
+    "artists": "Natanael Cano, Myke Towers, Ganggy",
+    "album": "Porque La Demora",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02b60ef80c5a8a3b25dd6bea6e",
+    "url": "https:\/\/open.spotify.com\/track\/23QWj1JRJdtdBv1uyjN9Yx",
+    "updated_at": "2026-10-22T00:27:57.356220Z"
   }
 }
