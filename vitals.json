@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 44,
   "oxygen_saturation_pct": 97,
-  "steps_today": 8835,
+  "steps_today": 9075,
   "floors_climbed_today": 1,
   "sleep_duration_minutes": 396,
   "sleep_score": 71,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 84
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-10-22T01:31:54.180217Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-22T01:47:32.550515Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Lola",
-    "artists": "Jedis, Gote, Nolep",
-    "album": "Lola",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d46676c6309ab1c6e11f27c9",
-    "url": "https:\/\/open.spotify.com\/track\/6gXWURMA2o0R6pB0z64K6Q",
-    "updated_at": "2026-10-22T01:31:54.180217Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-22T01:47:32.550515Z"
   }
 }
