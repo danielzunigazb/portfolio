@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 84
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-10-22T00:59:02.010323Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-22T01:16:31.242054Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "PRC",
-    "artists": "Peso Pluma, Natanael Cano",
-    "album": "GÉNESIS",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e022fb583ed96f8f35cbf2897ba",
-    "url": "https:\/\/open.spotify.com\/track\/0cNSq9T5l8gZnpY14rsTR2",
-    "updated_at": "2026-10-22T00:59:02.010323Z"
+    "track": "Griselda",
+    "artists": "GeezyDee, Fronti, Prodmonja, Bravvs",
+    "album": "Griselda",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02766e0bfb7cc4b022a2019570",
+    "url": "https:\/\/open.spotify.com\/track\/3fzvYTofpMbOVEv7EC0gZX",
+    "updated_at": "2026-10-22T01:16:31.242054Z"
   }
 }
