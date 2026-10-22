@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 84
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-22T00:43:40.064950Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-10-22T00:59:02.010323Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Get It Together",
-    "artists": "Drake, Black Coffee, Jorja Smith",
-    "album": "More Life",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e024f0fd9dad63977146e685700",
-    "url": "https:\/\/open.spotify.com\/track\/7y6c07pgjZvtHI9kuMVqk1",
-    "updated_at": "2026-10-22T00:43:40.064950Z"
+    "track": "PRC",
+    "artists": "Peso Pluma, Natanael Cano",
+    "album": "GÉNESIS",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e022fb583ed96f8f35cbf2897ba",
+    "url": "https:\/\/open.spotify.com\/track\/0cNSq9T5l8gZnpY14rsTR2",
+    "updated_at": "2026-10-22T00:59:02.010323Z"
   }
 }
