@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 84
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-22T19:59:48.604805Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-10-22T20:16:29.783912Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Paciencia",
-    "artists": "LOS DOS DE TAMAULIPAS",
-    "album": "No Fue Suerte",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0295cc4a5b2b26579fbcf782af",
-    "url": "https:\/\/open.spotify.com\/track\/0kSfVpAjQDL7wNQCdejOB5",
-    "updated_at": "2026-10-22T19:59:48.604805Z"
+    "track": "La Cherokee",
+    "artists": "Natanael Cano, Gabito Ballesteros",
+    "album": "La Cherokee",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0210de8a018b40b5bee140c7aa",
+    "url": "https:\/\/open.spotify.com\/track\/286FxdzLxQJPzLDH6QQd5K",
+    "updated_at": "2026-10-22T20:16:29.783912Z"
   }
 }
