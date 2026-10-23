@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 99,
-  "steps_today": 5633,
+  "steps_today": 6243,
   "floors_climbed_today": 3,
   "sleep_duration_minutes": 380,
   "sleep_score": 64,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 84
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-10-22T22:37:28.437106Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-23T00:28:04.848057Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-22T22:37:28.437106Z"
+    "is_playing": true,
+    "track": "Nunca Pierdo",
+    "artists": "Victor Mendivil",
+    "album": "No Hay Ángeles Aquí",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e07372e4f841363e73935bb5",
+    "url": "https:\/\/open.spotify.com\/track\/0Ms4xWSOj5Boq7ivcHNcO5",
+    "updated_at": "2026-10-23T00:28:04.848057Z"
   }
 }
