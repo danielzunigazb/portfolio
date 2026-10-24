@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 81,
   "oxygen_saturation_pct": 96,
-  "steps_today": 446,
+  "steps_today": 688,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 693,
   "sleep_score": 75,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-24T13:37:06.914857Z",
+  "updated_at": "2026-10-24T13:54:00.075378Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Placas De Papel",
-    "artists": "Los Desvelados",
-    "album": "Placas De Papel",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e029d720849185facd7355a6a3c",
-    "url": "https:\/\/open.spotify.com\/track\/1uUKCuNemiNcROEVAEn5Qj",
-    "updated_at": "2026-10-24T13:37:06.914857Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-24T13:54:00.075378Z"
   }
 }
