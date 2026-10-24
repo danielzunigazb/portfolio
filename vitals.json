@@ -13,7 +13,7 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-24T23:56:11.631032Z",
+  "updated_at": "2026-10-24T23:56:19.737908Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
@@ -22,6 +22,6 @@
     "album": "Sin Ti",
     "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e020ec2179a941a65a525c88f21",
     "url": "https:\/\/open.spotify.com\/track\/0bqBwLZe33FJkJg4Ay9Pb2",
-    "updated_at": "2026-10-24T23:56:11.631032Z"
+    "updated_at": "2026-10-24T23:56:19.737908Z"
   }
 }
