@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 96,
-  "steps_today": 1283,
+  "steps_today": 1817,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 693,
   "sleep_score": 75,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-24T20:15:44.717132Z",
+  "updated_at": "2026-10-24T20:32:13.497436Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "La Cherokee",
-    "artists": "Natanael Cano, Gabito Ballesteros",
-    "album": "La Cherokee",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0210de8a018b40b5bee140c7aa",
-    "url": "https:\/\/open.spotify.com\/track\/286FxdzLxQJPzLDH6QQd5K",
-    "updated_at": "2026-10-24T20:15:44.717132Z"
+    "track": "9 AM in Calabasas",
+    "artists": "The BK, 808 DEAD",
+    "album": "9 AM in Calabasas",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02c65e3ae0a022111aee917bdf",
+    "url": "https:\/\/open.spotify.com\/track\/2eoBVHgtdK7XQuexuPDycG",
+    "updated_at": "2026-10-24T20:32:13.497436Z"
   }
 }
