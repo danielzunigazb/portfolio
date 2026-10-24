@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-24T18:40:53.322179Z",
+  "updated_at": "2026-10-24T18:55:59.352113Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Radicamos En South Central",
-    "artists": "Fuerza Regida",
-    "album": "Jimmy Humilde Presenta Lo Mejor De Las Calles Vol.3",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e021d37a7a8fe2161232ea0f15c",
-    "url": "https:\/\/open.spotify.com\/track\/1kHpljP6paUsQyZgwFDfxn",
-    "updated_at": "2026-10-24T18:40:53.322179Z"
+    "track": "El Comerciante",
+    "artists": "Grupo Marca Registrada",
+    "album": "Sigue La Magia Dando",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e0b3a1d3f551480fb3de8bb3",
+    "url": "https:\/\/open.spotify.com\/track\/3AAEHiOcKtEYxVLIM2frub",
+    "updated_at": "2026-10-24T18:55:59.352113Z"
   }
 }
