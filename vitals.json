@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 87,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 95,
   "steps_today": 3211,
   "floors_climbed_today": 1,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-25T15:25:40.104608Z",
+  "updated_at": "2026-10-25T15:40:44.921433Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-25T15:25:40.104608Z"
+    "is_playing": true,
+    "track": "El Compa Lonche",
+    "artists": "Código FN",
+    "album": "Desde El Expendio (En Vivo)",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02084517ef7efaed0f73e177bb",
+    "url": "https:\/\/open.spotify.com\/track\/4DS2qYSS7H4i19ZYMf09Dp",
+    "updated_at": "2026-10-25T15:40:44.921433Z"
   }
 }
