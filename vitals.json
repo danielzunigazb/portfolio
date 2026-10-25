@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 97,
   "oxygen_saturation_pct": 96,
-  "steps_today": 4288,
+  "steps_today": 4946,
   "floors_climbed_today": 1,
   "sleep_duration_minutes": 693,
   "sleep_score": 75,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-25T22:30:47.198954Z",
+  "updated_at": "2026-10-25T23:35:09.955033Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-25T22:30:47.198954Z"
+    "is_playing": true,
+    "track": "María Qué Bonita",
+    "artists": "Omar Camacho, Luis Carrillo",
+    "album": "Nunca Voy a Morir",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0238ccaf860a6c35e2e3f8a0a7",
+    "url": "https:\/\/open.spotify.com\/track\/3IjTm9H788ki7O0Yyx8Ezl",
+    "updated_at": "2026-10-25T23:35:09.955033Z"
   }
 }
