@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 96,
-  "steps_today": 1931,
+  "steps_today": 1934,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 693,
   "sleep_score": 75,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-24T23:56:19.737908Z",
+  "updated_at": "2026-10-25T00:48:26.453384Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Sin Ti",
-    "artists": "Neton Vega",
-    "album": "Sin Ti",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e020ec2179a941a65a525c88f21",
-    "url": "https:\/\/open.spotify.com\/track\/0bqBwLZe33FJkJg4Ay9Pb2",
-    "updated_at": "2026-10-24T23:56:19.737908Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-25T00:48:26.453384Z"
   }
 }
