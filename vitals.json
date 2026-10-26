@@ -1,27 +1,27 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 89,
   "oxygen_saturation_pct": 95,
-  "steps_today": 1619,
+  "steps_today": 3000,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 247,
   "sleep_score": 65,
   "last_exercise": {
     "type": "WALKING",
-    "duration_minutes": 10,
-    "calories": 50,
-    "mean_heart_rate_bpm": 92
+    "duration_minutes": 15,
+    "calories": 78,
+    "mean_heart_rate_bpm": 95
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-26T15:36:06.926282Z",
+  "updated_at": "2026-10-26T16:11:17.896136Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "SR. SMITH",
-    "artists": "Peso Pluma, Luis R Conriquez",
-    "album": "ÉXODO",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e022690127e1d6cd0aa35cc353b",
-    "url": "https:\/\/open.spotify.com\/track\/1qrhpxdnC4nUCyFefPVCDa",
-    "updated_at": "2026-10-26T15:36:06.926282Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-26T16:11:17.896136Z"
   }
 }
