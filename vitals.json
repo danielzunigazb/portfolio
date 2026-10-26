@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-26T18:27:39.042512Z",
+  "updated_at": "2026-10-26T18:42:57.621853Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Por Hollywood",
-    "artists": "Omar Camacho, Oscar Maydon",
-    "album": "Por Hollywood",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e7d3687906908eca798f4cec",
-    "url": "https:\/\/open.spotify.com\/track\/7Myx7gRSYsue2sbMaGdXDr",
-    "updated_at": "2026-10-26T18:27:39.042512Z"
+    "track": "Quemándose Un Gallito (El Rambo)",
+    "artists": "Enigma Norteño",
+    "album": "¿Van A Querer Más?",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e029eefb62eb3cad0e51b1765bf",
+    "url": "https:\/\/open.spotify.com\/track\/7nCRfFB9HCOHnJbmgoT8ej",
+    "updated_at": "2026-10-26T18:42:57.621853Z"
   }
 }
