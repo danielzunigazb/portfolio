@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-26T17:21:57.594183Z",
+  "updated_at": "2026-10-26T17:38:13.974895Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "La Fiesta",
-    "artists": "Luis R Conriquez, José Guicho, Tito Double P",
-    "album": "La Fiesta",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e5d1b1e2a3df73e7ffc605aa",
-    "url": "https:\/\/open.spotify.com\/track\/3GqjYT63pZyNqG4fPzBnLd",
-    "updated_at": "2026-10-26T17:21:57.594183Z"
+    "track": "LA DURANGO",
+    "artists": "Peso Pluma, Junior H, Eslabon Armado",
+    "album": "LA DURANGO",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d8eedd3e32682857322c06d4",
+    "url": "https:\/\/open.spotify.com\/track\/1uxiaf3DUS4vpOqNGu4MzL",
+    "updated_at": "2026-10-26T17:38:13.974895Z"
   }
 }
