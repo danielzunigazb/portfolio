@@ -13,7 +13,7 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-26T17:21:30.078796Z",
+  "updated_at": "2026-10-26T17:21:57.594183Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
@@ -22,6 +22,6 @@
     "album": "La Fiesta",
     "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e5d1b1e2a3df73e7ffc605aa",
     "url": "https:\/\/open.spotify.com\/track\/3GqjYT63pZyNqG4fPzBnLd",
-    "updated_at": "2026-10-26T17:21:30.078796Z"
+    "updated_at": "2026-10-26T17:21:57.594183Z"
   }
 }
