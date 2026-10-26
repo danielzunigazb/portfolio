@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-26T19:15:02.875067Z",
+  "updated_at": "2026-10-26T19:30:09.699239Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Cuando Me Ocupes",
-    "artists": "Neton Vega, Xavi",
-    "album": "Mi Vida Mi Muerte",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e025c0540f97b3f95e387a9b58e",
-    "url": "https:\/\/open.spotify.com\/track\/6QvHiOp35ylHrYGy2ohuBg",
-    "updated_at": "2026-10-26T19:15:02.875067Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-26T19:30:09.699239Z"
   }
 }
