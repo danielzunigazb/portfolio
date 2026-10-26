@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 86,
   "oxygen_saturation_pct": 96,
-  "steps_today": 5489,
+  "steps_today": 5958,
   "floors_climbed_today": 1,
   "sleep_duration_minutes": 693,
   "sleep_score": 75,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-26T02:43:55.730885Z",
+  "updated_at": "2026-10-26T03:01:15.437512Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Pancake",
-    "artists": "Natanael Cano, Peso Pluma",
-    "album": "Nata Montana",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02066c67e297dd388e5b25bc3a",
-    "url": "https:\/\/open.spotify.com\/track\/7ctRhcAiTBQLsH64s93sN4",
-    "updated_at": "2026-10-26T02:43:55.730885Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-26T03:01:15.437512Z"
   }
 }
