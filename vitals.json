@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 96,
-  "steps_today": 5437,
+  "steps_today": 5489,
   "floors_climbed_today": 1,
   "sleep_duration_minutes": 693,
   "sleep_score": 75,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-26T02:12:28.978383Z",
+  "updated_at": "2026-10-26T02:27:35.742674Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "OLIVIA LA FLAKA",
-    "artists": "Natanael Cano, Tito Double P, Victor Mendivil, Ovi",
-    "album": "OLIVIA LA FLAKA",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02340356d2fc73f7acae0174bb",
-    "url": "https:\/\/open.spotify.com\/track\/6756nr1dYiw5aNLSgIHNOI",
-    "updated_at": "2026-10-26T02:12:28.978383Z"
+    "track": "Tumbados En Miami",
+    "artists": "Ovi, Natanael Cano, Justin Quiles, Play-N-Skillz",
+    "album": "Retumban2",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0278085ec55a875dc9f072b2d2",
+    "url": "https:\/\/open.spotify.com\/track\/4jKobC3YJgvBb7vzvLjgUW",
+    "updated_at": "2026-10-26T02:27:35.742674Z"
   }
 }
