@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 74,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 96,
   "steps_today": 4983,
   "floors_climbed_today": 1,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-25T23:50:40.276525Z",
+  "updated_at": "2026-10-26T00:07:10.500226Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Te Extraño",
-    "artists": "Ovi, Junior H",
-    "album": "Buen Viaje",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0212e4616a4ed101c1e0e76e0f",
-    "url": "https:\/\/open.spotify.com\/track\/4woupD6nz235hkCKdIkQJT",
-    "updated_at": "2026-10-25T23:50:40.276525Z"
+    "track": "Por Las Noches",
+    "artists": "Peso Pluma",
+    "album": "Por Las Noches",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e020e93243fe79d967a7ae6333a",
+    "url": "https:\/\/open.spotify.com\/track\/6YWME4xCa5Lm6X1exVMQIC",
+    "updated_at": "2026-10-26T00:07:10.500226Z"
   }
 }
