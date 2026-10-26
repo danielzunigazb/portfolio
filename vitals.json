@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 96,
-  "steps_today": 4983,
+  "steps_today": 5022,
   "floors_climbed_today": 1,
   "sleep_duration_minutes": 693,
   "sleep_score": 75,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-26T00:52:38.875340Z",
+  "updated_at": "2026-10-26T01:08:00.021234Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Brillo",
-    "artists": "Natanael Cano",
-    "album": "NataKong",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0259ee17a860f6ce4b35b031e2",
-    "url": "https:\/\/open.spotify.com\/track\/5gS11pL9yQcnKrzbmliOwh",
-    "updated_at": "2026-10-26T00:52:38.875340Z"
+    "track": "Vuelve",
+    "artists": "Anuel AA",
+    "album": "Vuelve",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02a9bee9857e7d25a7fc6daff6",
+    "url": "https:\/\/open.spotify.com\/track\/4rKEWNZrYYo66knSxFxE2J",
+    "updated_at": "2026-10-26T01:08:00.021234Z"
   }
 }
