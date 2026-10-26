@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 86,
   "oxygen_saturation_pct": 95,
-  "steps_today": 3040,
+  "steps_today": 3302,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 247,
   "sleep_score": 65,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-26T16:46:00.399212Z",
+  "updated_at": "2026-10-26T17:06:04.255726Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-26T16:46:00.399212Z"
+    "is_playing": true,
+    "track": "Empresa Fly Club",
+    "artists": "Junior H",
+    "album": "Mi Vida En Un Cigarro 2",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02bce9f6ae2b428bc6a3616a10",
+    "url": "https:\/\/open.spotify.com\/track\/30eRXCVFrkpD9HQ4QBQE2f",
+    "updated_at": "2026-10-26T17:06:04.255726Z"
   }
 }
