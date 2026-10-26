@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-26T00:07:10.500226Z",
+  "updated_at": "2026-10-26T00:22:19.228667Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Por Las Noches",
-    "artists": "Peso Pluma",
-    "album": "Por Las Noches",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e020e93243fe79d967a7ae6333a",
-    "url": "https:\/\/open.spotify.com\/track\/6YWME4xCa5Lm6X1exVMQIC",
-    "updated_at": "2026-10-26T00:07:10.500226Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-26T00:22:19.228667Z"
   }
 }
