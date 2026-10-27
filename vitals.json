@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 98,
-  "steps_today": 2782,
+  "steps_today": 2827,
   "floors_climbed_today": 1,
   "sleep_duration_minutes": 247,
   "sleep_score": 65,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-27T14:19:35.466993Z",
+  "updated_at": "2026-10-27T14:36:10.708211Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "lo mejor siempre SE DEMORA",
-    "artists": "Yeyo",
-    "album": "lo mejor siempre SE DEMORA",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e020cd991903b3c9722ab2c2f2e",
-    "url": "https:\/\/open.spotify.com\/track\/7FuiKyskkpqlfE4UFacfC8",
-    "updated_at": "2026-10-27T14:19:35.466993Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-27T14:36:10.708211Z"
   }
 }
