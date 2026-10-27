@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 88,
   "oxygen_saturation_pct": 100,
-  "steps_today": 8190,
+  "steps_today": 8262,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 247,
   "sleep_score": 65,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-27T22:29:21.066423Z",
+  "updated_at": "2026-10-27T22:46:46.616590Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-27T22:29:21.066423Z"
+    "is_playing": true,
+    "track": "2Mg",
+    "artists": "Doble Porcion, Métricas Frías, Mañas Ru-Fino, Akapellah",
+    "album": "Pineal",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e022068f66d7ab7c63edc0d5872",
+    "url": "https:\/\/open.spotify.com\/track\/02uVAGl8ePComIOprEXK1s",
+    "updated_at": "2026-10-27T22:46:46.616590Z"
   }
 }
