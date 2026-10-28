@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-28T01:59:05.696634Z",
+  "updated_at": "2026-10-28T02:14:29.984648Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Netflix and Chill",
-    "artists": "Luis Carrillo, Omar Camacho, Oscar Maydon",
-    "album": "Netflix and Chill",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02a9d21fb8105296ecd2d80a25",
-    "url": "https:\/\/open.spotify.com\/track\/2l5EWb5ThVJGWltu7R3uAs",
-    "updated_at": "2026-10-28T01:59:05.696634Z"
+    "track": "SUIZA",
+    "artists": "Calle 24",
+    "album": "ONDEADO$",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e029068bf12aece9d168cc16848",
+    "url": "https:\/\/open.spotify.com\/track\/7585wxMp2e3IhBq3tJAXgw",
+    "updated_at": "2026-10-28T02:14:29.984648Z"
   }
 }
