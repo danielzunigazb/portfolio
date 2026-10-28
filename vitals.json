@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 63,
   "oxygen_saturation_pct": 97,
-  "steps_today": 6350,
+  "steps_today": 6640,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 401,
   "sleep_score": 67,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-28T16:57:09.372806Z",
+  "updated_at": "2026-10-28T17:12:32.232560Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "La Vida Loca",
-    "artists": "El Padrinito Toys, Neton Vega",
-    "album": "La Vida Loca",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02cac9a5d855cef19b2fc174f1",
-    "url": "https:\/\/open.spotify.com\/track\/1nexAZpehtaPLqJZJSz0VI",
-    "updated_at": "2026-10-28T16:57:09.372806Z"
+    "track": "Pinta De Estudiante",
+    "artists": "Grupo Marca Registrada",
+    "album": "Corleone",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e9da100ac57960dbb5022139",
+    "url": "https:\/\/open.spotify.com\/track\/1OTcRTOQXOE40fHHSTKQk5",
+    "updated_at": "2026-10-28T17:12:32.232560Z"
   }
 }
