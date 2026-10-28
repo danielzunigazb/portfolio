@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 71,
   "oxygen_saturation_pct": 97,
-  "steps_today": 7875,
+  "steps_today": 7904,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 401,
   "sleep_score": 67,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-28T22:16:06.448019Z",
+  "updated_at": "2026-10-28T22:33:47.340764Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Mia",
-    "artists": "Victor Mendivil, Gabito Ballesteros",
+    "track": "Rosa",
+    "artists": "Victor Mendivil, La Joaqui, Luis R Conriquez",
     "album": "Tutankamon",
     "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d9804cbf2de637f09890ffb8",
-    "url": "https:\/\/open.spotify.com\/track\/2PXNL9x1lMXQkR7YM4USrC",
-    "updated_at": "2026-10-28T22:16:06.448019Z"
+    "url": "https:\/\/open.spotify.com\/track\/33THfvKc6inTp3HW93k5jr",
+    "updated_at": "2026-10-28T22:33:47.340764Z"
   }
 }
