@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 100,
-  "steps_today": 8976,
+  "steps_today": 8992,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 247,
   "sleep_score": 65,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-28T01:26:59.620467Z",
+  "updated_at": "2026-10-28T01:59:05.696634Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-28T01:26:59.620467Z"
+    "is_playing": true,
+    "track": "Netflix and Chill",
+    "artists": "Luis Carrillo, Omar Camacho, Oscar Maydon",
+    "album": "Netflix and Chill",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02a9d21fb8105296ecd2d80a25",
+    "url": "https:\/\/open.spotify.com\/track\/2l5EWb5ThVJGWltu7R3uAs",
+    "updated_at": "2026-10-28T01:59:05.696634Z"
   }
 }
