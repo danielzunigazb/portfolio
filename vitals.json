@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 71,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 97,
   "steps_today": 7904,
   "floors_climbed_today": 2,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-28T22:33:47.340764Z",
+  "updated_at": "2026-10-28T22:49:23.097563Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Rosa",
-    "artists": "Victor Mendivil, La Joaqui, Luis R Conriquez",
-    "album": "Tutankamon",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d9804cbf2de637f09890ffb8",
-    "url": "https:\/\/open.spotify.com\/track\/33THfvKc6inTp3HW93k5jr",
-    "updated_at": "2026-10-28T22:33:47.340764Z"
+    "track": "Tu Chapo",
+    "artists": "Ele A El Dominio",
+    "album": "Tu Chapo",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02b39491e507b4218fb0f8f92f",
+    "url": "https:\/\/open.spotify.com\/track\/0GhaX1Ug55gblLS5nLMcE2",
+    "updated_at": "2026-10-28T22:49:23.097563Z"
   }
 }
