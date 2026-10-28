@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 66,
   "oxygen_saturation_pct": 100,
-  "steps_today": 8992,
+  "steps_today": 9358,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 247,
   "sleep_score": 65,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-28T02:29:35.338206Z",
+  "updated_at": "2026-10-28T02:45:44.202468Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "PERO NO TE ENAMORES",
-    "artists": "Fuerza Regida",
-    "album": "PERO NO TE ENAMORES",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0258f920f157b29869020a0f0d",
-    "url": "https:\/\/open.spotify.com\/track\/3w1h7uNU1Dfk2tOaHiIGat",
-    "updated_at": "2026-10-28T02:29:35.338206Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-28T02:45:44.202468Z"
   }
 }
