@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 93,
   "oxygen_saturation_pct": 95,
-  "steps_today": 1121,
+  "steps_today": 1676,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 409,
   "sleep_score": 74,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-29T13:29:13.071256Z",
+  "updated_at": "2026-10-29T13:49:40.666226Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-29T13:29:13.071256Z"
+    "is_playing": true,
+    "track": "No Eh Cambiado",
+    "artists": "Junior H",
+    "album": "Mi Vida en un Cigarro",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02db5cc7f399335d3158807573",
+    "url": "https:\/\/open.spotify.com\/track\/6JE175YPwLsqOsiCwg1OX5",
+    "updated_at": "2026-10-29T13:49:40.666226Z"
   }
 }
