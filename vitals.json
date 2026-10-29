@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 99,
   "oxygen_saturation_pct": 97,
-  "steps_today": 8267,
+  "steps_today": 8458,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 401,
   "sleep_score": 67,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-29T01:50:22.331880Z",
+  "updated_at": "2026-10-29T02:05:35.995352Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "El Gerente MZ - En Vivo",
-    "artists": "Herencia De Grandes",
-    "album": "En Vivo Desde Anaheim, CA",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e021910431477480ab2f94e803d",
-    "url": "https:\/\/open.spotify.com\/track\/0P3MGJAwkvcyWbK774wQ19",
-    "updated_at": "2026-10-29T01:50:22.331880Z"
+    "track": "No Me Pesa",
+    "artists": "Junior H",
+    "album": "Cruisin' with Junior H",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02163027188d86f4a532d670d0",
+    "url": "https:\/\/open.spotify.com\/track\/4YU704KDCv4tyE6qQxliY3",
+    "updated_at": "2026-10-29T02:05:35.995352Z"
   }
 }
