@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 88,
+  "heart_rate_bpm": 90,
   "oxygen_saturation_pct": 95,
-  "steps_today": 9063,
+  "steps_today": 9400,
   "floors_climbed_today": 8,
   "sleep_duration_minutes": 409,
   "sleep_score": 74,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-29T23:26:50.981704Z",
+  "updated_at": "2026-10-29T23:42:34.152867Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-29T23:26:50.981704Z"
+    "is_playing": true,
+    "track": "6 30",
+    "artists": "Métricas Frías, Doble Porcion",
+    "album": "Serenata Sin Mariachis",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02dabdc72106bd4acc7d5f1ca9",
+    "url": "https:\/\/open.spotify.com\/track\/5VerYcwtt2Xqug4JXF5wKr",
+    "updated_at": "2026-10-29T23:42:34.152867Z"
   }
 }
