@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 99,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 97,
-  "steps_today": 8458,
+  "steps_today": 8481,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 401,
   "sleep_score": 67,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-29T02:05:35.995352Z",
+  "updated_at": "2026-10-29T02:21:22.084976Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "No Me Pesa",
-    "artists": "Junior H",
-    "album": "Cruisin' with Junior H",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02163027188d86f4a532d670d0",
-    "url": "https:\/\/open.spotify.com\/track\/4YU704KDCv4tyE6qQxliY3",
-    "updated_at": "2026-10-29T02:05:35.995352Z"
+    "track": "El Veintitantos",
+    "artists": "Grupo Marca Registrada",
+    "album": "Money",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0226f92512de7ac62af16691dc",
+    "url": "https:\/\/open.spotify.com\/track\/4G5JHiDWJFQQikkoWR6Ujw",
+    "updated_at": "2026-10-29T02:21:22.084976Z"
   }
 }
