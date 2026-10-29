@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-29T02:21:22.084976Z",
+  "updated_at": "2026-10-29T02:47:58.607279Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "El Veintitantos",
-    "artists": "Grupo Marca Registrada",
-    "album": "Money",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0226f92512de7ac62af16691dc",
-    "url": "https:\/\/open.spotify.com\/track\/4G5JHiDWJFQQikkoWR6Ujw",
-    "updated_at": "2026-10-29T02:21:22.084976Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-29T02:47:58.607279Z"
   }
 }
