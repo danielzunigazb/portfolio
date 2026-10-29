@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-29T12:26:12.070566Z",
+  "updated_at": "2026-10-29T12:41:37.732397Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-29T12:26:12.070566Z"
+    "is_playing": true,
+    "track": "Lean",
+    "artists": "Natanael Cano, JhonnyX",
+    "album": "Trap Tumbado",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e024c825e625710591195fba087",
+    "url": "https:\/\/open.spotify.com\/track\/6AZZqU7JMhDBtggjJCi4kQ",
+    "updated_at": "2026-10-29T12:41:37.732397Z"
   }
 }
