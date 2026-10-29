@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 82,
   "oxygen_saturation_pct": 95,
-  "steps_today": 6243,
+  "steps_today": 6349,
   "floors_climbed_today": 6,
   "sleep_duration_minutes": 409,
   "sleep_score": 74,
@@ -13,7 +13,7 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-29T20:35:45.758424Z",
+  "updated_at": "2026-10-29T20:51:24.205100Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": false,
@@ -22,6 +22,6 @@
     "album": null,
     "cover_url": null,
     "url": null,
-    "updated_at": "2026-10-29T20:35:45.758424Z"
+    "updated_at": "2026-10-29T20:51:24.205100Z"
   }
 }
