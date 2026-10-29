@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 51,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 97,
-  "steps_today": 8004,
+  "steps_today": 8074,
   "floors_climbed_today": 2,
   "sleep_duration_minutes": 401,
   "sleep_score": 67,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-29T00:16:16.353075Z",
+  "updated_at": "2026-10-29T00:34:07.329196Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Crónicas de un Gallo",
-    "artists": "Natanael Cano, Ovi, Ñengo Flow",
-    "album": "Las 3 Torres",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02dac65e21cd19724d03043586",
-    "url": "https:\/\/open.spotify.com\/track\/6YPczk6I8RRCjIcJ9I7p8y",
-    "updated_at": "2026-10-29T00:16:16.353075Z"
+    "track": "que putas",
+    "artists": "Feid",
+    "album": "BAHÍA DUCATI",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0218ee027c16a592fe89ab28ca",
+    "url": "https:\/\/open.spotify.com\/track\/4fcC14xEEHEYS4SClHRzOr",
+    "updated_at": "2026-10-29T00:34:07.329196Z"
   }
 }
