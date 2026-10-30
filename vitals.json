@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 94,
-  "steps_today": 974,
+  "steps_today": 1487,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 490,
   "sleep_score": 68,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 95
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-10-30T15:55:00.079655Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-30T16:11:19.023412Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-30T15:55:00.079655Z"
+    "is_playing": true,
+    "track": "Obsesión",
+    "artists": "Peter Manjarrés, Emiliano Zuleta, Sergio Luis Rodríguez",
+    "album": "Sólo Clásicos",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02ea7d850fbb5bce1ef22752a6",
+    "url": "https:\/\/open.spotify.com\/track\/7vBqkTvrMDpsPyuloD8aLl",
+    "updated_at": "2026-10-30T16:11:19.023412Z"
   }
 }
