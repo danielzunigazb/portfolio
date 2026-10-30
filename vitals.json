@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "escuela",
-  "updated_at": "2026-10-30T15:38:35.766705Z",
+  "updated_at": "2026-10-30T15:55:00.079655Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Papara + Dime Que Lo Que Pasa - Special Edition",
-    "artists": "Nico Parga, Dj Jose Gonzalez",
-    "album": "Papara + Dime Que Lo Que Pasa (Special Edition)",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02fc66d382156fb7c5fa1f5b21",
-    "url": "https:\/\/open.spotify.com\/track\/2VgUdVYJ5h7Rs0d5Be1PpB",
-    "updated_at": "2026-10-30T15:38:35.766705Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-30T15:55:00.079655Z"
   }
 }
