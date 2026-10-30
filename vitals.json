@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "escuela",
-  "updated_at": "2026-10-30T17:00:44.503798Z",
+  "updated_at": "2026-10-30T17:16:45.843117Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "SANTAL 33",
-    "artists": "Peso Pluma, Oscar Maydon",
-    "album": "ÉXODO",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e022690127e1d6cd0aa35cc353b",
-    "url": "https:\/\/open.spotify.com\/track\/02cRoSfWU3RJNFyU3o4lhV",
-    "updated_at": "2026-10-30T17:00:44.503798Z"
+    "track": "COMO HAS ESTAU?",
+    "artists": "Mora",
+    "album": "PARAÍSO",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e022a5c6164e8743597f44b645e",
+    "url": "https:\/\/open.spotify.com\/track\/5S7FewmYYyLNdMOfeEcB6P",
+    "updated_at": "2026-10-30T17:16:45.843117Z"
   }
 }
