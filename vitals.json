@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 95
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-10-30T13:08:00.879632Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-30T13:24:29.345302Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-30T13:08:00.879632Z"
+    "is_playing": true,
+    "track": "Fire Up",
+    "artists": "T3R Elemento",
+    "album": "Underground",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e020388063466b838bbed6c85f2",
+    "url": "https:\/\/open.spotify.com\/track\/0zSImsfpon8yPLkF6S6nJF",
+    "updated_at": "2026-10-30T13:24:29.345302Z"
   }
 }
