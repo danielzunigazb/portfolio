@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 91,
+  "heart_rate_bpm": 77,
   "oxygen_saturation_pct": 95,
-  "steps_today": 9859,
+  "steps_today": 10264,
   "floors_climbed_today": 8,
   "sleep_duration_minutes": 409,
   "sleep_score": 74,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 95
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-30T00:00:31.582824Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-10-30T00:23:20.077638Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-30T00:00:31.582824Z"
+    "is_playing": true,
+    "track": "Que Bendicion",
+    "artists": "Natanael Cano",
+    "album": "Trap Tumbado",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e024c825e625710591195fba087",
+    "url": "https:\/\/open.spotify.com\/track\/4P7gYxO46OFuscEwlheMTq",
+    "updated_at": "2026-10-30T00:23:20.077638Z"
   }
 }
