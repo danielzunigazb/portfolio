@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 95
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-30T16:11:19.023412Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-10-30T16:28:28.528950Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Obsesión",
-    "artists": "Peter Manjarrés, Emiliano Zuleta, Sergio Luis Rodríguez",
-    "album": "Sólo Clásicos",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02ea7d850fbb5bce1ef22752a6",
-    "url": "https:\/\/open.spotify.com\/track\/7vBqkTvrMDpsPyuloD8aLl",
-    "updated_at": "2026-10-30T16:11:19.023412Z"
+    "track": "Took Her To The O",
+    "artists": "King Von",
+    "album": "Levon James",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e028649220140846c7edf7f1978",
+    "url": "https:\/\/open.spotify.com\/track\/7fEoXCZTZFosUFvFQg1BmW",
+    "updated_at": "2026-10-30T16:28:28.528950Z"
   }
 }
