@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 95
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-10-30T14:52:26.342674Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-30T15:21:49.832479Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Y Que",
-    "artists": "Natanael Cano",
-    "album": "Todo Es Diferente",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02885823ab5a54dc425ea53370",
-    "url": "https:\/\/open.spotify.com\/track\/37ZGz1z6nmZej9ycDWeLxB",
-    "updated_at": "2026-10-30T14:52:26.342674Z"
+    "track": "RELXJXTE",
+    "artists": "Feid, Sky Rompiendo",
+    "album": "FERXXO (VOL 1: M.O.R)",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e028e8753ff69b7efb6f8e146cd",
+    "url": "https:\/\/open.spotify.com\/track\/0eI8yxgCGbguwbK26n22RQ",
+    "updated_at": "2026-10-30T15:21:49.832479Z"
   }
 }
