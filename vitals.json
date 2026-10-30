@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 76,
+  "heart_rate_bpm": 85,
   "oxygen_saturation_pct": 94,
-  "steps_today": 1863,
+  "steps_today": 2948,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 490,
   "sleep_score": 68,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 95
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-10-30T18:06:41.769656Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-30T18:23:11.605185Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-30T18:06:41.769656Z"
+    "is_playing": true,
+    "track": "Pal Que Dijo Que No",
+    "artists": "Natanael Cano, Ovi",
+    "album": "Soy El Nata",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e020c2ae6c355eefa77380e216f",
+    "url": "https:\/\/open.spotify.com\/track\/63zEmpbUIHw3tRCuDESLVf",
+    "updated_at": "2026-10-30T18:23:11.605185Z"
   }
 }
