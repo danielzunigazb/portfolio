@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": null,
+  "heart_rate_bpm": 76,
   "oxygen_saturation_pct": 94,
-  "steps_today": 493,
+  "steps_today": 974,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 490,
   "sleep_score": 68,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 95
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-10-30T13:56:39.305396Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-30T14:12:26.447196Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Corrido del Carlos",
-    "artists": "Herencia De Grandes",
-    "album": "Lo Que La Gente Estaba Esperando",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e029c10e5b2679ced4eacfa2d17",
-    "url": "https:\/\/open.spotify.com\/track\/1uk8PxCz7AdkMsdHmnql6v",
-    "updated_at": "2026-10-30T13:56:39.305396Z"
+    "track": "$. A. N. T. E. R. Í. A.",
+    "artists": "Doble Porcion, Métricas Frías, Mañas Ru-Fino, Zof Ziro",
+    "album": "Manzanas a la Vuelta",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0228f61734580994bdf0819891",
+    "url": "https:\/\/open.spotify.com\/track\/04ILYls20Qdxl8VGAQKdAF",
+    "updated_at": "2026-10-30T14:12:26.447196Z"
   }
 }
