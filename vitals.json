@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 95
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-30T16:45:00.056237Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-10-30T17:00:44.503798Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "530",
-    "artists": "¥$, Kanye West, Ty Dolla $ign",
-    "album": "VULTURES 2",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02fb9cedd86a3d08dc053a550d",
-    "url": "https:\/\/open.spotify.com\/track\/2tPNj9sUt3FbjEUqBzZazv",
-    "updated_at": "2026-10-30T16:45:00.056237Z"
+    "track": "SANTAL 33",
+    "artists": "Peso Pluma, Oscar Maydon",
+    "album": "ÉXODO",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e022690127e1d6cd0aa35cc353b",
+    "url": "https:\/\/open.spotify.com\/track\/02cRoSfWU3RJNFyU3o4lhV",
+    "updated_at": "2026-10-30T17:00:44.503798Z"
   }
 }
