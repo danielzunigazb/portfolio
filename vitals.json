@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 95
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-10-30T01:27:08.597467Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-30T01:43:23.813165Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-30T01:27:08.597467Z"
+    "is_playing": true,
+    "track": "Biggie di Bong",
+    "artists": "Omar Camacho, Santa Fe Klan",
+    "album": "Nunca Voy a Morir",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0238ccaf860a6c35e2e3f8a0a7",
+    "url": "https:\/\/open.spotify.com\/track\/3qMUKYhzLdGvi0cxyKHqEk",
+    "updated_at": "2026-10-30T01:43:23.813165Z"
   }
 }
