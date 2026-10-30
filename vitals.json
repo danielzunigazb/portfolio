@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 95
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-10-30T18:23:11.605185Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-10-30T18:41:24.555875Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Pal Que Dijo Que No",
-    "artists": "Natanael Cano, Ovi",
-    "album": "Soy El Nata",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e020c2ae6c355eefa77380e216f",
-    "url": "https:\/\/open.spotify.com\/track\/63zEmpbUIHw3tRCuDESLVf",
-    "updated_at": "2026-10-30T18:23:11.605185Z"
+    "track": "Buen Ejemplo",
+    "artists": "Hermanos Figueroa, Herencia de Patrones, Esteban Gabriel",
+    "album": "Buen Ejemplo",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02ef1d631ba17191549465dc57",
+    "url": "https:\/\/open.spotify.com\/track\/0IZfXjvd4yF8obhsr1SKbe",
+    "updated_at": "2026-10-30T18:41:24.555875Z"
   }
 }
