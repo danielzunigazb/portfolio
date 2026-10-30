@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 95
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-10-30T17:32:38.268835Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-10-30T17:50:08.089633Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "El Caramelito",
-    "artists": "Ivan Villazon, Saúl Lallermand",
-    "album": "El Poder del Amor",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d17abc5108cdafeab7acbf5d",
-    "url": "https:\/\/open.spotify.com\/track\/1gEwjGAwgrOxsbeCtjsBFa",
-    "updated_at": "2026-10-30T17:32:38.268835Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-10-30T17:50:08.089633Z"
   }
 }
