@@ -1,27 +1,27 @@
 {
-  "heart_rate_bpm": 117,
+  "heart_rate_bpm": 104,
   "oxygen_saturation_pct": 94,
-  "steps_today": 18008,
+  "steps_today": 18562,
   "floors_climbed_today": 3,
   "sleep_duration_minutes": 490,
   "sleep_score": 68,
   "last_exercise": {
     "type": "OTHER",
-    "duration_minutes": 12,
-    "calories": 86,
-    "mean_heart_rate_bpm": 132
+    "duration_minutes": 13,
+    "calories": 90,
+    "mean_heart_rate_bpm": 114
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-31T03:11:42.223445Z",
+  "updated_at": "2026-10-31T04:00:11.452927Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-10-31T03:11:42.223445Z"
+    "is_playing": true,
+    "track": "La Ciudad del Sol",
+    "artists": "Omar Camacho, Oscar Maydon",
+    "album": "Nunca Voy a Morir",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0238ccaf860a6c35e2e3f8a0a7",
+    "url": "https:\/\/open.spotify.com\/track\/2HM9TjXLJFaMWe0q05ej2h",
+    "updated_at": "2026-10-31T04:00:11.452927Z"
   }
 }
