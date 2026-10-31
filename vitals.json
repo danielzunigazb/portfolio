@@ -1,18 +1,18 @@
 {
-  "heart_rate_bpm": 142,
+  "heart_rate_bpm": 112,
   "oxygen_saturation_pct": 94,
-  "steps_today": 12602,
+  "steps_today": 15296,
   "floors_climbed_today": 3,
   "sleep_duration_minutes": 490,
   "sleep_score": 68,
   "last_exercise": {
     "type": "OTHER",
-    "duration_minutes": 20,
-    "calories": 146,
-    "mean_heart_rate_bpm": 116
+    "duration_minutes": 12,
+    "calories": 86,
+    "mean_heart_rate_bpm": 132
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-10-31T00:31:55.430186Z",
+  "updated_at": "2026-10-31T01:26:33.487804Z",
   "source": "galaxy-fit3-samsunghealth"
 }
