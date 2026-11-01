@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 114
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-11-01T15:37:27.502064Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-11-01T15:53:46.648232Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Estrellas",
-    "artists": "Natanael Cano",
-    "album": "NataKong",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0259ee17a860f6ce4b35b031e2",
-    "url": "https:\/\/open.spotify.com\/track\/3RJtmjTdfo1Tz1Ys122y5y",
-    "updated_at": "2026-11-01T15:37:27.502064Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-11-01T15:53:46.648232Z"
   }
 }
