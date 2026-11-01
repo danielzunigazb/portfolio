@@ -161,49 +161,9 @@
     <p class="text-small" style="color:var(--ink-muted); margin: var(--space-2) 0 var(--space-8);">Software real, no ejercicios. Cada proyecto tiene código, documentación y tests.</p>
 
     <div class="sys-grid">
-      <div class="project-card reveal">
-        <div class="top">
-          <h2><span class="index">01</span>fungi-discovery</h2>
-          <span class="tag tag-wip">alpha</span>
-        </div>
-        <p class="desc">Pipeline reproducible para procesar amplicones ITS de hongos y priorizar secuencias que requieren revisión taxonómica. BLAST y VSEARCH como motores de alineamiento, taxonomía UNITE v10.0. CLI con Typer, ADRs, cobertura ≥85%, CI en GitHub Actions.</p>
-        <div class="tags">
-          <span class="tag">Python 3.14</span><span class="tag">BioPython</span><span class="tag">Typer</span><span class="tag">BLAST+</span><span class="tag">VSEARCH</span>
-        </div>
-        <div class="links"><a href="https://github.com/danielzunigazb/fungi-discovery" target="_blank">github <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a></div>
-      </div>
-
       <div class="project-card reveal wide">
         <div class="top">
-          <h2><span class="index">02</span>galaxy-vitals-bridge</h2>
-          <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
-        </div>
-        <p class="desc">App Android que lee heart rate, SpO2, pasos, pisos y sueño directo del Galaxy Fit3 vía Samsung Health Data SDK (antes de eso, ingeniería inversa a mano del protocolo BLE del reloj: GATT, heart rate service 0x180d, emparejamiento con BlueZ), y los publica cada 15 min a un status page en vivo — con zona de ubicación (casa/escuela/afuera) sin exponer coordenadas, now playing de Spotify vía OAuth PKCE, widget de pantalla de inicio y monitor EKG con time-travel sobre el historial de git.</p>
-        <div class="tags">
-          <span class="tag">Kotlin</span><span class="tag">Jetpack Compose</span><span class="tag">WorkManager</span><span class="tag">Samsung Health SDK</span><span class="tag">BLE/GATT</span><span class="tag">Spotify Web API</span>
-        </div>
-        <div class="links">
-          <a href="https://github.com/danielzunigazb/galaxy-vitals-bridge" target="_blank">repo <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a>
-          <a href="/status/">status en vivo <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a>
-          <a href="https://github.com/danielzunigazb/galaxy-vitals-bridge/releases/download/showcase-v1/GalaxyVitalsShowcase.mp4" target="_blank">video <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a>
-        </div>
-      </div>
-
-      <div class="project-card reveal">
-        <div class="top">
-          <h2><span class="index">03</span>systemd-hooks</h2>
-          <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
-        </div>
-        <p class="desc">Framework mínimo para orquestar scripts Python con servicios systemd user. Hook class con setup/run/teardown, paths XDG-compliant, logging JSONL con forwarding a journald. Cero dependencias externas, 11 tests pasando.</p>
-        <div class="tags">
-          <span class="tag">Python 3.12+</span><span class="tag">systemd</span><span class="tag">XDG Spec</span><span class="tag">Pytest</span>
-        </div>
-        <div class="links"><a href="https://github.com/danielzunigazb/systemd-hooks" target="_blank">github <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a></div>
-      </div>
-
-      <div class="project-card reveal wide">
-        <div class="top">
-          <h2><span class="index">04</span>Player</h2>
+          <h2><span class="index">01</span>Player</h2>
           <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
         </div>
         <p class="desc">Reproductor de música nativo para Android, sin cuentas ni nube. Letras sincronizadas (LRC, ID3, FLAC o LRCLIB), terminal con autocompletado para manejar la música escribiendo, monitor web para controlarlo desde el navegador emparejando por QR, Android Auto, widget de inicio, ecualizador. Interfaz en Compose con el mismo design system de este sitio. v1.6.1 estable, con tests de UI/servicio/base de datos y CI que firma los releases.</p>
@@ -219,33 +179,7 @@
 
       <div class="project-card reveal">
         <div class="top">
-          <h2><span class="index">05</span>cognitive-core (blini)</h2>
-          <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
-        </div>
-        <p class="desc">Sistema de automatización personal: 7 servicios systemd para monitoreo continuo, captura de contexto y sugerencias. 21 scripts Python (3,393 LOC, 95 funciones). Dashboard con FastAPI, bitácora JSONL.</p>
-        <div class="tags">
-          <span class="tag">Python</span><span class="tag">systemd</span><span class="tag">FastAPI</span><span class="tag">SQLite</span>
-        </div>
-        <div class="links"><span class="text-small" style="color:var(--ink-muted);">privado · infraestructura personal</span></div>
-      </div>
-
-      <div class="project-card reveal wide">
-        <div class="top">
-          <h2><span class="index">06</span>editor</h2>
-          <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
-        </div>
-        <p class="desc">Editor de video no lineal sin interfaz: un LLM lo maneja completo vía un servidor MCP. Motor MLT + FFmpeg — cortes, 15 transiciones, overlays animados, subtítulos, picture-in-picture, 15 plantillas visuales, librería de audio con licencias verificadas. Corre como app web con chat o como servidor MCP desde Claude Code. Dockerizado con hardening real: path fencing, límites de recursos, non-root, tests e2e con Playwright.</p>
-        <div class="tags">
-          <span class="tag">Python</span><span class="tag">MCP</span><span class="tag">MLT</span><span class="tag">FFmpeg</span><span class="tag">Docker</span>
-        </div>
-        <div class="links">
-          <a href="https://github.com/danielzunigazb/editor" target="_blank">repo <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a>
-        </div>
-      </div>
-
-      <div class="project-card reveal">
-        <div class="top">
-          <h2><span class="index">07</span>zwm</h2>
+          <h2><span class="index">02</span>zwm</h2>
           <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
         </div>
         <p class="desc">Gestor de ventanas en mosaico para X11, escrito en Zig. Barra superior, panel lateral con calendario, música y notificaciones, lanzador con calculadora y órdenes de música por texto («pon ...» controla Spotify en cualquier dispositivo), y pantalla de bloqueo con PAM.</p>
@@ -255,9 +189,21 @@
         <div class="links"><span class="text-small" style="color:var(--ink-muted);">privado · escritorio personal</span></div>
       </div>
 
+      <div class="project-card reveal">
+        <div class="top">
+          <h2><span class="index">03</span>fungi-discovery</h2>
+          <span class="tag tag-wip">alpha</span>
+        </div>
+        <p class="desc">Pipeline reproducible para procesar amplicones ITS de hongos y priorizar secuencias que requieren revisión taxonómica. BLAST y VSEARCH como motores de alineamiento, taxonomía UNITE v10.0. CLI con Typer, ADRs, cobertura ≥85%, CI en GitHub Actions.</p>
+        <div class="tags">
+          <span class="tag">Python 3.14</span><span class="tag">BioPython</span><span class="tag">Typer</span><span class="tag">BLAST+</span><span class="tag">VSEARCH</span>
+        </div>
+        <div class="links"><a href="https://github.com/danielzunigazb/fungi-discovery" target="_blank">github <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a></div>
+      </div>
+
       <div class="project-card reveal wide">
         <div class="top">
-          <h2><span class="index">08</span>gocraft</h2>
+          <h2><span class="index">04</span>gocraft</h2>
           <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
         </div>
         <p class="desc">Reimplementación del cliente de Minecraft Java 1.8.9 (protocolo 47) en Go, con un servidor compatible. Renderiza con OpenGL 3.3 y juega en mundos locales (formato Anvil) o en servidores de terceros. No trae recursos de Mojang: texturas, modelos y sonidos se leen del client.jar que el usuario ya tiene. La meta es fidelidad con vanilla — física, iluminación, lógica de ventanas y orden de paquetes, cada subsistema fijado con pruebas que reproducen paquetes contra el cliente sin servidor real.</p>
@@ -271,7 +217,37 @@
 
       <div class="project-card reveal full">
         <div class="top">
-          <h2><span class="index">09</span>harness</h2>
+          <h2><span class="index">05</span>editor</h2>
+          <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
+        </div>
+        <p class="desc">Editor de video no lineal sin interfaz: un LLM lo maneja completo vía un servidor MCP. Motor MLT + FFmpeg — cortes, 15 transiciones, overlays animados, subtítulos, picture-in-picture, 15 plantillas visuales, librería de audio con licencias verificadas. Corre como app web con chat o como servidor MCP desde Claude Code. Dockerizado con hardening real: path fencing, límites de recursos, non-root, tests e2e con Playwright.</p>
+        <div class="tags">
+          <span class="tag">Python</span><span class="tag">MCP</span><span class="tag">MLT</span><span class="tag">FFmpeg</span><span class="tag">Docker</span>
+        </div>
+        <div class="links">
+          <a href="https://github.com/danielzunigazb/editor" target="_blank">repo <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a>
+        </div>
+      </div>
+
+      <div class="project-card reveal full">
+        <div class="top">
+          <h2><span class="index">06</span>galaxy-vitals-bridge</h2>
+          <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
+        </div>
+        <p class="desc">App Android que lee heart rate, SpO2, pasos, pisos y sueño directo del Galaxy Fit3 vía Samsung Health Data SDK (antes de eso, ingeniería inversa a mano del protocolo BLE del reloj: GATT, heart rate service 0x180d, emparejamiento con BlueZ), y los publica cada 15 min a un status page en vivo — con zona de ubicación (casa/escuela/afuera) sin exponer coordenadas, now playing de Spotify vía OAuth PKCE, widget de pantalla de inicio y monitor EKG con time-travel sobre el historial de git.</p>
+        <div class="tags">
+          <span class="tag">Kotlin</span><span class="tag">Jetpack Compose</span><span class="tag">WorkManager</span><span class="tag">Samsung Health SDK</span><span class="tag">BLE/GATT</span><span class="tag">Spotify Web API</span>
+        </div>
+        <div class="links">
+          <a href="https://github.com/danielzunigazb/galaxy-vitals-bridge" target="_blank">repo <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a>
+          <a href="/status/">status en vivo <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a>
+          <a href="https://github.com/danielzunigazb/galaxy-vitals-bridge/releases/download/showcase-v1/GalaxyVitalsShowcase.mp4" target="_blank">video <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a>
+        </div>
+      </div>
+
+      <div class="project-card reveal full">
+        <div class="top">
+          <h2><span class="index">07</span>harness</h2>
           <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
         </div>
         <p class="desc">Herramienta de desarrollo personal: CLI que orquesta agentes de código (Claude Code en modo headless) sobre repos reales con loop completo de verificación — plan, ejecuta paso a paso, verifica cada paso con los tests/lint/build propios del repo, repara, checkpoint, reporte. "El modelo dice que terminó" no cuenta como evidencia. TUI de tres paneles (worktree, flow, chat), roles planner/worker/reviewer con presupuesto de tokens, auto-reparación con escalamiento a un modelo más fuerte, sandboxing por allowlist de comandos, revisión con hallazgos auditables, y tests en vivo contra el CLI real.</p>
@@ -350,11 +326,11 @@
         <div><div>danielzunigazb</div><div class="text-small sub">cuenta principal</div></div>
       </div>
       <div class="repo-links">
-        <a href="https://github.com/danielzunigazb/fungi-discovery" target="_blank" class="btn btn-secondary">fungi-discovery</a>
-        <a href="https://github.com/danielzunigazb/systemd-hooks" target="_blank" class="btn btn-secondary">systemd-hooks</a>
-        <a href="https://github.com/danielzunigazb/galaxy-vitals-bridge" target="_blank" class="btn btn-secondary">galaxy-vitals-bridge</a>
         <a href="https://github.com/danielzunigazb/player" target="_blank" class="btn btn-secondary">player</a>
+        <a href="https://github.com/danielzunigazb/gocraft" target="_blank" class="btn btn-secondary">gocraft</a>
         <a href="https://github.com/danielzunigazb/editor" target="_blank" class="btn btn-secondary">editor</a>
+        <a href="https://github.com/danielzunigazb/galaxy-vitals-bridge" target="_blank" class="btn btn-secondary">galaxy-vitals-bridge</a>
+        <a href="https://github.com/danielzunigazb/fungi-discovery" target="_blank" class="btn btn-secondary">fungi-discovery</a>
       </div>
     </div>
   </div>
