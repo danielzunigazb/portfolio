@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Daniel Zuñiga · CV Técnico</title>
-<meta name="description" content="CV técnico de Daniel Zuñiga — desarrollador autodidacta: infraestructura, automatización y bioinformática. Python, systemd, FastAPI, CLI tools.">
+<meta name="description" content="CV técnico de Daniel Zuñiga — desarrollador autodidacta: infraestructura, automatización y apps nativas. Python, Kotlin, Go, systemd, CLI tools.">
 <link rel="canonical" href="https://danzuniga.xyz/cv/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,7 +41,7 @@
 <header>
   <span class="label eyebrow">$ whoami</span>
   <h1 class="text-h1 name">daniel zú<span class="mark-n">ñ</span>iga</h1>
-  <span class="label role">desarrollador · infraestructura, automatización, bioinformática</span>
+  <span class="label role">desarrollador · infraestructura, automatización, apps nativas</span>
   <div class="contact-row text-small">
     <span>córdoba, colombia</span>
     <a href="https://danzuniga.xyz">danzuniga.xyz</a>
@@ -52,59 +52,27 @@
 
 <div class="cv-section">
   <span class="label">perfil</span>
-  <p class="text-small">Autodidacta con experiencia construyendo software real en Linux: automatización con systemd, herramientas CLI, pipelines bioinformáticos. Enfoque en código con tests, documentación rigurosa y arquitectura reproducible.</p>
+  <p class="text-small">Autodidacta con experiencia construyendo software real en Linux: automatización con systemd, herramientas CLI, apps Android y clientes de red de bajo nivel. Enfoque en código con tests, documentación rigurosa y arquitectura reproducible.</p>
 </div>
 
 <div class="cv-section">
   <span class="label">proyectos</span>
 
   <div class="cv-item">
-    <div class="cv-item-header"><span class="cv-item-title">fungi-discovery</span><span class="cv-item-date">2025–2026</span></div>
-    <div class="cv-item-sub">Pipeline bioinformático ITS · Python CLI (Typer, BioPython, BLAST+)</div>
-    <ul>
-      <li>Pipeline reproducible para identificación taxonómica de hongos mediante secuenciación ITS.</li>
-      <li>CLI con Typer, BLAST+ y VSEARCH como motores de alineamiento, taxonomía UNITE v10.0.</li>
-      <li>Tests con Pytest (cobertura ≥85%), type checking con Ty, linting con Ruff. CI con GitHub Actions.</li>
-      <li>Documentación arquitectónica (ADRs), guías de instalación y piloto documentado con datos reales.</li>
-    </ul>
-  </div>
-
-  <div class="cv-item">
-    <div class="cv-item-header"><span class="cv-item-title">systemd-hooks</span><span class="cv-item-date">2026</span></div>
-    <div class="cv-item-sub">Framework de automatización · Python, systemd, XDG</div>
-    <ul>
-      <li>Framework mínimo para orquestar scripts Python como servicios systemd user.</li>
-      <li>Base Hook class con ciclo de vida setup/run/teardown, logging JSONL + journald.</li>
-      <li>Paths XDG-compliant, auto-descubrimiento de hooks, templates systemd incluidos.</li>
-      <li>Cero dependencias externas. 11 tests pasando. MIT License.</li>
-    </ul>
-  </div>
-
-  <div class="cv-item">
-    <div class="cv-item-header"><span class="cv-item-title">cognitive-core (blini)</span><span class="cv-item-date">2025–2026</span></div>
-    <div class="cv-item-sub">Sistema de automatización personal · Python, systemd, FastAPI</div>
-    <ul>
-      <li>7 servicios systemd orquestando monitoreo continuo, captura de contexto y automatización.</li>
-      <li>21 scripts Python (3,393 LOC, 95 funciones): monitor de ventana activa, screenshots con análisis por IA, motor de sugerencias, health checks, notificaciones contextuales.</li>
-      <li>Dashboard web con FastAPI. Bitácora estructurada JSONL. Diseño XDG Base Directory.</li>
-    </ul>
-  </div>
-
-  <div class="cv-item">
-    <div class="cv-item-header"><span class="cv-item-title">galaxy-vitals-bridge</span><span class="cv-item-date">2026</span></div>
-    <div class="cv-item-sub">App Android · Kotlin, Jetpack Compose, WorkManager, Samsung Health SDK</div>
-    <ul>
-      <li>Lee heart rate, SpO2, pasos, pisos y sueño del Galaxy Fit3 vía Samsung Health Data SDK, tras ingeniería inversa a mano de su protocolo BLE (GATT, heart rate service 0x180d, emparejamiento con BlueZ).</li>
-      <li>Publica a un status page en vivo cada 15 min, con zona de ubicación sin exponer coordenadas.</li>
-    </ul>
-  </div>
-
-  <div class="cv-item">
     <div class="cv-item-header"><span class="cv-item-title">Player</span><span class="cv-item-date">2026</span></div>
     <div class="cv-item-sub">Reproductor de música para Android · Kotlin, Jetpack Compose, Media3/ExoPlayer, Room</div>
     <ul>
       <li>Reproductor nativo sin cuentas ni nube: letras sincronizadas, terminal con autocompletado, monitor web por QR, Android Auto, widget, ecualizador.</li>
-      <li>v1.6.0 estable, con tests de UI/servicio/base de datos y CI que firma los releases. Sitio propio en player.danzuniga.xyz.</li>
+      <li>v1.6.1 estable, con tests de UI/servicio/base de datos y CI que firma los releases. Sitio propio en player.danzuniga.xyz.</li>
+    </ul>
+  </div>
+
+  <div class="cv-item">
+    <div class="cv-item-header"><span class="cv-item-title">gocraft</span><span class="cv-item-date">2026</span></div>
+    <div class="cv-item-sub">Cliente y servidor de Minecraft Java 1.8.9 · Go, OpenGL 3.3, GLFW</div>
+    <ul>
+      <li>Reimplementación del cliente (protocolo 47) con servidor compatible: render OpenGL 3.3, mundos locales en formato Anvil o servidores de terceros.</li>
+      <li>Sin recursos de Mojang: texturas, modelos y sonidos se leen del client.jar del usuario. Fidelidad con vanilla (física, iluminación, ventanas, orden de paquetes) fijada con pruebas que reproducen paquetes contra el cliente.</li>
     </ul>
   </div>
 
@@ -125,12 +93,30 @@
       <li>TUI de tres paneles (worktree, flow, chat), roles planner/worker/reviewer, auto-reparación con escalamiento, sandboxing por allowlist, revisión con hallazgos auditables.</li>
     </ul>
   </div>
+
+  <div class="cv-item">
+    <div class="cv-item-header"><span class="cv-item-title">zwm</span><span class="cv-item-date">2026</span></div>
+    <div class="cv-item-sub">Gestor de ventanas en mosaico para X11 · Zig, XCB, PAM</div>
+    <ul>
+      <li>WM en mosaico con barra, panel lateral (calendario, música, notificaciones), lanzador con calculadora y órdenes de música por texto vía Spotify Connect.</li>
+      <li>Pantalla de bloqueo con autenticación PAM. Configuración en código, interfaz en español.</li>
+    </ul>
+  </div>
+
+  <div class="cv-item">
+    <div class="cv-item-header"><span class="cv-item-title">galaxy-vitals-bridge</span><span class="cv-item-date">2026</span></div>
+    <div class="cv-item-sub">App Android · Kotlin, Jetpack Compose, WorkManager, Samsung Health SDK</div>
+    <ul>
+      <li>Lee heart rate, SpO2, pasos, pisos y sueño del Galaxy Fit3 vía Samsung Health Data SDK, tras ingeniería inversa a mano de su protocolo BLE (GATT, heart rate service 0x180d, emparejamiento con BlueZ).</li>
+      <li>Publica a un status page en vivo cada 15 min, con zona de ubicación sin exponer coordenadas.</li>
+    </ul>
+  </div>
 </div>
 
 <div class="cv-section">
   <span class="label">habilidades</span>
   <div class="tag-row">
-    <span class="tag">Python 3.14</span><span class="tag">Kotlin</span><span class="tag">Bash</span><span class="tag">SQL</span><span class="tag">HTML/CSS</span>
+    <span class="tag">Python 3.14</span><span class="tag">Kotlin</span><span class="tag">Go</span><span class="tag">TypeScript</span><span class="tag">Zig</span><span class="tag">Bash</span><span class="tag">SQL</span><span class="tag">HTML/CSS</span>
   </div>
   <div class="tag-row">
     <span class="tag">FastAPI</span><span class="tag">Typer</span><span class="tag">Pytest</span><span class="tag">uv</span>
@@ -142,7 +128,7 @@
     <span class="tag">Arch Linux</span><span class="tag">Linux administration</span><span class="tag">SSH</span><span class="tag">BLE/GATT</span>
   </div>
   <div class="tag-row">
-    <span class="tag">CLI tools</span><span class="tag">Automatización</span><span class="tag">Bioinformática</span><span class="tag">Apps Android</span>
+    <span class="tag">CLI tools</span><span class="tag">Automatización</span><span class="tag">OpenGL</span><span class="tag">X11</span><span class="tag">Apps Android</span>
     <span class="tag">API design</span><span class="tag">Testing</span><span class="tag">Documentación técnica</span>
   </div>
 </div>
