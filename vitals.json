@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 75,
+  "heart_rate_bpm": 64,
   "oxygen_saturation_pct": null,
-  "steps_today": 153,
+  "steps_today": 223,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 616,
   "sleep_score": 91,
@@ -12,16 +12,7 @@
     "mean_heart_rate_bpm": 114
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-11-01T17:37:03.276877Z",
-  "source": "galaxy-fit3-samsunghealth",
-  "now_playing": {
-    "is_playing": true,
-    "track": "Rafa Caro",
-    "artists": "T3R Elemento",
-    "album": "Underground",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e020388063466b838bbed6c85f2",
-    "url": "https:\/\/open.spotify.com\/track\/7N0ukeSc2gGCNLwhwSAvap",
-    "updated_at": "2026-11-01T17:37:03.276877Z"
-  }
+  "location_zone": "escuela",
+  "updated_at": "2026-11-01T17:54:54.471384Z",
+  "source": "galaxy-fit3-samsunghealth"
 }
