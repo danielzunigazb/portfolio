@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 60,
+  "heart_rate_bpm": 50,
   "oxygen_saturation_pct": null,
-  "steps_today": 125,
+  "steps_today": 135,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 616,
   "sleep_score": 91,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 111
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-11-02T05:40:55.296611Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-11-02T05:58:44.129217Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "LAS NOCHES",
+    "track": "LOKERON X AMOR",
     "artists": "Junior H",
     "album": "$AD BOYZ 4 LIFE II",
     "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02ef88ad49166e31598ff7d4d0",
-    "url": "https:\/\/open.spotify.com\/track\/0uQhDYHyoZe5DpncrPolb6",
-    "updated_at": "2026-11-02T05:40:55.296611Z"
+    "url": "https:\/\/open.spotify.com\/track\/0OG0qjJ9gN85kWZtIzW5uS",
+    "updated_at": "2026-11-02T05:58:44.129217Z"
   }
 }
