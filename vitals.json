@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": null,
-  "steps_today": 5055,
+  "steps_today": 5071,
   "floors_climbed_today": 3,
   "sleep_duration_minutes": 616,
   "sleep_score": 91,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-11-02T03:38:49.839190Z",
+  "updated_at": "2026-11-02T04:45:53.474991Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-11-02T03:38:49.839190Z"
+    "is_playing": true,
+    "track": "Adicto A Ti",
+    "artists": "Grupo Marca Registrada",
+    "album": "Adicto A Ti",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e027041c83cefd76cf666ca8ad1",
+    "url": "https:\/\/open.spotify.com\/track\/3SRlfFW7njWnmzD3KwTCMg",
+    "updated_at": "2026-11-02T04:45:53.474991Z"
   }
 }
