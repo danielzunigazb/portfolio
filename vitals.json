@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 66,
+  "heart_rate_bpm": 60,
   "oxygen_saturation_pct": null,
-  "steps_today": 52,
+  "steps_today": 125,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 616,
   "sleep_score": 91,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 111
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-11-02T05:17:21.605270Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-11-02T05:40:55.296611Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "SIN PODERES",
-    "artists": "Alvaro Diaz, Young Cister",
-    "album": "SIN PODERES",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e45f98f0c1316161b8871569",
-    "url": "https:\/\/open.spotify.com\/track\/1pA3sCCfztmO0zLHcbzutW",
-    "updated_at": "2026-11-02T05:17:21.605270Z"
+    "track": "LAS NOCHES",
+    "artists": "Junior H",
+    "album": "$AD BOYZ 4 LIFE II",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02ef88ad49166e31598ff7d4d0",
+    "url": "https:\/\/open.spotify.com\/track\/0uQhDYHyoZe5DpncrPolb6",
+    "updated_at": "2026-11-02T05:40:55.296611Z"
   }
 }
