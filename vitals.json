@@ -1,27 +1,27 @@
 {
-  "heart_rate_bpm": 136,
+  "heart_rate_bpm": 91,
   "oxygen_saturation_pct": null,
-  "steps_today": 4370,
+  "steps_today": 4708,
   "floors_climbed_today": 3,
   "sleep_duration_minutes": 616,
   "sleep_score": 91,
   "last_exercise": {
     "type": "OTHER",
-    "duration_minutes": 13,
-    "calories": 90,
-    "mean_heart_rate_bpm": 114
+    "duration_minutes": 14,
+    "calories": 96,
+    "mean_heart_rate_bpm": 111
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-11-01T23:23:07.658526Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-11-02T00:09:23.260787Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-11-01T23:23:07.658526Z"
+    "is_playing": true,
+    "track": "¿Qué Nos Pasó?",
+    "artists": "Anuel AA",
+    "album": "¿Qué Nos Pasó?",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02c66fe8a3bb64fe83e5fec82e",
+    "url": "https:\/\/open.spotify.com\/track\/7k3qWn8D43a5ISa3x8lJux",
+    "updated_at": "2026-11-02T00:09:23.260787Z"
   }
 }
