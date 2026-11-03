@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 125
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-11-03T14:48:37.058996Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-11-03T15:10:49.404547Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "El Drip",
-    "artists": "Natanael Cano",
-    "album": "Corridos Tumbados",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e028bdd97bcdc83463812277751",
-    "url": "https:\/\/open.spotify.com\/track\/5NCBP3ivrIDcHEtzHSW3k0",
-    "updated_at": "2026-11-03T14:48:37.058996Z"
+    "track": "Otras Cosas",
+    "artists": "Doble Porcion, Métricas Frías, Mañas Ru-Fino",
+    "album": "Manzanas a la Vuelta",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0228f61734580994bdf0819891",
+    "url": "https:\/\/open.spotify.com\/track\/2HzxZMxvkMgojPbVpH579H",
+    "updated_at": "2026-11-03T15:10:49.404547Z"
   }
 }
