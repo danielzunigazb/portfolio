@@ -1,5 +1,5 @@
 {
-  "heart_rate_bpm": 125,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 97,
   "steps_today": 1628,
   "floors_climbed_today": 0,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 125
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-11-03T14:16:02.315666Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-11-03T14:32:52.136555Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Estación los Alpes",
-    "artists": "Buhodermia 夜, El Maese KDS",
-    "album": "Euphanasia",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02f40052533a461c11db3ada84",
-    "url": "https:\/\/open.spotify.com\/track\/5Kyh9MKS2E9SfgLQTHslwa",
-    "updated_at": "2026-11-03T14:16:02.315666Z"
+    "track": "Manzanas a la Vuelta",
+    "artists": "Doble Porcion, Métricas Frías, Mañas Ru-Fino",
+    "album": "Manzanas a la Vuelta",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0228f61734580994bdf0819891",
+    "url": "https:\/\/open.spotify.com\/track\/6ftKMyAGb8hF4zeTr1f3df",
+    "updated_at": "2026-11-03T14:32:52.136555Z"
   }
 }
