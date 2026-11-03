@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 55,
+  "heart_rate_bpm": 125,
   "oxygen_saturation_pct": 97,
-  "steps_today": 1280,
+  "steps_today": 1628,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 384,
   "sleep_score": 76,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 125
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-11-03T13:41:07.838473Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-11-03T14:00:14.309645Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-11-03T13:41:07.838473Z"
+    "is_playing": true,
+    "track": "E=Mc²",
+    "artists": "Buhodermia 夜, Iziou",
+    "album": "Euphanasia",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02f40052533a461c11db3ada84",
+    "url": "https:\/\/open.spotify.com\/track\/5scTIhAaJ93N0VE4oB9831",
+    "updated_at": "2026-11-03T14:00:14.309645Z"
   }
 }
