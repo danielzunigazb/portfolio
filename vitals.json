@@ -13,15 +13,6 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-11-04T20:47:08.687335Z",
-  "source": "galaxy-fit3-samsunghealth",
-  "now_playing": {
-    "is_playing": true,
-    "track": "MOOD BRAZIL",
-    "artists": "Lil Naay",
-    "album": "MOOD BRAZIL",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02cf4cc955bd140b13fb4cea7b",
-    "url": "https:\/\/open.spotify.com\/track\/6G5Viv7tX2WGQ2i0aCNkkl",
-    "updated_at": "2026-11-04T20:47:08.687335Z"
-  }
+  "updated_at": "2026-11-04T21:03:48.145768Z",
+  "source": "galaxy-fit3-samsunghealth"
 }
