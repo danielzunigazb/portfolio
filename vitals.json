@@ -1,8 +1,8 @@
 {
-  "heart_rate_bpm": 65,
-  "oxygen_saturation_pct": 96,
-  "steps_today": 9206,
-  "floors_climbed_today": 9,
+  "heart_rate_bpm": 72,
+  "oxygen_saturation_pct": 97,
+  "steps_today": 540,
+  "floors_climbed_today": 0,
   "sleep_duration_minutes": 425,
   "sleep_score": 75,
   "last_exercise": {
@@ -12,16 +12,7 @@
     "mean_heart_rate_bpm": 104
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-11-05T04:04:24.963582Z",
-  "source": "galaxy-fit3-samsunghealth",
-  "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-11-05T04:04:24.963582Z"
-  }
+  "location_zone": "afuera",
+  "updated_at": "2026-11-05T11:29:14.647972Z",
+  "source": "galaxy-fit3-samsunghealth"
 }
