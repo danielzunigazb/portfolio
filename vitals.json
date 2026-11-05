@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 70,
   "oxygen_saturation_pct": 97,
-  "steps_today": 2385,
+  "steps_today": 2403,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 425,
   "sleep_score": 75,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-11-05T14:24:12.744212Z",
+  "updated_at": "2026-11-05T14:40:33.058322Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Peli De Terror",
-    "artists": "Køddy G, THE FAVORITES, Fharid On the Beat",
-    "album": "Peli De Terror",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0269486e4f8b0192aadba8c847",
-    "url": "https:\/\/open.spotify.com\/track\/23XDZWXMOiRrm0qoKXCPbf",
-    "updated_at": "2026-11-05T14:24:12.744212Z"
+    "track": "El Drip",
+    "artists": "Natanael Cano",
+    "album": "El Drip",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02852d05b56a47918cf8aa6947",
+    "url": "https:\/\/open.spotify.com\/track\/4nZ6XjstkgmNlVYkthfrpy",
+    "updated_at": "2026-11-05T14:40:33.058322Z"
   }
 }
