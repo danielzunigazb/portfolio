@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 83,
+  "heart_rate_bpm": 70,
   "oxygen_saturation_pct": 97,
-  "steps_today": 1741,
+  "steps_today": 2385,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 425,
   "sleep_score": 75,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-11-05T13:52:30.154293Z",
+  "updated_at": "2026-11-05T14:24:12.744212Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-11-05T13:52:30.154293Z"
+    "is_playing": true,
+    "track": "Peli De Terror",
+    "artists": "Køddy G, THE FAVORITES, Fharid On the Beat",
+    "album": "Peli De Terror",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0269486e4f8b0192aadba8c847",
+    "url": "https:\/\/open.spotify.com\/track\/23XDZWXMOiRrm0qoKXCPbf",
+    "updated_at": "2026-11-05T14:24:12.744212Z"
   }
 }
