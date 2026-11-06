@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 85,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 97,
-  "steps_today": 3293,
+  "steps_today": 3467,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 349,
   "sleep_score": 67,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-11-06T15:35:45.255743Z",
+  "updated_at": "2026-11-06T15:51:17.113654Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Suzuki (from GTAVI: The Album)",
-    "artists": "Fuerza Regida, Grand Theft Auto VI",
-    "album": "Suzuki (from GTAVI: The Album)",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0280028ec6e7fb8f21fb3ba153",
-    "url": "https:\/\/open.spotify.com\/track\/6VDw2mGBIa4csypjOhS6JT",
-    "updated_at": "2026-11-06T15:35:45.255743Z"
+    "track": "que putas",
+    "artists": "Feid",
+    "album": "BAHÍA DUCATI",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0218ee027c16a592fe89ab28ca",
+    "url": "https:\/\/open.spotify.com\/track\/4fcC14xEEHEYS4SClHRzOr",
+    "updated_at": "2026-11-06T15:51:17.113654Z"
   }
 }
