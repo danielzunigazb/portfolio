@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 103,
+  "heart_rate_bpm": 87,
   "oxygen_saturation_pct": 97,
-  "steps_today": 1512,
+  "steps_today": 2503,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 349,
   "sleep_score": 67,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-11-06T14:16:29.924004Z",
+  "updated_at": "2026-11-06T14:32:45.104900Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "La Pista Es Mía - Club Mix",
-    "artists": "Miguelle & Tons, Barbara Doza",
-    "album": "La Pista Es Mía",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d676648781cda76159723ce3",
-    "url": "https:\/\/open.spotify.com\/track\/76S0ICOrVXZpvCKll52mMx",
-    "updated_at": "2026-11-06T14:16:29.924004Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-11-06T14:32:45.104900Z"
   }
 }
