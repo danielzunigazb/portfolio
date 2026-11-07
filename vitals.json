@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 56,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 100,
-  "steps_today": 12750,
+  "steps_today": 12858,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 321,
   "sleep_score": 66,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-11-07T21:08:50.333619Z",
+  "updated_at": "2026-11-07T21:39:58.217994Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "Alegría Ñao Falta",
-    "artists": "Samuel Raver, Samuel Herrera",
-    "album": "Loyalty V.A 001",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02dda9eaa2ab50174997a06760",
-    "url": "https:\/\/open.spotify.com\/track\/5RYE3LEDfSBFWfTeW6VevK",
-    "updated_at": "2026-11-07T21:08:50.333619Z"
+    "track": "Baila (Dennis Ferrer Bergentine Mix) [Mixed]",
+    "artists": "DJ Chus, David Penn",
+    "album": "Angelos Celebration Mix",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02c474420c63b12b74bb684895",
+    "url": "https:\/\/open.spotify.com\/track\/43nz0E3jeddeWDHk5ZBuBE",
+    "updated_at": "2026-11-07T21:39:58.217994Z"
   }
 }
