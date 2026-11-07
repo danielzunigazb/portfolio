@@ -1,27 +1,27 @@
 {
-  "heart_rate_bpm": 75,
+  "heart_rate_bpm": 85,
   "oxygen_saturation_pct": 100,
-  "steps_today": 12443,
+  "steps_today": 12696,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 321,
   "sleep_score": 66,
   "last_exercise": {
     "type": "WALKING",
     "duration_minutes": 12,
-    "calories": 63,
-    "mean_heart_rate_bpm": 113
+    "calories": 65,
+    "mean_heart_rate_bpm": 96
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-11-07T20:35:12.332854Z",
+  "updated_at": "2026-11-07T20:53:10.330643Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-11-07T20:35:12.332854Z"
+    "is_playing": true,
+    "track": "Lazy (feat. David Byrne) - Mowgli Goes Deep Mix",
+    "artists": "X-Press 2, David Byrne",
+    "album": "Lazy (feat. David Byrne) [Remixes]",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e020fb059750f1ea9f310b48bbb",
+    "url": "https:\/\/open.spotify.com\/track\/2KFg8d03gnWcqAPoA7IrGr",
+    "updated_at": "2026-11-07T20:53:10.330643Z"
   }
 }
