@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-11-07T12:39:17.113197Z",
+  "updated_at": "2026-11-07T12:54:33.768043Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "E=Mc²",
-    "artists": "Buhodermia 夜, Iziou",
-    "album": "Euphanasia",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02f40052533a461c11db3ada84",
-    "url": "https:\/\/open.spotify.com\/track\/5scTIhAaJ93N0VE4oB9831",
-    "updated_at": "2026-11-07T12:39:17.113197Z"
+    "track": "La Fea",
+    "artists": "Edicion Especial",
+    "album": "La Fea",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e026d6da01231ab5c1deb8e6510",
+    "url": "https:\/\/open.spotify.com\/track\/6qRDRRc6ySs99VGB1KTNsf",
+    "updated_at": "2026-11-07T12:54:33.768043Z"
   }
 }
