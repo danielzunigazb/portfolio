@@ -1,7 +1,7 @@
 {
-  "heart_rate_bpm": 63,
+  "heart_rate_bpm": null,
   "oxygen_saturation_pct": 100,
-  "steps_today": 1409,
+  "steps_today": 1488,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 321,
   "sleep_score": 66,
@@ -13,6 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-11-07T13:10:21.450211Z",
-  "source": "galaxy-fit3-samsunghealth"
+  "updated_at": "2026-11-07T13:34:33.319731Z",
+  "source": "galaxy-fit3-samsunghealth",
+  "now_playing": {
+    "is_playing": true,
+    "track": "Solo Me Dejaste",
+    "artists": "Grupo Marca Registrada",
+    "album": "Solo Me Dejaste",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e023cbeb2e7857839f23ca07144",
+    "url": "https:\/\/open.spotify.com\/track\/3K7Cn4Fusqlo19eKZb5x8S",
+    "updated_at": "2026-11-07T13:34:33.319731Z"
+  }
 }
