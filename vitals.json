@@ -1,19 +1,19 @@
 {
-  "heart_rate_bpm": 79,
+  "heart_rate_bpm": 112,
   "oxygen_saturation_pct": 97,
-  "steps_today": 6814,
-  "floors_climbed_today": 0,
+  "steps_today": 10193,
+  "floors_climbed_today": 6,
   "sleep_duration_minutes": 349,
   "sleep_score": 67,
   "last_exercise": {
-    "type": "OTHER",
-    "duration_minutes": 28,
-    "calories": 141,
-    "mean_heart_rate_bpm": 94
+    "type": "WALKING",
+    "duration_minutes": 23,
+    "calories": 130,
+    "mean_heart_rate_bpm": 84
   },
   "battery_pct": null,
   "location_zone": "escuela",
-  "updated_at": "2026-11-06T22:30:21.088251Z",
+  "updated_at": "2026-11-07T00:14:31.114289Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": false,
@@ -22,6 +22,6 @@
     "album": null,
     "cover_url": null,
     "url": null,
-    "updated_at": "2026-11-06T22:30:21.088251Z"
+    "updated_at": "2026-11-07T00:14:31.114289Z"
   }
 }
