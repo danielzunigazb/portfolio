@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 60,
   "oxygen_saturation_pct": 97,
-  "steps_today": 3385,
+  "steps_today": 3403,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 448,
   "sleep_score": 91,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-11-08T18:30:49.972527Z",
+  "updated_at": "2026-11-08T18:46:15.957083Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Bucie Mavoko - Mashup",
-    "artists": "Prod.Robert",
-    "album": "Bucie Mavoko (Mashup)",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e026e19607228007ab0cfa199ac",
-    "url": "https:\/\/open.spotify.com\/track\/7v84XG9yZ82v6pifBScNVl",
-    "updated_at": "2026-11-08T18:30:49.972527Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-11-08T18:46:15.957083Z"
   }
 }
