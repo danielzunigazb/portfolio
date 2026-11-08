@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 98,
   "oxygen_saturation_pct": 100,
-  "steps_today": 15238,
+  "steps_today": 15421,
   "floors_climbed_today": 4,
   "sleep_duration_minutes": 321,
   "sleep_score": 66,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 105
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-11-08T00:18:45.594532Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-11-08T00:34:35.464292Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-11-08T00:18:45.594532Z"
+    "is_playing": true,
+    "track": "PINK FLOYD",
+    "artists": "Yung Beef, Cookin Soul, Pablo Chill-E",
+    "album": "PINK FLOYD",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e0229298b4e2ea2a6217214c769",
+    "url": "https:\/\/open.spotify.com\/track\/2YXmkEgrudYSKpNu4kKl0e",
+    "updated_at": "2026-11-08T00:34:35.464292Z"
   }
 }
