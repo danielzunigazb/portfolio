@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": 91,
   "oxygen_saturation_pct": 97,
-  "steps_today": 754,
+  "steps_today": 839,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 362,
   "sleep_score": 66,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 98
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-11-12T11:04:03.441992Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-11-12T11:19:53.551697Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Doomsday",
-    "artists": "MF DOOM, Pebbles The Invisible Girl",
-    "album": "Operation: Doomsday (Complete)",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e026ce90ec627a0198a8efd127f",
-    "url": "https:\/\/open.spotify.com\/track\/7EQvdUJqZ2i7SWvSB2VqGA",
-    "updated_at": "2026-11-12T11:04:03.441992Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-11-12T11:19:53.551697Z"
   }
 }
