@@ -3,8 +3,8 @@
   "oxygen_saturation_pct": 95,
   "steps_today": 143,
   "floors_climbed_today": 0,
-  "sleep_duration_minutes": 477,
-  "sleep_score": 92,
+  "sleep_duration_minutes": 359,
+  "sleep_score": 73,
   "last_exercise": {
     "type": "BIKING",
     "duration_minutes": 1,
@@ -12,8 +12,8 @@
     "mean_heart_rate_bpm": 98
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-11-12T09:29:15.943079Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-11-12T09:48:56.652757Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": false,
@@ -22,6 +22,6 @@
     "album": null,
     "cover_url": null,
     "url": null,
-    "updated_at": "2026-11-12T09:29:15.943079Z"
+    "updated_at": "2026-11-12T09:48:56.652757Z"
   }
 }
