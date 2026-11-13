@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 98
   },
   "battery_pct": null,
-  "location_zone": "afuera",
-  "updated_at": "2026-11-13T03:03:22.799387Z",
+  "location_zone": "escuela",
+  "updated_at": "2026-11-13T03:25:52.579402Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "La Noche",
-    "artists": "Alcolirykoz, Aerophon, Ecks One",
-    "album": "Efectos Secundarios",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02e191fa2230c919e9f3f8e0a7",
-    "url": "https:\/\/open.spotify.com\/track\/5Vkk7yLVjeTQfX3MFfK56L",
-    "updated_at": "2026-11-13T03:03:22.799387Z"
+    "track": "All Right",
+    "artists": "Oblivion's Mighty Trash, Pocket Tincho",
+    "album": "No Me Acuerdo",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d7a9b66fdf8a8e8a8d00ebd1",
+    "url": "https:\/\/open.spotify.com\/track\/1RfeHRmN8A5L10VirmdRh4",
+    "updated_at": "2026-11-13T03:25:52.579402Z"
   }
 }
