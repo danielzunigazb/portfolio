@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 98
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-11-13T03:25:52.579402Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-11-13T03:44:50.583720Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "All Right",
-    "artists": "Oblivion's Mighty Trash, Pocket Tincho",
-    "album": "No Me Acuerdo",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d7a9b66fdf8a8e8a8d00ebd1",
-    "url": "https:\/\/open.spotify.com\/track\/1RfeHRmN8A5L10VirmdRh4",
-    "updated_at": "2026-11-13T03:25:52.579402Z"
+    "track": "Tráteme Suave - Bonus Track",
+    "artists": "Zof Ziro, ZetaZeta",
+    "album": "La Bomba de Ziroshima",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e022b047ccc6fdd762cf1167a6f",
+    "url": "https:\/\/open.spotify.com\/track\/0yGZVRYxs8lSaCdqRJ89aK",
+    "updated_at": "2026-11-13T03:44:50.583720Z"
   }
 }
