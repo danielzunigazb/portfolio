@@ -13,7 +13,7 @@
   },
   "battery_pct": null,
   "location_zone": "escuela",
-  "updated_at": "2026-11-13T02:12:16.402768Z",
+  "updated_at": "2026-11-13T02:12:23.244899Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
@@ -22,6 +22,6 @@
     "album": "Euphanasia",
     "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02f40052533a461c11db3ada84",
     "url": "https:\/\/open.spotify.com\/track\/6ZHn7NFh4PPzDBIjfQB93w",
-    "updated_at": "2026-11-13T02:12:16.402768Z"
+    "updated_at": "2026-11-13T02:12:23.244899Z"
   }
 }
