@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": 97,
-  "steps_today": 6938,
+  "steps_today": 0,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": 362,
   "sleep_score": 66,
@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "afuera",
-  "updated_at": "2026-11-13T04:00:40.791709Z",
+  "updated_at": "2026-11-13T07:02:05.648453Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": true,
-    "track": "Low Budget",
-    "artists": "Oblivion's Mighty Trash",
-    "album": "Low Budget",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02d4ec29e16abf4d14ce004092",
-    "url": "https:\/\/open.spotify.com\/track\/5vPawTHZbr4hgWZteB8rp1",
-    "updated_at": "2026-11-13T04:00:40.791709Z"
+    "is_playing": false,
+    "track": null,
+    "artists": null,
+    "album": null,
+    "cover_url": null,
+    "url": null,
+    "updated_at": "2026-11-13T07:02:05.648453Z"
   }
 }
