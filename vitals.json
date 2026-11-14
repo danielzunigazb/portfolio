@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "escuela",
-  "updated_at": "2026-11-14T15:08:23.168817Z",
+  "updated_at": "2026-11-14T15:44:23.864210Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-11-14T15:08:23.168817Z"
+    "is_playing": true,
+    "track": "BOBOMENSOTONTO",
+    "artists": "Nsqk, Easykid",
+    "album": "ATP",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02165fcc6aa7642c287b45bd15",
+    "url": "https:\/\/open.spotify.com\/track\/1OSzB7QkZHJZnmQnu61vE8",
+    "updated_at": "2026-11-14T15:44:23.864210Z"
   }
 }
