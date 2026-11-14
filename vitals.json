@@ -13,15 +13,15 @@
   },
   "battery_pct": null,
   "location_zone": "escuela",
-  "updated_at": "2026-11-14T14:35:13.356823Z",
+  "updated_at": "2026-11-14T14:52:15.843361Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
-    "is_playing": false,
-    "track": null,
-    "artists": null,
-    "album": null,
-    "cover_url": null,
-    "url": null,
-    "updated_at": "2026-11-14T14:35:13.356823Z"
+    "is_playing": true,
+    "track": "CALLDROPS (feat. Kodak Black)",
+    "artists": "A$AP Rocky, Kodak Black",
+    "album": "TESTING",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02bfcb8d00cee4f8257a6b7fe1",
+    "url": "https:\/\/open.spotify.com\/track\/1wGYcpJZ59rePkNu4zHmLu",
+    "updated_at": "2026-11-14T14:52:15.843361Z"
   }
 }
