@@ -1,7 +1,7 @@
 {
   "heart_rate_bpm": null,
   "oxygen_saturation_pct": null,
-  "steps_today": 36,
+  "steps_today": 53,
   "floors_climbed_today": 0,
   "sleep_duration_minutes": null,
   "sleep_score": null,
@@ -12,16 +12,16 @@
     "mean_heart_rate_bpm": 98
   },
   "battery_pct": null,
-  "location_zone": "escuela",
-  "updated_at": "2026-11-14T15:44:23.864210Z",
+  "location_zone": "afuera",
+  "updated_at": "2026-11-14T16:01:18.281416Z",
   "source": "galaxy-fit3-samsunghealth",
   "now_playing": {
     "is_playing": true,
-    "track": "BOBOMENSOTONTO",
-    "artists": "Nsqk, Easykid",
-    "album": "ATP",
-    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02165fcc6aa7642c287b45bd15",
-    "url": "https:\/\/open.spotify.com\/track\/1OSzB7QkZHJZnmQnu61vE8",
-    "updated_at": "2026-11-14T15:44:23.864210Z"
+    "track": "Axm",
+    "artists": "Buhodermia 夜, D4crvz, klandestino axm",
+    "album": "Euphanasia",
+    "cover_url": "https:\/\/i.scdn.co\/image\/ab67616d00001e02f40052533a461c11db3ada84",
+    "url": "https:\/\/open.spotify.com\/track\/50PcUH5YjVBtD0BUJ1UUaX",
+    "updated_at": "2026-11-14T16:01:18.281416Z"
   }
 }
