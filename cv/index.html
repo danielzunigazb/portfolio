@@ -1,143 +1,89 @@
 <!DOCTYPE html>
-<html lang="es" data-theme="light">
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Daniel Zuñiga · CV Técnico</title>
-<meta name="description" content="CV técnico de Daniel Zuñiga — desarrollador autodidacta: infraestructura, automatización y apps nativas. Python, Kotlin, Go, systemd, CLI tools.">
+<meta name="color-scheme" content="light dark">
+<title>Daniel Zúñiga · CV técnico</title>
+<meta name="description" content="CV técnico de Daniel Zúñiga: desarrollador autodidacta de infraestructura, automatización y apps nativas. Python, Kotlin, Go, Zig, systemd, CLI tools.">
 <link rel="canonical" href="https://danzuniga.xyz/cv/">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/styles/tokens.css">
-<link rel="stylesheet" href="/styles/base.css">
-<style>
-  body { padding: var(--space-8) var(--space-4); max-width: 800px; margin: 0 auto; }
-  header { margin-bottom: var(--space-8); }
-  header .name { margin: var(--space-2) 0; }
-  header .role { display: block; }
-  .contact-row { display: flex; gap: var(--space-4); flex-wrap: wrap; color: var(--ink-muted); margin-top: var(--space-4); }
-  .contact-row a { color: var(--ink); }
-  .cv-section { margin-bottom: var(--space-8); }
-  .cv-section .label { display: block; margin-bottom: var(--space-4); }
-  .cv-item { margin-bottom: var(--space-4); }
-  .cv-item:last-child { margin-bottom: 0; }
-  .cv-item-header { display: flex; justify-content: space-between; align-items: baseline; gap: var(--space-2); flex-wrap: wrap; }
-  .cv-item-title { font-weight: 600; }
-  .cv-item-sub { color: var(--ink-muted); font-size: var(--text-small-size); }
-  .cv-item-date { color: var(--ink-muted); font-size: var(--text-small-size); white-space: nowrap; }
-  .cv-item ul { list-style: none; padding: 0; margin-top: var(--space-2); }
-  .cv-item li { position: relative; padding-left: var(--space-4); margin-bottom: var(--space-1); font-size: var(--text-small-size); color: var(--ink); }
-  .cv-item li::before { content: ''; position: absolute; left: 0; top: 0.65em; width: 4px; height: 4px; background: var(--gold); }
-  .tag-row { margin-top: var(--space-2); }
-  @media print {
-    body { padding: 0; }
-    a { color: var(--ink); }
-  }
-</style>
+<link rel="alternate" hreflang="es" href="https://danzuniga.xyz/cv/">
+<link rel="alternate" hreflang="en" href="https://danzuniga.xyz/cv/en/">
+<link rel="alternate" hreflang="x-default" href="https://danzuniga.xyz/cv/">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/fonts/ncm-book.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/styles/site.css">
 </head>
-<body>
+<body class="cvpage">
+<div class="cvwrap">
+  <nav class="cvbar" aria-label="Navegación"><a href="/">← daniel zúñiga</a><a class="lang" href="/cv/en/" hreflang="en" lang="en" aria-label="Read this résumé in English">EN</a></nav>
 
-<header>
-  <span class="label eyebrow">$ whoami</span>
-  <h1 class="text-h1 name">daniel zú<span class="mark-n">ñ</span>iga</h1>
-  <span class="label role">desarrollador · infraestructura, automatización, apps nativas</span>
-  <div class="contact-row text-small">
-    <span>córdoba, colombia</span>
-    <a href="https://danzuniga.xyz">danzuniga.xyz</a>
-    <a href="https://github.com/danielzunigazb">github.com/danielzunigazb</a>
-    <a href="mailto:danielzunigazb@gmail.com">danielzunigazb@gmail.com</a>
-  </div>
-</header>
+  <header class="head">
+    <h1>Daniel Zú<span>ñ</span>iga</h1>
+    <p class="role">Desarrollador · infraestructura, automatización y apps nativas</p>
+    <div class="ct"><span>Córdoba, Colombia</span><a href="https://danzuniga.xyz">danzuniga.xyz</a><a href="https://github.com/danielzunigazb">github.com/danielzunigazb</a><a href="mailto:danielzunigazb@gmail.com">danielzunigazb@gmail.com</a></div>
+  </header>
 
-<div class="cv-section">
-  <span class="label">perfil</span>
-  <p class="text-small">Autodidacta con experiencia construyendo software real en Linux: automatización con systemd, herramientas CLI, apps Android y clientes de red de bajo nivel. Enfoque en código con tests, documentación rigurosa y arquitectura reproducible.</p>
+  <main>
+    <section class="cs">
+      <h2>Perfil</h2>
+      <p>Autodidacta con experiencia construyendo software real en Linux: automatización con systemd, herramientas CLI, apps Android y clientes de red de bajo nivel. Código con tests, documentación rigurosa y arquitectura reproducible.</p>
+    </section>
+
+    <section class="cs">
+      <h2>Proyectos</h2>
+      <div>
+        <div class="job">
+          <div class="t"><b>Player</b><span>2026</span></div>
+          <div class="k">Reproductor de música para Android · Kotlin, Jetpack Compose, Media3, Room</div>
+          <ul><li>App nativa sin cuentas ni nube: letras sincronizadas, monitor web por QR, Android Auto, widget y ecualizador.</li><li>v1.6.1 estable, con tests de UI, servicio y base de datos, y CI que firma los releases. Sitio propio en player.danzuniga.xyz.</li></ul>
+        </div>
+        <div class="job">
+          <div class="t"><b>gocraft</b><span>2026</span></div>
+          <div class="k">Cliente y servidor de Minecraft Java 1.8.9 · Go, OpenGL 3.3, GLFW</div>
+          <ul><li>Reimplementación del cliente (protocolo 47) con servidor compatible; corre en Linux y Windows, con modo PvP de reglas 1.8.</li><li>Sin recursos de Mojang. Fidelidad con vanilla fijada con pruebas que reproducen paquetes contra el cliente.</li></ul>
+        </div>
+        <div class="job">
+          <div class="t"><b>editor</b><span>2026</span></div>
+          <div class="k">Editor de video manejado por LLM · Python, MCP, MLT, FFmpeg, Docker</div>
+          <ul><li>Editor no lineal sin interfaz que un LLM maneja completo vía un servidor MCP: cortes, transiciones, subtítulos y 15 plantillas.</li><li>Dockerizado con hardening real (path fencing, límites de recursos, non-root) y tests e2e con Playwright.</li></ul>
+        </div>
+        <div class="job">
+          <div class="t"><b>harness</b><span>2026</span></div>
+          <div class="k">Herramienta de desarrollo personal · TypeScript, Node.js, Claude Code</div>
+          <ul><li>CLI que orquesta agentes de código con un ciclo de verificación: plan, ejecución paso a paso, tests del repo, reparación y reporte.</li><li>TUI de tres paneles, roles planner/worker/reviewer, sandboxing por lista de comandos y revisión con hallazgos auditables.</li></ul>
+        </div>
+        <div class="job">
+          <div class="t"><b>zwm</b><span>2026</span></div>
+          <div class="k">Gestor de ventanas en mosaico para X11 · Zig, XCB, PAM</div>
+          <ul><li>Barra, panel lateral con calendario, música y notificaciones, y lanzador con calculadora y órdenes de música por texto.</li><li>Pantalla de bloqueo con autenticación PAM.</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="cs">
+      <h2>Habilidades</h2>
+      <div class="sk">
+        <div><i>Lenguajes</i><span>Python, Kotlin, Go, TypeScript, Zig, Bash, SQL, HTML/CSS</span></div>
+        <div><i>Herramientas</i><span>FastAPI, Jetpack Compose, Pytest, uv, Ruff, Git, GitHub Actions, systemd, Docker, MCP</span></div>
+        <div><i>Sistemas</i><span>Arch Linux, SSH, X11</span></div>
+        <div><i>Áreas</i><span>CLI tools, automatización, apps Android, testing, documentación técnica</span></div>
+      </div>
+    </section>
+
+    <section class="cs">
+      <h2>Educación</h2>
+      <div class="job"><div class="t"><b>Educación secundaria, grado 11</b><span>2026</span></div><div class="k">SAMAC, Córdoba, Colombia</div><ul><li>Último año. Formación autodidacta paralela en programación, Linux e infraestructura.</li></ul></div>
+    </section>
+
+    <section class="cs">
+      <h2>Idiomas</h2>
+      <p>Español nativo · Inglés avanzado (lectura y escritura técnica, conversación fluida)</p>
+    </section>
+  </main>
 </div>
 
-<div class="cv-section">
-  <span class="label">proyectos</span>
-
-  <div class="cv-item">
-    <div class="cv-item-header"><span class="cv-item-title">Player</span><span class="cv-item-date">2026</span></div>
-    <div class="cv-item-sub">Reproductor de música para Android · Kotlin, Jetpack Compose, Media3/ExoPlayer, Room</div>
-    <ul>
-      <li>Reproductor nativo sin cuentas ni nube: letras sincronizadas, terminal con autocompletado, monitor web por QR, Android Auto, widget, ecualizador.</li>
-      <li>v1.6.1 estable, con tests de UI/servicio/base de datos y CI que firma los releases. Sitio propio en player.danzuniga.xyz.</li>
-    </ul>
-  </div>
-
-  <div class="cv-item">
-    <div class="cv-item-header"><span class="cv-item-title">gocraft</span><span class="cv-item-date">2026</span></div>
-    <div class="cv-item-sub">Cliente y servidor de Minecraft Java 1.8.9 · Go, OpenGL 3.3, GLFW</div>
-    <ul>
-      <li>Reimplementación del cliente (protocolo 47) con servidor compatible: corre en Linux y Windows, render OpenGL 3.3, mundos locales en formato Anvil o servidores de terceros, modo PvP con reglas de clicks de 1.8.</li>
-      <li>Sin recursos de Mojang: texturas, modelos y sonidos se leen del client.jar del usuario. Fidelidad con vanilla (física, iluminación, ventanas, orden de paquetes) fijada con pruebas que reproducen paquetes contra el cliente.</li>
-    </ul>
-  </div>
-
-  <div class="cv-item">
-    <div class="cv-item-header"><span class="cv-item-title">editor</span><span class="cv-item-date">2026</span></div>
-    <div class="cv-item-sub">Editor de video manejado por LLM · Python, MCP, MLT, FFmpeg, Docker</div>
-    <ul>
-      <li>Editor de video no lineal sin interfaz: un LLM lo maneja completo vía servidor MCP (cortes, transiciones, overlays, subtítulos, picture-in-picture, 15 plantillas).</li>
-      <li>App web con chat o servidor MCP desde Claude Code. Dockerizado con hardening real (path fencing, límites de recursos, non-root) y tests e2e con Playwright.</li>
-    </ul>
-  </div>
-
-  <div class="cv-item">
-    <div class="cv-item-header"><span class="cv-item-title">harness</span><span class="cv-item-date">2026</span></div>
-    <div class="cv-item-sub">Herramienta de desarrollo personal · TypeScript, Node.js, Claude Code</div>
-    <ul>
-      <li>CLI que orquesta agentes de código sobre repos reales con loop de verificación: plan, ejecuta paso a paso, verifica cada paso con los tests/lint/build propios del repo, repara, checkpoint, reporte.</li>
-      <li>TUI de tres paneles (worktree, flow, chat), roles planner/worker/reviewer, auto-reparación con escalamiento, sandboxing por allowlist, revisión con hallazgos auditables.</li>
-    </ul>
-  </div>
-
-  <div class="cv-item">
-    <div class="cv-item-header"><span class="cv-item-title">zwm</span><span class="cv-item-date">2026</span></div>
-    <div class="cv-item-sub">Gestor de ventanas en mosaico para X11 · Zig, XCB, PAM</div>
-    <ul>
-      <li>WM en mosaico con barra, panel lateral (calendario, música, notificaciones), lanzador con calculadora y órdenes de música por texto vía Spotify Connect.</li>
-      <li>Pantalla de bloqueo con autenticación PAM. Configuración en código, interfaz en español.</li>
-    </ul>
-  </div>
-
-</div>
-
-<div class="cv-section">
-  <span class="label">habilidades</span>
-  <div class="tag-row">
-    <span class="tag">Python 3.14</span><span class="tag">Kotlin</span><span class="tag">Go</span><span class="tag">TypeScript</span><span class="tag">Zig</span><span class="tag">Bash</span><span class="tag">SQL</span><span class="tag">HTML/CSS</span>
-  </div>
-  <div class="tag-row">
-    <span class="tag">FastAPI</span><span class="tag">Typer</span><span class="tag">Pytest</span><span class="tag">uv</span>
-    <span class="tag">Ruff</span><span class="tag">Ty</span><span class="tag">Git</span><span class="tag">GitHub Actions</span><span class="tag">systemd</span>
-    <span class="tag">Jetpack Compose</span><span class="tag">Media3</span><span class="tag">Room</span>
-    <span class="tag">Docker</span><span class="tag">MCP</span><span class="tag">TypeScript</span><span class="tag">Node.js</span>
-  </div>
-  <div class="tag-row">
-    <span class="tag">Arch Linux</span><span class="tag">Linux administration</span><span class="tag">SSH</span>
-  </div>
-  <div class="tag-row">
-    <span class="tag">CLI tools</span><span class="tag">Automatización</span><span class="tag">OpenGL</span><span class="tag">X11</span><span class="tag">Apps Android</span>
-    <span class="tag">API design</span><span class="tag">Testing</span><span class="tag">Documentación técnica</span>
-  </div>
-</div>
-
-<div class="cv-section">
-  <span class="label">educación</span>
-  <div class="cv-item">
-    <div class="cv-item-header"><span class="cv-item-title">Educación secundaria · Grado 11</span><span class="cv-item-date">2026</span></div>
-    <div class="cv-item-sub">SAMAC, Córdoba, Colombia</div>
-    <p class="text-small" style="margin-top:var(--space-1);">Último año. Formación autodidacta paralela en programación, Linux e infraestructura.</p>
-  </div>
-</div>
-
-<div class="cv-section" style="margin-bottom: 0;">
-  <span class="label">idiomas</span>
-  <p class="text-small"><strong>Español:</strong> nativo · <strong>Inglés:</strong> avanzado (lectura y escritura técnica, conversación fluida)</p>
-</div>
-
+<script data-goatcounter="https://danfolio.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>

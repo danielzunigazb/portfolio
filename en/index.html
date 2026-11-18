@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+<title>Daniel Zúñiga · Software &amp; Infrastructure</title>
+<meta name="description" content="Daniel Zúñiga, a self-taught Colombian developer. Infrastructure tools, automation and native apps: Player, gocraft, zwm, editor and harness.">
+<link rel="canonical" href="https://danzuniga.xyz/en/">
+<link rel="alternate" hreflang="es" href="https://danzuniga.xyz/">
+<link rel="alternate" hreflang="en" href="https://danzuniga.xyz/en/">
+<link rel="alternate" hreflang="x-default" href="https://danzuniga.xyz/">
+<meta property="og:title" content="Daniel Zúñiga · Software &amp; Infrastructure">
+<meta property="og:description" content="Self-taught Colombian developer. Infrastructure tools, automation and native apps.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://danzuniga.xyz/en/">
+<meta property="og:image" content="https://danzuniga.xyz/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="es_CO">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Daniel Zúñiga · Software &amp; Infrastructure">
+<meta name="twitter:description" content="Self-taught Colombian developer. Infrastructure tools, automation and native apps.">
+<meta name="twitter:image" content="https://danzuniga.xyz/og-image.png">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Daniel Zúñiga",
+  "alternateName": ["danielzunigazb", "Daniel Zuñiga"],
+  "url": "https://danzuniga.xyz/en/",
+  "image": "https://avatars.githubusercontent.com/u/279340792?v=4",
+  "jobTitle": "Software & Infrastructure Developer",
+  "description": "Self-taught Colombian developer building infrastructure tools, automation and native apps.",
+  "email": "mailto:danielzunigazb@gmail.com",
+  "address": { "@type": "PostalAddress", "addressRegion": "Córdoba", "addressCountry": "CO" },
+  "sameAs": ["https://github.com/danielzunigazb"],
+  "knowsAbout": ["Python", "Kotlin", "Go", "Zig", "TypeScript", "Linux", "systemd", "FastAPI", "Jetpack Compose", "Automation", "CLI tools", "Bash", "Docker", "MCP", "Node.js", "OpenGL", "X11"]
+}
+</script>
+<link rel="preload" href="/assets/fonts/ncm-book.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/ncm-book-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/styles/site.css">
+</head>
+<body id="top">
+<a class="skip" href="#contenido">Skip to content</a>
+<div class="wrap">
+  <header class="nav">
+    <a class="b" href="#top">daniel zú<span>ñ</span>iga</a>
+    <a href="#proyectos">projects</a><a href="#sobre">about</a><a href="#contacto">contact</a>
+    <a class="lang" href="/" hreflang="es" lang="es" aria-label="Leer este sitio en español">ES</a>
+  </header>
+
+  <section class="hero">
+    <div class="nn" aria-hidden="true">ñ</div>
+    <h1>Daniel<br>Zú<span>ñ</span>iga</h1>
+    <p class="sub">Software &amp; Infrastructure</p>
+    <p class="one">Infrastructure tools, automation and native apps.</p>
+    <div class="go"><a href="#proyectos">projects</a><a href="/cv/en/">cv</a></div>
+  </section>
+
+  <nav class="toc" aria-label="Contents"><a href="#proyectos"><b>1</b>Projects</a><a href="#trabajo"><b>2</b>How I work</a><a href="#stack"><b>3</b>Stack</a><a href="#sobre"><b>4</b>About</a><a href="#contacto"><b>5</b>Contact</a><a href="#referencias">References</a></nav>
+
+  <main class="doc" id="contenido">
+
+    <section id="proyectos">
+      <div class="row"><div class="main"><h2 class="s"><i>1</i>Projects</h2><p>Real software, not exercises. Every project has code, docs and tests.</p></div><aside class="mn"></aside></div>
+
+      <div class="row">
+        <div class="main">
+          <h3 class="ss"><i>1.1</i>Player</h3>
+          <p>Native Android music player, with no accounts and no cloud. Synced lyrics, a terminal with autocomplete, a web monitor you pair by QR code, Android Auto and a widget. Version 1.6.1 stable, with UI, service and database tests, and CI that signs the releases.</p>
+          <p class="kw"><b>Keywords:</b> Kotlin, Jetpack Compose, Media3, Room.</p>
+        </div>
+        <aside class="mn"><p><b>Status</b><br>active · v1.6.1</p><p><b>See</b><br><a class="cite" href="#r1">[1]</a> repository, <a class="cite" href="#r2">[2]</a> site, <a class="cite" href="#r3">[3]</a> apk</p></aside>
+      </div>
+
+      <div class="row">
+        <div class="main">
+          <h3 class="ss"><i>1.2</i>zwm</h3>
+          <p>Tiling window manager for X11, written in Zig. Top bar, a side panel with calendar, music and notifications, a launcher with a calculator, and a lock screen with PAM.</p>
+          <p class="kw"><b>Keywords:</b> Zig, X11, PAM, Spotify Connect.</p>
+        </div>
+        <aside class="mn"><p><b>Status</b><br>private</p></aside>
+      </div>
+
+      <div class="row">
+        <div class="main">
+          <h3 class="ss"><i>1.3</i>gocraft</h3>
+          <p>Minecraft Java 1.8.9 client and server (protocol 47) in Go. Runs on Linux and Windows, renders with OpenGL 3.3 and includes a PvP mode with 1.8 click rules. It ships no Mojang assets, and its fidelity with vanilla is pinned by tests that replay packets against the client.</p>
+          <p class="kw"><b>Keywords:</b> Go, OpenGL 3.3, GLFW, protocol 47.</p>
+        </div>
+        <aside class="mn"><p><b>Status</b><br>active</p><p><b>See</b><br><a class="cite" href="#r4">[4]</a> repository</p></aside>
+      </div>
+
+      <div class="row">
+        <div class="main">
+          <h3 class="ss"><i>1.4</i>editor</h3>
+          <p>Non-linear video editor with no interface: an LLM drives it end to end through an MCP server. MLT + FFmpeg engine with cuts, transitions, subtitles and 15 visual templates. Runs as a web app or as an MCP server, dockerized with real hardening and Playwright e2e tests.</p>
+          <p class="kw"><b>Keywords:</b> Python, MCP, MLT, FFmpeg, Docker.</p>
+        </div>
+        <aside class="mn"><p><b>Status</b><br>active</p><p><b>See</b><br><a class="cite" href="#r5">[5]</a> repository</p></aside>
+      </div>
+
+      <div class="row">
+        <div class="main">
+          <h3 class="ss"><i>1.5</i>harness</h3>
+          <p>Personal development tool: a CLI that orchestrates code agents over real repositories with a verification loop. It plans, executes step by step, verifies with the repo's own tests, repairs and reports. “The model says it's done” doesn't count as evidence.</p>
+          <p class="kw"><b>Keywords:</b> TypeScript, Node.js, Claude Code.</p>
+        </div>
+        <aside class="mn"><p><b>Status</b><br>private</p></aside>
+      </div>
+    </section>
+
+    <section id="trabajo">
+      <div class="row"><div class="main">
+        <h2 class="s"><i>2</i>How I work</h2>
+        <ul class="say">
+          <li>If it can't be reproduced, it doesn't count.</li>
+          <li>Documenting is part of building.</li>
+          <li>No tests, not finished.</li>
+          <li>Standards before shortcuts.</li>
+          <li>What isn't measured can't be fixed.</li>
+          <li>Few dependencies, lots of intent.</li>
+        </ul>
+      </div><aside class="mn"></aside></div>
+    </section>
+
+    <section id="stack">
+      <div class="row"><div class="main">
+        <h2 class="s"><i>3</i>Stack</h2>
+        <table>
+          <thead><tr><th scope="col">Category</th><th scope="col">Technologies</th></tr></thead>
+          <tbody>
+            <tr><td>Languages</td><td>Python, Kotlin, Go, TypeScript, Zig, Bash, SQL</td></tr>
+            <tr><td>Tools</td><td>FastAPI, Jetpack Compose, Pytest, uv, Ruff, systemd, Docker, GitHub Actions, Arch Linux</td></tr>
+          </tbody>
+          <caption><b>Table 1.</b> What I work with.</caption>
+        </table>
+      </div><aside class="mn"></aside></div>
+    </section>
+
+    <section id="sobre">
+      <div class="row">
+        <div class="main">
+          <h2 class="s"><i>4</i>About</h2>
+          <p>Final-year student in Córdoba, Colombia. I learned to program tinkering with Linux <i>dotfiles</i> until I ended up building automation systems, Android apps and CLI tools. Terminals over GUIs, protocols over frameworks, evidence over <i>claims</i>.</p>
+        </div>
+        <aside class="mn"><dl class="fact"><dt>location</dt><dd>córdoba, co</dd><dt>english</dt><dd>advanced</dd><dt>status</dt><dd>available</dd></dl></aside>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="row"><div class="main">
+        <h2 class="s"><i>5</i>Contact</h2>
+        <p class="hello">Let's talk<span>.</span></p>
+        <p>Available to collaborate on infrastructure, automation or native apps. Write to <a href="mailto:danielzunigazb@gmail.com">danielzunigazb@gmail.com</a>, see my code at <a href="https://github.com/danielzunigazb">github.com/danielzunigazb</a> <a class="cite" href="#r6">[6]</a> or download my <a href="/cv/en/">cv</a> <a class="cite" href="#r7">[7]</a>. This is a selection; there is more on GitHub.</p>
+      </div><aside class="mn"></aside></div>
+    </section>
+
+    <section id="referencias">
+      <div class="row"><div class="main">
+        <h2 class="s">References</h2>
+        <ol class="refs">
+          <li id="r1"><span class="k">[1]</span><span>D. Zúñiga. <i>Player</i>. Music player for Android. 2026. <span class="u"><a href="https://github.com/danielzunigazb/player" target="_blank" rel="noopener">github.com/danielzunigazb/player</a></span></span></li>
+          <li id="r2"><span class="k">[2]</span><span>D. Zúñiga. <i>Player</i>, project site. <span class="u"><a href="https://player.danzuniga.xyz" target="_blank" rel="noopener">player.danzuniga.xyz</a></span></span></li>
+          <li id="r3"><span class="k">[3]</span><span>D. Zúñiga. <i>Player</i>, latest release (apk). <span class="u"><a href="https://github.com/danielzunigazb/player/releases/latest" target="_blank" rel="noopener">github.com/danielzunigazb/player/releases/latest</a></span></span></li>
+          <li id="r4"><span class="k">[4]</span><span>D. Zúñiga. <i>gocraft</i>. Minecraft Java 1.8.9 client and server in Go. 2026. <span class="u"><a href="https://github.com/danielzunigazb/gocraft" target="_blank" rel="noopener">github.com/danielzunigazb/gocraft</a></span></span></li>
+          <li id="r5"><span class="k">[5]</span><span>D. Zúñiga. <i>editor</i>. LLM-driven video editor over MCP. 2026. <span class="u"><a href="https://github.com/danielzunigazb/editor" target="_blank" rel="noopener">github.com/danielzunigazb/editor</a></span></span></li>
+          <li id="r6"><span class="k">[6]</span><span>Daniel Zúñiga on GitHub. <span class="u"><a href="https://github.com/danielzunigazb" target="_blank" rel="noopener">github.com/danielzunigazb</a></span></span></li>
+          <li id="r7"><span class="k">[7]</span><span>D. Zúñiga. <i>Technical résumé</i>. <span class="u"><a href="/cv/en/">danzuniga.xyz/cv/en</a></span></span></li>
+        </ol>
+      </div><aside class="mn"></aside></div>
+    </section>
+
+  </main>
+
+  <footer class="foot"><span>Daniel Zúñiga · Córdoba, Colombia</span><span>rev 2026.09 · set in New Computer Modern</span></footer>
+</div>
+
+<script data-goatcounter="https://danfolio.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

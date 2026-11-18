@@ -1,36 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<script>
-(function () {
-  var saved = localStorage.getItem('theme');
-  if (saved === 'light') document.documentElement.setAttribute('data-theme', 'light');
-})();
-</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Daniel Zuñiga · Software &amp; Infrastructure</title>
-<meta name="description" content="Daniel Zuñiga — autodidacta colombiano construyendo herramientas de infraestructura, automatización y apps nativas. CLI tools, systemd, Android, Go.">
+<meta name="color-scheme" content="light dark">
+<title>Daniel Zúñiga · Software &amp; Infrastructure</title>
+<meta name="description" content="Daniel Zúñiga, autodidacta colombiano. Herramientas de infraestructura, automatización y apps nativas: Player, gocraft, zwm, editor y harness.">
 <link rel="canonical" href="https://danzuniga.xyz/">
-<meta property="og:title" content="Daniel Zuñiga · Software & Infrastructure">
-<meta property="og:description" content="Autodidacta colombiano. Construyo herramientas de infraestructura, automatización y apps nativas.">
+<link rel="alternate" hreflang="es" href="https://danzuniga.xyz/">
+<link rel="alternate" hreflang="en" href="https://danzuniga.xyz/en/">
+<link rel="alternate" hreflang="x-default" href="https://danzuniga.xyz/">
+<meta property="og:title" content="Daniel Zúñiga · Software &amp; Infrastructure">
+<meta property="og:description" content="Autodidacta colombiano. Herramientas de infraestructura, automatización y apps nativas.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://danzuniga.xyz/">
 <meta property="og:image" content="https://danzuniga.xyz/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="es_CO">
+<meta property="og:locale:alternate" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Daniel Zuñiga · Software & Infrastructure">
-<meta name="twitter:description" content="Autodidacta colombiano. Construyo herramientas de infraestructura, automatización y apps nativas.">
+<meta name="twitter:title" content="Daniel Zúñiga · Software &amp; Infrastructure">
+<meta name="twitter:description" content="Autodidacta colombiano. Herramientas de infraestructura, automatización y apps nativas.">
 <meta name="twitter:image" content="https://danzuniga.xyz/og-image.png">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' fill='%230e0c0a'/%3E%3Ctext x='20' y='30' text-anchor='middle' font-family='monospace' font-weight='800' font-size='34' fill='%23d6a23e'%3E%C3%B1%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "name": "Daniel Zuñiga",
-  "alternateName": "danielzunigazb",
+  "name": "Daniel Zúñiga",
+  "alternateName": ["danielzunigazb", "Daniel Zuñiga"],
   "url": "https://danzuniga.xyz/",
   "image": "https://avatars.githubusercontent.com/u/279340792?v=4",
   "jobTitle": "Software & Infrastructure Developer",
@@ -38,348 +37,150 @@
   "email": "mailto:danielzunigazb@gmail.com",
   "address": { "@type": "PostalAddress", "addressRegion": "Córdoba", "addressCountry": "CO" },
   "sameAs": ["https://github.com/danielzunigazb"],
-  "knowsAbout": ["Python", "Kotlin", "Linux", "systemd", "FastAPI", "Jetpack Compose", "Automatización", "CLI tools", "Bash", "Docker", "MCP", "TypeScript", "Node.js", "Go", "Zig", "OpenGL", "X11"]
+  "knowsAbout": ["Python", "Kotlin", "Go", "Zig", "TypeScript", "Linux", "systemd", "FastAPI", "Jetpack Compose", "Automatización", "CLI tools", "Bash", "Docker", "MCP", "Node.js", "OpenGL", "X11"]
 }
 </script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/styles/tokens.css">
-<link rel="stylesheet" href="/styles/base.css">
-<style>
-  .hero { padding: clamp(48px, 8vw, var(--space-16)) 0 var(--space-16); }
-  .hero-inner { display: flex; gap: var(--space-16); align-items: flex-start; flex-wrap: wrap; }
-  .hero-main { flex: 1 1 520px; min-width: 280px; }
-  .hero-side { flex: 0 0 260px; min-width: 220px; display: flex; flex-direction: column; gap: var(--space-4); }
-  .hero .name { margin: var(--space-2) 0 var(--space-4); }
-  .hero .name .line { display: block; }
-  .hero .role { display: block; margin-bottom: var(--space-2); }
-  .hero .sub { color: var(--ink-muted); max-width: 60ch; margin-bottom: var(--space-8); }
-  .hero .actions { display: flex; gap: var(--space-4); flex-wrap: wrap; }
-  .tag-row { display: flex; flex-wrap: wrap; gap: var(--space-2); }
-  .status-block { background: var(--surface); border: 1px solid var(--line); padding: var(--space-4); }
-  .status-block .row { display: flex; justify-content: space-between; gap: var(--space-2); padding: var(--space-1) 0; color: var(--ink-muted); }
-  .status-block .row b { color: var(--ink); font-weight: 400; }
-
-  .sys-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: var(--space-4); align-items: start; }
-  .sys-grid .project-card.wide { grid-column: span 2; }
-  .sys-grid .project-card.full { grid-column: 1 / -1; }
-  @media (max-width: 800px) { .sys-grid { grid-template-columns: 1fr; } .sys-grid .project-card.wide, .sys-grid .project-card.full { grid-column: 1; } }
-  .sys-grid .project-card + .project-card { margin-top: 0; }
-
-  .principles-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: var(--space-4); }
-  @media (max-width: 900px) { .principles-grid { grid-template-columns: 1fr 1fr; } }
-  @media (max-width: 560px) { .principles-grid { grid-template-columns: 1fr; } }
-  .principle { border: 1px solid var(--line); padding: var(--space-4); }
-  .principle .num { color: var(--gold); display: block; margin-bottom: var(--space-2); }
-  .principle h2 { margin-bottom: var(--space-2); }
-  .principle p { color: var(--ink-muted); font-size: var(--text-small-size); line-height: var(--text-small-line); }
-
-  .stack-group { margin-bottom: var(--space-8); }
-  .stack-group:last-child { margin-bottom: 0; }
-  .stack-group .label { display: block; margin-bottom: var(--space-2); }
-
-  .repo-panel { background: var(--surface); border: 1px solid var(--line); padding: var(--space-4); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: var(--space-4); }
-  .repo-who { display: flex; align-items: center; gap: var(--space-2); }
-  .repo-who img { width: 40px; height: 40px; border: 1px solid var(--line); }
-  .repo-who .sub { color: var(--ink-muted); }
-  .repo-links { display: flex; gap: var(--space-2); flex-wrap: wrap; }
-
-  .op-wrap { display: flex; gap: var(--space-8); flex-wrap: wrap; }
-  .op-quote { flex: 1 1 480px; }
-  .op-quote .mark-n { color: var(--gold); }
-  .op-facts { flex: 0 0 260px; }
-
-  .contact-box { border: 1px solid var(--line); padding: var(--space-16) var(--space-4); text-align: left; }
-  .contact-box h2 { margin-bottom: var(--space-2); }
-  .contact-box p { color: var(--ink-muted); margin-bottom: var(--space-4); }
-  .contact-links { display: flex; gap: var(--space-2); flex-wrap: wrap; }
-</style>
+<link rel="preload" href="/assets/fonts/ncm-book.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/ncm-book-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/styles/site.css">
 </head>
 <body id="top">
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<div class="wrap">
+  <header class="nav">
+    <a class="b" href="#top">daniel zú<span>ñ</span>iga</a>
+    <a href="#proyectos">proyectos</a><a href="#sobre">sobre mí</a><a href="#contacto">contacto</a>
+    <a class="lang" href="/en/" hreflang="en" lang="en" aria-label="Read this site in English">EN</a>
+  </header>
 
-<nav class="dz-nav">
-  <a href="#top" class="plate">
-    <svg class="mark" viewBox="0 0 40 40" aria-hidden="true"><text x="20" y="30" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-weight="800" font-size="34" fill="var(--gold)">ñ</text></svg>
-    <span class="label full">daniel zúñiga</span>
-  </a>
-  <div class="links">
-    <a href="#systems">systems</a>
-    <a href="#principles">principles</a>
-    <a href="#stack">stack</a>
-    <a href="#operator">operator</a>
-    <a href="#contact">contact</a>
-  </div>
-  <button class="theme-toggle" id="theme-toggle">◐ light</button>
-</nav>
+  <section class="hero">
+    <div class="nn" aria-hidden="true">ñ</div>
+    <h1>Daniel<br>Zú<span>ñ</span>iga</h1>
+    <p class="sub">Software &amp; Infrastructure</p>
+    <p class="one">Herramientas de infraestructura, automatización y apps nativas.</p>
+    <div class="go"><a href="#proyectos">proyectos</a><a href="/cv/">cv</a></div>
+  </section>
 
-<section class="section hero">
-  <div class="container">
-    <div class="hero-inner">
-      <div class="hero-main">
-        <div class="title reveal">
-          <span class="label eyebrow">$ whoami</span>
-          <h1 class="text-display name">
-            <span class="line">daniel</span>
-            <span class="line">zú<span class="mark-n">ñ</span>iga</span>
-          </h1>
-          <span class="label role">software &amp; infrastructure</span>
-        </div>
-        <p class="sub">Autodidacta colombiano. Construyo herramientas de infraestructura, automatización y apps nativas. Aprendo, construyo y publico.</p>
-        <div class="actions">
-          <a href="#systems" class="btn btn-primary">ver proyectos →</a>
-          <a href="/cv/" target="_blank" class="btn btn-secondary">descargar cv</a>
-          <a href="#contact" class="btn btn-ghost">contacto</a>
-        </div>
-      </div>
-      <div class="hero-side reveal">
-        <div class="status-block">
-          <div class="row"><span>ubicación</span><b>córdoba, co</b></div>
-          <div class="row"><span>foco</span><b>infra · automatización</b></div>
-          <div class="row"><span>estado</span><b style="color:var(--verdigris);">● disponible</b></div>
-        </div>
-        <div class="tag-row">
-          <span class="tag">python</span>
-          <span class="tag">linux/arch</span>
-          <span class="tag">cli</span>
-          <span class="tag">fastapi</span>
-          <span class="tag">bash</span>
-          <span class="tag">systemd</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+  <nav class="toc" aria-label="Contenido"><a href="#proyectos"><b>1</b>Proyectos</a><a href="#trabajo"><b>2</b>Cómo trabajo</a><a href="#stack"><b>3</b>Stack</a><a href="#sobre"><b>4</b>Sobre mí</a><a href="#contacto"><b>5</b>Contacto</a><a href="#referencias">Referencias</a></nav>
 
-<section class="section" id="systems">
-  <div class="container">
-    <div class="title reveal">
-      <span class="label eyebrow">01 — systems</span>
-      <h1>Proyectos</h1>
-    </div>
-    <p class="text-small" style="color:var(--ink-muted); margin: var(--space-2) 0 var(--space-8);">Software real, no ejercicios. Cada proyecto tiene código, documentación y tests.</p>
+  <main class="doc" id="contenido">
 
-    <div class="sys-grid">
-      <div class="project-card reveal wide">
-        <div class="top">
-          <h2><span class="index">01</span>Player</h2>
-          <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
+    <section id="proyectos">
+      <div class="row"><div class="main"><h2 class="s"><i>1</i>Proyectos</h2><p>Software real, no ejercicios. Cada proyecto tiene código, documentación y tests.</p></div><aside class="mn"></aside></div>
+
+      <div class="row">
+        <div class="main">
+          <h3 class="ss"><i>1.1</i>Player</h3>
+          <p>Reproductor de música nativo para Android, sin cuentas ni nube. Letras sincronizadas, terminal con autocompletado, monitor web por QR, Android Auto y widget. Versión 1.6.1 estable, con tests de UI, servicio y base de datos, y CI que firma los releases.</p>
+          <p class="kw"><b>Palabras clave:</b> Kotlin, Jetpack Compose, Media3, Room.</p>
         </div>
-        <p class="desc">Reproductor de música nativo para Android, sin cuentas ni nube. Letras sincronizadas (LRC, ID3, FLAC o LRCLIB), terminal con autocompletado para manejar la música escribiendo, monitor web para controlarlo desde el navegador emparejando por QR, Android Auto, widget de inicio, ecualizador. Interfaz en Compose con el mismo design system de este sitio. v1.6.1 estable, con tests de UI/servicio/base de datos y CI que firma los releases.</p>
-        <div class="tags">
-          <span class="tag">Kotlin</span><span class="tag">Jetpack Compose</span><span class="tag">Media3/ExoPlayer</span><span class="tag">Room</span>
-        </div>
-        <div class="links">
-          <a href="https://github.com/danielzunigazb/player" target="_blank">repo <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a>
-          <a href="https://player.danzuniga.xyz" target="_blank">player.danzuniga.xyz <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a>
-          <a href="https://github.com/danielzunigazb/player/releases/latest" target="_blank">descargar apk <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a>
-        </div>
+        <aside class="mn"><p><b>Estado</b><br>activo · v1.6.1</p><p><b>Ver</b><br><a class="cite" href="#r1">[1]</a> repositorio, <a class="cite" href="#r2">[2]</a> sitio, <a class="cite" href="#r3">[3]</a> apk</p></aside>
       </div>
 
-      <div class="project-card reveal">
-        <div class="top">
-          <h2><span class="index">02</span>zwm</h2>
-          <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
+      <div class="row">
+        <div class="main">
+          <h3 class="ss"><i>1.2</i>zwm</h3>
+          <p>Gestor de ventanas en mosaico para X11, escrito en Zig. Barra superior, panel lateral con calendario, música y notificaciones, lanzador con calculadora y pantalla de bloqueo con PAM.</p>
+          <p class="kw"><b>Palabras clave:</b> Zig, X11, PAM, Spotify Connect.</p>
         </div>
-        <p class="desc">Gestor de ventanas en mosaico para X11, escrito en Zig. Barra superior, panel lateral con calendario, música y notificaciones, lanzador con calculadora y órdenes de música por texto («pon ...» controla Spotify en cualquier dispositivo), y pantalla de bloqueo con PAM.</p>
-        <div class="tags">
-          <span class="tag">Zig</span><span class="tag">X11</span><span class="tag">PAM</span><span class="tag">Spotify Connect</span>
-        </div>
-        <div class="links"><span class="text-small" style="color:var(--ink-muted);">privado · escritorio personal</span></div>
+        <aside class="mn"><p><b>Estado</b><br>privado</p></aside>
       </div>
 
-      <div class="project-card reveal full">
-        <div class="top">
-          <h2><span class="index">03</span>gocraft</h2>
-          <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
+      <div class="row">
+        <div class="main">
+          <h3 class="ss"><i>1.3</i>gocraft</h3>
+          <p>Cliente y servidor de Minecraft Java 1.8.9 (protocolo 47) en Go. Corre en Linux y Windows, renderiza con OpenGL 3.3 e incluye un modo PvP con reglas de clicks de 1.8. No trae recursos de Mojang, y su fidelidad con vanilla está fijada con pruebas que reproducen paquetes contra el cliente.</p>
+          <p class="kw"><b>Palabras clave:</b> Go, OpenGL 3.3, GLFW, protocolo 47.</p>
         </div>
-        <p class="desc">Reimplementación del cliente de Minecraft Java 1.8.9 (protocolo 47) en Go, con un servidor compatible. Corre en Linux y Windows, renderiza con OpenGL 3.3 y juega en mundos locales (formato Anvil) o en servidores de terceros. Incluye un modo PvP con reglas de clicks de 1.8. No trae recursos de Mojang: texturas, modelos y sonidos se leen del client.jar que el usuario ya tiene. La meta es fidelidad con vanilla — física, iluminación, lógica de ventanas y orden de paquetes, cada subsistema fijado con pruebas que reproducen paquetes contra el cliente sin servidor real.</p>
-        <div class="tags">
-          <span class="tag">Go</span><span class="tag">OpenGL 3.3</span><span class="tag">GLFW</span><span class="tag">Protocolo 47</span><span class="tag">Anvil</span>
-        </div>
-        <div class="links">
-          <a href="https://github.com/danielzunigazb/gocraft" target="_blank">repo <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a>
-        </div>
+        <aside class="mn"><p><b>Estado</b><br>activo</p><p><b>Ver</b><br><a class="cite" href="#r4">[4]</a> repositorio</p></aside>
       </div>
 
-      <div class="project-card reveal full">
-        <div class="top">
-          <h2><span class="index">04</span>editor</h2>
-          <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
+      <div class="row">
+        <div class="main">
+          <h3 class="ss"><i>1.4</i>editor</h3>
+          <p>Editor de video no lineal sin interfaz: un LLM lo maneja completo vía un servidor MCP. Motor MLT + FFmpeg con cortes, transiciones, subtítulos y 15 plantillas visuales. Corre como app web o como servidor MCP, dockerizado con <i>hardening</i> real y tests e2e con Playwright.</p>
+          <p class="kw"><b>Palabras clave:</b> Python, MCP, MLT, FFmpeg, Docker.</p>
         </div>
-        <p class="desc">Editor de video no lineal sin interfaz: un LLM lo maneja completo vía un servidor MCP. Motor MLT + FFmpeg — cortes, 15 transiciones, overlays animados, subtítulos, picture-in-picture, 15 plantillas visuales, librería de audio con licencias verificadas. Corre como app web con chat o como servidor MCP desde Claude Code. Dockerizado con hardening real: path fencing, límites de recursos, non-root, tests e2e con Playwright.</p>
-        <div class="tags">
-          <span class="tag">Python</span><span class="tag">MCP</span><span class="tag">MLT</span><span class="tag">FFmpeg</span><span class="tag">Docker</span>
+        <aside class="mn"><p><b>Estado</b><br>activo</p><p><b>Ver</b><br><a class="cite" href="#r5">[5]</a> repositorio</p></aside>
+      </div>
+
+      <div class="row">
+        <div class="main">
+          <h3 class="ss"><i>1.5</i>harness</h3>
+          <p>Herramienta de desarrollo personal: una CLI que orquesta agentes de código sobre repositorios reales con un ciclo de verificación. Planifica, ejecuta paso a paso, verifica con los tests del propio repo, repara y reporta. «El modelo dice que terminó» no cuenta como evidencia.</p>
+          <p class="kw"><b>Palabras clave:</b> TypeScript, Node.js, Claude Code.</p>
         </div>
-        <div class="links">
-          <a href="https://github.com/danielzunigazb/editor" target="_blank">repo <svg class="icon"><use href="/assets/icons.svg#icon-arrow-up-right"/></svg></a>
+        <aside class="mn"><p><b>Estado</b><br>privado</p></aside>
+      </div>
+    </section>
+
+    <section id="trabajo">
+      <div class="row"><div class="main">
+        <h2 class="s"><i>2</i>Cómo trabajo</h2>
+        <ul class="say">
+          <li>Si no se reproduce, no cuenta.</li>
+          <li>Documentar es parte de construir.</li>
+          <li>Sin tests, no está terminado.</li>
+          <li>Estándares antes que atajos.</li>
+          <li>Lo que no se mide, no se arregla.</li>
+          <li>Pocas dependencias, mucha intención.</li>
+        </ul>
+      </div><aside class="mn"></aside></div>
+    </section>
+
+    <section id="stack">
+      <div class="row"><div class="main">
+        <h2 class="s"><i>3</i>Stack</h2>
+        <table>
+          <thead><tr><th scope="col">Categoría</th><th scope="col">Tecnologías</th></tr></thead>
+          <tbody>
+            <tr><td>Lenguajes</td><td>Python, Kotlin, Go, TypeScript, Zig, Bash, SQL</td></tr>
+            <tr><td>Herramientas</td><td>FastAPI, Jetpack Compose, Pytest, uv, Ruff, systemd, Docker, GitHub Actions, Arch Linux</td></tr>
+          </tbody>
+          <caption><b>Tabla 1.</b> Con lo que trabajo.</caption>
+        </table>
+      </div><aside class="mn"></aside></div>
+    </section>
+
+    <section id="sobre">
+      <div class="row">
+        <div class="main">
+          <h2 class="s"><i>4</i>Sobre mí</h2>
+          <p>Estudiante de último año en Córdoba, Colombia. Aprendí a programar trasteando con <i>dotfiles</i> de Linux hasta terminar construyendo sistemas de automatización, apps Android y herramientas CLI. Terminales sobre GUIs, protocolos sobre frameworks, evidencia sobre <i>claims</i>.</p>
         </div>
+        <aside class="mn"><dl class="fact"><dt>ubicación</dt><dd>córdoba, co</dd><dt>inglés</dt><dd>avanzado</dd><dt>estado</dt><dd>disponible</dd></dl></aside>
       </div>
+    </section>
 
-      <div class="project-card reveal full">
-        <div class="top">
-          <h2><span class="index">05</span>harness</h2>
-          <span class="tag tag-live"><span class="tag-dot"></span>activo</span>
-        </div>
-        <p class="desc">Herramienta de desarrollo personal: CLI que orquesta agentes de código (Claude Code en modo headless) sobre repos reales con loop completo de verificación — plan, ejecuta paso a paso, verifica cada paso con los tests/lint/build propios del repo, repara, checkpoint, reporte. "El modelo dice que terminó" no cuenta como evidencia. TUI de tres paneles (worktree, flow, chat), roles planner/worker/reviewer con presupuesto de tokens, auto-reparación con escalamiento a un modelo más fuerte, sandboxing por allowlist de comandos, revisión con hallazgos auditables, y tests en vivo contra el CLI real.</p>
-        <div class="tags">
-          <span class="tag">TypeScript</span><span class="tag">Node.js</span><span class="tag">Claude Code</span><span class="tag">CLI</span>
-        </div>
-        <div class="links"><span class="text-small" style="color:var(--ink-muted);">privado · herramienta de desarrollo</span></div>
-      </div>
-    </div>
-    <p class="text-small reveal" style="color: var(--ink-muted); margin-top: var(--space-4);">esto es una selección — hay más en <a href="https://github.com/danielzunigazb" target="_blank">github.com/danielzunigazb</a>.</p>
-  </div>
-</section>
+    <section id="contacto">
+      <div class="row"><div class="main">
+        <h2 class="s"><i>5</i>Contacto</h2>
+        <p class="hello">Hablemos<span>.</span></p>
+        <p>Disponible para colaborar en infraestructura, automatización o apps nativas. Escríbeme a <a href="mailto:danielzunigazb@gmail.com">danielzunigazb@gmail.com</a>, revisa mi código en <a href="https://github.com/danielzunigazb">github.com/danielzunigazb</a> <a class="cite" href="#r6">[6]</a> o descarga mi <a href="/cv/">cv</a> <a class="cite" href="#r7">[7]</a>. Esto es una selección; hay más en GitHub.</p>
+      </div><aside class="mn"></aside></div>
+    </section>
 
-<section class="section" id="principles" style="border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: var(--surface);">
-  <div class="container">
-    <div class="title reveal">
-      <span class="label eyebrow">02 — principles</span>
-      <h1>Cómo trabajo</h1>
-    </div>
-    <p class="text-small" style="color:var(--ink-muted); margin: var(--space-2) 0 var(--space-8);">Principios con los que construyo y opero sistemas.</p>
-    <div class="principles-grid">
-      <div class="principle reveal"><span class="num text-h2">01</span><h2>Reproducibilidad por defecto</h2><p>No confío en artefactos binarios sin checksum. No versiono datos, solo manifiestos, scripts y URLs.</p></div>
-      <div class="principle reveal"><span class="num text-h2">02</span><h2>Documentación como infraestructura</h2><p>Un sistema sin documentación es un sistema fallido. ADRs, worklogs, READMEs funcionales.</p></div>
-      <div class="principle reveal"><span class="num text-h2">03</span><h2>Testing no negociable</h2><p>Si no tiene tests, no está terminado. Cobertura ≥85%, CI gates obligatorios.</p></div>
-      <div class="principle reveal"><span class="num text-h2">04</span><h2>Portabilidad vía estándares</h2><p>XDG Base Directory, systemd para servicios. Cero hardcodeo de rutas.</p></div>
-      <div class="principle reveal"><span class="num text-h2">05</span><h2>Observabilidad desde el inicio</h2><p>Logs estructurados, health checks, monitoreo continuo. Evidencia de por qué algo falla.</p></div>
-      <div class="principle reveal"><span class="num text-h2">06</span><h2>Menos but more</h2><p>Frameworks mínimos, dependencias justas. CLI sobre GUI. Evitar abstracciones prematuras.</p></div>
-    </div>
-  </div>
-</section>
+    <section id="referencias">
+      <div class="row"><div class="main">
+        <h2 class="s">Referencias</h2>
+        <ol class="refs">
+          <li id="r1"><span class="k">[1]</span><span>D. Zúñiga. <i>Player</i>. Reproductor de música para Android. 2026. <span class="u"><a href="https://github.com/danielzunigazb/player" target="_blank" rel="noopener">github.com/danielzunigazb/player</a></span></span></li>
+          <li id="r2"><span class="k">[2]</span><span>D. Zúñiga. <i>Player</i>, sitio del proyecto. <span class="u"><a href="https://player.danzuniga.xyz" target="_blank" rel="noopener">player.danzuniga.xyz</a></span></span></li>
+          <li id="r3"><span class="k">[3]</span><span>D. Zúñiga. <i>Player</i>, última versión (apk). <span class="u"><a href="https://github.com/danielzunigazb/player/releases/latest" target="_blank" rel="noopener">github.com/danielzunigazb/player/releases/latest</a></span></span></li>
+          <li id="r4"><span class="k">[4]</span><span>D. Zúñiga. <i>gocraft</i>. Cliente y servidor de Minecraft Java 1.8.9 en Go. 2026. <span class="u"><a href="https://github.com/danielzunigazb/gocraft" target="_blank" rel="noopener">github.com/danielzunigazb/gocraft</a></span></span></li>
+          <li id="r5"><span class="k">[5]</span><span>D. Zúñiga. <i>editor</i>. Editor de video manejado por un LLM vía MCP. 2026. <span class="u"><a href="https://github.com/danielzunigazb/editor" target="_blank" rel="noopener">github.com/danielzunigazb/editor</a></span></span></li>
+          <li id="r6"><span class="k">[6]</span><span>Daniel Zúñiga en GitHub. <span class="u"><a href="https://github.com/danielzunigazb" target="_blank" rel="noopener">github.com/danielzunigazb</a></span></span></li>
+          <li id="r7"><span class="k">[7]</span><span>D. Zúñiga. <i>Currículum técnico</i>. <span class="u"><a href="/cv/">danzuniga.xyz/cv</a></span></span></li>
+        </ol>
+      </div><aside class="mn"></aside></div>
+    </section>
 
-<section class="section" id="stack">
-  <div class="container">
-    <div class="title reveal">
-      <span class="label eyebrow">03 — stack</span>
-      <h1>Stack</h1>
-    </div>
-    <div style="margin-top: var(--space-8);">
-      <div class="stack-group reveal">
-        <span class="label">lenguajes</span>
-        <div class="tag-row">
-          <span class="tag">Python</span><span class="tag">Kotlin</span><span class="tag">Go</span><span class="tag">TypeScript</span><span class="tag">Zig</span><span class="tag">Bash</span><span class="tag">SQL</span><span class="tag">HTML/CSS</span><span class="tag">JavaScript</span>
-        </div>
-      </div>
-      <div class="stack-group reveal">
-        <span class="label">frameworks</span>
-        <div class="tag-row">
-          <span class="tag">FastAPI</span><span class="tag">Typer</span><span class="tag">Pytest</span><span class="tag">uv</span><span class="tag">Ruff</span><span class="tag">Ty</span><span class="tag">Jetpack Compose</span><span class="tag">Media3</span><span class="tag">Room</span>
-        </div>
-      </div>
-      <div class="stack-group reveal">
-        <span class="label">infraestructura</span>
-        <div class="tag-row">
-          <span class="tag">Arch Linux</span><span class="tag">systemd</span><span class="tag">Git</span><span class="tag">GitHub Actions</span><span class="tag">SSH</span><span class="tag">XDG Spec</span>
-        </div>
-      </div>
-      <div class="stack-group reveal">
-        <span class="label">áreas</span>
-        <div class="tag-row">
-          <span class="tag">CLI tools</span><span class="tag">Automatización</span><span class="tag">Apps Android</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+  </main>
 
-<section class="section" id="repo" style="padding-top: 0;">
-  <div class="container">
-    <div class="title reveal">
-      <span class="label eyebrow">04 — repository</span>
-      <h1>Código público</h1>
-    </div>
-    <div class="repo-panel reveal" style="margin-top: var(--space-8);">
-      <div class="repo-who">
-        <img src="https://avatars.githubusercontent.com/u/279340792?v=4" alt="avatar de danielzunigazb en GitHub">
-        <div><div>danielzunigazb</div><div class="text-small sub">cuenta principal</div></div>
-      </div>
-      <div class="repo-links">
-        <a href="https://github.com/danielzunigazb/player" target="_blank" class="btn btn-secondary">player</a>
-        <a href="https://github.com/danielzunigazb/gocraft" target="_blank" class="btn btn-secondary">gocraft</a>
-        <a href="https://github.com/danielzunigazb/editor" target="_blank" class="btn btn-secondary">editor</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="operator" style="padding-top: 0;">
-  <div class="container">
-    <div class="title reveal">
-      <span class="label eyebrow">05 — operator</span>
-      <h1>Sobre mí</h1>
-    </div>
-    <div class="op-wrap reveal" style="margin-top: var(--space-8);">
-      <p class="op-quote">Estudiante de último año en Córdoba, Colombia. Aprendí a programar trasteando con dotfiles de Linux hasta terminar construyendo sistemas de automatización, apps Android y herramientas CLI. Terminales sobre GUIs. Protocolos sobre frameworks. Evidencia sobre claims.</p>
-      <div class="op-facts status-block">
-        <div class="row"><span>ubicación</span><b>córdoba, co</b></div>
-        <div class="row"><span>inglés</span><b>avanzado</b></div>
-        <div class="row"><span>estado</span><b style="color:var(--verdigris);">● disponible</b></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="contact" style="padding-top: 0;">
-  <div class="container">
-    <div class="contact-box reveal">
-      <span class="label eyebrow">06 — contact</span>
-      <h1>Hablemos<span class="mark-n" style="color:var(--gold);">.</span></h1>
-      <p>Disponible para colaborar en infraestructura, automatización o apps nativas.</p>
-      <div class="contact-links">
-        <a href="mailto:danielzunigazb@gmail.com" class="btn btn-secondary"><svg class="icon"><use href="/assets/icons.svg#icon-mail"/></svg> danielzunigazb@gmail.com</a>
-        <a href="https://github.com/danielzunigazb" target="_blank" class="btn btn-secondary">/danielzunigazb</a>
-        <a href="/cv/" target="_blank" class="btn btn-secondary">cv ↓</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<footer class="dz-footer container">
-  <span>daniel zúñiga — córdoba, co</span>
-  <span>rev 2026.09</span>
-</footer>
-
-<script>
-document.querySelectorAll('nav a[href^="#"]').forEach(a => {
-  a.addEventListener('click', e => {
-    e.preventDefault();
-    const id = a.getAttribute('href');
-    document.querySelector(id)?.scrollIntoView({ behavior: 'smooth' });
-  });
-});
-
-const toggle = document.getElementById('theme-toggle');
-function syncToggleLabel() {
-  toggle.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '◑ dark' : '◐ light';
-}
-toggle.addEventListener('click', () => {
-  const isLight = document.documentElement.getAttribute('data-theme') === 'light';
-  if (isLight) {
-    document.documentElement.removeAttribute('data-theme');
-    localStorage.setItem('theme', 'dark');
-  } else {
-    document.documentElement.setAttribute('data-theme', 'light');
-    localStorage.setItem('theme', 'light');
-  }
-  syncToggleLabel();
-});
-syncToggleLabel();
-
-if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-  const io = new IntersectionObserver((entries) => {
-    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('is-visible'); io.unobserve(e.target); } });
-  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
-  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
-} else {
-  document.querySelectorAll('.reveal').forEach(el => el.classList.add('is-visible'));
-}
-</script>
+  <footer class="foot"><span>Daniel Zúñiga · Córdoba, Colombia</span><span>rev 2026.09 · compuesto en New Computer Modern</span></footer>
+</div>
 
 <script data-goatcounter="https://danfolio.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
-
 </body>
 </html>
